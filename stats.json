@@ -5,6 +5,12 @@
       "ips": [
         "26.50.70.255"
       ],
+      "ipHistory": {
+        "26.50.70.255": {
+          "first": "2026-07-11 08:15:01",
+          "last": "2026-07-11 08:19:08"
+        }
+      },
       "kills": 23,
       "deaths": 33,
       "suicides": 1,
@@ -1494,7 +1500,8 @@
           "unit": null
         }
       ],
-      "achievementsUnlocked": 12
+      "achievementsUnlocked": 12,
+      "verified": true
     }
   ],
   "maps": [
@@ -1805,6 +1812,32 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/belgas74",
+      "timesPlayed": 2,
+      "totalKills": 247,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/nato_dust_tdm",
+      "timesPlayed": 2,
+      "totalKills": 246,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/stalingrad_3_dm",
       "timesPlayed": 2,
       "totalKills": 242,
@@ -1860,32 +1893,6 @@
       "map": "dm/warehouse_dm",
       "timesPlayed": 1,
       "totalKills": 220,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/belgas74",
-      "timesPlayed": 1,
-      "totalKills": 215,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/nato_dust_tdm",
-      "timesPlayed": 2,
-      "totalKills": 204,
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
@@ -2003,7 +2010,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 11:08:58"
+    "last": "2026-07-11 11:23:28"
   },
-  "generatedAt": "2026-07-11T15:09:00.653Z"
+  "generatedAt": "2026-07-11T15:24:00.650Z"
 }
