@@ -1748,7 +1748,8 @@
     "dm/dm_fallenvillage",
     "dm/dm_island_assault",
     "dm/dm_routenord",
-    "dm/dm_rustinpeace"
+    "dm/dm_rustinpeace",
+    "dm/dm_thunder-2"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2609,6 +2610,20 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_thunder-2",
+      "timesPlayed": 1,
+      "totalKills": 21,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily",
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/El_Alamein",
       "timesPlayed": 1,
       "totalKills": 20,
@@ -2674,18 +2689,20 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_decalattack",
-      "timesPlayed": 0,
-      "totalKills": 0,
+      "map": "dm/dm_rustinpeace",
+      "timesPlayed": 1,
+      "totalKills": 10,
       "connectedHumans": [],
-      "winners": [],
-      "winnersAreBots": false,
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_rustinpeace",
+      "map": "dm/dm_decalattack",
       "timesPlayed": 0,
       "totalKills": 0,
       "connectedHumans": [],
@@ -2817,7 +2834,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 19:08:38"
+    "last": "2026-07-11 19:23:29"
   },
-  "generatedAt": "2026-07-11T23:09:01.158Z"
+  "generatedAt": "2026-07-11T23:24:01.183Z"
 }
