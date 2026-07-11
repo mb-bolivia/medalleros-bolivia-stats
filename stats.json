@@ -1645,7 +1645,8 @@
     "dm/compound2",
     "dm/courtyard",
     "dm/dieppe",
-    "dm/le-camp"
+    "dm/le-camp",
+    "dm/mohdm5"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2097,12 +2098,26 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/le-camp",
+      "map": "dm/mohdm5",
       "timesPlayed": 1,
-      "totalKills": 3,
+      "totalKills": 35,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Vasily"
+        "=MB= .Ogre2",
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/le-camp",
+      "timesPlayed": 1,
+      "totalKills": 18,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2147,7 +2162,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 12:53:36"
+    "last": "2026-07-11 13:08:47"
   },
-  "generatedAt": "2026-07-11T16:54:00.760Z"
+  "generatedAt": "2026-07-11T17:09:00.750Z"
 }
