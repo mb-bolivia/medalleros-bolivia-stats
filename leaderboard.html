@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Estadisticas del servidor MOHAA Bolivia</title>
+<style>
+  :root{
+    --bg:#0a0c10;--bg2:#141821;--panel:#171b24;--panel2:#1d2230;--line:#262c3a;
+    --txt:#eef0f3;--muted:#8b93a6;--accent:#e0b23f;--accent2:#7c8f52;
+    --good:#5fd07a;--bad:#e2635f;--shadow:0 10px 30px rgba(0,0,0,.45);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;color:var(--txt);font-family:'Segoe UI',Arial,sans-serif;padding:36px 20px;
+    background:
+      radial-gradient(circle at 15% 0%, rgba(224,178,63,.08) 0%, transparent 45%),
+      radial-gradient(circle at 90% 10%, rgba(124,143,82,.08) 0%, transparent 40%),
+      linear-gradient(180deg, var(--bg2) 0%, var(--bg) 100%);
+    background-attachment:fixed;
+    min-height:100vh;
+  }
+  .page-container{max-width:1180px;margin:0 auto;}
+
+  .hero{
+    display:flex;align-items:center;gap:14px;margin-bottom:6px;
+    padding-bottom:18px;border-bottom:1px solid var(--line);
+  }
+  .hero .icon{font-size:32px;filter:drop-shadow(0 2px 6px rgba(224,178,63,.4));}
+  h1{
+    margin:0;font-size:26px;font-weight:800;letter-spacing:.3px;
+    background:linear-gradient(90deg,var(--accent),#f0d98a 60%,var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .sub{color:var(--muted);font-size:12.5px;margin:18px 0 24px;letter-spacing:.2px;}
+  .sub b{color:var(--txt);}
+
+  nav.tabs{
+    display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;padding:5px;margin-bottom:24px;box-shadow:var(--shadow);
+    flex-wrap:wrap;
+  }
+  nav.tabs button{
+    background:none;border:none;color:var(--muted);font-size:13.5px;font-weight:700;
+    padding:10px 18px;cursor:pointer;border-radius:8px;transition:all .18s ease;
+    letter-spacing:.2px;
+  }
+  nav.tabs button:hover{color:var(--txt);background:var(--panel2);}
+  nav.tabs button.active{
+    color:#1a1305;background:linear-gradient(135deg,var(--accent),#f0d98a);
+    box-shadow:0 4px 14px rgba(224,178,63,.35);
+  }
+
+  .toolbar{display:flex;gap:14px;margin-bottom:18px;align-items:flex-end;flex-wrap:wrap;}
+  input#search, select{
+    background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    padding:10px 14px;border-radius:8px;font-size:13px;transition:border-color .15s, box-shadow .15s;
+  }
+  input#search:focus, select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(224,178,63,.15);}
+  input#search{width:260px;}
+
+  table{
+    width:100%;border-collapse:collapse;background:var(--panel);border-radius:10px;
+    overflow:hidden;box-shadow:var(--shadow);
+  }
+  th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;}
+  th{
+    background:var(--panel2);color:var(--accent);cursor:pointer;user-select:none;
+    position:sticky;top:0;font-weight:700;text-transform:uppercase;font-size:11px;
+    letter-spacing:.4px;transition:color .15s;
+  }
+  th:hover{color:#fff;}
+  tbody tr{transition:background .12s;}
+  tbody tr:nth-child(even){background:rgba(255,255,255,.015);}
+  tbody tr:hover{background:var(--panel2);}
+  td.name{font-weight:700;}
+  tbody tr:nth-child(1) td.name{color:var(--accent);}
+  tbody tr:nth-child(1) td.name::before{content:'👑 ';}
+  .vs{color:var(--muted);font-weight:400;font-size:11px;}
+
+  .panel{display:none;animation:fadeIn .25s ease;}
+  .panel.active{display:block;}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+  .player-link{cursor:pointer;}
+  .player-link:hover{text-decoration:underline;color:var(--accent);}
+
+  .modal-overlay{display:none;position:fixed;inset:0;background:rgba(5,6,8,.72);backdrop-filter:blur(3px);align-items:center;justify-content:center;z-index:100;padding:20px;}
+  .modal-overlay.active{display:flex;}
+  .modal{
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;max-width:720px;
+    width:100%;max-height:85vh;overflow-y:auto;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.6);
+    animation:popIn .18s ease;
+  }
+  @keyframes popIn{from{opacity:0;transform:scale(.97);}to{opacity:1;transform:scale(1);}}
+  .modal h2{margin:0 0 4px;color:var(--accent);font-size:20px;}
+  .modal .modal-sub{color:var(--muted);font-size:12px;margin-bottom:18px;}
+  .modal .close-btn{position:absolute;top:18px;right:24px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;width:30px;height:30px;color:var(--muted);font-size:15px;cursor:pointer;transition:all .15s;}
+  .modal .close-btn:hover{color:#fff;border-color:var(--bad);}
+  .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;}
+  .stat-box{
+    background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px 10px;
+    text-align:center;transition:transform .15s, box-shadow .15s;
+  }
+  .stat-box:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.3);}
+  .stat-box .val{font-size:19px;font-weight:800;}
+  .stat-box .lbl{font-size:10.5px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.3px;}
+  .stat-box.good .val{color:var(--good);}
+  .stat-box.bad .val{color:var(--bad);}
+  .modal-section-title{color:var(--accent);font-size:12.5px;font-weight:800;margin:16px 0 8px;text-transform:uppercase;letter-spacing:.5px;}
+  .modal table{font-size:12px;box-shadow:none;}
+  .modal-cols{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .bot-tag{background:#3a2a1a;color:#e0a95f;font-size:10px;padding:3px 7px;border-radius:5px;font-weight:800;letter-spacing:.3px;}
+  .ip-btn{background:var(--panel2);border:1px solid var(--line);color:var(--muted);padding:6px 11px;border-radius:6px;cursor:pointer;font-size:12px;transition:all .15s;}
+  .ip-btn:hover{color:var(--txt);border-color:var(--accent);box-shadow:0 0 0 3px rgba(224,178,63,.12);}
+  .ip-revealed{font-family:'Consolas',monospace;font-size:12px;color:var(--txt);}
+
+  .filter-group{display:inline-flex;flex-direction:column;gap:5px;}
+  .filter-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800;}
+  select#weaponSelect, select#mapSelect{min-width:220px;font-size:13px;padding:10px 14px;}
+  #duelPlayerA, #duelPlayerB{min-width:200px;font-size:13px;padding:10px 14px;}
+  .vs-label{align-self:center;color:var(--accent);font-weight:800;font-size:13px;margin-top:18px;}
+  .duel-card, .chart-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px;
+    margin-top:18px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+  }
+  .duel-card::before, .chart-card::before{
+    content:'';position:absolute;top:0;left:0;right:0;height:3px;
+    background:linear-gradient(90deg,var(--accent),var(--accent2));
+  }
+  .duel-header{display:flex;align-items:center;justify-content:center;gap:18px;font-size:17px;font-weight:800;margin-bottom:18px;}
+  .duel-header .vs-mid{color:var(--muted);font-size:12px;font-weight:400;}
+  .duel-stat-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;text-align:center;}
+  .duel-stat-grid .val{font-size:23px;font-weight:800;color:var(--accent);}
+  .duel-stat-grid .lbl{font-size:11px;color:var(--muted);margin-top:4px;}
+  .duel-winner{text-align:center;margin-top:16px;font-size:13px;color:var(--muted);}
+  .duel-winner b{color:var(--good);}
+
+  .chart-card{margin-bottom:16px;margin-top:0;}
+  .detail-toggle{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:4px 18px;box-shadow:var(--shadow);}
+  .detail-toggle summary{cursor:pointer;padding:14px 0;color:var(--muted);font-size:13px;font-weight:700;}
+  .detail-toggle summary:hover{color:var(--txt);}
+  .detail-toggle table{margin-bottom:14px;}
+  .human-chip{
+    display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    padding:6px 12px;border-radius:16px;font-size:12px;margin:3px 5px 0 0;transition:border-color .15s;
+  }
+  .human-chip:hover{border-color:var(--accent);}
+
+  .server-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    margin-bottom:22px;box-shadow:var(--shadow);overflow:hidden;
+  }
+  .server-flag-bar{height:4px;background:linear-gradient(90deg,#d52b1e 0%,#d52b1e 33%,#f9e300 33%,#f9e300 66%,#007934 66%,#007934 100%);opacity:.55;}
+  .server-card-body{display:flex;flex-wrap:wrap;gap:22px;align-items:center;padding:14px 20px;}
+  .server-item{display:flex;align-items:center;gap:8px;font-size:13px;}
+  .server-name{font-weight:800;font-size:14px;color:var(--txt);letter-spacing:.2px;}
+  .server-lbl{color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;font-weight:700;}
+  .server-val{color:var(--accent);font-weight:700;font-family:'Consolas',monospace;font-size:13px;}
+  .server-link{text-decoration:none;}
+  .server-link:hover{text-decoration:underline;}
+  .copy-btn{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:3px 7px;cursor:pointer;font-size:12px;transition:border-color .15s;}
+  .copy-btn:hover{border-color:var(--accent);}
+
+  .server-banner{display:flex;justify-content:center;padding:12px 20px 18px;border-top:1px solid var(--line);}
+  .server-banner img{max-width:100%;height:auto;border-radius:6px;}
+
+  .profile-header{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+  .rank-badge{
+    background:linear-gradient(135deg,var(--accent),#f0d98a);color:#1a1305;font-weight:800;
+    font-size:15px;border-radius:10px;padding:10px 14px;box-shadow:0 4px 14px rgba(224,178,63,.3);
+    flex-shrink:0;
+  }
+  .profile-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;}
+  .chip{
+    display:inline-block;padding:6px 12px;border-radius:14px;font-size:12px;
+    border:1px solid var(--line);background:var(--panel2);color:var(--muted);
+  }
+  .chip b{color:var(--txt);}
+  .chip-good{border-color:rgba(95,208,122,.35);}
+  .chip-good b{color:var(--good);}
+  .chip-bad{border-color:rgba(226,99,95,.35);}
+  .chip-bad b{color:var(--bad);}
+  .chip-wrap{display:flex;flex-wrap:wrap;gap:6px;}
+
+  .bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:12px;}
+  .bar-label{width:80px;flex-shrink:0;color:var(--txt);text-transform:capitalize;}
+  .bar-track{flex:1;background:var(--panel2);border-radius:4px;height:10px;overflow:hidden;}
+  .bar-fill{height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));border-radius:4px;transition:width .3s;}
+  .bar-value{width:70px;flex-shrink:0;text-align:right;color:var(--muted);font-size:11px;}
+  .bar-pct{color:var(--muted);}
+
+  .hour-chart{display:flex;align-items:flex-end;gap:2px;height:60px;background:var(--panel2);border-radius:8px;padding:8px;}
+  .hour-bar{flex:1;background:linear-gradient(180deg,var(--accent),var(--accent2));border-radius:2px 2px 0 0;min-height:2px;transition:opacity .15s;}
+  .hour-bar:hover{opacity:.7;}
+  .hour-chart-labels{display:flex;justify-content:space-between;color:var(--muted);font-size:10px;margin-top:4px;padding:0 4px;}
+
+  .ach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .ach-card{
+    background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 10px;
+    text-align:center;position:relative;transition:transform .15s;
+  }
+  .ach-card:not(.locked):hover{transform:translateY(-2px);}
+  .ach-card.locked{opacity:.5;}
+  .ach-tier{
+    position:absolute;top:6px;right:8px;font-size:9px;font-weight:800;padding:1px 6px;
+    border-radius:4px;color:#0a0c10;
+  }
+  .ach-card.tier-d .ach-tier{background:#8b93a6;}
+  .ach-card.tier-c .ach-tier{background:var(--good);}
+  .ach-card.tier-b .ach-tier{background:#4a9fd8;}
+  .ach-card.tier-a .ach-tier{background:#a35fd0;}
+  .ach-card.tier-s .ach-tier{background:var(--accent);}
+  .ach-card.tier-sigma .ach-tier{background:linear-gradient(135deg,#e02b2b,#7c0a0a);color:#fff;}
+  .ach-icon{font-size:26px;margin:6px 0 4px;}
+  .ach-name{font-size:12px;font-weight:800;color:var(--txt);margin-bottom:3px;}
+  .ach-desc{font-size:10.5px;color:var(--muted);line-height:1.3;min-height:26px;}
+  .ach-progress{background:var(--line);border-radius:3px;height:5px;margin-top:8px;overflow:hidden;}
+  .ach-progress-fill{height:100%;background:var(--accent);border-radius:3px;}
+  .ach-progress-label{font-size:9.5px;color:var(--muted);margin-top:3px;}
+  .ach-card:not(.locked){box-shadow:0 4px 12px rgba(224,178,63,.12);}
+
+  .ach-legend{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;}
+  .ach-filter-btn{
+    display:inline-flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);
+    color:var(--muted);font-size:11px;font-weight:700;padding:6px 11px;border-radius:20px;cursor:pointer;
+    transition:all .15s;
+  }
+  .ach-filter-btn:hover{color:var(--txt);border-color:var(--accent);}
+  .ach-filter-btn.active{background:var(--accent);color:#1a1305;border-color:var(--accent);}
+  .ach-filter-btn.active .ach-dot{box-shadow:0 0 0 2px rgba(0,0,0,.2);}
+  .ach-dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+  .ach-dot.tier-d{background:#8b93a6;}
+  .ach-dot.tier-c{background:var(--good);}
+  .ach-dot.tier-b{background:#4a9fd8;}
+  .ach-dot.tier-a{background:#a35fd0;}
+  .ach-dot.tier-s{background:var(--accent);}
+  .ach-dot.tier-sigma{background:linear-gradient(135deg,#e02b2b,#7c0a0a);}
+
+  .home-hero{
+    position:relative;border-radius:16px;overflow:hidden;padding:40px 32px;margin-bottom:8px;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(224,178,63,.18) 0%, transparent 50%),
+      radial-gradient(circle at 85% 80%, rgba(124,143,82,.18) 0%, transparent 50%),
+      linear-gradient(135deg, var(--panel) 0%, var(--panel2) 100%);
+    border:1px solid var(--line);box-shadow:var(--shadow);
+  }
+  .home-hero-flag{position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#d52b1e 0%,#d52b1e 33%,#f9e300 33%,#f9e300 66%,#007934 66%,#007934 100%);opacity:.6;}
+  .home-hero-badge{display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--accent);font-size:11px;font-weight:800;padding:5px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:.3px;}
+  .home-hero-title{
+    margin:0 0 10px;font-size:28px;font-weight:800;
+    background:linear-gradient(90deg,var(--accent),#f0d98a 60%,var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .home-hero-sub{color:var(--muted);font-size:14px;max-width:640px;line-height:1.5;margin-bottom:22px;}
+  .home-hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .home-btn{
+    background:var(--panel2);border:1px solid var(--line);color:var(--txt);font-weight:700;font-size:13px;
+    padding:12px 20px;border-radius:9px;cursor:pointer;transition:all .15s;
+  }
+  .home-btn:hover{border-color:var(--accent);transform:translateY(-1px);}
+  .home-btn.primary{background:linear-gradient(135deg,var(--accent),#f0d98a);color:#1a1305;border:none;box-shadow:0 4px 14px rgba(224,178,63,.35);}
+  .home-btn.primary:hover{box-shadow:0 6px 18px rgba(224,178,63,.45);}
+
+  .podium-wrap{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:12px;align-items:end;margin-top:12px;}
+  .podium-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 14px;
+    text-align:center;cursor:pointer;transition:transform .15s;box-shadow:var(--shadow);
+  }
+  .podium-card:hover{transform:translateY(-3px);}
+  .podium-2{order:1;}
+  .podium-1{order:2;padding-top:28px;border-color:rgba(224,178,63,.4);box-shadow:0 0 24px rgba(224,178,63,.15);}
+  .podium-3{order:3;}
+  .podium-medal{font-size:32px;margin-bottom:6px;}
+  .podium-name{font-weight:800;font-size:14px;margin-bottom:4px;}
+  .podium-stats{color:var(--muted);font-size:11.5px;}
+
+  .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:12px;}
+  .feature-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;cursor:pointer;
+    transition:all .15s;box-shadow:var(--shadow);
+  }
+  .feature-card:hover{border-color:var(--accent);transform:translateY(-3px);}
+  .feature-icon{font-size:26px;margin-bottom:8px;}
+  .feature-title{font-weight:800;font-size:14px;margin-bottom:6px;}
+  .feature-desc{color:var(--muted);font-size:12px;line-height:1.4;min-height:48px;}
+  .feature-cta{color:var(--accent);font-size:12px;font-weight:700;margin-top:10px;}
+</style>
+</head>
+<body>
+  <div class="page-container">
+  <div class="hero">
+    <span class="icon">🎯</span>
+    <h1>Rankings — Servidor MOHAA BOLIVIA</h1>
+  </div>
+  <div class="sub">Generado: <b>2026-07-11T05:14:21.684Z</b> · Mapas registrados: <b>4</b> · Jugadores: <b>0</b></div>
+
+  <div class="server-card">
+    <div class="server-flag-bar"></div>
+    <div class="server-card-body">
+      <div class="server-item server-name">🇧🇴 =MB= MEDALLEROS BOLIVIA — Ranking Oficial</div>
+      <div class="server-item">
+        <span class="server-lbl">IP del servidor</span>
+        <span class="server-val ip-copy" id="serverIp">190.181.28.38:12203</span>
+        <button class="copy-btn" id="copyIpBtn" title="Copiar IP">📋</button>
+      </div>
+      <div class="server-item">
+        <span class="server-lbl">Propietario</span>
+        <span class="server-val">Mr.Sipi</span>
+      </div>
+      <div class="server-item">
+        <span class="server-lbl">Contacto</span>
+        <a class="server-val server-link" href="https://wa.me/59176024936" target="_blank" rel="noopener">📱 +591 76024936</a>
+      </div>
+    </div>
+    <div class="server-banner">
+      <a href="https://www.gametracker.com/server_info/190.181.28.38:12203/" target="_blank" rel="noopener">
+        <img src="https://cache.gametracker.com/server_info/190.181.28.38:12203/b_560_95_1.png" border="0" width="560" height="95" alt="Estado en vivo del servidor en GameTracker" loading="lazy">
+      </a>
+    </div>
+  </div>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="inicio">🏠 Inicio</button>
+    <button class="tab-btn" data-tab="ranking">🏆 Ranking General</button>
+    <button class="tab-btn" data-tab="armas">🔫 Armas</button>
+    <button class="tab-btn" data-tab="mapas">🗺️ Mapas</button>
+    <button class="tab-btn" data-tab="duelos">⚔️ Duelos</button>
+    <button class="tab-btn" data-tab="simultaneos">📅 Días de Combate</button>
+  </nav>
+
+  <section class="panel active" id="panel-inicio">
+    
+    <div class="home-hero">
+      <div class="home-hero-flag"></div>
+      <div class="home-hero-content">
+        <div class="home-hero-badge">🇧🇴 Servidor Boliviano</div>
+        <h2 class="home-hero-title">=MB= MEDALLEROS BOLIVIA — Ranking Oficial</h2>
+        <p class="home-hero-sub">Todos contra todos, todos los días, a toda hora. Estadísticas reales extraídas directamente del log del servidor.</p>
+        <div class="home-hero-actions">
+          <button class="home-btn primary" data-goto="ranking">🏆 Ver Ranking</button>
+          <button class="home-btn" data-goto="simultaneos">📅 Ver Actividad</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-grid" style="grid-template-columns:repeat(4,1fr);margin:22px 0;">
+      <div class="stat-box good"><div class="val">0</div><div class="lbl">Jugadores registrados</div></div>
+      <div class="stat-box"><div class="val">0</div><div class="lbl">Kills totales</div></div>
+      <div class="stat-box"><div class="val">4</div><div class="lbl">Mapas registrados</div></div>
+      <div class="stat-box"><div class="val">115</div><div class="lbl">Logros disponibles</div></div>
+    </div>
+
+    <div class="modal-section-title" style="font-size:14px;">🏅 Top 3 del Ranking</div>
+    <div class="podium-wrap"><div style="color:var(--muted);">Todavía no hay datos suficientes</div></div>
+
+    <div class="modal-section-title" style="font-size:14px;margin-top:26px;">Explora las estadísticas</div>
+    <div class="feature-grid">
+    <div class="feature-card" data-goto="ranking">
+      <div class="feature-icon">🏆</div>
+      <div class="feature-title">Ranking General</div>
+      <div class="feature-desc">Tabla completa con kills, K/D, headshots, rachas y más de cada jugador.</div>
+      <div class="feature-cta">Ver sección →</div>
+    </div>
+    <div class="feature-card" data-goto="armas">
+      <div class="feature-icon">🔫</div>
+      <div class="feature-title">Armas</div>
+      <div class="feature-desc">Rankings por tipo de arma: Rifle, Sniper, SMG, MG y más.</div>
+      <div class="feature-cta">Ver sección →</div>
+    </div>
+    <div class="feature-card" data-goto="mapas">
+      <div class="feature-icon">🗺️</div>
+      <div class="feature-title">Mapas</div>
+      <div class="feature-desc">Estadísticas por mapa, incluidos los que solo jugaron los bots.</div>
+      <div class="feature-cta">Ver sección →</div>
+    </div>
+    <div class="feature-card" data-goto="duelos">
+      <div class="feature-icon">⚔️</div>
+      <div class="feature-title">Duelos</div>
+      <div class="feature-desc">Compara cara a cara el historial de enfrentamientos entre dos jugadores.</div>
+      <div class="feature-cta">Ver sección →</div>
+    </div>
+    <div class="feature-card" data-goto="simultaneos">
+      <div class="feature-icon">📅</div>
+      <div class="feature-title">Días de Combate</div>
+      <div class="feature-desc">Cuántos jugadores estuvieron conectados a la vez, por hora y por día.</div>
+      <div class="feature-cta">Ver sección →</div>
+    </div></div>
+  
+  </section>
+
+  <section class="panel" id="panel-ranking">
+    <div class="toolbar">
+      <input id="search" placeholder="Buscar jugador...">
+    </div>
+    <table id="tbl-ranking">
+      <thead>
+        <tr>
+          <th title="Posición en el ranking, ordenada por número de kills">#</th>
+          <th title="Nombre del jugador. Clic para ver su detalle completo">Jugador</th>
+          <th title="Total de jugadores eliminados">Kills</th>
+          <th title="Total de veces que este jugador murió">Deaths</th>
+          <th title="Relación kills/deaths">K/D</th>
+          <th title="Porcentaje de headshots sobre los kills con datos de zona de impacto">HS%</th>
+          <th title="Promedio de kills por partida jugada">Frags/Mapa</th>
+          <th title="Máxima cantidad de kills consecutivos sin morir">Mejor racha</th>
+          <th title="Número de mapas distintos en los que participó">Partidas</th>
+          <th title="Mapas donde terminó como el humano con más kills">Victorias</th>
+          <th title="Porcentaje de partidas ganadas sobre partidas jugadas">Win%</th>
+          <th title="Arma con la que consiguió más kills">Arma favorita</th>
+          <th title="Zona del cuerpo que impactó con más frecuencia">Zona favorita</th>
+          <th title="Jugador al que más veces eliminó">Víctima favorita</th>
+          <th title="Jugador que más veces lo eliminó a él">Némesis</th>
+          <th title="Veces que consiguió 2 o más kills seguidos con un intervalo máximo de 5 segundos entre cada uno. Al pasar el mouse se ve su mejor combo">Multikill</th>
+          <th title="Dirección IP de conexión, protegida con contraseña">IP</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel" id="panel-armas">
+    <div class="toolbar">
+      <div class="filter-group">
+        <label class="filter-label" for="weaponSelect">Metric</label>
+        <select id="weaponSelect"><option value="Bash">Bash Kills</option><option value="Bazooka">Bazooka Kills</option><option value="Grenade">Grenade Kills</option><option value="MG">MG Kills</option><option value="Pistol">Pistol Kills</option><option value="Rifle">Rifle Kills</option><option value="SMG">SMG Kills</option><option value="Sniper">Sniper Kills</option></select>
+      </div>
+    </div>
+    <table id="tbl-armas">
+      <thead>
+        <tr><th title="Posición en el ranking de esa arma">#</th><th title="Nombre del jugador">Jugador</th><th title="Total de eliminaciones logradas con el arma seleccionada" id="armasMetricHeader">Kills con esta arma</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel" id="panel-mapas">
+    <div class="toolbar">
+      <div class="filter-group">
+        <label class="filter-label" for="mapSelect">Mapa</label>
+        <select id="mapSelect"><option value="dm/amw_caskami_01">dm/amw_caskami_01 (solo bots)</option><option value="dm/amw_caskami_02">dm/amw_caskami_02 (solo bots)</option><option value="dm/mohdm1">dm/mohdm1 (solo bots)</option><option value="dm/mohdm3">dm/mohdm3 (solo bots)</option></select>
+      </div>
+    </div>
+    <div id="mapResult"></div>
+  </section>
+
+  <section class="panel" id="panel-duelos">
+    <div class="toolbar">
+      <div class="filter-group">
+        <label class="filter-label" for="duelPlayerA">Jugador A</label>
+        <select id="duelPlayerA"></select>
+      </div>
+      <span class="vs-label">VS</span>
+      <div class="filter-group">
+        <label class="filter-label" for="duelPlayerB">Jugador B</label>
+        <select id="duelPlayerB"></select>
+      </div>
+    </div>
+    <div id="duelResult"></div>
+  </section>
+
+  <section class="panel" id="panel-simultaneos">
+    <div class="stat-grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:20px;">
+      <div class="stat-box good"><div class="val">0</div><div class="lbl">Pico de jugadores simultáneos</div></div>
+      <div class="stat-box"><div class="val">-</div><div class="lbl">Momento del pico</div></div>
+      <div class="stat-box"><div class="val">Sábado</div><div class="lbl">Día(s) de la semana cubiertos por el log</div></div>
+    </div>
+
+    <div class="chart-card">
+      <div class="modal-section-title" style="margin-top:0;">Jugadores conectados</div>
+      <div style="color:var(--muted);padding:40px;text-align:center;">Sin datos suficientes de conexiones para graficar.</div>
+    </div>
+
+    <details class="detail-toggle">
+      <summary>Ver detalle evento por evento</summary>
+      <table id="tbl-simultaneos">
+        <thead>
+          <tr>
+            <th title="Fecha y hora del evento">Hora</th>
+            <th title="Día de la semana">Día</th>
+            <th title="Jugador que se conectó o desconectó">Jugador</th>
+            <th title="Tipo de evento">Evento</th>
+            <th title="Jugadores humanos conectados en ese momento">Conectados</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </details>
+  </section>
+  </div>
+
+  <div class="modal-overlay" id="playerModal">
+    <div class="modal" style="position:relative;">
+      <button class="close-btn" id="closeModal">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+<script>
+const IP_PASSWORD = "1234"; // cambiar aqui cuando se actualice la contraseña
+const WEAPON_RANKINGS = {"Pistol":[],"SMG":[],"Rifle":[],"MG":[],"Sniper":[],"Bazooka":[],"Grenade":[],"Bash":[]};
+const MAP_STATS = {"dm/amw_caskami_01":{"map":"dm/amw_caskami_01","timesPlayed":1,"totalKills":284,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/amw_caskami_02":{"map":"dm/amw_caskami_02","timesPlayed":1,"totalKills":172,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm1":{"map":"dm/mohdm1","timesPlayed":1,"totalKills":153,"connectedHumans":[],"winners":["=MB= .TenZ"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm3":{"map":"dm/mohdm3","timesPlayed":1,"totalKills":121,"connectedHumans":[],"winners":["=MB= .Ogre2"],"winnersAreBots":true,"hasHuman":false}};
+const PLAYERS = [];
+
+document.getElementById('copyIpBtn').addEventListener('click', () => {
+  const ip = document.getElementById('serverIp').textContent;
+  navigator.clipboard.writeText(ip).then(() => {
+    const btn = document.getElementById('copyIpBtn');
+    const original = btn.textContent;
+    btn.textContent = '✅';
+    setTimeout(() => { btn.textContent = original; }, 1500);
+  }).catch(() => alert('No se pudo copiar. IP: ' + ip));
+});
+
+function activateTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  const btn = document.querySelector('.tab-btn[data-tab="' + tab + '"]');
+  if (btn) btn.classList.add('active');
+  const panel = document.getElementById('panel-' + tab);
+  if (panel) panel.classList.add('active');
+}
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => activateTab(btn.dataset.tab));
+});
+document.querySelectorAll('[data-goto]').forEach(el => {
+  el.addEventListener('click', () => activateTab(el.dataset.goto));
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  document.querySelectorAll('#tbl-ranking tbody tr').forEach(tr => {
+    tr.style.display = tr.querySelector('.name').textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+});
+
+function barRows(list, nameKey, valKey, total, emptyMsg) {
+  if (!list || !list.length) return '<div style="color:var(--muted);font-size:12px;padding:6px 0;">' + emptyMsg + '</div>';
+  const max = Math.max(...list.map(i => i[valKey]));
+  return list.slice(0, 8).map(item => {
+    const pct = total > 0 ? ((item[valKey] / total) * 100).toFixed(1) : '0.0';
+    const widthPct = max > 0 ? (item[valKey] / max) * 100 : 0;
+    return `
+      <div class="bar-row">
+        <div class="bar-label">${item[nameKey]}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${widthPct}%;"></div></div>
+        <div class="bar-value">${item[valKey]} <span class="bar-pct">(${pct}%)</span></div>
+      </div>`;
+  }).join('');
+}
+
+function chipList(list, nameKey, valKey, emptyMsg, cssClass) {
+  if (!list || !list.length) return '<div style="color:var(--muted);font-size:12px;">' + emptyMsg + '</div>';
+  return list.slice(0, 8).map(item =>
+    '<span class="chip ' + cssClass + '">' + item[nameKey] + ' <b>' + item[valKey] + 'x</b></span>'
+  ).join(' ');
+}
+
+function hourChartHtml(hourActivity) {
+  const max = Math.max(...hourActivity, 1);
+  let bars = '';
+  for (let h = 0; h < 24; h++) {
+    const pct = (hourActivity[h] / max) * 100;
+    bars += '<div class="hour-bar" style="height:' + Math.max(pct, 3) + '%;" title="' + String(h).padStart(2,'0') + ':00 — ' + hourActivity[h] + ' eventos"></div>';
+  }
+  return bars;
+}
+
+function mapBreakdownRows(list) {
+  if (!list || !list.length) return '<tr><td colspan="4" style="color:var(--muted);">Sin datos por mapa</td></tr>';
+  return list.slice(0, 8).map(m =>
+    '<tr><td class="name">' + m.map + '</td><td>' + m.kills + '</td><td>' + m.deaths + '</td><td>' + m.kd + '</td></tr>'
+  ).join('');
+}
+
+function tierSlug(tier) {
+  return tier === 'Σ' ? 'sigma' : tier.toLowerCase();
+}
+
+function achievementCards(achievements) {
+  return achievements.map(a => {
+    const lockedCls = a.unlocked ? '' : 'locked';
+    let progressHtml = '';
+    if (!a.unlocked && a.target) {
+      const pct = Math.min(100, (a.current / a.target) * 100);
+      progressHtml = '<div class="ach-progress"><div class="ach-progress-fill" style="width:' + pct + '%;"></div></div>' +
+        '<div class="ach-progress-label">' + a.current + ' / ' + a.target + (a.unit ? ' ' + a.unit : '') + '</div>';
+    }
+    return `
+      <div class="ach-card tier-${tierSlug(a.tier)} ${lockedCls}" data-tier="${a.tier}">
+        <div class="ach-tier">${a.tier}</div>
+        <div class="ach-icon">${a.unlocked ? a.icon : '🔒'}</div>
+        <div class="ach-name">${a.name}</div>
+        <div class="ach-desc">${a.desc}</div>
+        ${progressHtml}
+      </div>`;
+  }).join('');
+}
+
+function setupAchievementFilter() {
+  document.querySelectorAll('.ach-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.ach-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tier = btn.dataset.tier;
+      document.querySelectorAll('#achGrid .ach-card').forEach(card => {
+        card.style.display = (tier === 'ALL' || card.dataset.tier === tier) ? '' : 'none';
+      });
+    });
+  });
+}
+
+function openPlayerModal(name) {
+  const p = PLAYERS.find(x => x.name === name);
+  if (!p) return;
+  const body = document.getElementById('modalBody');
+  const bodypartTotal = p.bodypartsList.reduce((s, b) => s + b.kills, 0);
+
+  body.innerHTML = `
+    <div class="profile-header">
+      <div class="rank-badge">#${p.rank}</div>
+      <div>
+        <h2>${p.name}</h2>
+        <div class="modal-sub">${p.matchesPlayed} partidas · ${p.wins} victorias (${p.winRate}%) · ${p.playtimeFormatted} jugadas</div>
+      </div>
+    </div>
+
+    <div class="profile-chips">
+      <span class="chip chip-good">☠️ Víctima favorita: <b>${p.victimsList[0] ? p.victimsList[0].name : '-'}</b></span>
+      <span class="chip chip-bad">💀 Némesis: <b>${p.killedByList[0] ? p.killedByList[0].name : '-'}</b></span>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-box good"><div class="val">${p.kills}</div><div class="lbl">Kills</div></div>
+      <div class="stat-box bad"><div class="val">${p.deaths}</div><div class="lbl">Deaths</div></div>
+      <div class="stat-box ${p.kd >= 1 ? 'good' : 'bad'}"><div class="val">${p.kd}</div><div class="lbl">K/D</div></div>
+      <div class="stat-box good"><div class="val">${p.hsPercent}%</div><div class="lbl">Headshot %</div></div>
+      <div class="stat-box"><div class="val">${p.fragsPerMap}</div><div class="lbl">Frags/Mapa</div></div>
+      <div class="stat-box good"><div class="val">${p.bestStreak}</div><div class="lbl">Mejor racha</div></div>
+      <div class="stat-box good"><div class="val">${p.multikillEvents}</div><div class="lbl">Multikills (x${p.bestMultikillChain})</div></div>
+      <div class="stat-box bad"><div class="val">${p.suicides}</div><div class="lbl">Suicidios</div></div>
+    </div>
+
+    <div class="modal-section-title">📊 Actividad por hora</div>
+    <div class="hour-chart">${hourChartHtml(p.hourActivity)}</div>
+    <div class="hour-chart-labels"><span>00h</span><span>06h</span><span>12h</span><span>18h</span><span>23h</span></div>
+    <div style="text-align:center;color:var(--muted);font-size:11.5px;margin-top:4px;">Hora de mayor actividad: <b style="color:var(--accent);">${p.favoriteHour || '-'}</b> · ${p.sessions} sesiones</div>
+
+    <div class="modal-cols" style="margin-top:20px;">
+      <div>
+        <div class="modal-section-title">🔫 Kills por arma</div>
+        ${barRows(p.weaponsList, 'weapon', 'kills', p.kills, 'Sin datos')}
+      </div>
+      <div>
+        <div class="modal-section-title">🎯 Zonas de impacto</div>
+        ${barRows(p.bodypartsList, 'bodypart', 'kills', bodypartTotal, 'Sin datos de zona')}
+      </div>
+    </div>
+
+    <div class="modal-cols" style="margin-top:20px;">
+      <div>
+        <div class="modal-section-title">☠️ A quién mata más</div>
+        <div class="chip-wrap">${chipList(p.victimsList, 'name', 'kills', 'Sin víctimas registradas', 'chip-good')}</div>
+      </div>
+      <div>
+        <div class="modal-section-title">💀 Quién lo mata más</div>
+        <div class="chip-wrap">${chipList(p.killedByList, 'name', 'deaths', 'Nadie lo ha matado', 'chip-bad')}</div>
+      </div>
+    </div>
+
+    <div class="modal-section-title" style="margin-top:20px;">🗺️ Rendimiento por mapa</div>
+    <table>
+      <thead><tr><th>Mapa</th><th>Kills</th><th>Deaths</th><th>K/D</th></tr></thead>
+      <tbody>${mapBreakdownRows(p.mapBreakdown)}</tbody>
+    </table>
+
+    <div class="modal-section-title" style="margin-top:20px;">🏅 Logros ${p.achievementsUnlocked}/${p.achievements.length}</div>
+    <div class="ach-legend">
+      <button class="ach-filter-btn active" data-tier="ALL">Todos</button>
+      <button class="ach-filter-btn" data-tier="D"><span class="ach-dot tier-d"></span>D · Iniciado</button>
+      <button class="ach-filter-btn" data-tier="C"><span class="ach-dot tier-c"></span>C · Poco común</button>
+      <button class="ach-filter-btn" data-tier="B"><span class="ach-dot tier-b"></span>B · Raro</button>
+      <button class="ach-filter-btn" data-tier="A"><span class="ach-dot tier-a"></span>A · Élite</button>
+      <button class="ach-filter-btn" data-tier="S"><span class="ach-dot tier-s"></span>S · Legendario</button>
+      <button class="ach-filter-btn" data-tier="Σ"><span class="ach-dot tier-sigma"></span>Σ · Imposible</button>
+    </div>
+    <div class="ach-grid" id="achGrid">${achievementCards(p.achievements)}</div>
+  `;
+  setupAchievementFilter();
+  document.getElementById('playerModal').classList.add('active');
+}
+
+document.querySelectorAll('.player-link').forEach(el => {
+  el.addEventListener('click', () => openPlayerModal(el.dataset.player));
+});
+document.getElementById('closeModal').addEventListener('click', () => {
+  document.getElementById('playerModal').classList.remove('active');
+});
+document.getElementById('playerModal').addEventListener('click', e => {
+  if (e.target.id === 'playerModal') e.target.classList.remove('active');
+});
+
+document.querySelectorAll('.ip-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const pass = prompt('Contraseña para ver la IP:');
+    if (pass === null) return;
+    if (pass === IP_PASSWORD) {
+      const ips = JSON.parse(btn.dataset.ips);
+      const span = document.createElement('span');
+      span.className = 'ip-revealed';
+      span.textContent = ips.length ? ips.join(', ') : '-';
+      btn.replaceWith(span);
+    } else {
+      alert('Contraseña incorrecta');
+    }
+  });
+});
+
+function renderDuel() {
+  const nameA = document.getElementById('duelPlayerA').value;
+  const nameB = document.getElementById('duelPlayerB').value;
+  const result = document.getElementById('duelResult');
+
+  if (nameA === nameB) {
+    result.innerHTML = '<div class="duel-card"><div class="duel-winner">Selecciona dos jugadores distintos para ver su historial de enfrentamientos.</div></div>';
+    return;
+  }
+
+  const pA = PLAYERS.find(p => p.name === nameA);
+  const pB = PLAYERS.find(p => p.name === nameB);
+  if (!pA || !pB) return;
+
+  const aKillsB = (pA.victimsList.find(v => v.name === nameB) || {}).kills || 0;
+  const bKillsA = (pB.victimsList.find(v => v.name === nameA) || {}).kills || 0;
+  const total = aKillsB + bKillsA;
+
+  let winnerHtml = 'Aún no se han enfrentado en el log.';
+  if (aKillsB > bKillsA) winnerHtml = '<b>' + nameA + '</b> domina el enfrentamiento.';
+  else if (bKillsA > aKillsB) winnerHtml = '<b>' + nameB + '</b> domina el enfrentamiento.';
+  else if (total > 0) winnerHtml = 'Enfrentamiento parejo, están empatados.';
+
+  result.innerHTML = `
+    <div class="duel-card">
+      <div class="duel-header">${nameA} <span class="vs-mid">VS</span> ${nameB}</div>
+      <div class="duel-stat-grid">
+        <div><div class="val">${aKillsB}</div><div class="lbl">${nameA} mató a ${nameB}</div></div>
+        <div><div class="val">${total}</div><div class="lbl">Total de enfrentamientos</div></div>
+        <div><div class="val">${bKillsA}</div><div class="lbl">${nameB} mató a ${nameA}</div></div>
+      </div>
+      <div class="duel-winner">${winnerHtml}</div>
+    </div>
+  `;
+}
+document.getElementById('duelPlayerA').addEventListener('change', renderDuel);
+document.getElementById('duelPlayerB').addEventListener('change', renderDuel);
+if (document.getElementById('duelPlayerA').options.length > 1) {
+  document.getElementById('duelPlayerB').selectedIndex = 1;
+}
+renderDuel();
+
+function renderMapDetail(mapName) {
+  const m = MAP_STATS[mapName];
+  const result = document.getElementById('mapResult');
+  if (!m) { result.innerHTML = ''; return; }
+
+  const humansHtml = m.connectedHumans.length
+    ? m.connectedHumans.map(h => '<span class="human-chip">' + h.name + ' (' + h.kills + ' kills)</span>').join(' ')
+    : '<span style="color:var(--muted);">Ningún jugador humano participó en este mapa (solo bots)</span>';
+
+  result.innerHTML = `
+    <div class="duel-card">
+      <div class="duel-header">${mapName}${m.winnersAreBots ? ' <span class="bot-tag">GANADOR BOT</span>' : ''}</div>
+      <div class="duel-stat-grid">
+        <div><div class="val">${m.timesPlayed}</div><div class="lbl">Veces jugado</div></div>
+        <div><div class="val">${m.totalKills}</div><div class="lbl">Kills totales</div></div>
+        <div><div class="val">${m.winners.length ? m.winners.join(', ') : '-'}</div><div class="lbl">Ganador(es)</div></div>
+      </div>
+      <div class="modal-section-title" style="margin-top:18px;">Jugadores humanos conectados</div>
+      <div>${humansHtml}</div>
+    </div>
+  `;
+}
+document.getElementById('mapSelect').addEventListener('change', e => renderMapDetail(e.target.value));
+if (document.getElementById('mapSelect').options.length) {
+  renderMapDetail(document.getElementById('mapSelect').value);
+}
+
+function renderWeaponTable(weapon) {
+  const data = WEAPON_RANKINGS[weapon] || [];
+  document.getElementById('armasMetricHeader').textContent = weapon + ' Kills';
+  const tbody = document.querySelector('#tbl-armas tbody');
+  if (!data.length) {
+    tbody.innerHTML = '<tr><td colspan="3" style="color:var(--muted);">Sin kills registrados con esta arma todavía</td></tr>';
+    return;
+  }
+  tbody.innerHTML = data.map((p, i) =>
+    '<tr><td>' + (i + 1) + '</td><td class="name">' + p.name + '</td><td>' + p.kills + '</td></tr>'
+  ).join('');
+}
+const weaponSelect = document.getElementById('weaponSelect');
+if (weaponSelect.options.length) {
+  weaponSelect.addEventListener('change', e => renderWeaponTable(e.target.value));
+  renderWeaponTable(weaponSelect.value);
+}
+
+function makeSortable(tableId) {
+  document.querySelectorAll('#' + tableId + ' th').forEach((th, idx) => {
+    let asc = false;
+    th.addEventListener('click', () => {
+      asc = !asc;
+      const rows = [...document.querySelectorAll('#' + tableId + ' tbody tr')];
+      rows.sort((a, b) => {
+        const av = a.children[idx].textContent.trim();
+        const bv = b.children[idx].textContent.trim();
+        const an = parseFloat(av), bn = parseFloat(bv);
+        const cmp = (!isNaN(an) && !isNaN(bn)) ? an - bn : av.localeCompare(bv);
+        return asc ? cmp : -cmp;
+      });
+      const tbody = document.querySelector('#' + tableId + ' tbody');
+      rows.forEach(r => tbody.appendChild(r));
+    });
+  });
+}
+['tbl-ranking', 'tbl-armas', 'tbl-simultaneos'].forEach(makeSortable);
+</script>
+</body>
+</html>
