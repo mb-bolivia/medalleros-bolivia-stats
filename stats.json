@@ -1407,7 +1407,8 @@
     "dm/belgas74",
     "dm/bombedvillage",
     "dm/bot_river_town",
-    "dm/broken_silence"
+    "dm/broken_silence",
+    "dm/warehouse_dm"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -1526,6 +1527,17 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false
+    },
+    {
+      "map": "dm/broken_silence",
+      "timesPlayed": 1,
+      "totalKills": 223,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false
@@ -1688,6 +1700,18 @@
       "hasHuman": false
     },
     {
+      "map": "dm/warehouse_dm",
+      "timesPlayed": 1,
+      "totalKills": 138,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple",
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false
+    },
+    {
       "map": "dm/schatten",
       "timesPlayed": 1,
       "totalKills": 133,
@@ -1705,17 +1729,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false
-    },
-    {
-      "map": "dm/broken_silence",
-      "timesPlayed": 1,
-      "totalKills": 36,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false
@@ -1744,7 +1757,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 06:23:59"
+    "last": "2026-07-11 06:38:59"
   },
-  "generatedAt": "2026-07-11T10:24:00.370Z"
+  "generatedAt": "2026-07-11T10:39:00.407Z"
 }
