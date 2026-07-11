@@ -1740,7 +1740,9 @@
     "dm/castleddm",
     "dm/city_nights_mog",
     "dm/dawninvasion",
-    "dm/daylight"
+    "dm/daylight",
+    "dm/deadend",
+    "dm/deadendstreet"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2217,6 +2219,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/deadend",
+      "timesPlayed": 1,
+      "totalKills": 152,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/apachenpub",
       "timesPlayed": 1,
       "totalKills": 122,
@@ -2469,12 +2484,13 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/blizzard_battle",
+      "map": "dm/daylight",
       "timesPlayed": 1,
-      "totalKills": 35,
+      "totalKills": 38,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Fatal1ty"
+        "=MB= .Ogre2",
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2482,12 +2498,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/daylight",
+      "map": "dm/blizzard_battle",
       "timesPlayed": 1,
-      "totalKills": 31,
+      "totalKills": 35,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Ogre2"
+        "=MB= .Fatal1ty"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2580,6 +2596,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/deadendstreet",
+      "timesPlayed": 1,
+      "totalKills": 5,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2694,7 +2723,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 17:53:50"
+    "last": "2026-07-11 18:08:41"
   },
-  "generatedAt": "2026-07-11T21:54:01.075Z"
+  "generatedAt": "2026-07-11T22:09:01.090Z"
 }
