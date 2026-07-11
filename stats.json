@@ -1652,7 +1652,9 @@
     "dm/Tirtagen-Kechtat",
     "dm/dm_Morning2",
     "dm/dm_v3lab",
-    "dm/El_Alamein"
+    "dm/El_Alamein",
+    "dm/enigma",
+    "dm/railwayassault"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2159,6 +2161,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/enigma",
+      "timesPlayed": 1,
+      "totalKills": 58,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm5",
       "timesPlayed": 1,
       "totalKills": 41,
@@ -2185,6 +2200,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/El_Alamein",
+      "timesPlayed": 1,
+      "totalKills": 20,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/le-camp",
       "timesPlayed": 1,
       "totalKills": 18,
@@ -2198,12 +2226,15 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/El_Alamein",
+      "map": "dm/railwayassault",
       "timesPlayed": 1,
-      "totalKills": 15,
+      "totalKills": 4,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Vasily"
+        "=MB= .Ogre2",
+        "=MB= .Vasily",
+        "=MB= .Fatal1ty",
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2248,7 +2279,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 14:08:56"
+    "last": "2026-07-11 14:23:58"
   },
-  "generatedAt": "2026-07-11T18:09:00.853Z"
+  "generatedAt": "2026-07-11T18:24:00.851Z"
 }
