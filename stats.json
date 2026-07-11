@@ -1646,7 +1646,9 @@
     "dm/courtyard",
     "dm/dieppe",
     "dm/le-camp",
-    "dm/mohdm5"
+    "dm/mohdm5",
+    "dm/laboratory",
+    "dm/gloomcove"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2100,10 +2102,22 @@
     {
       "map": "dm/mohdm5",
       "timesPlayed": 1,
-      "totalKills": 35,
+      "totalKills": 41,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Ogre2",
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/laboratory",
+      "timesPlayed": 1,
+      "totalKills": 30,
+      "connectedHumans": [],
+      "winners": [
         "=MB= .S1mple"
       ],
       "winnersAreBots": true,
@@ -2118,6 +2132,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/gloomcove",
+      "timesPlayed": 1,
+      "totalKills": 15,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2162,7 +2189,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 13:08:47"
+    "last": "2026-07-11 13:23:53"
   },
-  "generatedAt": "2026-07-11T17:09:00.750Z"
+  "generatedAt": "2026-07-11T17:24:00.810Z"
 }
