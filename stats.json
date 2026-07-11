@@ -1396,7 +1396,9 @@
     "dm/mohdm2",
     "dm/aftermath2",
     "dm/dm_rockbound",
-    "dm/dm_merville"
+    "dm/dm_merville",
+    "dm/ba_stalingrad",
+    "dm/schatten"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -1544,12 +1546,34 @@
       "hasHuman": false
     },
     {
+      "map": "dm/ba_stalingrad",
+      "timesPlayed": 1,
+      "totalKills": 187,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false
+    },
+    {
       "map": "dm/mohdm4",
       "timesPlayed": 1,
       "totalKills": 168,
       "connectedHumans": [],
       "winners": [
         "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false
+    },
+    {
+      "map": "dm/dm_merville",
+      "timesPlayed": 1,
+      "totalKills": 166,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false
@@ -1566,23 +1590,23 @@
       "hasHuman": false
     },
     {
-      "map": "dm/dm_merville",
-      "timesPlayed": 1,
-      "totalKills": 156,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false
-    },
-    {
       "map": "dm/mohdm7",
       "timesPlayed": 1,
       "totalKills": 131,
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false
+    },
+    {
+      "map": "dm/schatten",
+      "timesPlayed": 1,
+      "totalKills": 43,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": false
@@ -1611,7 +1635,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 04:38:57"
+    "last": "2026-07-11 04:54:00"
   },
-  "generatedAt": "2026-07-11T08:39:00.284Z"
+  "generatedAt": "2026-07-11T08:54:00.308Z"
 }
