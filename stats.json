@@ -1649,7 +1649,9 @@
     "dm/mohdm5",
     "dm/laboratory",
     "dm/gloomcove",
-    "dm/Tirtagen-Kechtat"
+    "dm/Tirtagen-Kechtat",
+    "dm/dm_Morning2",
+    "dm/dm_v3lab"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2101,12 +2103,13 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/gloomcove",
+      "map": "dm/Tirtagen-Kechtat",
       "timesPlayed": 1,
-      "totalKills": 62,
+      "totalKills": 72,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Scump"
+        "=MB= .Fatal1ty",
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2114,12 +2117,27 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/Tirtagen-Kechtat",
+      "map": "dm/dm_Morning2",
       "timesPlayed": 1,
-      "totalKills": 53,
+      "totalKills": 66,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Fatal1ty"
+        "=MB= .TenZ",
+        "=MB= .Vasily",
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/gloomcove",
+      "timesPlayed": 1,
+      "totalKills": 62,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2164,6 +2182,19 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/dm_v3lab",
+      "timesPlayed": 1,
+      "totalKills": 12,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     }
   ],
   "rivalries": [],
@@ -2203,7 +2234,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 13:38:52"
+    "last": "2026-07-11 13:53:36"
   },
-  "generatedAt": "2026-07-11T17:39:00.814Z"
+  "generatedAt": "2026-07-11T17:54:00.824Z"
 }
