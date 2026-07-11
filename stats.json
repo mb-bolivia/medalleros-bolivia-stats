@@ -1643,7 +1643,9 @@
     "dm/warehouse_dm",
     "dm/centraleurope",
     "dm/compound2",
-    "dm/courtyard"
+    "dm/courtyard",
+    "dm/dieppe",
+    "dm/le-camp"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -1959,6 +1961,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/courtyard",
+      "timesPlayed": 2,
+      "totalKills": 254,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm2",
       "timesPlayed": 2,
       "totalKills": 253,
@@ -1978,19 +1993,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/courtyard",
-      "timesPlayed": 2,
-      "totalKills": 245,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2079,6 +2081,33 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/dieppe",
+      "timesPlayed": 1,
+      "totalKills": 98,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2",
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/le-camp",
+      "timesPlayed": 1,
+      "totalKills": 3,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     }
   ],
   "rivalries": [],
@@ -2118,7 +2147,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 12:38:54"
+    "last": "2026-07-11 12:53:36"
   },
-  "generatedAt": "2026-07-11T16:39:00.727Z"
+  "generatedAt": "2026-07-11T16:54:00.760Z"
 }
