@@ -1661,7 +1661,8 @@
     "dm/509thss_battlefield",
     "dm/amsterdam",
     "dm/apachenpub",
-    "dm/aquaduct-light"
+    "dm/aquaduct-light",
+    "dm/arena23"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2099,6 +2100,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aquaduct-light",
+      "timesPlayed": 1,
+      "totalKills": 168,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/apachenpub",
       "timesPlayed": 1,
       "totalKills": 122,
@@ -2166,19 +2180,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/aquaduct-light",
-      "timesPlayed": 1,
-      "totalKills": 77,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/Tirtagen-Kechtat",
       "timesPlayed": 1,
       "totalKills": 72,
@@ -2186,6 +2187,19 @@
       "winners": [
         "=MB= .Fatal1ty",
         "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/arena23",
+      "timesPlayed": 1,
+      "totalKills": 67,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2361,6 +2375,27 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-11 15:53:21",
+        "name": "DeVta",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-11 15:53:55",
+        "name": "DeVta",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-11 15:53:58",
+        "name": "DeVta",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 2,
@@ -2375,7 +2410,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 15:38:57"
+    "last": "2026-07-11 15:54:00"
   },
-  "generatedAt": "2026-07-11T19:39:00.939Z"
+  "generatedAt": "2026-07-11T19:54:00.958Z"
 }
