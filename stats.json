@@ -1654,7 +1654,8 @@
     "dm/dm_v3lab",
     "dm/El_Alamein",
     "dm/enigma",
-    "dm/railwayassault"
+    "dm/railwayassault",
+    "dm/user_98ligaobj2006"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2228,13 +2229,23 @@
     {
       "map": "dm/railwayassault",
       "timesPlayed": 1,
-      "totalKills": 4,
+      "totalKills": 16,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Ogre2",
-        "=MB= .Vasily",
-        "=MB= .Fatal1ty",
-        "=MB= .Scump"
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/user_98ligaobj2006",
+      "timesPlayed": 1,
+      "totalKills": 14,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2279,7 +2290,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 14:23:58"
+    "last": "2026-07-11 14:38:45"
   },
-  "generatedAt": "2026-07-11T18:24:00.851Z"
+  "generatedAt": "2026-07-11T18:39:00.878Z"
 }
