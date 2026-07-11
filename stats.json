@@ -90,6 +90,7 @@
       "hasDominatedMap": false,
       "maxRivalryEncounters": 19,
       "playedWeekend": true,
+      "playedBothWeekendDays": false,
       "chatMessages": 0,
       "botKills": 23,
       "humanKillsOnly": 0,
@@ -99,6 +100,7 @@
       "currentTeam": "Axis",
       "teamKills": 0,
       "teamKickCount": 1,
+      "verified": true,
       "killedByList": [
         {
           "name": "=MB= .TenZ",
@@ -1498,10 +1500,116 @@
           "current": 2,
           "target": 50,
           "unit": null
+        },
+        {
+          "id": "identidad_confirmada",
+          "tier": "C",
+          "icon": "✔️",
+          "name": "Identidad Confirmada",
+          "desc": "Verifica tu nick con el administrador del servidor",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "guardian_del_nick",
+          "tier": "B",
+          "icon": "🛡️",
+          "name": "Guardián de su Nick",
+          "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "saco_de_boxeo",
+          "tier": "D",
+          "icon": "🥊",
+          "name": "Saco de Boxeo",
+          "desc": "Muere 5 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "gafe_total",
+          "tier": "B",
+          "icon": "🌧️",
+          "name": "Gafe Total",
+          "desc": "Muere 15 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "racha_maldita",
+          "tier": "A",
+          "icon": "💀",
+          "name": "Racha Maldita",
+          "desc": "Muere 25 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "madrugador",
+          "tier": "C",
+          "icon": "🌅",
+          "name": "Madrugador",
+          "desc": "Que tu hora de mayor actividad sea entre las 05:00 y las 08:00",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "ave_vespertina",
+          "tier": "C",
+          "icon": "🌇",
+          "name": "Ave Vespertina",
+          "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "finde_completo",
+          "tier": "B",
+          "icon": "🎊",
+          "name": "Fin de Semana Completo",
+          "desc": "Juega tanto el sábado como el domingo",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "coleccionista_logros",
+          "tier": "A",
+          "icon": "🗂️",
+          "name": "Coleccionista de Logros",
+          "desc": "Desbloquea 38 o más logros distintos",
+          "unlocked": false,
+          "current": 15,
+          "target": 38,
+          "unit": null
+        },
+        {
+          "id": "completista",
+          "tier": "Σ",
+          "icon": "📚",
+          "name": "Completista",
+          "desc": "Desbloquea 76 o más logros distintos",
+          "unlocked": false,
+          "current": 15,
+          "target": 76,
+          "unit": null
         }
       ],
-      "achievementsUnlocked": 12,
-      "verified": true
+      "achievementsUnlocked": 15
     }
   ],
   "maps": [
@@ -1695,6 +1803,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/bot_river_town",
+      "timesPlayed": 2,
+      "totalKills": 304,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/ba_stalingrad",
       "timesPlayed": 2,
       "totalKills": 288,
@@ -1727,6 +1848,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/broken_silence",
+      "timesPlayed": 2,
+      "totalKills": 276,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -1877,38 +2011,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/broken_silence",
-      "timesPlayed": 1,
-      "totalKills": 223,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/warehouse_dm",
       "timesPlayed": 1,
       "totalKills": 220,
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/bot_river_town",
-      "timesPlayed": 2,
-      "totalKills": 198,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2010,7 +2118,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 11:38:57"
+    "last": "2026-07-11 11:53:59"
   },
-  "generatedAt": "2026-07-11T15:39:00.672Z"
+  "generatedAt": "2026-07-11T15:54:00.675Z"
 }
