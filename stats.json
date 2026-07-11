@@ -1742,7 +1742,8 @@
     "dm/dawninvasion",
     "dm/daylight",
     "dm/deadend",
-    "dm/deadendstreet"
+    "dm/deadendstreet",
+    "dm/dm_decalattack"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2524,6 +2525,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/deadendstreet",
+      "timesPlayed": 1,
+      "totalKills": 28,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/bob_carentan",
       "timesPlayed": 1,
       "totalKills": 26,
@@ -2603,14 +2617,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/deadendstreet",
-      "timesPlayed": 1,
-      "totalKills": 5,
+      "map": "dm/dm_decalattack",
+      "timesPlayed": 0,
+      "totalKills": 0,
       "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
+      "winners": [],
+      "winnersAreBots": false,
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
@@ -2723,7 +2735,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 18:08:41"
+    "last": "2026-07-11 18:23:58"
   },
-  "generatedAt": "2026-07-11T22:09:01.090Z"
+  "generatedAt": "2026-07-11T22:24:01.101Z"
 }
