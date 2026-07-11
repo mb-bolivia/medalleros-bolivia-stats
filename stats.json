@@ -1607,6 +1607,72 @@
           "current": 15,
           "target": 76,
           "unit": null
+        },
+        {
+          "id": "tier_master_D",
+          "tier": "D",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel D",
+          "desc": "Desbloquea los 14 logros del nivel D",
+          "unlocked": false,
+          "current": 5,
+          "target": 14,
+          "unit": null
+        },
+        {
+          "id": "tier_master_C",
+          "tier": "C",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel C",
+          "desc": "Desbloquea los 29 logros del nivel C",
+          "unlocked": false,
+          "current": 6,
+          "target": 29,
+          "unit": null
+        },
+        {
+          "id": "tier_master_B",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel B",
+          "desc": "Desbloquea los 37 logros del nivel B",
+          "unlocked": false,
+          "current": 3,
+          "target": 37,
+          "unit": null
+        },
+        {
+          "id": "tier_master_A",
+          "tier": "A",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel A",
+          "desc": "Desbloquea los 18 logros del nivel A",
+          "unlocked": false,
+          "current": 0,
+          "target": 18,
+          "unit": null
+        },
+        {
+          "id": "tier_master_S",
+          "tier": "S",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel S",
+          "desc": "Desbloquea los 16 logros del nivel S",
+          "unlocked": false,
+          "current": 1,
+          "target": 16,
+          "unit": null
+        },
+        {
+          "id": "tier_master_Σ",
+          "tier": "Σ",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel Σ",
+          "desc": "Desbloquea los 16 logros del nivel Σ",
+          "unlocked": false,
+          "current": 0,
+          "target": 16,
+          "unit": null
         }
       ],
       "achievementsUnlocked": 15
@@ -1673,7 +1739,8 @@
     "dm/bob_carentan",
     "dm/castleddm",
     "dm/city_nights_mog",
-    "dm/dawninvasion"
+    "dm/dawninvasion",
+    "dm/daylight"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2376,6 +2443,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dawninvasion",
+      "timesPlayed": 1,
+      "totalKills": 46,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm5",
       "timesPlayed": 1,
       "totalKills": 41,
@@ -2395,6 +2475,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/daylight",
+      "timesPlayed": 1,
+      "totalKills": 31,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2487,19 +2580,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dawninvasion",
-      "timesPlayed": 1,
-      "totalKills": 9,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2614,7 +2694,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 17:38:59"
+    "last": "2026-07-11 17:53:50"
   },
-  "generatedAt": "2026-07-11T21:39:01.095Z"
+  "generatedAt": "2026-07-11T21:54:01.075Z"
 }
