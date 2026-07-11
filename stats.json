@@ -1745,7 +1745,8 @@
     "dm/deadendstreet",
     "dm/dm_decalattack",
     "dm/dm_dorf",
-    "dm/dm_fallenvillage"
+    "dm/dm_fallenvillage",
+    "dm/dm_island_assault"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2327,6 +2328,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_fallenvillage",
+      "timesPlayed": 1,
+      "totalKills": 85,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/509thss_battlefield",
       "timesPlayed": 1,
       "totalKills": 81,
@@ -2527,6 +2541,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_island_assault",
+      "timesPlayed": 1,
+      "totalKills": 33,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/laboratory",
       "timesPlayed": 1,
       "totalKills": 30,
@@ -2625,19 +2652,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_fallenvillage",
-      "timesPlayed": 1,
-      "totalKills": 14,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2777,7 +2791,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 18:38:58"
+    "last": "2026-07-11 18:54:00"
   },
-  "generatedAt": "2026-07-11T22:39:01.115Z"
+  "generatedAt": "2026-07-11T22:54:01.145Z"
 }
