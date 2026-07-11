@@ -292,7 +292,7 @@
     <span class="icon">🎯</span>
     <h1>Rankings — Servidor MOHAA BOLIVIA</h1>
   </div>
-  <div class="sub">Generado: <b>2026-07-11T05:14:21.684Z</b> · Mapas registrados: <b>4</b> · Jugadores: <b>0</b></div>
+  <div class="sub">Generado: <b>2026-07-11T05:23:42.568Z</b> · Mapas registrados: <b>5</b> · Jugadores: <b>0</b></div>
 
   <div class="server-card">
     <div class="server-flag-bar"></div>
@@ -346,7 +346,7 @@
     <div class="stat-grid" style="grid-template-columns:repeat(4,1fr);margin:22px 0;">
       <div class="stat-box good"><div class="val">0</div><div class="lbl">Jugadores registrados</div></div>
       <div class="stat-box"><div class="val">0</div><div class="lbl">Kills totales</div></div>
-      <div class="stat-box"><div class="val">4</div><div class="lbl">Mapas registrados</div></div>
+      <div class="stat-box"><div class="val">5</div><div class="lbl">Mapas registrados</div></div>
       <div class="stat-box"><div class="val">115</div><div class="lbl">Logros disponibles</div></div>
     </div>
 
@@ -437,7 +437,7 @@
     <div class="toolbar">
       <div class="filter-group">
         <label class="filter-label" for="mapSelect">Mapa</label>
-        <select id="mapSelect"><option value="dm/amw_caskami_01">dm/amw_caskami_01 (solo bots)</option><option value="dm/amw_caskami_02">dm/amw_caskami_02 (solo bots)</option><option value="dm/mohdm1">dm/mohdm1 (solo bots)</option><option value="dm/mohdm3">dm/mohdm3 (solo bots)</option></select>
+        <select id="mapSelect"><option value="dm/amw_caskami_01">dm/amw_caskami_01 (solo bots)</option><option value="dm/amw_caskami_02">dm/amw_caskami_02 (solo bots)</option><option value="dm/aquaduct-dark">dm/aquaduct-dark (solo bots)</option><option value="dm/mohdm1">dm/mohdm1 (solo bots)</option><option value="dm/mohdm3">dm/mohdm3 (solo bots)</option></select>
       </div>
     </div>
     <div id="mapResult"></div>
@@ -498,7 +498,7 @@
 <script>
 const IP_PASSWORD = "1234"; // cambiar aqui cuando se actualice la contraseña
 const WEAPON_RANKINGS = {"Pistol":[],"SMG":[],"Rifle":[],"MG":[],"Sniper":[],"Bazooka":[],"Grenade":[],"Bash":[]};
-const MAP_STATS = {"dm/amw_caskami_01":{"map":"dm/amw_caskami_01","timesPlayed":1,"totalKills":284,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/amw_caskami_02":{"map":"dm/amw_caskami_02","timesPlayed":1,"totalKills":172,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm1":{"map":"dm/mohdm1","timesPlayed":1,"totalKills":153,"connectedHumans":[],"winners":["=MB= .TenZ"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm3":{"map":"dm/mohdm3","timesPlayed":1,"totalKills":121,"connectedHumans":[],"winners":["=MB= .Ogre2"],"winnersAreBots":true,"hasHuman":false}};
+const MAP_STATS = {"dm/amw_caskami_01":{"map":"dm/amw_caskami_01","timesPlayed":1,"totalKills":284,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm3":{"map":"dm/mohdm3","timesPlayed":1,"totalKills":206,"connectedHumans":[],"winners":["=MB= .ZywOo"],"winnersAreBots":true,"hasHuman":false},"dm/amw_caskami_02":{"map":"dm/amw_caskami_02","timesPlayed":1,"totalKills":172,"connectedHumans":[],"winners":["=MB= .Hartmann"],"winnersAreBots":true,"hasHuman":false},"dm/mohdm1":{"map":"dm/mohdm1","timesPlayed":1,"totalKills":153,"connectedHumans":[],"winners":["=MB= .TenZ"],"winnersAreBots":true,"hasHuman":false},"dm/aquaduct-dark":{"map":"dm/aquaduct-dark","timesPlayed":1,"totalKills":143,"connectedHumans":[],"winners":["=MB= .Fatal1ty"],"winnersAreBots":true,"hasHuman":false}};
 const PLAYERS = [];
 
 document.getElementById('copyIpBtn').addEventListener('click', () => {
