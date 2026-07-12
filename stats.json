@@ -98,6 +98,10 @@
       "humanDeathsOnly": 0,
       "maxBotRivalry": 8,
       "currentTeam": "Axis",
+      "playedAxis": true,
+      "playedAllies": true,
+      "axisJoinCount": 3,
+      "alliesJoinCount": 2,
       "teamKills": 0,
       "teamKickCount": 1,
       "verified": true,
@@ -989,7 +993,7 @@
           "tier": "D",
           "icon": "🤦",
           "name": "Fuego Amigo",
-          "desc": "Elimina a 5 o más compañeros de tu propio equipo",
+          "desc": "Elimina a 15 o más compañeros de tu propio equipo",
           "unlocked": false,
           "current": 0,
           "target": 15,
@@ -1000,7 +1004,7 @@
           "tier": "C",
           "icon": "🔪",
           "name": "Traidor",
-          "desc": "Elimina a 20 o más compañeros de tu propio equipo",
+          "desc": "Elimina a 60 o más compañeros de tu propio equipo",
           "unlocked": false,
           "current": 0,
           "target": 60,
@@ -1015,6 +1019,94 @@
           "unlocked": true,
           "current": 1,
           "target": 1,
+          "unit": null
+        },
+        {
+          "id": "doble_bando",
+          "tier": "C",
+          "icon": "🎭",
+          "name": "Doble Bando",
+          "desc": "Juega al menos una partida en el equipo del Eje y otra en el de los Aliados",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "veterano_eje",
+          "tier": "C",
+          "icon": "🪖",
+          "name": "Veterano del Eje",
+          "desc": "Juega 40 o más partidas en el equipo del Eje",
+          "unlocked": false,
+          "current": 3,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "veterano_aliado",
+          "tier": "C",
+          "icon": "🎖️",
+          "name": "Veterano Aliado",
+          "desc": "Juega 40 o más partidas en el equipo de los Aliados",
+          "unlocked": false,
+          "current": 2,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "comandante_eje",
+          "tier": "B",
+          "icon": "🪖",
+          "name": "Comandante del Eje",
+          "desc": "Juega 150 o más partidas en el equipo del Eje",
+          "unlocked": false,
+          "current": 3,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "comandante_aliado",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Comandante Aliado",
+          "desc": "Juega 150 o más partidas en el equipo de los Aliados",
+          "unlocked": false,
+          "current": 2,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "diplomatico_experto",
+          "tier": "B",
+          "icon": "🤝",
+          "name": "Diplomático Experto",
+          "desc": "Juega 60 o más partidas en cada equipo (Eje y Aliados)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mercenario_equilibrado",
+          "tier": "A",
+          "icon": "⚖️",
+          "name": "Mercenario Equilibrado",
+          "desc": "Juega al menos 50 partidas en cada equipo con una diferencia de 3 o menos entre ambos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "guerra_total",
+          "tier": "S",
+          "icon": "🌍",
+          "name": "Guerra Total",
+          "desc": "Acumula 400 o más partidas jugadas entre ambos equipos",
+          "unlocked": false,
+          "current": 5,
+          "target": 400,
           "unit": null
         },
         {
@@ -1591,10 +1683,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 38 o más logros distintos",
+          "desc": "Desbloquea 40 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 38,
+          "current": 15,
+          "target": 40,
           "unit": null
         },
         {
@@ -1602,10 +1694,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 76 o más logros distintos",
+          "desc": "Desbloquea 81 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 76,
+          "current": 15,
+          "target": 81,
           "unit": null
         },
         {
@@ -1624,10 +1716,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 29 logros del nivel C",
+          "desc": "Desbloquea los 32 logros del nivel C",
           "unlocked": false,
-          "current": 6,
-          "target": 29,
+          "current": 7,
+          "target": 32,
           "unit": null
         },
         {
@@ -1635,10 +1727,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 37 logros del nivel B",
+          "desc": "Desbloquea los 40 logros del nivel B",
           "unlocked": false,
           "current": 3,
-          "target": 37,
+          "target": 40,
           "unit": null
         },
         {
@@ -1646,10 +1738,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 18 logros del nivel A",
+          "desc": "Desbloquea los 19 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 19,
           "unit": null
         },
         {
@@ -1657,10 +1749,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 16 logros del nivel S",
+          "desc": "Desbloquea los 17 logros del nivel S",
           "unlocked": false,
           "current": 1,
-          "target": 16,
+          "target": 17,
           "unit": null
         },
         {
@@ -1679,14 +1771,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (136)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (144)",
           "unlocked": false,
-          "current": 14,
-          "target": 136,
+          "current": 15,
+          "target": 144,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 14
+      "achievementsUnlocked": 15
     }
   ],
   "maps": [
@@ -2986,5 +3078,5 @@
     "first": "2026-07-11 00:37:47",
     "last": "2026-07-11 20:51:14"
   },
-  "generatedAt": "2026-07-12T01:39:01.321Z"
+  "generatedAt": "2026-07-12T01:54:01.349Z"
 }
