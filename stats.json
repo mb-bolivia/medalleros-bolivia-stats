@@ -1778,7 +1778,13 @@
           "unit": null
         }
       ],
-      "achievementsUnlocked": 15
+      "achievementsUnlocked": 15,
+      "weeklyKillHistory": [
+        {
+          "date": "2026-07-12",
+          "kills": 0
+        }
+      ]
     }
   ],
   "maps": [
@@ -1888,11 +1894,10 @@
     {
       "map": "dm/amw_caskami_01",
       "timesPlayed": 4,
-      "totalKills": 867,
+      "totalKills": 914,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Fatal1ty",
-        "=MB= .Ogre2"
+        "=MB= .Fatal1ty"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -1945,8 +1950,8 @@
     },
     {
       "map": "dm/amw_caskami_02",
-      "timesPlayed": 3,
-      "totalKills": 459,
+      "timesPlayed": 4,
+      "totalKills": 469,
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
@@ -1970,6 +1975,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mohdm1",
+      "timesPlayed": 4,
+      "totalKills": 447,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/aftermath2",
       "timesPlayed": 2,
       "totalKills": 445,
@@ -1986,19 +2004,6 @@
       "map": "dm/bombedvillage",
       "timesPlayed": 2,
       "totalKills": 401,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/mohdm1",
-      "timesPlayed": 3,
-      "totalKills": 388,
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
@@ -2943,6 +2948,7 @@
     }
   ],
   "rivalries": [],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -3063,6 +3069,20 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-11 22:19:56",
+        "name": "CaPaRz0",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-11 22:20:05",
+        "name": "CaPaRz0",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 2,
@@ -3077,7 +3097,8 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 22:09:00"
+    "last": "2026-07-11 22:23:42"
   },
-  "generatedAt": "2026-07-12T02:09:01.201Z"
+  "generatedAt": "2026-07-12T02:24:00.219Z",
+  "achievementFeed": []
 }
