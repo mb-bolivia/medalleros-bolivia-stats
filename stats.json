@@ -3613,8 +3613,8 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 1,
-      "playtimeMs": 2974000,
-      "playtimeFormatted": "0h 50m",
+      "playtimeMs": 3866000,
+      "playtimeFormatted": "1h 4m",
       "favoriteHour": "13:00",
       "hourActivity": [
         0,
@@ -3788,7 +3788,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 50,
+          "current": 64,
           "target": 120,
           "unit": "min"
         },
@@ -4173,7 +4173,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 50,
+          "current": 64,
           "target": 300,
           "unit": "min"
         },
@@ -4184,7 +4184,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 50,
+          "current": 64,
           "target": 900,
           "unit": "min"
         },
@@ -5053,7 +5053,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 50,
+          "current": 64,
           "target": 2400,
           "unit": "min"
         },
@@ -5554,6 +5554,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/ba_stalingrad",
+      "timesPlayed": 4,
+      "totalKills": 640,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_desperatevillage",
       "timesPlayed": 4,
       "totalKills": 602,
@@ -5619,6 +5632,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_merville",
+      "timesPlayed": 4,
+      "totalKills": 554,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm2",
       "timesPlayed": 4,
       "totalKills": 548,
@@ -5635,19 +5661,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 7
-    },
-    {
-      "map": "dm/dm_merville",
-      "timesPlayed": 4,
-      "totalKills": 538,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Ogre2"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/bombedvillage",
@@ -5744,19 +5757,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 6
-    },
-    {
-      "map": "dm/ba_stalingrad",
-      "timesPlayed": 3,
-      "totalKills": 379,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/courtyard",
@@ -5890,6 +5890,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/schatten",
+      "timesPlayed": 4,
+      "totalKills": 274,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_dorf",
       "timesPlayed": 2,
       "totalKills": 261,
@@ -5922,19 +5935,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/schatten",
-      "timesPlayed": 3,
-      "totalKills": 233,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -6731,6 +6731,34 @@
         "action": "connect",
         "count": 2,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 14:04:43",
+        "name": "xKuroashi",
+        "action": "connect",
+        "count": 3,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 14:04:45",
+        "name": "xKuroashi",
+        "action": "disconnect",
+        "count": 2,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 14:04:55",
+        "name": "xKuroashi",
+        "action": "connect",
+        "count": 3,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 14:04:57",
+        "name": "xKuroashi",
+        "action": "disconnect",
+        "count": 2,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 4,
@@ -6749,9 +6777,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-12 13:54:00"
+    "last": "2026-07-12 14:08:52"
   },
-  "generatedAt": "2026-07-12T17:54:01.127Z",
+  "generatedAt": "2026-07-12T18:09:01.133Z",
   "achievementFeed": [
     {
       "name": "Soldado Ryan",
