@@ -7348,7 +7348,7 @@
       "ipHistory": {
         "26.50.70.255": {
           "first": "2026-07-11 08:15:01",
-          "last": "2026-07-12 16:08:11"
+          "last": "2026-07-12 16:18:02"
         }
       },
       "kills": 30,
@@ -7380,9 +7380,9 @@
       },
       "multikillEvents": 4,
       "bestMultikillChain": 2,
-      "sessions": 5,
-      "playtimeMs": 1578000,
-      "playtimeFormatted": "0h 26m",
+      "sessions": 6,
+      "playtimeMs": 1597000,
+      "playtimeFormatted": "0h 27m",
       "favoriteHour": "08:00",
       "hourActivity": [
         0,
@@ -7401,7 +7401,7 @@
         0,
         0,
         11,
-        4,
+        6,
         0,
         0,
         0,
@@ -7549,7 +7549,7 @@
         }
       ],
       "firstSeen": "2026-07-11 01:34:30",
-      "lastSeen": "2026-07-12 16:08:58",
+      "lastSeen": "2026-07-12 16:18:21",
       "rank": 5,
       "achievements": [
         {
@@ -7636,7 +7636,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 120,
           "unit": "min"
         },
@@ -8021,7 +8021,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 300,
           "unit": "min"
         },
@@ -8032,7 +8032,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 900,
           "unit": "min"
         },
@@ -8043,7 +8043,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 10,
           "unit": null
         },
@@ -8054,7 +8054,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 30,
           "unit": null
         },
@@ -8901,7 +8901,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 2400,
           "unit": "min"
         },
@@ -8912,7 +8912,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 100,
           "unit": null
         },
@@ -14557,8 +14557,8 @@
   "mapStats": [
     {
       "map": "dm/amw_caskami_01",
-      "timesPlayed": 7,
-      "totalKills": 1411,
+      "timesPlayed": 8,
+      "totalKills": 1615,
       "connectedHumans": [
         {
           "name": "Mr.Sipi",
@@ -14675,12 +14675,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/rush_party",
-      "timesPlayed": 4,
-      "totalKills": 716,
+      "map": "dm/mohdm1",
+      "timesPlayed": 6,
+      "totalKills": 719,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Ogre2"
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -14688,12 +14688,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mohdm1",
-      "timesPlayed": 5,
-      "totalKills": 699,
+      "map": "dm/rush_party",
+      "timesPlayed": 4,
+      "totalKills": 716,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Scump"
+        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -15754,12 +15754,7 @@
       "totalEncounters": 1
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Mr.Sipi",
-      "since": "2026-07-12 16:08:11"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -16167,6 +16162,20 @@
         "action": "connect",
         "count": 4,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 16:18:02",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 5,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-12 16:18:21",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 4,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 7,
@@ -16185,9 +16194,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-12 16:09:01"
+    "last": "2026-07-12 16:24:00"
   },
-  "generatedAt": "2026-07-12T20:09:01.112Z",
+  "generatedAt": "2026-07-12T20:24:01.123Z",
   "achievementFeed": [
     {
       "name": "Mr.Sipi",
