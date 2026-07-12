@@ -3613,8 +3613,8 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 1,
-      "playtimeMs": 1171000,
-      "playtimeFormatted": "0h 20m",
+      "playtimeMs": 2073000,
+      "playtimeFormatted": "0h 35m",
       "favoriteHour": "13:00",
       "hourActivity": [
         0,
@@ -3788,7 +3788,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 20,
+          "current": 35,
           "target": 120,
           "unit": "min"
         },
@@ -4173,7 +4173,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 20,
+          "current": 35,
           "target": 300,
           "unit": "min"
         },
@@ -4184,7 +4184,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 20,
+          "current": 35,
           "target": 900,
           "unit": "min"
         },
@@ -5053,7 +5053,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 20,
+          "current": 35,
           "target": 2400,
           "unit": "min"
         },
@@ -5466,6 +5466,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aftermath2",
+      "timesPlayed": 4,
+      "totalKills": 983,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 19
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 19
+    },
+    {
       "map": "dm/mohdm3",
       "timesPlayed": 5,
       "totalKills": 887,
@@ -5555,24 +5573,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/aftermath2",
-      "timesPlayed": 3,
-      "totalKills": 600,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 19
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 19
-    },
-    {
       "map": "dm/stalingrad_3_dm",
       "timesPlayed": 4,
       "totalKills": 579,
@@ -5642,6 +5642,24 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/dm_rockbound",
+      "timesPlayed": 4,
+      "totalKills": 447,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 7
+        }
+      ],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 7
     },
     {
       "map": "dm/broken_silence",
@@ -5804,24 +5822,6 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_rockbound",
-      "timesPlayed": 3,
-      "totalKills": 332,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 7
-        }
-      ],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 7
     },
     {
       "map": "dm/castleddm",
@@ -6748,9 +6748,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-12 13:23:57"
+    "last": "2026-07-12 13:38:59"
   },
-  "generatedAt": "2026-07-12T17:24:01.082Z",
+  "generatedAt": "2026-07-12T17:39:01.094Z",
   "achievementFeed": [
     {
       "name": "Soldado Ryan",
