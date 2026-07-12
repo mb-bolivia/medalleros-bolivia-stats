@@ -1756,7 +1756,9 @@
     "dm/dvillageii_dm",
     "dm/entre_pots",
     "dm/fortwreck",
-    "dm/fourth_village"
+    "dm/fourth_village",
+    "dm/gatehouse_assault_dm_1",
+    "dm/german"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -2364,6 +2366,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/fourth_village",
+      "timesPlayed": 1,
+      "totalKills": 83,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/509thss_battlefield",
       "timesPlayed": 1,
       "totalKills": 81,
@@ -2485,13 +2500,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/fourth_village",
+      "map": "dm/gatehouse_assault_dm_1",
       "timesPlayed": 1,
       "totalKills": 66,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Fatal1ty",
-        "=MB= .Vasily"
+        "=MB= .Fatal1ty"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -2811,6 +2825,17 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/german",
+      "timesPlayed": 0,
+      "totalKills": 0,
+      "connectedHumans": [],
+      "winners": [],
+      "winnersAreBots": false,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     }
   ],
   "rivalries": [],
@@ -2948,7 +2973,7 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-11 20:39:00"
+    "last": "2026-07-11 20:51:14"
   },
-  "generatedAt": "2026-07-12T00:39:01.231Z"
+  "generatedAt": "2026-07-12T00:54:01.264Z"
 }
