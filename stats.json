@@ -45,6 +45,7 @@
       "multikillEvents": 22,
       "bestMultikillChain": 4,
       "sessions": 2,
+      "disconnects": 1,
       "playtimeMs": 3962000,
       "playtimeFormatted": "1h 6m",
       "favoriteHour": "23:00",
@@ -186,6 +187,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 0,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 21,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -351,6 +354,7 @@
       "firstSeen": "2026-07-12 22:53:35",
       "lastSeen": "2026-07-13 00:11:13",
       "rank": 1,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -456,10 +460,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 42,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -555,10 +559,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 7,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -863,32 +867,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 7,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
+          "current": 2,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
-          "target": 100,
+          "current": 2,
+          "target": 75,
           "unit": null
         },
         {
@@ -1150,6 +1154,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": true,
+          "current": 21,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 21,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -1651,45 +1754,12 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 74,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 74,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 74,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
-          "unlocked": true,
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
+          "unlocked": false,
           "current": null,
           "target": null,
           "unit": null
@@ -1772,14 +1842,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
-          "target": 150,
+          "current": 2,
+          "target": 200,
           "unit": null
         },
         {
@@ -1908,10 +1978,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 21,
-          "target": 42,
+          "current": 22,
+          "target": 44,
           "unit": null
         },
         {
@@ -1919,10 +1989,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 21,
-          "target": 84,
+          "current": 22,
+          "target": 88,
           "unit": null
         },
         {
@@ -1930,10 +2000,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 6,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -1941,10 +2011,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 6,
-          "target": 32,
+          "current": 7,
+          "target": 33,
           "unit": null
         },
         {
@@ -1952,10 +2022,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 7,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -1963,10 +2033,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -1974,10 +2044,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 1,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -1996,14 +2066,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 21,
-          "target": 149,
+          "current": 22,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 21,
+      "achievementsUnlocked": 22,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -2059,6 +2129,7 @@
       "multikillEvents": 35,
       "bestMultikillChain": 5,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 2263000,
       "playtimeFormatted": "0h 38m",
       "favoriteHour": "23:00",
@@ -2164,8 +2235,10 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 3,
-      "verified": false,
-      "verificationDaysLeft": 15,
+      "firstBloodOfMapCount": 1,
+      "revengeKills": 9,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= .S1mple",
@@ -2313,6 +2386,7 @@
       "firstSeen": "2026-07-12 23:38:40",
       "lastSeen": "2026-07-13 00:16:23",
       "rank": 2,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -2418,10 +2492,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 56,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -2517,10 +2591,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -2825,32 +2899,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -3112,6 +3186,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": true,
+          "current": 9,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 9,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -3613,45 +3786,12 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 55,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 55,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 55,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
-          "unlocked": true,
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
+          "unlocked": false,
           "current": null,
           "target": null,
           "unit": null
@@ -3734,14 +3874,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -3783,7 +3923,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -3794,7 +3934,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -3870,10 +4010,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 23,
-          "target": 42,
+          "current": 27,
+          "target": 44,
           "unit": null
         },
         {
@@ -3881,10 +4021,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 23,
-          "target": 84,
+          "current": 27,
+          "target": 88,
           "unit": null
         },
         {
@@ -3892,10 +4032,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 5,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -3903,10 +4043,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 7,
-          "target": 32,
+          "current": 9,
+          "target": 33,
           "unit": null
         },
         {
@@ -3914,10 +4054,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 8,
-          "target": 41,
+          "current": 9,
+          "target": 42,
           "unit": null
         },
         {
@@ -3925,10 +4065,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 3,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -3936,10 +4076,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -3958,14 +4098,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 23,
-          "target": 149,
+          "current": 27,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 23,
+      "achievementsUnlocked": 27,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -4022,6 +4162,7 @@
       "multikillEvents": 9,
       "bestMultikillChain": 3,
       "sessions": 4,
+      "disconnects": 3,
       "playtimeMs": 1948000,
       "playtimeFormatted": "0h 32m",
       "favoriteHour": "23:00",
@@ -4127,6 +4268,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 0,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 15,
       "verified": false,
       "verificationDaysLeft": 14,
       "killedByList": [
@@ -4328,6 +4471,7 @@
       "firstSeen": "2026-07-11 22:19:56",
       "lastSeen": "2026-07-12 23:36:20",
       "rank": 3,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -4432,10 +4576,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 40,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -4531,10 +4675,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 3,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -4836,32 +4980,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 3,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
-          "target": 100,
+          "current": 4,
+          "target": 75,
           "unit": null
         },
         {
@@ -5123,6 +5267,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": true,
+          "current": 15,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 15,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -5624,44 +5867,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 52,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 52,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 52,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": true,
           "current": null,
           "target": null,
@@ -5744,14 +5954,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
-          "target": 150,
+          "current": 4,
+          "target": 200,
           "unit": null
         },
         {
@@ -5880,10 +6090,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 20,
-          "target": 42,
+          "current": 23,
+          "target": 44,
           "unit": null
         },
         {
@@ -5891,10 +6101,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 20,
-          "target": 84,
+          "current": 23,
+          "target": 88,
           "unit": null
         },
         {
@@ -5902,10 +6112,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 6,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -5913,10 +6123,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 5,
-          "target": 32,
+          "current": 6,
+          "target": 33,
           "unit": null
         },
         {
@@ -5924,10 +6134,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 8,
-          "target": 41,
+          "current": 9,
+          "target": 42,
           "unit": null
         },
         {
@@ -5935,10 +6145,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -5946,10 +6156,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -5968,14 +6178,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 20,
-          "target": 149,
+          "current": 23,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 20,
+      "achievementsUnlocked": 23,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -6031,6 +6241,7 @@
       "multikillEvents": 6,
       "bestMultikillChain": 3,
       "sessions": 2,
+      "disconnects": 1,
       "playtimeMs": 4778000,
       "playtimeFormatted": "1h 20m",
       "favoriteHour": "23:00",
@@ -6196,6 +6407,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 4,
+      "firstBloodOfMapCount": 1,
+      "revengeKills": 12,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -6365,6 +6578,7 @@
       "firstSeen": "2026-07-12 22:44:57",
       "lastSeen": "2026-07-13 00:16:32",
       "rank": 4,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -6470,10 +6684,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 23,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -6569,10 +6783,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 7,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -6877,32 +7091,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 7,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
+          "current": 2,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
-          "target": 100,
+          "current": 2,
+          "target": 75,
           "unit": null
         },
         {
@@ -7164,6 +7378,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": true,
+          "current": 12,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 12,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -7665,44 +7978,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 46,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 46,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 46,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -7786,14 +8066,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 7,
-          "target": 150,
+          "current": 2,
+          "target": 200,
           "unit": null
         },
         {
@@ -7922,10 +8202,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 42,
+          "current": 17,
+          "target": 44,
           "unit": null
         },
         {
@@ -7933,10 +8213,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 84,
+          "current": 17,
+          "target": 88,
           "unit": null
         },
         {
@@ -7944,10 +8224,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 5,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -7955,10 +8235,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 6,
-          "target": 32,
+          "current": 7,
+          "target": 33,
           "unit": null
         },
         {
@@ -7966,10 +8246,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 2,
-          "target": 41,
+          "current": 3,
+          "target": 42,
           "unit": null
         },
         {
@@ -7977,10 +8257,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -7988,10 +8268,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -8010,14 +8290,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 14,
-          "target": 149,
+          "current": 17,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 14,
+      "achievementsUnlocked": 17,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -8080,6 +8360,7 @@
       "multikillEvents": 9,
       "bestMultikillChain": 2,
       "sessions": 10,
+      "disconnects": 6,
       "playtimeMs": 3690000,
       "playtimeFormatted": "1h 2m",
       "favoriteHour": "23:00",
@@ -8208,6 +8489,8 @@
       "alliesJoinCount": 2,
       "teamKills": 0,
       "teamKickCount": 1,
+      "firstBloodOfMapCount": 2,
+      "revengeKills": 3,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
@@ -8393,6 +8676,7 @@
       "firstSeen": "2026-07-11 01:34:30",
       "lastSeen": "2026-07-13 07:07:22",
       "rank": 5,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -8497,10 +8781,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 28,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -8596,10 +8880,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -8901,32 +9185,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 10,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 100,
+          "current": 10,
+          "target": 75,
           "unit": null
         },
         {
@@ -9188,6 +9472,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 2,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 2,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 3,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 3,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -9689,44 +10072,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 24,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 24,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 24,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -9809,14 +10159,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 150,
+          "current": 10,
+          "target": 200,
           "unit": null
         },
         {
@@ -9942,10 +10292,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 21,
-          "target": 42,
+          "current": 22,
+          "target": 44,
           "unit": null
         },
         {
@@ -9953,10 +10303,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 21,
-          "target": 84,
+          "current": 22,
+          "target": 88,
           "unit": null
         },
         {
@@ -9964,10 +10314,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 5,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -9975,10 +10325,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 8,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -9986,10 +10336,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 6,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -9997,10 +10347,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 2,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -10008,10 +10358,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -10030,14 +10380,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 21,
-          "target": 149,
+          "current": 22,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 21,
+      "achievementsUnlocked": 22,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -10095,6 +10445,7 @@
       "multikillEvents": 4,
       "bestMultikillChain": 2,
       "sessions": 2,
+      "disconnects": 2,
       "playtimeMs": 3574000,
       "playtimeFormatted": "1h 0m",
       "favoriteHour": "23:00",
@@ -10236,6 +10587,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 4,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 7,
       "verified": false,
       "verificationDaysLeft": 14,
       "killedByList": [
@@ -10373,6 +10726,7 @@
       "firstSeen": "2026-07-12 00:09:47",
       "lastSeen": "2026-07-13 00:01:09",
       "rank": 6,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -10477,10 +10831,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 29,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -10576,10 +10930,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -10881,32 +11235,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 4,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 2,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 100,
+          "current": 2,
+          "target": 75,
           "unit": null
         },
         {
@@ -11168,6 +11522,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": true,
+          "current": 7,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 7,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -11669,44 +12122,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -11789,14 +12209,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
-          "target": 150,
+          "current": 2,
+          "target": 200,
           "unit": null
         },
         {
@@ -11925,10 +12345,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 42,
+          "current": 16,
+          "target": 44,
           "unit": null
         },
         {
@@ -11936,10 +12356,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 14,
-          "target": 84,
+          "current": 16,
+          "target": 88,
           "unit": null
         },
         {
@@ -11947,10 +12367,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 4,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -11958,10 +12378,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 4,
-          "target": 32,
+          "current": 5,
+          "target": 33,
           "unit": null
         },
         {
@@ -11969,10 +12389,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 5,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -11980,10 +12400,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -11991,10 +12411,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -12013,14 +12433,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 14,
-          "target": 149,
+          "current": 16,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 14,
+      "achievementsUnlocked": 16,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -12075,6 +12495,7 @@
       "multikillEvents": 2,
       "bestMultikillChain": 2,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 1175000,
       "playtimeFormatted": "0h 20m",
       "favoriteHour": "23:00",
@@ -12156,6 +12577,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 5,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 0,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -12297,6 +12720,7 @@
       "firstSeen": "2026-07-12 23:05:29",
       "lastSeen": "2026-07-12 23:25:04",
       "rank": 7,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -12402,10 +12826,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 17,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -12501,10 +12925,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 2,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -12809,32 +13233,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 2,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -13096,6 +13520,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -13597,44 +14120,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 20,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -13718,14 +14208,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -13854,10 +14344,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 8,
-          "target": 42,
+          "current": 9,
+          "target": 44,
           "unit": null
         },
         {
@@ -13865,10 +14355,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 8,
-          "target": 84,
+          "current": 9,
+          "target": 88,
           "unit": null
         },
         {
@@ -13876,10 +14366,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 5,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -13887,10 +14377,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 2,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -13898,10 +14388,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -13909,10 +14399,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -13920,10 +14410,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -13942,14 +14432,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 8,
-          "target": 149,
+          "current": 9,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 8,
+      "achievementsUnlocked": 9,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -14003,6 +14493,7 @@
       "multikillEvents": 1,
       "bestMultikillChain": 2,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 1008000,
       "playtimeFormatted": "0h 17m",
       "favoriteHour": "23:00",
@@ -14096,6 +14587,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 5,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 1,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -14192,6 +14685,7 @@
       "firstSeen": "2026-07-12 23:12:14",
       "lastSeen": "2026-07-12 23:29:02",
       "rank": 8,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -14297,10 +14791,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 11,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -14396,10 +14890,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 3,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -14704,32 +15198,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 3,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -14991,6 +15485,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 1,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 1,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -15492,44 +16085,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 15,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 15,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 15,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -15613,14 +16173,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 3,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -15749,10 +16309,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 7,
-          "target": 42,
+          "current": 8,
+          "target": 44,
           "unit": null
         },
         {
@@ -15760,10 +16320,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 7,
-          "target": 84,
+          "current": 8,
+          "target": 88,
           "unit": null
         },
         {
@@ -15771,10 +16331,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 4,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -15782,10 +16342,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 3,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -15793,10 +16353,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -15804,10 +16364,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -15815,10 +16375,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
-          "current": 0,
-          "target": 18,
+          "current": 1,
+          "target": 20,
           "unit": null
         },
         {
@@ -15837,14 +16397,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 7,
-          "target": 149,
+          "current": 8,
+          "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 7,
+      "achievementsUnlocked": 8,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -15899,6 +16459,7 @@
       "multikillEvents": 14,
       "bestMultikillChain": 3,
       "sessions": 3,
+      "disconnects": 4,
       "playtimeMs": 1707000,
       "playtimeFormatted": "0h 28m",
       "favoriteHour": "13:00",
@@ -16173,6 +16734,7 @@
       "firstSeen": "2026-07-12 13:06:48",
       "lastSeen": "2026-07-12 15:18:35",
       "rank": 9,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -16277,10 +16839,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 36,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -16376,10 +16938,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -16681,32 +17243,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 3,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 3,
+          "target": 75,
           "unit": null
         },
         {
@@ -16968,6 +17530,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -17469,44 +18126,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -17589,14 +18213,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 3,
+          "target": 200,
           "unit": null
         },
         {
@@ -17725,10 +18349,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 12,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -17736,10 +18360,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 12,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -17747,10 +18371,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 5,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -17758,10 +18382,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 5,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -17769,10 +18393,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 2,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -17780,10 +18404,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -17791,10 +18415,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -17813,10 +18437,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 12,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -17874,6 +18498,7 @@
       "multikillEvents": 5,
       "bestMultikillChain": 2,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 820000,
       "playtimeFormatted": "0h 14m",
       "favoriteHour": "15:00",
@@ -18051,6 +18676,7 @@
       "firstSeen": "2026-07-12 14:52:42",
       "lastSeen": "2026-07-12 15:06:22",
       "rank": 10,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -18155,10 +18781,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 33,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -18254,10 +18880,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -18559,32 +19185,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -18846,6 +19472,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -19347,44 +20068,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 4,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -19467,14 +20155,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -19603,10 +20291,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 9,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -19614,10 +20302,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 9,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -19625,10 +20313,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 4,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -19636,10 +20324,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 4,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -19647,10 +20335,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -19658,10 +20346,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -19669,10 +20357,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -19691,10 +20379,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 9,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -19753,6 +20441,7 @@
       "multikillEvents": 1,
       "bestMultikillChain": 2,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 737000,
       "playtimeFormatted": "0h 12m",
       "favoriteHour": "00:00",
@@ -19822,6 +20511,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 3,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 0,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -19902,6 +20593,7 @@
       "firstSeen": "2026-07-13 00:06:17",
       "lastSeen": "2026-07-13 00:18:34",
       "rank": 11,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -20007,10 +20699,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 18,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -20106,10 +20798,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 1,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -20414,32 +21106,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 1,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
           "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
           "current": 1,
-          "target": 100,
+          "target": 75,
           "unit": null
         },
         {
@@ -20701,6 +21393,105 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -21202,44 +21993,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 3,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 3,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 3,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -21323,14 +22081,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
           "current": 1,
-          "target": 150,
+          "target": 200,
           "unit": null
         },
         {
@@ -21459,10 +22217,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -21470,10 +22228,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -21481,10 +22239,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 3,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -21492,10 +22250,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 0,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -21503,10 +22261,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -21514,10 +22272,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -21525,10 +22283,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -21547,10 +22305,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 3,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -21604,6 +22362,7 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 112000,
       "playtimeFormatted": "0h 2m",
       "favoriteHour": "14:00",
@@ -21701,6 +22460,7 @@
       "firstSeen": "2026-07-12 14:21:15",
       "lastSeen": "2026-07-12 14:23:07",
       "rank": 12,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -21805,10 +22565,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 2,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -21904,10 +22664,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -22209,32 +22969,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -22496,6 +23256,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -22997,44 +23852,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -23117,14 +23939,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -23253,10 +24075,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 2,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -23264,10 +24086,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 2,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -23275,10 +24097,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 1,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -23286,10 +24108,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 1,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -23297,10 +24119,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -23308,10 +24130,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -23319,10 +24141,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -23341,10 +24163,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 2,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -23401,6 +24223,7 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 3,
+      "disconnects": 3,
       "playtimeMs": 292000,
       "playtimeFormatted": "0h 5m",
       "favoriteHour": "14:00",
@@ -23542,6 +24365,7 @@
       "firstSeen": "2026-07-12 14:52:27",
       "lastSeen": "2026-07-12 15:06:31",
       "rank": 13,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -23646,10 +24470,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 2,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -23745,10 +24569,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -24050,32 +24874,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 3,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 3,
+          "target": 75,
           "unit": null
         },
         {
@@ -24337,6 +25161,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -24838,44 +25757,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 1,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -24958,14 +25844,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 3,
+          "target": 200,
           "unit": null
         },
         {
@@ -25094,10 +25980,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -25105,10 +25991,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -25116,10 +26002,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 2,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -25127,10 +26013,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 1,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -25138,10 +26024,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -25149,10 +26035,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -25160,10 +26046,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -25182,10 +26068,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 3,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -25236,6 +26122,7 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 1,
+      "disconnects": 0,
       "playtimeMs": 8374000,
       "playtimeFormatted": "2h 20m",
       "favoriteHour": "13:00",
@@ -25337,6 +26224,7 @@
       "firstSeen": "2026-07-12 13:04:26",
       "lastSeen": "2026-07-12 13:05:50",
       "rank": 14,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -25441,10 +26329,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 1,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -25540,10 +26428,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -25845,32 +26733,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -26132,6 +27020,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -26633,44 +27616,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -26753,14 +27703,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -26889,10 +27839,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -26900,10 +27850,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -26911,10 +27861,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 0,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -26922,10 +27872,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 2,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -26933,10 +27883,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -26944,10 +27894,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -26955,10 +27905,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -26977,10 +27927,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 3,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -27037,6 +27987,7 @@
       "multikillEvents": 6,
       "bestMultikillChain": 2,
       "sessions": 1,
+      "disconnects": 1,
       "playtimeMs": 2338000,
       "playtimeFormatted": "0h 39m",
       "favoriteHour": "14:00",
@@ -27299,6 +28250,7 @@
       "firstSeen": "2026-07-12 14:18:08",
       "lastSeen": "2026-07-12 14:57:06",
       "rank": 15,
+      "topPlayerName": "=MB= El_Chacal",
       "achievements": [
         {
           "id": "first_blood",
@@ -27403,10 +28355,10 @@
           "tier": "B",
           "icon": "🔥",
           "name": "Terminator",
-          "desc": "Consigue 30 o más kills en un solo mapa",
+          "desc": "Consigue 70 o más kills en un solo mapa",
           "unlocked": false,
           "current": 19,
-          "target": 100,
+          "target": 70,
           "unit": null
         },
         {
@@ -27502,10 +28454,10 @@
           "tier": "B",
           "icon": "🗺️",
           "name": "Explorador de Combate",
-          "desc": "Juega en 15 o más mapas distintos",
+          "desc": "Juega en 12 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 15,
+          "target": 12,
           "unit": null
         },
         {
@@ -27807,32 +28759,32 @@
           "tier": "A",
           "icon": "🧭",
           "name": "Trotamundos",
-          "desc": "Juega en 30 o más mapas distintos",
+          "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
           "current": 0,
-          "target": 30,
+          "target": 25,
           "unit": null
         },
         {
-          "id": "maps_50",
+          "id": "sessions_50",
           "tier": "S",
           "icon": "🧭",
           "name": "Veterano de Mil Batallas",
-          "desc": "Juega en 50 o más mapas distintos",
+          "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
         {
-          "id": "maps_100",
+          "id": "sessions_75",
           "tier": "S",
           "icon": "🏃",
           "name": "Maratonista del Servidor",
-          "desc": "Juega en 100 o más mapas distintos",
+          "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 100,
+          "current": 1,
+          "target": 75,
           "unit": null
         },
         {
@@ -28094,6 +29046,101 @@
           "icon": "🩸",
           "name": "Masacre Humana Total",
           "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -28595,44 +29642,11 @@
           "unit": null
         },
         {
-          "id": "human_hunter_1",
-          "tier": "C",
-          "icon": "🧑",
-          "name": "Rival de Carne y Hueso",
-          "desc": "Elimina 50 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 200,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_2",
-          "tier": "B",
-          "icon": "🧑‍🤝‍🧑",
-          "name": "Depredador Humano",
-          "desc": "Elimina 150 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 600,
-          "unit": null
-        },
-        {
-          "id": "human_hunter_3",
-          "tier": "A",
-          "icon": "🏹",
-          "name": "Cazador de Élite",
-          "desc": "Elimina 300 o más jugadores humanos",
-          "unlocked": false,
-          "current": 0,
-          "target": 1200,
-          "unit": null
-        },
-        {
           "id": "duelista_puro",
           "tier": "B",
           "icon": "🤺",
           "name": "Duelista Puro",
-          "desc": "La mitad o más de tus kills sean contra humanos (mínimo 50 kills)",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
           "unlocked": false,
           "current": null,
           "target": null,
@@ -28715,14 +29729,14 @@
           "unit": null
         },
         {
-          "id": "maps_sigma",
+          "id": "sessions_200",
           "tier": "Σ",
           "icon": "🌐",
           "name": "Explorador Legendario",
-          "desc": "Juega en 150 o más mapas distintos",
+          "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
-          "target": 150,
+          "current": 1,
+          "target": 200,
           "unit": null
         },
         {
@@ -28851,10 +29865,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 42 o más logros distintos",
+          "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
           "current": 11,
-          "target": 42,
+          "target": 44,
           "unit": null
         },
         {
@@ -28862,10 +29876,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 84 o más logros distintos",
+          "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
           "current": 11,
-          "target": 84,
+          "target": 88,
           "unit": null
         },
         {
@@ -28873,10 +29887,10 @@
           "tier": "D",
           "icon": "🎖️",
           "name": "Maestro del Nivel D",
-          "desc": "Desbloquea los 14 logros del nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
           "current": 4,
-          "target": 14,
+          "target": 15,
           "unit": null
         },
         {
@@ -28884,10 +29898,10 @@
           "tier": "C",
           "icon": "🎖️",
           "name": "Maestro del Nivel C",
-          "desc": "Desbloquea los 32 logros del nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
           "current": 4,
-          "target": 32,
+          "target": 33,
           "unit": null
         },
         {
@@ -28895,10 +29909,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 41 logros del nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
           "current": 2,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -28906,10 +29920,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 20 logros del nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 20,
+          "target": 21,
           "unit": null
         },
         {
@@ -28917,10 +29931,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 18 logros del nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 18,
+          "target": 20,
           "unit": null
         },
         {
@@ -28939,10 +29953,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
           "current": 11,
-          "target": 149,
+          "target": 155,
           "unit": null
         }
       ],
@@ -29556,6 +30570,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_rockbound",
+      "timesPlayed": 9,
+      "totalKills": 1480,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 7
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 7
+    },
+    {
       "map": "dm/stalingrad_3_dm",
       "timesPlayed": 9,
       "totalKills": 1474,
@@ -29583,27 +30615,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_rockbound",
-      "timesPlayed": 9,
-      "totalKills": 1339,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 7
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 7
-    },
-    {
       "map": "dm/dm_merville",
-      "timesPlayed": 8,
-      "totalKills": 1156,
+      "timesPlayed": 9,
+      "totalKills": 1401,
       "connectedHumans": [],
       "winners": [
         "=MB= .Vasily"
@@ -29615,8 +30629,8 @@
     },
     {
       "map": "dm/ba_stalingrad",
-      "timesPlayed": 7,
-      "totalKills": 1150,
+      "timesPlayed": 8,
+      "totalKills": 1399,
       "connectedHumans": [],
       "winners": [
         "=MB= .Vasily"
@@ -29872,8 +30886,8 @@
     },
     {
       "map": "dm/schatten",
-      "timesPlayed": 7,
-      "totalKills": 731,
+      "timesPlayed": 8,
+      "totalKills": 787,
       "connectedHumans": [
         {
           "name": "Machete",
@@ -31374,10 +32388,172 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-13 07:23:58"
+    "last": "2026-07-13 07:53:58"
   },
-  "generatedAt": "2026-07-13T11:24:01.182Z",
+  "generatedAt": "2026-07-13T11:54:01.241Z",
   "achievementFeed": [
+    {
+      "name": "Francotirador",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-13T11:54:01.246Z"
+    },
+    {
+      "name": "Francotirador",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-13T11:54:01.246Z"
+    },
+    {
+      "name": "Diego BAD",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Roly",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Soldado Ryan",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Soldado Ryan",
+      "achId": "venganza_servida",
+      "achName": "Venganza Servida",
+      "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+      "tier": "C",
+      "icon": "🔁",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Mr.Sipi",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "SANDY",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "SANDY",
+      "achId": "venganza_servida",
+      "achName": "Venganza Servida",
+      "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+      "tier": "C",
+      "icon": "🔁",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "SANDY",
+      "achId": "especialista",
+      "achName": "Especialista",
+      "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+      "tier": "B",
+      "icon": "🎯",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "venganza_servida",
+      "achName": "Venganza Servida",
+      "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+      "tier": "C",
+      "icon": "🔁",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "especialista",
+      "achName": "Especialista",
+      "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+      "tier": "B",
+      "icon": "🎯",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Francotirador",
+      "achId": "cazador_de_gigantes",
+      "achName": "Cazador de Gigantes",
+      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+      "tier": "S",
+      "icon": "🗡️",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Francotirador",
+      "achId": "venganza_servida",
+      "achName": "Venganza Servida",
+      "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+      "tier": "C",
+      "icon": "🔁",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "Francotirador",
+      "achId": "especialista",
+      "achName": "Especialista",
+      "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+      "tier": "B",
+      "icon": "🎯",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "=MB= El_Chacal",
+      "achId": "venganza_servida",
+      "achName": "Venganza Servida",
+      "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+      "tier": "C",
+      "icon": "🔁",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
+    {
+      "name": "=MB= El_Chacal",
+      "achId": "especialista",
+      "achName": "Especialista",
+      "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+      "tier": "B",
+      "icon": "🎯",
+      "ts": "2026-07-13T11:39:01.219Z"
+    },
     {
       "name": "Soldado Ryan",
       "achId": "combate_versatil",
@@ -31575,168 +32751,6 @@
       "tier": "A",
       "icon": "🪖",
       "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "carne_de_canon",
-      "achName": "Carne de Cañón",
-      "desc": "Muere 20 o más veces a manos de bots",
-      "tier": "D",
-      "icon": "🪦",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "versatile",
-      "achName": "Versátil",
-      "desc": "Consigue kills con 4 o más armas distintas",
-      "tier": "D",
-      "icon": "🎒",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "rival_40",
-      "achName": "Guerra Personal",
-      "desc": "Enfréntate 40 o más veces contra un mismo jugador",
-      "tier": "A",
-      "icon": "⚔️",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "racha_10",
-      "achName": "Racha Caliente",
-      "desc": "Logra una racha de 10 o más kills sin morir",
-      "tier": "C",
-      "icon": "🔥",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "double_shift",
-      "achName": "Doble Turno",
-      "desc": "Registra kills tanto de madrugada (00-05h) como en horario pico (18-23h)",
-      "tier": "B",
-      "icon": "🌗",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "Soldado Ryan",
-      "achId": "rival_20",
-      "achName": "Némesis Eterno",
-      "desc": "Enfréntate 20 o más veces contra un mismo jugador",
-      "tier": "B",
-      "icon": "⚔️",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "balanceado",
-      "achName": "Balanceado",
-      "desc": "Alcanza K/D 1.5+ con 12 o más kills contra humanos",
-      "tier": "D",
-      "icon": "⚖️",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "devastador",
-      "achName": "Devastador",
-      "desc": "Promedia 20 o más frags por mapa",
-      "tier": "B",
-      "icon": "📊",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "eficiente",
-      "achName": "Eficiente",
-      "desc": "Promedia 10 o más frags por mapa",
-      "tier": "C",
-      "icon": "📊",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "silent_killer",
-      "achName": "Asesino Silencioso",
-      "desc": "Gana un mapa sin enviar ningún mensaje de chat",
-      "tier": "B",
-      "icon": "🤫",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "rival_20",
-      "achName": "Némesis Eterno",
-      "desc": "Enfréntate 20 o más veces contra un mismo jugador",
-      "tier": "B",
-      "icon": "⚔️",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "rival_10",
-      "achName": "Rival Frecuente",
-      "desc": "Enfréntate 10 o más veces contra un mismo jugador",
-      "tier": "C",
-      "icon": "⚔️",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "rank_top5",
-      "achName": "Contendiente",
-      "desc": "Alcanza el top 5 del ranking general",
-      "tier": "C",
-      "icon": "5️⃣",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "rank_top10",
-      "achName": "Top 10",
-      "desc": "Alcanza el top 10 del ranking general",
-      "tier": "D",
-      "icon": "🔟",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "multikill_15",
-      "achName": "Combo x15",
-      "desc": "Logra 15 eventos de multikill",
-      "tier": "B",
-      "icon": "⚡",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "multikill_5",
-      "achName": "Combo x5",
-      "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
-      "tier": "C",
-      "icon": "⚡",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "racha_10",
-      "achName": "Racha Caliente",
-      "desc": "Logra una racha de 10 o más kills sin morir",
-      "tier": "C",
-      "icon": "🔥",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "bala_plata",
-      "achName": "Bala de Plata",
-      "desc": "Consigue 20 o más kills contra humanos con 10 o menos muertes",
-      "tier": "B",
-      "icon": "🥈",
-      "ts": "2026-07-13T03:54:00.635Z"
     }
   ]
 }
