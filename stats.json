@@ -120,6 +120,50 @@
       ],
       "bestWeaponVarietyInMap": 2,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 1,
+          "victimsCount": 9,
+          "humanVictimsCount": 5
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 2,
+          "victimsCount": 8,
+          "humanVictimsCount": 5
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 1,
+          "victimsCount": 7,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm3",
+          "weaponsCount": 1,
+          "victimsCount": 9,
+          "humanVictimsCount": 4
+        },
+        {
+          "map": "dm/aquaduct-dark",
+          "weaponsCount": 2,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/arab_streets",
+          "weaponsCount": 2,
+          "victimsCount": 9,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm7",
+          "weaponsCount": 2,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
@@ -1068,6 +1112,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -1820,10 +1908,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 21,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -1831,10 +1919,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 21,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -1864,10 +1952,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 7,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -1875,10 +1963,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -1886,10 +1974,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 1,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -1897,10 +1985,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -1908,10 +1996,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 21,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -2028,6 +2116,32 @@
       ],
       "bestWeaponVarietyInMap": 3,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/mohdm3",
+          "weaponsCount": 1,
+          "victimsCount": 9,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/aquaduct-dark",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/arab_streets",
+          "weaponsCount": 2,
+          "victimsCount": 9,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm7",
+          "weaponsCount": 3,
+          "victimsCount": 8,
+          "humanVictimsCount": 2
+        }
+      ],
       "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 2,
@@ -2960,6 +3074,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -3712,10 +3870,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 23,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -3723,10 +3881,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 23,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -3756,10 +3914,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 8,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -3767,10 +3925,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 3,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -3778,10 +3936,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -3789,10 +3947,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -3800,10 +3958,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 23,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -3921,6 +4079,32 @@
       ],
       "bestWeaponVarietyInMap": 4,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/bot_river_town",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 4
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 4,
+          "victimsCount": 9,
+          "humanVictimsCount": 5
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 2,
+          "victimsCount": 7,
+          "humanVictimsCount": 3
+        }
+      ],
       "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 3,
@@ -4901,6 +5085,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -5652,10 +5880,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
-          "current": 19,
-          "target": 41,
+          "current": 20,
+          "target": 42,
           "unit": null
         },
         {
@@ -5663,10 +5891,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
-          "current": 19,
-          "target": 82,
+          "current": 20,
+          "target": 84,
           "unit": null
         },
         {
@@ -5696,10 +5924,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
-          "current": 7,
-          "target": 40,
+          "current": 8,
+          "target": 41,
           "unit": null
         },
         {
@@ -5707,10 +5935,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -5718,10 +5946,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -5729,10 +5957,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -5740,14 +5968,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
-          "current": 19,
-          "target": 145,
+          "current": 20,
+          "target": 149,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 19,
+      "achievementsUnlocked": 20,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -5890,6 +6118,62 @@
       ],
       "bestWeaponVarietyInMap": 3,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/belgas74",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/bombedvillage",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 2,
+          "victimsCount": 9,
+          "humanVictimsCount": 5
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 2,
+          "victimsCount": 5,
+          "humanVictimsCount": 2
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 2,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm3",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/aquaduct-dark",
+          "weaponsCount": 3,
+          "victimsCount": 7,
+          "humanVictimsCount": 2
+        },
+        {
+          "map": "dm/arab_streets",
+          "weaponsCount": 1,
+          "victimsCount": 7,
+          "humanVictimsCount": 2
+        },
+        {
+          "map": "dm/mohdm7",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        }
+      ],
       "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 2,
@@ -6842,6 +7126,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -7594,10 +7922,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 14,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -7605,10 +7933,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 14,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -7638,10 +7966,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 2,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -7649,10 +7977,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -7660,10 +7988,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -7671,10 +7999,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -7682,10 +8010,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 14,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -7821,6 +8149,44 @@
       ],
       "bestWeaponVarietyInMap": 6,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/arab_streets",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/mohdm7",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 6,
+          "victimsCount": 8,
+          "humanVictimsCount": 4
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 5
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 1,
+          "victimsCount": 6,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm3",
+          "weaponsCount": 1,
+          "victimsCount": 5,
+          "humanVictimsCount": 2
+        }
+      ],
       "activeDaysCount": 3,
       "maxMapWins": 2,
       "maxWinsInDay": 2,
@@ -8784,6 +9150,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -9532,10 +9942,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
-          "current": 19,
-          "target": 41,
+          "current": 21,
+          "target": 42,
           "unit": null
         },
         {
@@ -9543,10 +9953,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
-          "current": 19,
-          "target": 82,
+          "current": 21,
+          "target": 84,
           "unit": null
         },
         {
@@ -9576,10 +9986,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
-          "current": 5,
-          "target": 40,
+          "current": 6,
+          "target": 41,
           "unit": null
         },
         {
@@ -9587,10 +9997,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
-          "current": 1,
-          "target": 19,
+          "current": 2,
+          "target": 20,
           "unit": null
         },
         {
@@ -9598,10 +10008,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -9609,10 +10019,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -9620,14 +10030,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
-          "current": 19,
-          "target": 145,
+          "current": 21,
+          "target": 149,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 19,
+      "achievementsUnlocked": 21,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -9760,6 +10170,50 @@
       ],
       "bestWeaponVarietyInMap": 4,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/mohdm2",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/aftermath2",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/dm_rockbound",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 2,
+          "victimsCount": 7,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm3",
+          "weaponsCount": 4,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/aquaduct-dark",
+          "weaponsCount": 4,
+          "victimsCount": 8,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/arab_streets",
+          "weaponsCount": 2,
+          "victimsCount": 4,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 3,
@@ -10676,6 +11130,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -11427,10 +11925,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
-          "current": 13,
-          "target": 41,
+          "current": 14,
+          "target": 42,
           "unit": null
         },
         {
@@ -11438,10 +11936,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
-          "current": 13,
-          "target": 82,
+          "current": 14,
+          "target": 84,
           "unit": null
         },
         {
@@ -11471,10 +11969,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
-          "current": 4,
-          "target": 40,
+          "current": 5,
+          "target": 41,
           "unit": null
         },
         {
@@ -11482,10 +11980,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -11493,10 +11991,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -11504,10 +12002,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -11515,14 +12013,14 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
-          "current": 13,
-          "target": 145,
+          "current": 14,
+          "target": 149,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 13,
+      "achievementsUnlocked": 14,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -11622,6 +12120,20 @@
       ],
       "bestWeaponVarietyInMap": 2,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 2,
+          "victimsCount": 6,
+          "humanVictimsCount": 4
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 1,
+          "victimsCount": 8,
+          "humanVictimsCount": 5
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
@@ -12546,6 +13058,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -13298,10 +13854,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 8,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -13309,10 +13865,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 8,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -13342,10 +13898,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -13353,10 +13909,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -13364,10 +13920,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -13375,10 +13931,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -13386,10 +13942,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 8,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -13498,6 +14054,26 @@
       ],
       "bestWeaponVarietyInMap": 1,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/amw_caskami_01",
+          "weaponsCount": 1,
+          "victimsCount": 3,
+          "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 1,
+          "victimsCount": 5,
+          "humanVictimsCount": 4
+        },
+        {
+          "map": "dm/amw_caskami_02",
+          "weaponsCount": 1,
+          "victimsCount": 5,
+          "humanVictimsCount": 2
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
@@ -14377,6 +14953,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -15129,10 +15749,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 7,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -15140,10 +15760,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 7,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -15173,10 +15793,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -15184,10 +15804,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -15195,10 +15815,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -15206,10 +15826,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -15217,10 +15837,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 7,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -15354,6 +15974,50 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/dm_desperatevillage",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/mohdm2",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/schatten",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/mohdm6",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/questufou_s_yvette",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/nato_dust_tdm",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/belgas74",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 1,
       "maxWinsInDay": 2,
@@ -16266,6 +16930,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -17017,10 +17725,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 12,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -17028,10 +17736,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 12,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -17061,10 +17769,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 2,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -17072,10 +17780,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -17083,10 +17791,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -17094,10 +17802,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -17105,10 +17813,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 12,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -17211,6 +17919,20 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/questufou_s_yvette",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/nato_dust_tdm",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
@@ -18086,6 +18808,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -18837,10 +19603,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 9,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -18848,10 +19614,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 9,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -18881,10 +19647,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -18892,10 +19658,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -18903,10 +19669,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -18914,10 +19680,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -18925,10 +19691,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 9,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -19026,6 +19792,14 @@
       ],
       "bestWeaponVarietyInMap": 2,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/mohdm7",
+          "weaponsCount": 2,
+          "victimsCount": 7,
+          "humanVictimsCount": 1
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
@@ -19889,6 +20663,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -20641,10 +21459,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -20652,10 +21470,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -20685,10 +21503,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -20696,10 +21514,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -20707,10 +21525,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -20718,10 +21536,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -20729,10 +21547,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 3,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -20825,6 +21643,14 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/mohdm6",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
@@ -21632,6 +22458,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -22383,10 +23253,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 2,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -22394,10 +23264,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 2,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -22427,10 +23297,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -22438,10 +23308,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -22449,10 +23319,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -22460,10 +23330,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -22471,10 +23341,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 2,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -22576,6 +23446,20 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/questufou_s_yvette",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/nato_dust_tdm",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
@@ -23415,6 +24299,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -24166,10 +25094,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -24177,10 +25105,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -24210,10 +25138,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 0,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -24221,10 +25149,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -24232,10 +25160,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -24243,10 +25171,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -24254,10 +25182,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 3,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -24347,6 +25275,14 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/dm_desperatevillage",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
@@ -25158,6 +26094,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -25909,10 +26889,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -25920,10 +26900,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 3,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -25953,10 +26933,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 1,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -25964,10 +26944,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 0,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -25975,10 +26955,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -25986,10 +26966,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -25997,10 +26977,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 3,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -26120,6 +27100,38 @@
       ],
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/mohdm6",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/harbor",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/dm_stanalie",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/questufou_s_yvette",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/nato_dust_tdm",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        }
+      ],
       "activeDaysCount": 1,
       "maxMapWins": 1,
       "maxWinsInDay": 3,
@@ -27044,6 +28056,50 @@
           "unit": null
         },
         {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
           "id": "warlord",
           "tier": "B",
           "icon": "🏴",
@@ -27795,10 +28851,10 @@
           "tier": "A",
           "icon": "🗂️",
           "name": "Coleccionista de Logros",
-          "desc": "Desbloquea 41 o más logros distintos",
+          "desc": "Desbloquea 42 o más logros distintos",
           "unlocked": false,
           "current": 11,
-          "target": 41,
+          "target": 42,
           "unit": null
         },
         {
@@ -27806,10 +28862,10 @@
           "tier": "Σ",
           "icon": "📚",
           "name": "Completista",
-          "desc": "Desbloquea 82 o más logros distintos",
+          "desc": "Desbloquea 84 o más logros distintos",
           "unlocked": false,
           "current": 11,
-          "target": 82,
+          "target": 84,
           "unit": null
         },
         {
@@ -27839,10 +28895,10 @@
           "tier": "B",
           "icon": "🎖️",
           "name": "Maestro del Nivel B",
-          "desc": "Desbloquea los 40 logros del nivel B",
+          "desc": "Desbloquea los 41 logros del nivel B",
           "unlocked": false,
           "current": 2,
-          "target": 40,
+          "target": 41,
           "unit": null
         },
         {
@@ -27850,10 +28906,10 @@
           "tier": "A",
           "icon": "🎖️",
           "name": "Maestro del Nivel A",
-          "desc": "Desbloquea los 19 logros del nivel A",
+          "desc": "Desbloquea los 20 logros del nivel A",
           "unlocked": false,
           "current": 1,
-          "target": 19,
+          "target": 20,
           "unit": null
         },
         {
@@ -27861,10 +28917,10 @@
           "tier": "S",
           "icon": "🎖️",
           "name": "Maestro del Nivel S",
-          "desc": "Desbloquea los 17 logros del nivel S",
+          "desc": "Desbloquea los 18 logros del nivel S",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -27872,10 +28928,10 @@
           "tier": "Σ",
           "icon": "🎖️",
           "name": "Maestro del Nivel Σ",
-          "desc": "Desbloquea los 17 logros del nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
           "unlocked": false,
           "current": 0,
-          "target": 17,
+          "target": 18,
           "unit": null
         },
         {
@@ -27883,10 +28939,10 @@
           "tier": "Σ",
           "icon": "👑",
           "name": "Leyenda Absoluta",
-          "desc": "Desbloquea absolutamente todos los demás logros del servidor (145)",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (149)",
           "unlocked": false,
           "current": 11,
-          "target": 145,
+          "target": 149,
           "unit": null
         }
       ],
@@ -28183,7 +29239,7 @@
     {
       "map": "dm/aa_hometown",
       "timesPlayed": 9,
-      "totalKills": 3385,
+      "totalKills": 3386,
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
@@ -28264,7 +29320,7 @@
     {
       "map": "dm/aftermath2",
       "timesPlayed": 9,
-      "totalKills": 1936,
+      "totalKills": 2318,
       "connectedHumans": [
         {
           "name": "Soldado Ryan",
@@ -28528,8 +29584,8 @@
     },
     {
       "map": "dm/dm_rockbound",
-      "timesPlayed": 8,
-      "totalKills": 1216,
+      "timesPlayed": 9,
+      "totalKills": 1339,
       "connectedHumans": [
         {
           "name": "Soldado Ryan",
@@ -28537,7 +29593,7 @@
         }
       ],
       "winners": [
-        "=MB= .TenZ"
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -30318,10 +31374,46 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-13 07:09:00"
+    "last": "2026-07-13 07:23:58"
   },
-  "generatedAt": "2026-07-13T11:09:01.146Z",
+  "generatedAt": "2026-07-13T11:24:01.182Z",
   "achievementFeed": [
+    {
+      "name": "Soldado Ryan",
+      "achId": "combate_versatil",
+      "achName": "Combate Versátil",
+      "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+      "tier": "B",
+      "icon": "🔀",
+      "ts": "2026-07-13T11:24:01.187Z"
+    },
+    {
+      "name": "Mr.Sipi",
+      "achId": "arsenal_en_accion",
+      "achName": "Arsenal en Acción",
+      "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+      "tier": "A",
+      "icon": "🎯",
+      "ts": "2026-07-13T11:24:01.187Z"
+    },
+    {
+      "name": "Mr.Sipi",
+      "achId": "combate_versatil",
+      "achName": "Combate Versátil",
+      "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+      "tier": "B",
+      "icon": "🔀",
+      "ts": "2026-07-13T11:24:01.187Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "combate_versatil",
+      "achName": "Combate Versátil",
+      "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+      "tier": "B",
+      "icon": "🔀",
+      "ts": "2026-07-13T11:24:01.187Z"
+    },
     {
       "name": "[ Victory ] - Reflexito",
       "achId": "eficiente",
@@ -30644,42 +31736,6 @@
       "desc": "Consigue 20 o más kills contra humanos con 10 o menos muertes",
       "tier": "B",
       "icon": "🥈",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "untouchable",
-      "achName": "Intocable",
-      "desc": "Termina con K/D de 3.0 o más (mínimo 20 kills contra humanos)",
-      "tier": "B",
-      "icon": "🛡️",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "berserker",
-      "achName": "Berserker",
-      "desc": "Logra un combo de 5 o más kills seguidos",
-      "tier": "B",
-      "icon": "💢",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "multi_kill",
-      "achName": "Multikill",
-      "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
-      "tier": "D",
-      "icon": "⚡",
-      "ts": "2026-07-13T03:54:00.635Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "first_blood",
-      "achName": "Primera Sangre",
-      "desc": "Consigue tu primera eliminación",
-      "tier": "D",
-      "icon": "🔫",
       "ts": "2026-07-13T03:54:00.635Z"
     }
   ]
