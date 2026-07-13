@@ -26090,12 +26090,17 @@
     {
       "name": "UnnamedSoldier",
       "ips": [
-        "26.84.5.24"
+        "26.84.5.24",
+        "190.231.224.186"
       ],
       "ipHistory": {
         "26.84.5.24": {
           "first": "2026-07-12 13:04:26",
           "last": "2026-07-12 13:04:26"
+        },
+        "190.231.224.186": {
+          "first": "2026-07-13 10:03:48",
+          "last": "2026-07-13 10:03:48"
         }
       },
       "kills": 0,
@@ -26121,9 +26126,9 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 1,
-      "disconnects": 0,
-      "playtimeMs": 8374000,
+      "sessions": 2,
+      "disconnects": 1,
+      "playtimeMs": 8376000,
       "playtimeFormatted": "2h 20m",
       "favoriteHour": "13:00",
       "hourActivity": [
@@ -26137,7 +26142,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0,
         5,
@@ -26170,7 +26175,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 1,
+      "activeDaysCount": 2,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
       "bestMapWinStreak": 1,
@@ -26192,6 +26197,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 2,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 0,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -26222,7 +26229,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-12 13:04:26",
-      "lastSeen": "2026-07-12 13:05:50",
+      "lastSeen": "2026-07-13 10:03:50",
       "rank": 14,
       "topPlayerName": "=MB= El_Chacal",
       "achievements": [
@@ -26452,7 +26459,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 3,
           "unit": null
         },
@@ -26713,7 +26720,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 10,
           "unit": null
         },
@@ -26724,7 +26731,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -26746,7 +26753,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 50,
           "unit": null
         },
@@ -26757,7 +26764,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 75,
           "unit": null
         },
@@ -26856,7 +26863,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 24,
           "unit": null
         },
@@ -27054,6 +27061,7 @@
           "name": "Primero en Combate",
           "desc": "Consigue el primer kill de la partida 5 o más veces",
           "unlocked": false,
+          "current": 0,
           "target": 5,
           "unit": null
         },
@@ -27064,6 +27072,7 @@
           "name": "Rey del Primer Golpe",
           "desc": "Consigue el primer kill de la partida 20 o más veces",
           "unlocked": false,
+          "current": 0,
           "target": 20,
           "unit": null
         },
@@ -27074,6 +27083,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": false,
+          "current": 0,
           "target": 5,
           "unit": null
         },
@@ -27084,6 +27094,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": false,
+          "current": 0,
           "target": 25,
           "unit": null
         },
@@ -27698,7 +27709,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 100,
           "unit": null
         },
@@ -27709,7 +27720,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 200,
           "unit": null
         },
@@ -30265,8 +30276,8 @@
     },
     {
       "map": "dm/amw_caskami_01",
-      "timesPlayed": 12,
-      "totalKills": 2700,
+      "timesPlayed": 13,
+      "totalKills": 3116,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -30431,6 +30442,44 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mohdm1",
+      "timesPlayed": 11,
+      "totalKills": 1621,
+      "connectedHumans": [
+        {
+          "name": "CaPaRz0",
+          "kills": 33
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 20
+        },
+        {
+          "name": "Roly",
+          "kills": 17
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 12
+        },
+        {
+          "name": "SANDY",
+          "kills": 12
+        },
+        {
+          "name": "Diego BAD",
+          "kills": 11
+        }
+      ],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/amw_caskami_02",
       "timesPlayed": 10,
       "totalKills": 1588,
@@ -30485,44 +30534,6 @@
       ],
       "winners": [
         "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/mohdm1",
-      "timesPlayed": 10,
-      "totalKills": 1527,
-      "connectedHumans": [
-        {
-          "name": "CaPaRz0",
-          "kills": 33
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 20
-        },
-        {
-          "name": "Roly",
-          "kills": 17
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 12
-        },
-        {
-          "name": "SANDY",
-          "kills": 12
-        },
-        {
-          "name": "Diego BAD",
-          "kills": 11
-        }
-      ],
-      "winners": [
-        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -32366,6 +32377,20 @@
         "action": "disconnect",
         "count": 7,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-07-13 10:03:48",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 8,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-07-13 10:03:50",
+        "name": "UnnamedSoldier",
+        "action": "disconnect",
+        "count": 7,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 13,
@@ -32388,9 +32413,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-13 08:30:41"
+    "last": "2026-07-13 10:08:57"
   },
-  "generatedAt": "2026-07-13T13:54:00.350Z",
+  "generatedAt": "2026-07-13T14:09:00.231Z",
   "achievementFeed": [
     {
       "name": "SANDY",
