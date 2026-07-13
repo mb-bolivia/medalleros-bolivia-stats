@@ -4270,8 +4270,8 @@
       "worstDeathStreak": 0,
       "firstBloodOfMapCount": 0,
       "revengeKills": 15,
-      "verified": false,
-      "verificationDaysLeft": 14,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= El_Chacal",
@@ -6003,7 +6003,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -6014,7 +6014,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -6092,7 +6092,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 23,
+          "current": 25,
           "target": 44,
           "unit": null
         },
@@ -6103,7 +6103,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 23,
+          "current": 25,
           "target": 88,
           "unit": null
         },
@@ -6125,7 +6125,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 33,
           "unit": null
         },
@@ -6136,7 +6136,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 42,
           "unit": null
         },
@@ -6180,12 +6180,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 23,
+          "current": 25,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 23,
+      "achievementsUnlocked": 25,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -6409,8 +6409,8 @@
       "worstDeathStreak": 4,
       "firstBloodOfMapCount": 1,
       "revengeKills": 12,
-      "verified": false,
-      "verificationDaysLeft": 15,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= El_Chacal",
@@ -8115,7 +8115,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -8126,7 +8126,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -8204,7 +8204,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 17,
+          "current": 19,
           "target": 44,
           "unit": null
         },
@@ -8215,7 +8215,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 17,
+          "current": 19,
           "target": 88,
           "unit": null
         },
@@ -8237,7 +8237,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 33,
           "unit": null
         },
@@ -8248,7 +8248,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 42,
           "unit": null
         },
@@ -8292,12 +8292,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 17,
+          "current": 19,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 17,
+      "achievementsUnlocked": 19,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -32390,8 +32390,44 @@
     "first": "2026-07-11 00:37:47",
     "last": "2026-07-13 08:30:41"
   },
-  "generatedAt": "2026-07-13T13:09:00.340Z",
+  "generatedAt": "2026-07-13T13:24:00.317Z",
   "achievementFeed": [
+    {
+      "name": "SANDY",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-13T13:24:00.322Z"
+    },
+    {
+      "name": "SANDY",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-13T13:24:00.322Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-13T13:24:00.322Z"
+    },
+    {
+      "name": "CaPaRz0",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-13T13:24:00.322Z"
+    },
     {
       "name": "Francotirador",
       "achId": "guardian_del_nick",
@@ -32714,42 +32750,6 @@
       "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
       "tier": "D",
       "icon": "🥉",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "double_shift",
-      "achName": "Doble Turno",
-      "desc": "Registra kills tanto de madrugada (00-05h) como en horario pico (18-23h)",
-      "tier": "B",
-      "icon": "🌗",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "dominator",
-      "achName": "Dominador",
-      "desc": "Gana 3 o más mapas",
-      "tier": "A",
-      "icon": "🏆",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "ghost",
-      "achName": "Fantasma",
-      "desc": "Logra una racha de 15 o más kills sin morir",
-      "tier": "A",
-      "icon": "👻",
-      "ts": "2026-07-13T11:09:01.152Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "one_man_army",
-      "achName": "Ejército de un Hombre",
-      "desc": "Alcanza K/D 2.0+ con 40 o más kills contra humanos",
-      "tier": "A",
-      "icon": "🪖",
       "ts": "2026-07-13T11:09:01.152Z"
     }
   ]
