@@ -34389,7 +34389,7 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 2,
-      "disconnects": 1,
+      "disconnects": 2,
       "playtimeMs": 8376000,
       "playtimeFormatted": "2h 20m",
       "favoriteHour": "13:00",
@@ -34406,7 +34406,7 @@
         0,
         2,
         0,
-        0,
+        1,
         5,
         0,
         0,
@@ -34437,7 +34437,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 2,
+      "activeDaysCount": 3,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
       "bestMapWinStreak": 1,
@@ -34491,7 +34491,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-12 13:04:26",
-      "lastSeen": "2026-07-13 10:03:50",
+      "lastSeen": "2026-07-14 12:41:01",
       "rank": 18,
       "topPlayerName": "=MB= El_Chacal",
       "achievements": [
@@ -34720,8 +34720,8 @@
           "icon": "📆",
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
-          "unlocked": false,
-          "current": 2,
+          "unlocked": true,
+          "current": 3,
           "target": 3,
           "unit": null
         },
@@ -35125,7 +35125,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 24,
           "unit": null
         },
@@ -36114,7 +36114,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 44,
           "unit": null
         },
@@ -36125,7 +36125,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 88,
           "unit": null
         },
@@ -36158,7 +36158,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 42,
           "unit": null
         },
@@ -36202,12 +36202,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 3,
+      "achievementsUnlocked": 4,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -38457,7 +38457,8 @@
     "dm/bridges",
     "dm/buchholz",
     "dm/buck_tdm",
-    "dm/BunkerAttack"
+    "dm/BunkerAttack",
+    "dm/canaltown"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -39514,6 +39515,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/buck_tdm",
+      "timesPlayed": 2,
+      "totalKills": 427,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/CentralEurope",
       "timesPlayed": 2,
       "totalKills": 422,
@@ -39901,19 +39915,6 @@
       "winners": [
         "=MB= .Vasily",
         "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/buck_tdm",
-      "timesPlayed": 1,
-      "totalKills": 227,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -41750,6 +41751,17 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/canaltown",
+      "timesPlayed": 0,
+      "totalKills": 0,
+      "connectedHumans": [],
+      "winners": [],
+      "winnersAreBots": false,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     }
   ],
   "rivalries": [
@@ -42608,10 +42620,19 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 12:33:58"
+    "last": "2026-07-14 12:41:01"
   },
-  "generatedAt": "2026-07-14T16:34:00.453Z",
+  "generatedAt": "2026-07-14T16:44:00.462Z",
   "achievementFeed": [
+    {
+      "name": "UnnamedSoldier",
+      "achId": "persistent",
+      "achName": "Persistente",
+      "desc": "Juega en 3 o más días distintos",
+      "tier": "B",
+      "icon": "📆",
+      "ts": "2026-07-14T16:44:00.469Z"
+    },
     {
       "name": "MOH-Rugrats.ar",
       "achId": "guardian_del_nick",
@@ -42961,15 +42982,6 @@
       "desc": "Elimina al menos una vez al jugador #1 del ranking general",
       "tier": "S",
       "icon": "🗡️",
-      "ts": "2026-07-14T09:06:06.968Z"
-    },
-    {
-      "name": "MB_Axis_Aliado",
-      "achId": "devastador",
-      "achName": "Devastador",
-      "desc": "Promedia 20 o más frags por mapa",
-      "tier": "B",
-      "icon": "📊",
       "ts": "2026-07-14T09:06:06.968Z"
     }
   ]
