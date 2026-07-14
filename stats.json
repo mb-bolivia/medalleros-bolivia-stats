@@ -34300,7 +34300,9 @@
     "dm/mp_kasserine_dm",
     "dm/MP_Malta_DM",
     "dm/mp_monteBattaglia_dm",
-    "dm/mp_ship_dm"
+    "dm/mp_ship_dm",
+    "dm/MP_Stadt_DM",
+    "dm/MP_Unterseite_DM"
   ],
   "weaponRankings": {
     "Pistol": [],
@@ -35717,6 +35719,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mp_ship_dm",
+      "timesPlayed": 1,
+      "totalKills": 186,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/city_nights_mog",
       "timesPlayed": 3,
       "totalKills": 181,
@@ -35892,6 +35907,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/MP_Stadt_DM",
+      "timesPlayed": 1,
+      "totalKills": 131,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -36533,12 +36561,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mp_ship_dm",
-      "timesPlayed": 1,
-      "totalKills": 27,
+      "map": "dm/dm_rustinpeace",
+      "timesPlayed": 2,
+      "totalKills": 15,
       "connectedHumans": [],
       "winners": [
-        "=MB= .ZywOo"
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -36546,11 +36574,17 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_rustinpeace",
-      "timesPlayed": 2,
-      "totalKills": 15,
+      "map": "dm/MP_Unterseite_DM",
+      "timesPlayed": 1,
+      "totalKills": 7,
       "connectedHumans": [],
       "winners": [
+        "=MB= .Lyudmila",
+        "=MB= .Fatal1ty",
+        "=MB= .ZywOo",
+        "=MB= .TenZ",
+        "=MB= .S1mple",
+        "=MB= .Ogre2",
         "=MB= .Vasily"
       ],
       "winnersAreBots": true,
@@ -37481,9 +37515,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 03:14:00"
+    "last": "2026-07-14 03:23:59"
   },
-  "generatedAt": "2026-07-14T07:14:00.797Z",
+  "generatedAt": "2026-07-14T07:24:00.815Z",
   "achievementFeed": [
     {
       "name": "RaYKo",
