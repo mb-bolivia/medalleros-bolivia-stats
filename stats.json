@@ -38437,7 +38437,9 @@
     "dm/AxisS_SG_DM",
     "dm/bhcity",
     "dm/BK_town",
-    "dm/bridges"
+    "dm/bridges",
+    "dm/buchholz",
+    "dm/buck_tdm"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -40079,6 +40081,20 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/buck_tdm",
+      "timesPlayed": 1,
+      "totalKills": 183,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila",
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/stomp",
       "timesPlayed": 1,
       "totalKills": 182,
@@ -40712,6 +40728,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/buchholz",
+      "timesPlayed": 1,
+      "totalKills": 111,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -41463,12 +41492,13 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/bob_carentan",
-      "timesPlayed": 2,
-      "totalKills": 51,
+      "map": "dm/bridges",
+      "timesPlayed": 1,
+      "totalKills": 53,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Scump"
+        "=MB= .ZywOo",
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -41476,12 +41506,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/bridges",
-      "timesPlayed": 1,
-      "totalKills": 46,
+      "map": "dm/bob_carentan",
+      "timesPlayed": 2,
+      "totalKills": 51,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Vasily"
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -42536,9 +42566,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 11:03:57"
+    "last": "2026-07-14 11:13:59"
   },
-  "generatedAt": "2026-07-14T15:04:00.333Z",
+  "generatedAt": "2026-07-14T15:14:00.347Z",
   "achievementFeed": [
     {
       "name": "diet",
