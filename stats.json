@@ -22902,8 +22902,8 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 6,
-      "verified": false,
-      "verificationDaysLeft": 13,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= .Lyudmila",
@@ -24563,7 +24563,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -24574,7 +24574,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -24652,7 +24652,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 44,
           "unit": null
         },
@@ -24663,7 +24663,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 88,
           "unit": null
         },
@@ -24685,7 +24685,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 33,
           "unit": null
         },
@@ -24696,7 +24696,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 42,
           "unit": null
         },
@@ -24740,12 +24740,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 11,
+      "achievementsUnlocked": 13,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -38464,7 +38464,9 @@
     "dm/clair2lune_LVB",
     "dm/crazyness",
     "dm/DerAdler",
-    "dm/despair"
+    "dm/despair",
+    "dm/dm_badeinsel_steinhude_1985",
+    "dm/dm_bahnhof_steinhude_1939"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -40465,6 +40467,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/despair",
+      "timesPlayed": 1,
+      "totalKills": 134,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/MP_Brest_DM",
       "timesPlayed": 1,
       "totalKills": 132,
@@ -41337,19 +41352,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/despair",
-      "timesPlayed": 1,
-      "totalKills": 81,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/Daylight",
       "timesPlayed": 1,
       "totalKills": 78,
@@ -41548,6 +41550,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_badeinsel_steinhude_1985",
+      "timesPlayed": 1,
+      "totalKills": 57,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/sahara",
       "timesPlayed": 1,
       "totalKills": 54,
@@ -41594,6 +41609,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/dm_bahnhof_steinhude_1939",
+      "timesPlayed": 1,
+      "totalKills": 36,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -42703,10 +42731,28 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 13:14:00"
+    "last": "2026-07-14 13:23:59"
   },
-  "generatedAt": "2026-07-14T17:14:00.491Z",
+  "generatedAt": "2026-07-14T17:24:00.564Z",
   "achievementFeed": [
+    {
+      "name": "Machete",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-14T17:24:00.573Z"
+    },
+    {
+      "name": "Machete",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-14T17:24:00.573Z"
+    },
     {
       "name": "UnnamedSoldier",
       "achId": "persistent",
@@ -43048,24 +43094,6 @@
       "tier": "S",
       "icon": "🐐",
       "ts": "2026-07-14T09:14:00.968Z"
-    },
-    {
-      "name": "UnnamedSoldier",
-      "achId": "first_blood",
-      "achName": "Primera Sangre",
-      "desc": "Consigue tu primera eliminación",
-      "tier": "D",
-      "icon": "🔫",
-      "ts": "2026-07-14T09:06:06.968Z"
-    },
-    {
-      "name": "Brave Chicken",
-      "achId": "cazador_de_gigantes",
-      "achName": "Cazador de Gigantes",
-      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
-      "tier": "S",
-      "icon": "🗡️",
-      "ts": "2026-07-14T09:06:06.968Z"
     }
   ]
 }
