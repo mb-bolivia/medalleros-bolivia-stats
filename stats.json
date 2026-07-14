@@ -38439,7 +38439,8 @@
     "dm/BK_town",
     "dm/bridges",
     "dm/buchholz",
-    "dm/buck_tdm"
+    "dm/buck_tdm",
+    "dm/BunkerAttack"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -39884,6 +39885,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/buck_tdm",
+      "timesPlayed": 1,
+      "totalKills": 227,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/toysoldiers",
       "timesPlayed": 1,
       "totalKills": 220,
@@ -40073,20 +40087,6 @@
       "totalKills": 186,
       "connectedHumans": [],
       "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/buck_tdm",
-      "timesPlayed": 1,
-      "totalKills": 183,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila",
         "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
@@ -41708,6 +41708,17 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
+    },
+    {
+      "map": "dm/BunkerAttack",
+      "timesPlayed": 0,
+      "totalKills": 0,
+      "connectedHumans": [],
+      "winners": [],
+      "winnersAreBots": false,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     }
   ],
   "rivalries": [
@@ -42566,9 +42577,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 11:13:59"
+    "last": "2026-07-14 11:15:22"
   },
-  "generatedAt": "2026-07-14T15:14:00.347Z",
+  "generatedAt": "2026-07-14T15:24:00.360Z",
   "achievementFeed": [
     {
       "name": "diet",
