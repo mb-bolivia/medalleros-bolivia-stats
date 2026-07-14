@@ -38289,7 +38289,7 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 0,
-      "disconnects": 0,
+      "disconnects": 1,
       "playtimeMs": 0,
       "playtimeFormatted": "0h 0m",
       "favoriteHour": "14:00",
@@ -38308,7 +38308,7 @@
         0,
         0,
         0,
-        2,
+        3,
         0,
         0,
         0,
@@ -38383,7 +38383,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-14 14:03:56",
-      "lastSeen": "2026-07-14 14:03:56",
+      "lastSeen": "2026-07-14 14:04:00",
       "rank": 20,
       "topPlayerName": "=MB= El_Chacal",
       "achievements": [
@@ -40341,7 +40341,9 @@
     "dm/dmleville",
     "dm/dmSt_FiRM",
     "dm/dmworldcup",
-    "dm/dmxfire"
+    "dm/dmxfire",
+    "dm/El_Foso",
+    "dm/geschutze"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -42581,6 +42583,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dmxfire",
+      "timesPlayed": 1,
+      "totalKills": 117,
+      "connectedHumans": [
+        {
+          "name": "'Caza-fantasmas'",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mp_monteBattaglia_dm",
       "timesPlayed": 1,
       "totalKills": 116,
@@ -42852,6 +42872,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/El_Foso",
+      "timesPlayed": 1,
+      "totalKills": 106,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -43605,26 +43638,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dmxfire",
-      "timesPlayed": 1,
-      "totalKills": 9,
-      "connectedHumans": [
-        {
-          "name": "'Caza-fantasmas'",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Lyudmila",
-        "=MB= .Scump",
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/chateauvieux",
       "timesPlayed": 1,
       "totalKills": 8,
@@ -43851,6 +43864,17 @@
     },
     {
       "map": "dm/dmleville",
+      "timesPlayed": 0,
+      "totalKills": 0,
+      "connectedHumans": [],
+      "winners": [],
+      "winnersAreBots": false,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/geschutze",
       "timesPlayed": 0,
       "totalKills": 0,
       "connectedHumans": [],
@@ -44717,9 +44741,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 14:03:58"
+    "last": "2026-07-14 14:13:59"
   },
-  "generatedAt": "2026-07-14T18:04:00.587Z",
+  "generatedAt": "2026-07-14T18:14:00.624Z",
   "achievementFeed": [
     {
       "name": "Machete",
