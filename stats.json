@@ -38429,7 +38429,9 @@
     "dm/AC_Battlefield",
     "dm/africannights",
     "dm/amw_caskami_03",
-    "dm/Angryfields"
+    "dm/Angryfields",
+    "dm/AR_Berlin_V1",
+    "dm/ardennes1944"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -40909,6 +40911,20 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/AR_Berlin_V1",
+      "timesPlayed": 1,
+      "totalKills": 100,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila",
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/MP_Bahnhof_DM",
       "timesPlayed": 1,
       "totalKills": 99,
@@ -41566,6 +41582,17 @@
     },
     {
       "map": "dm/Angryfields",
+      "timesPlayed": 0,
+      "totalKills": 0,
+      "connectedHumans": [],
+      "winners": [],
+      "winnersAreBots": false,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/ardennes1944",
       "timesPlayed": 0,
       "totalKills": 0,
       "connectedHumans": [],
@@ -42432,9 +42459,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 08:12:49"
+    "last": "2026-07-14 08:23:19"
   },
-  "generatedAt": "2026-07-14T12:14:01.146Z",
+  "generatedAt": "2026-07-14T12:24:01.161Z",
   "achievementFeed": [
     {
       "name": "diet",
