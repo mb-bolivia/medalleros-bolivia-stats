@@ -40344,7 +40344,9 @@
     "dm/dmxfire",
     "dm/El_Foso",
     "dm/geschutze",
-    "dm/la_patrouille"
+    "dm/la_patrouille",
+    "dm/le_depot",
+    "dm/le_depot_de_nuit"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -42440,6 +42442,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/la_patrouille",
+      "timesPlayed": 1,
+      "totalKills": 128,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/Arnhem",
       "timesPlayed": 1,
       "totalKills": 127,
@@ -42564,19 +42579,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/la_patrouille",
-      "timesPlayed": 1,
-      "totalKills": 118,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -43679,6 +43681,33 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/le_depot",
+      "timesPlayed": 1,
+      "totalKills": 8,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/le_depot_de_nuit",
+      "timesPlayed": 1,
+      "totalKills": 8,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ",
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/clair2lune_LVB",
       "timesPlayed": 1,
       "totalKills": 7,
@@ -44758,9 +44787,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-14 14:23:57"
+    "last": "2026-07-14 14:31:03"
   },
-  "generatedAt": "2026-07-14T18:24:00.609Z",
+  "generatedAt": "2026-07-14T18:34:00.626Z",
   "achievementFeed": [
     {
       "name": "Machete",
