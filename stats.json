@@ -16575,7 +16575,7 @@
         },
         "26.82.169.89": {
           "first": "2026-07-15 22:57:24",
-          "last": "2026-07-16 16:13:47"
+          "last": "2026-07-16 16:19:18"
         }
       },
       "kills": 54,
@@ -16613,9 +16613,9 @@
       },
       "multikillEvents": 19,
       "bestMultikillChain": 8,
-      "sessions": 13,
-      "disconnects": 10,
-      "playtimeMs": 12011000,
+      "sessions": 14,
+      "disconnects": 11,
+      "playtimeMs": 12021000,
       "playtimeFormatted": "3h 20m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -16635,7 +16635,7 @@
         0,
         0,
         55,
-        23,
+        25,
         2,
         0,
         0,
@@ -17124,7 +17124,7 @@
         }
       ],
       "firstSeen": "2026-07-11 01:34:30",
-      "lastSeen": "2026-07-16 16:13:47",
+      "lastSeen": "2026-07-16 16:19:28",
       "rank": 8,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -17615,7 +17615,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 13,
+          "current": 14,
           "target": 10,
           "unit": null
         },
@@ -17626,7 +17626,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 30,
           "unit": null
         },
@@ -17648,7 +17648,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 50,
           "unit": null
         },
@@ -17659,7 +17659,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 75,
           "unit": null
         },
@@ -18604,7 +18604,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 100,
           "unit": null
         },
@@ -18615,7 +18615,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 200,
           "unit": null
         },
@@ -63269,6 +63269,40 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aquaduct-dark",
+      "timesPlayed": 14,
+      "totalKills": 3865,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 56
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 42
+        },
+        {
+          "name": "SANDY",
+          "kills": 38
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 29
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/rush_party",
       "timesPlayed": 19,
       "totalKills": 3745,
@@ -63334,40 +63368,6 @@
         {
           "name": "Diego BAD",
           "kills": 4
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/aquaduct-dark",
-      "timesPlayed": 13,
-      "totalKills": 3633,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 56
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 42
-        },
-        {
-          "name": "SANDY",
-          "kills": 38
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 29
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 3
         }
       ],
       "winners": [
@@ -67545,20 +67545,7 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Mr.Sipi",
-      "since": "2026-07-16 15:16:35"
-    },
-    {
-      "name": "MOH-Rugrats.ar",
-      "since": "2026-07-16 15:32:37"
-    },
-    {
-      "name": "SANDY",
-      "since": "2026-07-16 15:16:53"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -68848,6 +68835,41 @@
         "action": "disconnect",
         "count": 10,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 16:14:00",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 9,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 16:14:00",
+        "name": "MOH-Rugrats.ar",
+        "action": "disconnect",
+        "count": 8,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 16:14:00",
+        "name": "SANDY",
+        "action": "disconnect",
+        "count": 7,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 16:19:18",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 8,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 16:19:28",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 7,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -68882,10 +68904,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-16 16:14:00"
+    "last": "2026-07-16 16:23:59"
   },
-  "generatedAt": "2026-07-16T20:14:00.774Z",
-  "currentMap": "dm/snipersnow",
+  "generatedAt": "2026-07-16T20:24:00.778Z",
+  "currentMap": "dm/aquaduct-dark",
   "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
   "achievementFeed": [
     {
