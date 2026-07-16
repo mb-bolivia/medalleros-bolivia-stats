@@ -39315,7 +39315,7 @@
       "multikillEvents": 5,
       "bestMultikillChain": 2,
       "sessions": 1,
-      "disconnects": 2,
+      "disconnects": 3,
       "playtimeMs": 2000,
       "playtimeFormatted": "0h 0m",
       "favoriteHour": "21:00",
@@ -39340,7 +39340,7 @@
         0,
         0,
         0,
-        0,
+        1,
         61,
         2,
         0
@@ -39387,7 +39387,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 2,
+      "activeDaysCount": 3,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -39489,7 +39489,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-11 22:43:24",
-      "lastSeen": "2026-07-13 21:38:13",
+      "lastSeen": "2026-07-15 20:37:46",
       "rank": 20,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -39718,8 +39718,8 @@
           "icon": "📆",
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
-          "unlocked": false,
-          "current": 2,
+          "unlocked": true,
+          "current": 3,
           "target": 3,
           "unit": null
         },
@@ -40123,7 +40123,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 24,
           "unit": null
         },
@@ -41112,7 +41112,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 44,
           "unit": null
         },
@@ -41123,7 +41123,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 88,
           "unit": null
         },
@@ -41156,7 +41156,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 42,
           "unit": null
         },
@@ -41200,12 +41200,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 6,
+      "achievementsUnlocked": 7,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -51696,6 +51696,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_thunder-2",
+      "timesPlayed": 4,
+      "totalKills": 300,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/NightRaid",
       "timesPlayed": 2,
       "totalKills": 297,
@@ -51807,19 +51820,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_thunder-2",
-      "timesPlayed": 4,
-      "totalKills": 283,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -52362,6 +52362,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/daylight",
+      "timesPlayed": 3,
+      "totalKills": 170,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/doomed",
       "timesPlayed": 3,
       "totalKills": 161,
@@ -52622,6 +52635,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/deadendstreet",
+      "timesPlayed": 3,
+      "totalKills": 112,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/1Sniper_Alley",
       "timesPlayed": 1,
       "totalKills": 109,
@@ -52666,19 +52692,6 @@
       "map": "dm/dm_V2DM",
       "timesPlayed": 1,
       "totalKills": 92,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Ogre2"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/daylight",
-      "timesPlayed": 2,
-      "totalKills": 90,
       "connectedHumans": [],
       "winners": [
         "=MB= .Ogre2"
@@ -52775,19 +52788,6 @@
       "winners": [
         "=MB= .Lyudmila",
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/deadendstreet",
-      "timesPlayed": 2,
-      "totalKills": 68,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .S1mple"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -54037,10 +54037,19 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-15 20:33:58"
+    "last": "2026-07-15 20:43:59"
   },
-  "generatedAt": "2026-07-16T00:34:00.219Z",
+  "generatedAt": "2026-07-16T00:44:00.230Z",
   "achievementFeed": [
+    {
+      "name": "DsK.MeCaNiKo",
+      "achId": "persistent",
+      "achName": "Persistente",
+      "desc": "Juega en 3 o más días distintos",
+      "tier": "B",
+      "icon": "📆",
+      "ts": "2026-07-16T00:44:00.238Z"
+    },
     {
       "name": "SANDY",
       "achId": "dominator",
@@ -54390,15 +54399,6 @@
       "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
       "tier": "S",
       "icon": "😈",
-      "ts": "2026-07-15T02:54:00.368Z"
-    },
-    {
-      "name": "=MB= El_Chacal",
-      "achId": "iron_sights",
-      "achName": "Puntería de Hierro",
-      "desc": "Consigue una eliminación con Pistol",
-      "tier": "D",
-      "icon": "🎯",
       "ts": "2026-07-15T02:54:00.368Z"
     }
   ]
