@@ -62235,7 +62235,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 0,
       "verified": false,
-      "verificationDaysLeft": 11,
+      "verificationDaysLeft": 10,
       "killedByList": [
         {
           "name": "=MB= .Scump",
@@ -73438,6 +73438,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/small_village",
+      "timesPlayed": 5,
+      "totalKills": 1583,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/tdm-0815",
       "timesPlayed": 3,
       "totalKills": 1580,
@@ -73777,24 +73795,6 @@
       ],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/small_village",
-      "timesPlayed": 4,
-      "totalKills": 1168,
-      "connectedHumans": [
-        {
-          "name": "Mr.Sipi",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -77204,16 +77204,7 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Mr.Sipi",
-      "since": "2026-07-17 12:36:59"
-    },
-    {
-      "name": "Francotirador",
-      "since": "2026-07-17 13:03:51"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -78972,6 +78963,20 @@
         "action": "connect",
         "count": 9,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-07-17 13:03:59",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 8,
+        "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-07-17 13:03:59",
+        "name": "Francotirador",
+        "action": "disconnect",
+        "count": 7,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 15,
@@ -79010,11 +79015,11 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-17 13:03:59"
+    "last": "2026-07-17 13:13:59"
   },
-  "generatedAt": "2026-07-17T17:04:00.406Z",
-  "currentMap": "dm/railwayassault",
-  "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
+  "generatedAt": "2026-07-17T17:14:00.419Z",
+  "currentMap": "dm/small_village",
+  "serverName": "MEDALLEROS BOLIVIA REVIVAL VIERNES",
   "achievementFeed": [
     {
       "name": "Mr.Sipi",
