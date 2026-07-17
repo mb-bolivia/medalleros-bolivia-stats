@@ -14646,7 +14646,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 23,
       "verified": false,
-      "verificationDaysLeft": 14,
+      "verificationDaysLeft": 13,
       "killedByList": [
         {
           "name": "=MB= .Scump",
@@ -16642,9 +16642,9 @@
       "multikillEvents": 22,
       "bestMultikillChain": 8,
       "sessions": 19,
-      "disconnects": 13,
-      "playtimeMs": 15424000,
-      "playtimeFormatted": "4h 17m",
+      "disconnects": 14,
+      "playtimeMs": 15458000,
+      "playtimeFormatted": "4h 18m",
       "favoriteHour": "23:00",
       "hourActivity": [
         8,
@@ -16668,7 +16668,7 @@
         0,
         0,
         52,
-        113,
+        114,
         11,
         207
       ],
@@ -17636,7 +17636,7 @@
         }
       ],
       "firstSeen": "2026-07-11 01:34:30",
-      "lastSeen": "2026-07-16 21:53:57",
+      "lastSeen": "2026-07-16 21:54:33",
       "rank": 8,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -17723,7 +17723,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 257,
+          "current": 258,
           "target": 120,
           "unit": "min"
         },
@@ -18105,7 +18105,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 257,
+          "current": 258,
           "target": 300,
           "unit": "min"
         },
@@ -18116,7 +18116,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 257,
+          "current": 258,
           "target": 900,
           "unit": "min"
         },
@@ -19105,7 +19105,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 257,
+          "current": 258,
           "target": 2400,
           "unit": "min"
         },
@@ -67712,22 +67712,9 @@
   },
   "mapStats": [
     {
-      "map": "dm/aa_hometown",
-      "timesPlayed": 12,
-      "totalKills": 4812,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/aquaduct-dark",
-      "timesPlayed": 17,
-      "totalKills": 4566,
+      "timesPlayed": 18,
+      "totalKills": 5021,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -67755,6 +67742,19 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/aa_hometown",
+      "timesPlayed": 12,
+      "totalKills": 4812,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -72173,12 +72173,7 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Mr.Sipi",
-      "since": "2026-07-16 21:53:57"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -73636,6 +73631,13 @@
         "action": "connect",
         "count": 8,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 21:54:33",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 7,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -73670,9 +73672,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-16 21:53:59"
+    "last": "2026-07-16 22:04:00"
   },
-  "generatedAt": "2026-07-17T01:54:00.222Z",
+  "generatedAt": "2026-07-17T02:04:00.983Z",
   "currentMap": "dm/aquaduct-dark",
   "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
   "achievementFeed": [
