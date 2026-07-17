@@ -16603,13 +16603,13 @@
         },
         "26.82.169.89": {
           "first": "2026-07-15 22:57:24",
-          "last": "2026-07-16 16:19:18"
+          "last": "2026-07-16 20:43:59"
         }
       },
       "kills": 54,
       "deaths": 75,
       "totalKills": 145,
-      "totalDeaths": 198,
+      "totalDeaths": 202,
       "suicides": 6,
       "kd": 0.72,
       "totalHeadshots": 40,
@@ -16641,10 +16641,10 @@
       },
       "multikillEvents": 19,
       "bestMultikillChain": 8,
-      "sessions": 14,
+      "sessions": 15,
       "disconnects": 11,
-      "playtimeMs": 12021000,
-      "playtimeFormatted": "3h 20m",
+      "playtimeMs": 12140000,
+      "playtimeFormatted": "3h 22m",
       "favoriteHour": "23:00",
       "hourActivity": [
         8,
@@ -16667,7 +16667,7 @@
         2,
         0,
         0,
-        0,
+        5,
         0,
         11,
         207
@@ -16742,8 +16742,8 @@
         {
           "map": "dm/Osiedle",
           "kills": 6,
-          "deaths": 4,
-          "kd": 1.5
+          "deaths": 5,
+          "kd": 1.2
         },
         {
           "map": "dm/daylight",
@@ -16779,6 +16779,12 @@
           "map": "dm/aquaduct-dark",
           "kills": 0,
           "deaths": 1,
+          "kd": 0
+        },
+        {
+          "map": "dm/stalingrad_3_dm",
+          "kills": 0,
+          "deaths": 3,
           "kd": 0
         }
       ],
@@ -16892,6 +16898,12 @@
           "weaponsCount": 1,
           "victimsCount": 4,
           "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/stalingrad_3_dm",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
         }
       ],
       "activeDaysCount": 6,
@@ -16905,7 +16917,7 @@
       "chatMessages": 4,
       "botKills": 99,
       "humanKillsOnly": 54,
-      "botDeaths": 117,
+      "botDeaths": 121,
       "humanDeathsOnly": 75,
       "maxBotRivalry": 16,
       "currentTeam": "Axis",
@@ -16926,7 +16938,11 @@
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 19
+          "deaths": 21
+        },
+        {
+          "name": "=MB= .Scump",
+          "deaths": 16
         },
         {
           "name": "=MB= .Vasily",
@@ -16935,10 +16951,6 @@
         {
           "name": "=MB= El_Chacal",
           "deaths": 15
-        },
-        {
-          "name": "=MB= .Scump",
-          "deaths": 14
         },
         {
           "name": "=MB= .S1mple",
@@ -17152,7 +17164,7 @@
         }
       ],
       "firstSeen": "2026-07-11 01:34:30",
-      "lastSeen": "2026-07-16 16:19:28",
+      "lastSeen": "2026-07-16 20:43:59",
       "rank": 8,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -17239,7 +17251,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 200,
+          "current": 202,
           "target": 120,
           "unit": "min"
         },
@@ -17621,7 +17633,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 200,
+          "current": 202,
           "target": 300,
           "unit": "min"
         },
@@ -17632,7 +17644,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 200,
+          "current": 202,
           "target": 900,
           "unit": "min"
         },
@@ -17643,7 +17655,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 14,
+          "current": 15,
           "target": 10,
           "unit": null
         },
@@ -17654,7 +17666,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 30,
           "unit": null
         },
@@ -17676,7 +17688,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 50,
           "unit": null
         },
@@ -17687,7 +17699,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 75,
           "unit": null
         },
@@ -17786,7 +17798,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 24,
           "unit": null
         },
@@ -18049,7 +18061,7 @@
           "icon": "🔌",
           "name": "Terco",
           "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -18534,7 +18546,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 117,
+          "current": 121,
           "target": 80,
           "unit": null
         },
@@ -18545,7 +18557,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 117,
+          "current": 121,
           "target": 400,
           "unit": null
         },
@@ -18621,7 +18633,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 200,
+          "current": 202,
           "target": 2400,
           "unit": "min"
         },
@@ -18632,7 +18644,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 100,
           "unit": null
         },
@@ -18643,7 +18655,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 200,
           "unit": null
         },
@@ -18772,7 +18784,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 30,
+          "current": 31,
           "target": 44,
           "unit": null
         },
@@ -18783,7 +18795,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 30,
+          "current": 31,
           "target": 88,
           "unit": null
         },
@@ -18794,7 +18806,7 @@
           "name": "Maestro del Nivel D",
           "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 15,
           "unit": null
         },
@@ -18860,12 +18872,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 30,
+          "current": 31,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 30,
+      "achievementsUnlocked": 31,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -65595,8 +65607,8 @@
     },
     {
       "map": "dm/mohdm2",
-      "timesPlayed": 14,
-      "totalKills": 2525,
+      "timesPlayed": 15,
+      "totalKills": 2763,
       "connectedHumans": [
         {
           "name": "Machete",
@@ -65620,7 +65632,6 @@
         }
       ],
       "winners": [
-        "=MB= .TenZ",
         "=MB= .Vasily"
       ],
       "winnersAreBots": true,
@@ -65706,8 +65717,8 @@
     },
     {
       "map": "dm/stalingrad_3_dm",
-      "timesPlayed": 14,
-      "totalKills": 2374,
+      "timesPlayed": 15,
+      "totalKills": 2397,
       "connectedHumans": [
         {
           "name": "MOH-Rugrats.ar",
@@ -65952,7 +65963,7 @@
     {
       "map": "dm/stomp",
       "timesPlayed": 6,
-      "totalKills": 1835,
+      "totalKills": 1863,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -65972,6 +65983,7 @@
         }
       ],
       "winners": [
+        "=MB= .Vasily",
         "=MB= .Scump"
       ],
       "winnersAreBots": true,
@@ -66259,8 +66271,8 @@
     },
     {
       "map": "dm/Osiedle",
-      "timesPlayed": 5,
-      "totalKills": 1267,
+      "timesPlayed": 6,
+      "totalKills": 1271,
       "connectedHumans": [
         {
           "name": "Mercenario",
@@ -69532,7 +69544,12 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Mr.Sipi",
+      "since": "2026-07-16 20:42:01"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -70871,6 +70888,13 @@
         "action": "disconnect",
         "count": 7,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 20:42:01",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 8,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -70905,12 +70929,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-16 20:33:58"
+    "last": "2026-07-16 20:44:00"
   },
-  "generatedAt": "2026-07-17T00:34:01.158Z",
-  "currentMap": "dm/stomp",
+  "generatedAt": "2026-07-17T00:44:01.181Z",
+  "currentMap": "dm/Osiedle",
   "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
   "achievementFeed": [
+    {
+      "name": "Mr.Sipi",
+      "achId": "terco",
+      "achName": "Terco",
+      "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
+      "tier": "D",
+      "icon": "🔌",
+      "ts": "2026-07-17T00:44:01.190Z"
+    },
     {
       "name": "Mercenario",
       "achId": "silent_killer",
@@ -71260,15 +71293,6 @@
       "desc": "Juega 2 horas o más en el servidor",
       "tier": "C",
       "icon": "⏱️",
-      "ts": "2026-07-16T04:19:32.812Z"
-    },
-    {
-      "name": "Machete",
-      "achId": "combo_sigma",
-      "achName": "Masacre Perfecta",
-      "desc": "Logra un combo de 15 o más kills seguidos",
-      "tier": "Σ",
-      "icon": "💥",
       "ts": "2026-07-16T04:19:32.812Z"
     }
   ]
