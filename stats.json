@@ -8,7 +8,7 @@
       "ipHistory": {
         "26.46.77.26": {
           "first": "2026-07-12 23:38:40",
-          "last": "2026-07-16 00:07:45"
+          "last": "2026-07-16 22:20:41"
         }
       },
       "kills": 350,
@@ -47,10 +47,10 @@
       },
       "multikillEvents": 179,
       "bestMultikillChain": 6,
-      "sessions": 2,
+      "sessions": 3,
       "disconnects": 3,
-      "playtimeMs": 8108000,
-      "playtimeFormatted": "2h 15m",
+      "playtimeMs": 8306000,
+      "playtimeFormatted": "2h 18m",
       "favoriteHour": "23:00",
       "hourActivity": [
         138,
@@ -75,7 +75,7 @@
         0,
         0,
         0,
-        267,
+        268,
         900
       ],
       "mapBreakdown": [
@@ -715,7 +715,7 @@
         }
       ],
       "firstSeen": "2026-07-12 23:38:40",
-      "lastSeen": "2026-07-16 00:08:18",
+      "lastSeen": "2026-07-16 22:20:41",
       "rank": 1,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -803,7 +803,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 135,
+          "current": 138,
           "target": 120,
           "unit": "min"
         },
@@ -1188,7 +1188,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 135,
+          "current": 138,
           "target": 300,
           "unit": "min"
         },
@@ -1199,7 +1199,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 135,
+          "current": 138,
           "target": 900,
           "unit": "min"
         },
@@ -1210,7 +1210,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 10,
           "unit": null
         },
@@ -1221,7 +1221,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 30,
           "unit": null
         },
@@ -1243,7 +1243,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 50,
           "unit": null
         },
@@ -1254,7 +1254,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 75,
           "unit": null
         },
@@ -2189,7 +2189,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 135,
+          "current": 138,
           "target": 2400,
           "unit": "min"
         },
@@ -2200,7 +2200,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 100,
           "unit": null
         },
@@ -2211,7 +2211,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 200,
           "unit": null
         },
@@ -51550,7 +51550,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 2,
       "verified": false,
-      "verificationDaysLeft": 14,
+      "verificationDaysLeft": 13,
       "killedByList": [
         {
           "name": "=MB= .Lyudmila",
@@ -67713,8 +67713,8 @@
   "mapStats": [
     {
       "map": "dm/aquaduct-dark",
-      "timesPlayed": 19,
-      "totalKills": 5463,
+      "timesPlayed": 20,
+      "totalKills": 5909,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -72173,7 +72173,12 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Francotirador",
+      "since": "2026-07-16 22:20:41"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -73638,6 +73643,13 @@
         "action": "disconnect",
         "count": 7,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 22:20:41",
+        "name": "Francotirador",
+        "action": "connect",
+        "count": 8,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -73672,9 +73684,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-16 22:13:59"
+    "last": "2026-07-16 22:23:59"
   },
-  "generatedAt": "2026-07-17T02:14:00.238Z",
+  "generatedAt": "2026-07-17T02:24:00.239Z",
   "currentMap": "dm/aquaduct-dark",
   "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
   "achievementFeed": [
