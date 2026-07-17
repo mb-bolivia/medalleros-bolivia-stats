@@ -16603,33 +16603,33 @@
         },
         "26.82.169.89": {
           "first": "2026-07-15 22:57:24",
-          "last": "2026-07-16 20:53:57"
+          "last": "2026-07-16 21:03:28"
         }
       },
       "kills": 54,
-      "deaths": 75,
-      "totalKills": 158,
-      "totalDeaths": 217,
-      "suicides": 6,
-      "kd": 0.72,
-      "totalHeadshots": 43,
+      "deaths": 76,
+      "totalKills": 171,
+      "totalDeaths": 235,
+      "suicides": 7,
+      "kd": 0.71,
+      "totalHeadshots": 50,
       "hsPercent": 0,
       "weapons": {
-        "Bazooka": 52,
-        "Sniper": 29,
+        "Bazooka": 63,
+        "Sniper": 30,
         "Shotgun": 14,
-        "MG": 23,
+        "MG": 24,
         "Rifle": 3,
         "SMG": 33,
         "Bash": 4
       },
       "favoriteWeapon": "Bazooka",
-      "favoriteBodypart": "kisser",
-      "mapsPlayed": 12,
-      "matchesPlayed": 12,
-      "wins": 11,
-      "winRate": 91.7,
-      "fragsPerMap": 4.5,
+      "favoriteBodypart": "face",
+      "mapsPlayed": 13,
+      "matchesPlayed": 13,
+      "wins": 18,
+      "winRate": 138.5,
+      "fragsPerMap": 4.15,
       "bestStreak": 8,
       "nemesis": {
         "name": "=MB= El_Chacal",
@@ -16643,8 +16643,8 @@
       "bestMultikillChain": 8,
       "sessions": 15,
       "disconnects": 11,
-      "playtimeMs": 12738000,
-      "playtimeFormatted": "3h 32m",
+      "playtimeMs": 13338000,
+      "playtimeFormatted": "3h 42m",
       "favoriteHour": "23:00",
       "hourActivity": [
         8,
@@ -16667,8 +16667,8 @@
         2,
         0,
         0,
-        33,
-        0,
+        52,
+        12,
         11,
         207
       ],
@@ -16758,6 +16758,18 @@
           "kd": 0.57
         },
         {
+          "map": "dm/Gatehouse_Assault_DM_1",
+          "kills": 3,
+          "deaths": 2,
+          "kd": 1.5
+        },
+        {
+          "map": "dm/fortwreck",
+          "kills": 3,
+          "deaths": 1,
+          "kd": 3
+        },
+        {
           "map": "dm/romestreets_bots",
           "kills": 2,
           "deaths": 3,
@@ -16771,6 +16783,18 @@
         },
         {
           "map": "dm/thorn_ak",
+          "kills": 2,
+          "deaths": 2,
+          "kd": 1
+        },
+        {
+          "map": "dm/le-camp",
+          "kills": 2,
+          "deaths": 4,
+          "kd": 0.5
+        },
+        {
+          "map": "dm/stalingrad_snow2",
           "kills": 2,
           "deaths": 2,
           "kd": 1
@@ -16794,7 +16818,25 @@
           "kd": 0.5
         },
         {
-          "map": "dm/le-camp",
+          "map": "dm/schule",
+          "kills": 1,
+          "deaths": 4,
+          "kd": 0.25
+        },
+        {
+          "map": "dm/weihnachtsmarkt",
+          "kills": 1,
+          "deaths": 1,
+          "kd": 1
+        },
+        {
+          "map": "dm/mp_castello_dm",
+          "kills": 1,
+          "deaths": 1,
+          "kd": 1
+        },
+        {
+          "map": "dm/arena23",
           "kills": 1,
           "deaths": 1,
           "kd": 1
@@ -16821,6 +16863,12 @@
           "map": "dm/oil_rig_assault_AA",
           "kills": 0,
           "deaths": 2,
+          "kd": 0
+        },
+        {
+          "map": "dm/dm_bahnhof_steinhude_1939",
+          "kills": 0,
+          "deaths": 3,
           "kd": 0
         }
       ],
@@ -16973,25 +17021,73 @@
         },
         {
           "map": "dm/le-camp",
+          "weaponsCount": 2,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/schule",
           "weaponsCount": 1,
           "victimsCount": 1,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/weihnachtsmarkt",
+          "weaponsCount": 1,
+          "victimsCount": 1,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/mp_castello_dm",
+          "weaponsCount": 1,
+          "victimsCount": 1,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/Gatehouse_Assault_DM_1",
+          "weaponsCount": 1,
+          "victimsCount": 3,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/dm_bahnhof_steinhude_1939",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/arena23",
+          "weaponsCount": 1,
+          "victimsCount": 1,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/stalingrad_snow2",
+          "weaponsCount": 1,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/fortwreck",
+          "weaponsCount": 1,
+          "victimsCount": 3,
           "humanVictimsCount": 0
         }
       ],
       "activeDaysCount": 6,
       "maxMapWins": 2,
-      "maxWinsInDay": 7,
-      "bestMapWinStreak": 6,
+      "maxWinsInDay": 14,
+      "bestMapWinStreak": 13,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 44,
+      "maxRivalryEncounters": 47,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 4,
-      "botKills": 112,
+      "botKills": 125,
       "humanKillsOnly": 54,
-      "botDeaths": 136,
-      "humanDeathsOnly": 75,
-      "maxBotRivalry": 19,
+      "botDeaths": 152,
+      "humanDeathsOnly": 76,
+      "maxBotRivalry": 20,
       "currentTeam": "Axis",
       "playedAxis": true,
       "playedAllies": true,
@@ -16999,26 +17095,26 @@
       "alliesJoinCount": 2,
       "teamKills": 0,
       "teamKickCount": 1,
-      "firstBloodOfMapCount": 3,
-      "revengeKills": 10,
+      "firstBloodOfMapCount": 5,
+      "revengeKills": 12,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= .TenZ",
-          "deaths": 28
+          "deaths": 31
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 25
-        },
-        {
-          "name": "=MB= .Scump",
-          "deaths": 19
+          "deaths": 28
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 18
+          "deaths": 22
+        },
+        {
+          "name": "=MB= .Scump",
+          "deaths": 20
         },
         {
           "name": "=MB= .S1mple",
@@ -17030,7 +17126,7 @@
         },
         {
           "name": "=MB= .Lyudmila",
-          "deaths": 12
+          "deaths": 14
         },
         {
           "name": "CaPaRz0",
@@ -17042,11 +17138,11 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "deaths": 9
+          "deaths": 10
         },
         {
           "name": "=MB= .ZywOo",
-          "deaths": 7
+          "deaths": 9
         },
         {
           "name": "Roly",
@@ -17083,12 +17179,16 @@
         {
           "name": "Mercenario",
           "deaths": 1
+        },
+        {
+          "name": "exumador",
+          "deaths": 1
         }
       ],
       "victimsList": [
         {
           "name": "=MB= .Lyudmila",
-          "kills": 19
+          "kills": 20
         },
         {
           "name": "=MB= .Ogre2",
@@ -17100,11 +17200,19 @@
         },
         {
           "name": "=MB= .Scump",
-          "kills": 14
+          "kills": 16
         },
         {
           "name": "=MB= .S1mple",
-          "kills": 13
+          "kills": 14
+        },
+        {
+          "name": "=MB= .Vasily",
+          "kills": 12
+        },
+        {
+          "name": "=MB= .ZywOo",
+          "kills": 12
         },
         {
           "name": "SANDY",
@@ -17112,19 +17220,11 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "kills": 10
+          "kills": 11
         },
         {
           "name": "=MB= El_Chacal",
           "kills": 10
-        },
-        {
-          "name": "=MB= .Vasily",
-          "kills": 9
-        },
-        {
-          "name": "=MB= .ZywOo",
-          "kills": 9
         },
         {
           "name": "Francotirador",
@@ -17135,12 +17235,12 @@
           "kills": 6
         },
         {
-          "name": "Soldado Ryan",
+          "name": "=MB= .Fatal1ty",
           "kills": 5
         },
         {
-          "name": "=MB= .Fatal1ty",
-          "kills": 4
+          "name": "Soldado Ryan",
+          "kills": 5
         },
         {
           "name": "GIFO",
@@ -17161,12 +17261,16 @@
         {
           "name": "Machete",
           "kills": 2
+        },
+        {
+          "name": "=MB= .Kazuya",
+          "kills": 1
         }
       ],
       "weaponsList": [
         {
           "weapon": "Bazooka",
-          "kills": 52
+          "kills": 63
         },
         {
           "weapon": "SMG",
@@ -17174,11 +17278,11 @@
         },
         {
           "weapon": "Sniper",
-          "kills": 29
+          "kills": 30
         },
         {
           "weapon": "MG",
-          "kills": 23
+          "kills": 24
         },
         {
           "weapon": "Shotgun",
@@ -17195,12 +17299,12 @@
       ],
       "bodypartsList": [
         {
-          "bodypart": "kisser",
-          "kills": 15
+          "bodypart": "face",
+          "kills": 19
         },
         {
-          "bodypart": "face",
-          "kills": 14
+          "bodypart": "kisser",
+          "kills": 17
         },
         {
           "bodypart": "head",
@@ -17236,7 +17340,7 @@
         }
       ],
       "firstSeen": "2026-07-11 01:34:30",
-      "lastSeen": "2026-07-16 20:53:57",
+      "lastSeen": "2026-07-16 21:03:51",
       "rank": 8,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -17312,7 +17416,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 29,
+          "current": 30,
           "target": 150,
           "unit": null
         },
@@ -17323,7 +17427,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 212,
+          "current": 222,
           "target": 120,
           "unit": "min"
         },
@@ -17334,7 +17438,7 @@
           "name": "Kamikaze",
           "desc": "Suicídate 5 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 20,
           "unit": null
         },
@@ -17367,7 +17471,7 @@
           "name": "Artillero Pesado",
           "desc": "Consigue 50 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 250,
           "unit": null
         },
@@ -17411,7 +17515,7 @@
           "name": "Dominador",
           "desc": "Gana 3 o más mapas",
           "unlocked": true,
-          "current": 11,
+          "current": 18,
           "target": 3,
           "unit": null
         },
@@ -17444,7 +17548,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 12,
+          "current": 13,
           "target": 12,
           "unit": null
         },
@@ -17617,7 +17721,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": false,
-          "current": 75,
+          "current": 76,
           "target": 200,
           "unit": null
         },
@@ -17705,7 +17809,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 212,
+          "current": 222,
           "target": 300,
           "unit": "min"
         },
@@ -17716,7 +17820,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 212,
+          "current": 222,
           "target": 900,
           "unit": "min"
         },
@@ -17749,7 +17853,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": false,
-          "current": 12,
+          "current": 13,
           "target": 25,
           "unit": null
         },
@@ -17782,7 +17886,7 @@
           "name": "Racha Ascendente",
           "desc": "Gana 3 mapas seguidos",
           "unlocked": true,
-          "current": 6,
+          "current": 13,
           "target": 3,
           "unit": null
         },
@@ -17793,7 +17897,7 @@
           "name": "Imparable",
           "desc": "Gana 5 mapas seguidos",
           "unlocked": true,
-          "current": 6,
+          "current": 13,
           "target": 5,
           "unit": null
         },
@@ -17803,8 +17907,8 @@
           "icon": "💢",
           "name": "Berserker",
           "desc": "Gana 10 mapas seguidos",
-          "unlocked": false,
-          "current": 6,
+          "unlocked": true,
+          "current": 13,
           "target": 10,
           "unit": null
         },
@@ -17815,7 +17919,7 @@
           "name": "Emperador Absoluto",
           "desc": "Gana 20 mapas seguidos",
           "unlocked": false,
-          "current": 6,
+          "current": 13,
           "target": 20,
           "unit": null
         },
@@ -17870,7 +17974,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 11,
+          "current": 12,
           "target": 24,
           "unit": null
         },
@@ -17881,7 +17985,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 44,
+          "current": 47,
           "target": 10,
           "unit": null
         },
@@ -17892,7 +17996,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 44,
+          "current": 47,
           "target": 20,
           "unit": null
         },
@@ -17903,7 +18007,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 44,
+          "current": 47,
           "target": 40,
           "unit": null
         },
@@ -17958,7 +18062,7 @@
           "name": "Triple Corona",
           "desc": "Gana 3 mapas distintos en un mismo día",
           "unlocked": true,
-          "current": 7,
+          "current": 14,
           "target": 3,
           "unit": null
         },
@@ -18067,8 +18171,8 @@
           "icon": "🚩",
           "name": "Primero en Combate",
           "desc": "Consigue el primer kill de la partida 5 o más veces",
-          "unlocked": false,
-          "current": 3,
+          "unlocked": true,
+          "current": 5,
           "target": 5,
           "unit": null
         },
@@ -18079,7 +18183,7 @@
           "name": "Rey del Primer Golpe",
           "desc": "Consigue el primer kill de la partida 20 o más veces",
           "unlocked": false,
-          "current": 3,
+          "current": 5,
           "target": 20,
           "unit": null
         },
@@ -18090,7 +18194,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 10,
+          "current": 12,
           "target": 5,
           "unit": null
         },
@@ -18101,7 +18205,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": false,
-          "current": 10,
+          "current": 12,
           "target": 25,
           "unit": null
         },
@@ -18156,7 +18260,7 @@
           "name": "Autodestrucción Crónica",
           "desc": "Suicídate 15 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 45,
           "unit": null
         },
@@ -18167,7 +18271,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 4.5,
+          "current": 4.15,
           "target": 4,
           "unit": null
         },
@@ -18178,7 +18282,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": false,
-          "current": 4.5,
+          "current": 4.15,
           "target": 8,
           "unit": null
         },
@@ -18387,7 +18491,7 @@
           "name": "MG Experto",
           "desc": "Consigue 180 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 180,
           "unit": null
         },
@@ -18398,7 +18502,7 @@
           "name": "MG Elite",
           "desc": "Consigue 500 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 500,
           "unit": null
         },
@@ -18409,7 +18513,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 29,
+          "current": 30,
           "target": 180,
           "unit": null
         },
@@ -18420,7 +18524,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 29,
+          "current": 30,
           "target": 500,
           "unit": null
         },
@@ -18431,7 +18535,7 @@
           "name": "Bazooka Experto",
           "desc": "Consigue 70 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 52,
+          "current": 63,
           "target": 70,
           "unit": null
         },
@@ -18442,7 +18546,7 @@
           "name": "Bazooka Elite",
           "desc": "Consigue 200 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 52,
+          "current": 63,
           "target": 200,
           "unit": null
         },
@@ -18530,7 +18634,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 29,
+          "current": 30,
           "target": 1600,
           "unit": null
         },
@@ -18552,7 +18656,7 @@
           "name": "MG Supremo",
           "desc": "Consigue 1600 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 1600,
           "unit": null
         },
@@ -18563,7 +18667,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": false,
-          "current": 112,
+          "current": 125,
           "target": 200,
           "unit": null
         },
@@ -18574,7 +18678,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 112,
+          "current": 125,
           "target": 800,
           "unit": null
         },
@@ -18585,7 +18689,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 112,
+          "current": 125,
           "target": 2000,
           "unit": null
         },
@@ -18596,7 +18700,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 112,
+          "current": 125,
           "target": 4000,
           "unit": null
         },
@@ -18607,7 +18711,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 112,
+          "current": 125,
           "target": 12000,
           "unit": null
         },
@@ -18618,7 +18722,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 136,
+          "current": 152,
           "target": 80,
           "unit": null
         },
@@ -18629,7 +18733,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 136,
+          "current": 152,
           "target": 400,
           "unit": null
         },
@@ -18651,7 +18755,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": false,
-          "current": 19,
+          "current": 20,
           "target": 30,
           "unit": null
         },
@@ -18705,7 +18809,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 212,
+          "current": 222,
           "target": 2400,
           "unit": "min"
         },
@@ -18738,7 +18842,7 @@
           "name": "Tirano",
           "desc": "Gana 30 mapas seguidos",
           "unlocked": false,
-          "current": 6,
+          "current": 13,
           "target": 30,
           "unit": null
         },
@@ -18749,7 +18853,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 44,
+          "current": 47,
           "target": 60,
           "unit": null
         },
@@ -18760,7 +18864,7 @@
           "name": "Colosal",
           "desc": "Acumula 50 o más victorias de mapa",
           "unlocked": false,
-          "current": 11,
+          "current": 18,
           "target": 50,
           "unit": null
         },
@@ -18856,7 +18960,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 44 o más logros distintos",
           "unlocked": false,
-          "current": 35,
+          "current": 37,
           "target": 44,
           "unit": null
         },
@@ -18867,7 +18971,7 @@
           "name": "Completista",
           "desc": "Desbloquea 88 o más logros distintos",
           "unlocked": false,
-          "current": 35,
+          "current": 37,
           "target": 88,
           "unit": null
         },
@@ -18889,7 +18993,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 33,
           "unit": null
         },
@@ -18911,7 +19015,7 @@
           "name": "Maestro del Nivel A",
           "desc": "Desbloquea los 21 logros del nivel A",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 21,
           "unit": null
         },
@@ -18944,12 +19048,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
           "unlocked": false,
-          "current": 35,
+          "current": 37,
           "target": 155,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 35,
+      "achievementsUnlocked": 37,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -45229,7 +45333,7 @@
       "ipHistory": {
         "190.12.168.215": {
           "first": "2026-07-12 14:52:27",
-          "last": "2026-07-16 16:03:48"
+          "last": "2026-07-16 21:02:49"
         }
       },
       "kills": 2,
@@ -45262,9 +45366,9 @@
       },
       "multikillEvents": 1,
       "bestMultikillChain": 2,
-      "sessions": 4,
-      "disconnects": 4,
-      "playtimeMs": 673000,
+      "sessions": 5,
+      "disconnects": 5,
+      "playtimeMs": 674000,
       "playtimeFormatted": "0h 11m",
       "favoriteHour": "14:00",
       "hourActivity": [
@@ -45289,7 +45393,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0
       ],
@@ -45457,7 +45561,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-12 14:52:27",
-      "lastSeen": "2026-07-16 16:04:18",
+      "lastSeen": "2026-07-16 21:02:50",
       "rank": 22,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -45948,7 +46052,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 10,
           "unit": null
         },
@@ -45959,7 +46063,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 30,
           "unit": null
         },
@@ -45981,7 +46085,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 50,
           "unit": null
         },
@@ -45992,7 +46096,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 75,
           "unit": null
         },
@@ -46091,7 +46195,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 24,
           "unit": null
         },
@@ -46937,7 +47041,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 100,
           "unit": null
         },
@@ -46948,7 +47052,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 200,
           "unit": null
         },
@@ -52990,6 +53094,1948 @@
       ]
     },
     {
+      "name": "exumador",
+      "ips": [
+        "26.203.141.141"
+      ],
+      "ipHistory": {
+        "26.203.141.141": {
+          "first": "2026-07-16 20:58:15",
+          "last": "2026-07-16 21:03:35"
+        }
+      },
+      "kills": 1,
+      "deaths": 0,
+      "totalKills": 4,
+      "totalDeaths": 4,
+      "suicides": 0,
+      "kd": 1,
+      "headshots": 0,
+      "totalHeadshots": 0,
+      "hsPercent": 0,
+      "weapons": {
+        "MG": 4
+      },
+      "favoriteWeapon": "MG",
+      "favoriteBodypart": null,
+      "mapsPlayed": 1,
+      "matchesPlayed": 1,
+      "wins": 1,
+      "winRate": 100,
+      "fragsPerMap": 1,
+      "bestStreak": 1,
+      "nemesis": null,
+      "favoriteVictim": {
+        "name": "Mr.Sipi",
+        "kills": 1
+      },
+      "multikillEvents": 0,
+      "bestMultikillChain": 0,
+      "sessions": 1,
+      "disconnects": 0,
+      "playtimeMs": 343000,
+      "playtimeFormatted": "0h 6m",
+      "favoriteHour": "21:00",
+      "hourActivity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0
+      ],
+      "mapBreakdown": [
+        {
+          "map": "dm/dm_bahnhof_steinhude_1939",
+          "kills": 2,
+          "deaths": 1,
+          "kd": 2
+        },
+        {
+          "map": "dm/stalingrad_snow2",
+          "kills": 1,
+          "deaths": 1,
+          "kd": 1
+        },
+        {
+          "map": "dm/fortwreck",
+          "kills": 1,
+          "deaths": 1,
+          "kd": 1
+        },
+        {
+          "map": "dm/arena23",
+          "kills": 0,
+          "deaths": 1,
+          "kd": 0
+        }
+      ],
+      "bestWeaponVarietyInMap": 1,
+      "hasAllWeaponsInOneMap": false,
+      "mapVersatility": [
+        {
+          "map": "dm/dm_bahnhof_steinhude_1939",
+          "weaponsCount": 1,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/arena23",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/stalingrad_snow2",
+          "weaponsCount": 1,
+          "victimsCount": 1,
+          "humanVictimsCount": 1
+        },
+        {
+          "map": "dm/fortwreck",
+          "weaponsCount": 1,
+          "victimsCount": 1,
+          "humanVictimsCount": 0
+        }
+      ],
+      "activeDaysCount": 1,
+      "maxMapWins": 1,
+      "maxWinsInDay": 1,
+      "bestMapWinStreak": 1,
+      "hasDominatedMap": false,
+      "maxRivalryEncounters": 2,
+      "playedWeekend": false,
+      "playedBothWeekendDays": false,
+      "chatMessages": 0,
+      "botKills": 3,
+      "humanKillsOnly": 1,
+      "botDeaths": 4,
+      "humanDeathsOnly": 0,
+      "maxBotRivalry": 1,
+      "currentTeam": null,
+      "playedAxis": false,
+      "playedAllies": false,
+      "axisJoinCount": 0,
+      "alliesJoinCount": 0,
+      "teamKills": 0,
+      "teamKickCount": 0,
+      "worstDeathStreak": 2,
+      "firstBloodOfMapCount": 0,
+      "revengeKills": 0,
+      "verified": false,
+      "verificationDaysLeft": 15,
+      "killedByList": [
+        {
+          "name": "=MB= .Hartmann",
+          "deaths": 1
+        },
+        {
+          "name": "=MB= .Fatal1ty",
+          "deaths": 1
+        },
+        {
+          "name": "=MB= .Kazuya",
+          "deaths": 1
+        },
+        {
+          "name": "=MB= .S1mple",
+          "deaths": 1
+        }
+      ],
+      "victimsList": [
+        {
+          "name": "=MB= .S1mple",
+          "kills": 1
+        },
+        {
+          "name": "=MB= .Lyudmila",
+          "kills": 1
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
+        },
+        {
+          "name": "=MB= .Hartmann",
+          "kills": 1
+        }
+      ],
+      "weaponsList": [
+        {
+          "weapon": "MG",
+          "kills": 4
+        }
+      ],
+      "bodypartsList": [],
+      "firstSeen": "2026-07-16 20:58:15",
+      "lastSeen": "2026-07-16 21:03:49",
+      "rank": 26,
+      "topPlayerName": "Francotirador",
+      "achievements": [
+        {
+          "id": "first_blood",
+          "tier": "D",
+          "icon": "🔫",
+          "name": "Primera Sangre",
+          "desc": "Consigue tu primera eliminación",
+          "unlocked": true,
+          "current": 1,
+          "target": 1,
+          "unit": null
+        },
+        {
+          "id": "iron_sights",
+          "tier": "D",
+          "icon": "🎯",
+          "name": "Puntería de Hierro",
+          "desc": "Consigue una eliminación con Pistol",
+          "unlocked": false,
+          "current": 0,
+          "target": 1,
+          "unit": null
+        },
+        {
+          "id": "multi_kill",
+          "tier": "D",
+          "icon": "⚡",
+          "name": "Multikill",
+          "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
+          "unlocked": false,
+          "current": 0,
+          "target": 1,
+          "unit": null
+        },
+        {
+          "id": "night_owl",
+          "tier": "D",
+          "icon": "🌙",
+          "name": "Ave Nocturna",
+          "desc": "Que tu hora de mayor actividad sea de madrugada (00:00–05:00)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "headshot_expert",
+          "tier": "C",
+          "icon": "🎯",
+          "name": "Experto en Headshots",
+          "desc": "Consigue 60 o más headshots contra jugadores humanos",
+          "unlocked": false,
+          "current": 0,
+          "target": 60,
+          "unit": null
+        },
+        {
+          "id": "century",
+          "tier": "C",
+          "icon": "💯",
+          "name": "Centuria",
+          "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "sniper_elite",
+          "tier": "C",
+          "icon": "🔭",
+          "name": "Francotirador",
+          "desc": "Consigue 30 o más eliminaciones con Sniper",
+          "unlocked": false,
+          "current": 0,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "veteran_time",
+          "tier": "C",
+          "icon": "⏱️",
+          "name": "Veterano",
+          "desc": "Juega 2 horas o más en el servidor",
+          "unlocked": false,
+          "current": 6,
+          "target": 120,
+          "unit": "min"
+        },
+        {
+          "id": "kamikaze",
+          "tier": "C",
+          "icon": "💣",
+          "name": "Kamikaze",
+          "desc": "Suicídate 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "terminator",
+          "tier": "B",
+          "icon": "🔥",
+          "name": "Terminator",
+          "desc": "Consigue 70 o más kills en un solo mapa",
+          "unlocked": false,
+          "current": 2,
+          "target": 70,
+          "unit": null
+        },
+        {
+          "id": "berserker",
+          "tier": "B",
+          "icon": "💢",
+          "name": "Berserker",
+          "desc": "Logra un combo de 5 o más kills seguidos",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "heavy_gunner",
+          "tier": "B",
+          "icon": "🔫",
+          "name": "Artillero Pesado",
+          "desc": "Consigue 50 o más eliminaciones con MG",
+          "unlocked": false,
+          "current": 4,
+          "target": 250,
+          "unit": null
+        },
+        {
+          "id": "untouchable",
+          "tier": "B",
+          "icon": "🛡️",
+          "name": "Intocable",
+          "desc": "Termina con K/D de 3.0 o más (mínimo 20 kills contra humanos)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "one_man_army",
+          "tier": "A",
+          "icon": "🪖",
+          "name": "Ejército de un Hombre",
+          "desc": "Alcanza K/D 2.0+ con 40 o más kills contra humanos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "ghost",
+          "tier": "A",
+          "icon": "👻",
+          "name": "Fantasma",
+          "desc": "Logra una racha de 15 o más kills sin morir",
+          "unlocked": false,
+          "current": 1,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "dominator",
+          "tier": "A",
+          "icon": "🏆",
+          "name": "Dominador",
+          "desc": "Gana 3 o más mapas",
+          "unlocked": false,
+          "current": 1,
+          "target": 3,
+          "unit": null
+        },
+        {
+          "id": "goat",
+          "tier": "S",
+          "icon": "🐐",
+          "name": "G.O.A.T.",
+          "desc": "Alcanza el puesto #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "legend",
+          "tier": "S",
+          "icon": "⭐",
+          "name": "Leyenda",
+          "desc": "Combo de 6 o más kills y 150 o más eliminaciones totales",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "explorer",
+          "tier": "B",
+          "icon": "🗺️",
+          "name": "Explorador de Combate",
+          "desc": "Juega en 12 o más mapas distintos",
+          "unlocked": false,
+          "current": 1,
+          "target": 12,
+          "unit": null
+        },
+        {
+          "id": "double_shift",
+          "tier": "B",
+          "icon": "🌗",
+          "name": "Doble Turno",
+          "desc": "Registra kills tanto de madrugada (00-05h) como en horario pico (18-23h)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "persistent",
+          "tier": "B",
+          "icon": "📆",
+          "name": "Persistente",
+          "desc": "Juega en 3 o más días distintos",
+          "unlocked": false,
+          "current": 1,
+          "target": 3,
+          "unit": null
+        },
+        {
+          "id": "war_machine",
+          "tier": "A",
+          "icon": "⚙️",
+          "name": "Máquina de Guerra",
+          "desc": "Alcanza K/D 2.5+ con 75 o más kills contra humanos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "iron_streak",
+          "tier": "A",
+          "icon": "🔗",
+          "name": "Racha de Hierro",
+          "desc": "Logra una racha de 25 o más kills sin morir",
+          "unlocked": false,
+          "current": 1,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "map_king",
+          "tier": "A",
+          "icon": "👑",
+          "name": "Rey del Mapa",
+          "desc": "Gana el mismo mapa 3 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 3,
+          "unit": null
+        },
+        {
+          "id": "executioner",
+          "tier": "S",
+          "icon": "⚔️",
+          "name": "Verdugo",
+          "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 900,
+          "unit": null
+        },
+        {
+          "id": "perfect_combo",
+          "tier": "S",
+          "icon": "🌟",
+          "name": "Combo Perfecto",
+          "desc": "Logra un combo de 8 o más kills seguidos",
+          "unlocked": false,
+          "current": 0,
+          "target": 8,
+          "unit": null
+        },
+        {
+          "id": "ffa_emperor",
+          "tier": "S",
+          "icon": "👑",
+          "name": "Emperador del Todos contra Todos",
+          "desc": "Sé #1 del ranking y consigue 10 o más victorias de mapa",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "immortal",
+          "tier": "S",
+          "icon": "💀",
+          "name": "Inmortal",
+          "desc": "Racha de 40 o más kills sin morir y 300 o más kills totales",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "headhunter",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Cazador de Cabezas",
+          "desc": "Registra 150 o más headshots contra jugadores humanos",
+          "unlocked": false,
+          "current": 0,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "headhunter_elite",
+          "tier": "A",
+          "icon": "💀",
+          "name": "Verdugo Craneal",
+          "desc": "Registra 400 o más headshots contra jugadores humanos",
+          "unlocked": false,
+          "current": 0,
+          "target": 400,
+          "unit": null
+        },
+        {
+          "id": "headhunter_supreme",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Ejecutor Craneal",
+          "desc": "Registra 800 o más headshots contra jugadores humanos",
+          "unlocked": false,
+          "current": 0,
+          "target": 800,
+          "unit": null
+        },
+        {
+          "id": "curtido",
+          "tier": "D",
+          "icon": "🥉",
+          "name": "Curtido en Batalla",
+          "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "dominante",
+          "tier": "A",
+          "icon": "🥇",
+          "name": "Dominante",
+          "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 450,
+          "unit": null
+        },
+        {
+          "id": "kills_master",
+          "tier": "S",
+          "icon": "🏅",
+          "name": "Leyenda Viva",
+          "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 2200,
+          "unit": null
+        },
+        {
+          "id": "cara_dura",
+          "tier": "D",
+          "icon": "😅",
+          "name": "Cara Dura",
+          "desc": "Muere 50 o más veces sin abandonar el servidor",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "bala_plata",
+          "tier": "B",
+          "icon": "🥈",
+          "name": "Bala de Plata",
+          "desc": "Consigue 20 o más kills contra humanos con 10 o menos muertes",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "racha_10",
+          "tier": "C",
+          "icon": "🔥",
+          "name": "Racha Caliente",
+          "desc": "Logra una racha de 10 o más kills sin morir",
+          "unlocked": false,
+          "current": 1,
+          "target": 10,
+          "unit": null
+        },
+        {
+          "id": "racha_35",
+          "tier": "S",
+          "icon": "🌋",
+          "name": "Racha Imparable",
+          "desc": "Logra una racha de 35 o más kills sin morir",
+          "unlocked": false,
+          "current": 1,
+          "target": 35,
+          "unit": null
+        },
+        {
+          "id": "multikill_5",
+          "tier": "C",
+          "icon": "⚡",
+          "name": "Combo x5",
+          "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "multikill_15",
+          "tier": "B",
+          "icon": "⚡",
+          "name": "Combo x15",
+          "desc": "Logra 15 eventos de multikill",
+          "unlocked": false,
+          "current": 0,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "multikill_40",
+          "tier": "A",
+          "icon": "⚡",
+          "name": "Máquina de Combos",
+          "desc": "Logra 40 eventos de multikill",
+          "unlocked": false,
+          "current": 0,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "combo_10",
+          "tier": "S",
+          "icon": "🌟",
+          "name": "Combo Legendario",
+          "desc": "Logra un combo de 10 o más kills seguidos",
+          "unlocked": false,
+          "current": 0,
+          "target": 10,
+          "unit": null
+        },
+        {
+          "id": "playtime_5h",
+          "tier": "B",
+          "icon": "⏳",
+          "name": "Sesión Larga",
+          "desc": "Acumula 5 horas o más jugadas",
+          "unlocked": false,
+          "current": 6,
+          "target": 300,
+          "unit": "min"
+        },
+        {
+          "id": "playtime_15h",
+          "tier": "A",
+          "icon": "⏳",
+          "name": "Adicto al Servidor",
+          "desc": "Acumula 15 horas o más jugadas",
+          "unlocked": false,
+          "current": 6,
+          "target": 900,
+          "unit": "min"
+        },
+        {
+          "id": "sessions_10",
+          "tier": "C",
+          "icon": "🔌",
+          "name": "Cliente Frecuente",
+          "desc": "Conéctate 10 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 10,
+          "unit": null
+        },
+        {
+          "id": "sessions_30",
+          "tier": "B",
+          "icon": "🔌",
+          "name": "Cliente VIP",
+          "desc": "Conéctate 30 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 30,
+          "unit": null
+        },
+        {
+          "id": "maps_30",
+          "tier": "A",
+          "icon": "🧭",
+          "name": "Trotamundos",
+          "desc": "Juega en 25 o más mapas distintos",
+          "unlocked": false,
+          "current": 1,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "sessions_50",
+          "tier": "S",
+          "icon": "🧭",
+          "name": "Veterano de Mil Batallas",
+          "desc": "Conéctate 50 o más veces al servidor",
+          "unlocked": false,
+          "current": 1,
+          "target": 50,
+          "unit": null
+        },
+        {
+          "id": "sessions_75",
+          "tier": "S",
+          "icon": "🏃",
+          "name": "Maratonista del Servidor",
+          "desc": "Conéctate 75 o más veces al servidor",
+          "unlocked": false,
+          "current": 1,
+          "target": 75,
+          "unit": null
+        },
+        {
+          "id": "streak_win_3",
+          "tier": "C",
+          "icon": "📈",
+          "name": "Racha Ascendente",
+          "desc": "Gana 3 mapas seguidos",
+          "unlocked": false,
+          "current": 1,
+          "target": 3,
+          "unit": null
+        },
+        {
+          "id": "streak_win_5",
+          "tier": "B",
+          "icon": "📈",
+          "name": "Imparable",
+          "desc": "Gana 5 mapas seguidos",
+          "unlocked": false,
+          "current": 1,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "streak_win_10",
+          "tier": "A",
+          "icon": "💢",
+          "name": "Berserker",
+          "desc": "Gana 10 mapas seguidos",
+          "unlocked": false,
+          "current": 1,
+          "target": 10,
+          "unit": null
+        },
+        {
+          "id": "streak_win_20",
+          "tier": "S",
+          "icon": "👑",
+          "name": "Emperador Absoluto",
+          "desc": "Gana 20 mapas seguidos",
+          "unlocked": false,
+          "current": 1,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "rank_top10",
+          "tier": "D",
+          "icon": "🔟",
+          "name": "Top 10",
+          "desc": "Alcanza el top 10 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "rank_top5",
+          "tier": "C",
+          "icon": "5️⃣",
+          "name": "Contendiente",
+          "desc": "Alcanza el top 5 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "rank_top3",
+          "tier": "B",
+          "icon": "🥉",
+          "name": "Podio",
+          "desc": "Alcanza el top 3 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "finde",
+          "tier": "C",
+          "icon": "🎉",
+          "name": "Guerrero de Fin de Semana",
+          "desc": "Juega en sábado o domingo",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "ave_24",
+          "tier": "S",
+          "icon": "🕛",
+          "name": "Ave de Todas las Horas",
+          "desc": "Registra actividad en las 24 horas del día",
+          "unlocked": false,
+          "current": 2,
+          "target": 24,
+          "unit": null
+        },
+        {
+          "id": "rival_10",
+          "tier": "C",
+          "icon": "⚔️",
+          "name": "Rival Frecuente",
+          "desc": "Enfréntate 10 o más veces contra un mismo jugador",
+          "unlocked": false,
+          "current": 2,
+          "target": 10,
+          "unit": null
+        },
+        {
+          "id": "rival_20",
+          "tier": "B",
+          "icon": "⚔️",
+          "name": "Némesis Eterno",
+          "desc": "Enfréntate 20 o más veces contra un mismo jugador",
+          "unlocked": false,
+          "current": 2,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "rival_40",
+          "tier": "A",
+          "icon": "⚔️",
+          "name": "Guerra Personal",
+          "desc": "Enfréntate 40 o más veces contra un mismo jugador",
+          "unlocked": false,
+          "current": 2,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "chat_50",
+          "tier": "D",
+          "icon": "💬",
+          "name": "Charlatán",
+          "desc": "Envía 50 o más mensajes en el chat",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "chat_100",
+          "tier": "C",
+          "icon": "💬",
+          "name": "Big Talker",
+          "desc": "Envía 100 o más mensajes en el chat",
+          "unlocked": false,
+          "current": 0,
+          "target": 400,
+          "unit": null
+        },
+        {
+          "id": "silent_killer",
+          "tier": "B",
+          "icon": "🤫",
+          "name": "Asesino Silencioso",
+          "desc": "Gana un mapa sin enviar ningún mensaje de chat",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "one_man",
+          "tier": "A",
+          "icon": "🪖",
+          "name": "Ejército de Uno",
+          "desc": "Consigue más kills que todos tus rivales juntos en un mapa",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "hat_trick",
+          "tier": "B",
+          "icon": "🎩",
+          "name": "Triple Corona",
+          "desc": "Gana 3 mapas distintos en un mismo día",
+          "unlocked": false,
+          "current": 1,
+          "target": 3,
+          "unit": null
+        },
+        {
+          "id": "versatile",
+          "tier": "D",
+          "icon": "🎒",
+          "name": "Versátil",
+          "desc": "Consigue kills con 4 o más armas distintas",
+          "unlocked": false,
+          "current": 1,
+          "target": 4,
+          "unit": null
+        },
+        {
+          "id": "arsenal",
+          "tier": "S",
+          "icon": "🧰",
+          "name": "Arsenal Completo",
+          "desc": "Consigue kills con las 8 categorías de armas del juego",
+          "unlocked": false,
+          "current": 1,
+          "target": 8,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_un_mapa",
+          "tier": "Σ",
+          "icon": "🎰",
+          "name": "Maestro de Todas las Armas",
+          "desc": "Usa las 8 categorías de armas del juego dentro de un mismo mapa",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "combate_versatil",
+          "tier": "B",
+          "icon": "🔀",
+          "name": "Combate Versátil",
+          "desc": "En un mismo mapa, usa 4 o más armas distintas y elimina a 3 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "arsenal_en_accion",
+          "tier": "A",
+          "icon": "🎯",
+          "name": "Arsenal en Acción",
+          "desc": "En un mismo mapa, usa 6 o más armas distintas y elimina a 5 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_con_arsenal",
+          "tier": "S",
+          "icon": "☠️",
+          "name": "Masacre con Todo el Arsenal",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 8 o más jugadores distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "masacre_humana_total",
+          "tier": "Σ",
+          "icon": "🩸",
+          "name": "Masacre Humana Total",
+          "desc": "En un mismo mapa, usa las 8 categorías de armas y elimina a 5 o más jugadores HUMANOS distintos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "especialista",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Especialista",
+          "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "todoterreno",
+          "tier": "A",
+          "icon": "🔧",
+          "name": "Todoterreno",
+          "desc": "Ningún arma supera el 30% de tus kills, usando las 8 categorías (mínimo 50 kills)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "primero_en_combate",
+          "tier": "C",
+          "icon": "🚩",
+          "name": "Primero en Combate",
+          "desc": "Consigue el primer kill de la partida 5 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "rey_primer_golpe",
+          "tier": "A",
+          "icon": "🚩",
+          "name": "Rey del Primer Golpe",
+          "desc": "Consigue el primer kill de la partida 20 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "venganza_servida",
+          "tier": "C",
+          "icon": "🔁",
+          "name": "Venganza Servida",
+          "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "angel_vengador",
+          "tier": "S",
+          "icon": "😈",
+          "name": "Ángel Vengador",
+          "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
+          "unlocked": false,
+          "current": 0,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "cazador_de_gigantes",
+          "tier": "S",
+          "icon": "🗡️",
+          "name": "Cazador de Gigantes",
+          "desc": "Elimina al menos una vez al jugador #1 del ranking general",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mapa_perfecto",
+          "tier": "B",
+          "icon": "💎",
+          "name": "Mapa Perfecto",
+          "desc": "Gana un mapa sin morir ni una sola vez en él",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "terco",
+          "tier": "D",
+          "icon": "🔌",
+          "name": "Terco",
+          "desc": "Desconéctate 10 o más veces pero sigue volviendo a conectarte (15+ sesiones)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "warlord",
+          "tier": "B",
+          "icon": "🏴",
+          "name": "Señor de la Guerra",
+          "desc": "Gana más del 50% de tus mapas jugados (mínimo 10 jugados)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "kamikaze_cronico",
+          "tier": "B",
+          "icon": "💥",
+          "name": "Autodestrucción Crónica",
+          "desc": "Suicídate 15 o más veces",
+          "unlocked": false,
+          "current": 0,
+          "target": 45,
+          "unit": null
+        },
+        {
+          "id": "eficiente",
+          "tier": "C",
+          "icon": "📊",
+          "name": "Eficiente",
+          "desc": "Promedia 10 o más frags por mapa",
+          "unlocked": false,
+          "current": 1,
+          "target": 4,
+          "unit": null
+        },
+        {
+          "id": "devastador",
+          "tier": "B",
+          "icon": "📊",
+          "name": "Devastador",
+          "desc": "Promedia 20 o más frags por mapa",
+          "unlocked": false,
+          "current": 1,
+          "target": 8,
+          "unit": null
+        },
+        {
+          "id": "balanceado",
+          "tier": "D",
+          "icon": "⚖️",
+          "name": "Balanceado",
+          "desc": "Alcanza K/D 1.5+ con 12 o más kills contra humanos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "fuego_amigo",
+          "tier": "D",
+          "icon": "🤦",
+          "name": "Fuego Amigo",
+          "desc": "Elimina a 15 o más compañeros de tu propio equipo",
+          "unlocked": false,
+          "current": 0,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "traidor",
+          "tier": "C",
+          "icon": "🔪",
+          "name": "Traidor",
+          "desc": "Elimina a 60 o más compañeros de tu propio equipo",
+          "unlocked": false,
+          "current": 0,
+          "target": 60,
+          "unit": null
+        },
+        {
+          "id": "expulsado_traicion",
+          "tier": "D",
+          "icon": "🚪",
+          "name": "Expulsado por Traición",
+          "desc": "Sé expulsado del servidor por matar demasiados compañeros de equipo",
+          "unlocked": false,
+          "current": 0,
+          "target": 1,
+          "unit": null
+        },
+        {
+          "id": "doble_bando",
+          "tier": "C",
+          "icon": "🎭",
+          "name": "Doble Bando",
+          "desc": "Juega al menos una partida en el equipo del Eje y otra en el de los Aliados",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "veterano_eje",
+          "tier": "C",
+          "icon": "🪖",
+          "name": "Veterano del Eje",
+          "desc": "Juega 40 o más partidas en el equipo del Eje",
+          "unlocked": false,
+          "current": 0,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "veterano_aliado",
+          "tier": "C",
+          "icon": "🎖️",
+          "name": "Veterano Aliado",
+          "desc": "Juega 40 o más partidas en el equipo de los Aliados",
+          "unlocked": false,
+          "current": 0,
+          "target": 40,
+          "unit": null
+        },
+        {
+          "id": "comandante_eje",
+          "tier": "B",
+          "icon": "🪖",
+          "name": "Comandante del Eje",
+          "desc": "Juega 150 o más partidas en el equipo del Eje",
+          "unlocked": false,
+          "current": 0,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "comandante_aliado",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Comandante Aliado",
+          "desc": "Juega 150 o más partidas en el equipo de los Aliados",
+          "unlocked": false,
+          "current": 0,
+          "target": 150,
+          "unit": null
+        },
+        {
+          "id": "diplomatico_experto",
+          "tier": "B",
+          "icon": "🤝",
+          "name": "Diplomático Experto",
+          "desc": "Juega 60 o más partidas en cada equipo (Eje y Aliados)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "mercenario_equilibrado",
+          "tier": "A",
+          "icon": "⚖️",
+          "name": "Mercenario Equilibrado",
+          "desc": "Juega al menos 50 partidas en cada equipo con una diferencia de 3 o menos entre ambos",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "guerra_total",
+          "tier": "S",
+          "icon": "🌍",
+          "name": "Guerra Total",
+          "desc": "Acumula 400 o más partidas jugadas entre ambos equipos",
+          "unlocked": false,
+          "current": 0,
+          "target": 400,
+          "unit": null
+        },
+        {
+          "id": "w_pistol_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Pistol Experto",
+          "desc": "Consigue 80 o más eliminaciones con Pistol",
+          "unlocked": false,
+          "current": 0,
+          "target": 80,
+          "unit": null
+        },
+        {
+          "id": "w_pistol_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Pistol Elite",
+          "desc": "Consigue 250 o más eliminaciones con Pistol",
+          "unlocked": false,
+          "current": 0,
+          "target": 250,
+          "unit": null
+        },
+        {
+          "id": "w_smg_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "SMG Experto",
+          "desc": "Consigue 250 o más eliminaciones con SMG",
+          "unlocked": false,
+          "current": 0,
+          "target": 250,
+          "unit": null
+        },
+        {
+          "id": "w_smg_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "SMG Elite",
+          "desc": "Consigue 700 o más eliminaciones con SMG",
+          "unlocked": false,
+          "current": 0,
+          "target": 700,
+          "unit": null
+        },
+        {
+          "id": "w_rifle_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Rifle Experto",
+          "desc": "Consigue 250 o más eliminaciones con Rifle",
+          "unlocked": false,
+          "current": 0,
+          "target": 250,
+          "unit": null
+        },
+        {
+          "id": "w_rifle_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Rifle Elite",
+          "desc": "Consigue 700 o más eliminaciones con Rifle",
+          "unlocked": false,
+          "current": 0,
+          "target": 700,
+          "unit": null
+        },
+        {
+          "id": "w_mg_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "MG Experto",
+          "desc": "Consigue 180 o más eliminaciones con MG",
+          "unlocked": false,
+          "current": 4,
+          "target": 180,
+          "unit": null
+        },
+        {
+          "id": "w_mg_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "MG Elite",
+          "desc": "Consigue 500 o más eliminaciones con MG",
+          "unlocked": false,
+          "current": 4,
+          "target": 500,
+          "unit": null
+        },
+        {
+          "id": "w_sniper_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Sniper Experto",
+          "desc": "Consigue 180 o más eliminaciones con Sniper",
+          "unlocked": false,
+          "current": 0,
+          "target": 180,
+          "unit": null
+        },
+        {
+          "id": "w_sniper_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Sniper Elite",
+          "desc": "Consigue 500 o más eliminaciones con Sniper",
+          "unlocked": false,
+          "current": 0,
+          "target": 500,
+          "unit": null
+        },
+        {
+          "id": "w_bazooka_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Bazooka Experto",
+          "desc": "Consigue 70 o más eliminaciones con Bazooka",
+          "unlocked": false,
+          "current": 0,
+          "target": 70,
+          "unit": null
+        },
+        {
+          "id": "w_bazooka_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Bazooka Elite",
+          "desc": "Consigue 200 o más eliminaciones con Bazooka",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "w_shotgun_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Shotgun Experto",
+          "desc": "Consigue 70 o más eliminaciones con Shotgun",
+          "unlocked": false,
+          "current": 0,
+          "target": 70,
+          "unit": null
+        },
+        {
+          "id": "w_shotgun_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Shotgun Elite",
+          "desc": "Consigue 200 o más eliminaciones con Shotgun",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "w_grenade_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Grenade Experto",
+          "desc": "Consigue 70 o más eliminaciones con Grenade",
+          "unlocked": false,
+          "current": 0,
+          "target": 70,
+          "unit": null
+        },
+        {
+          "id": "w_grenade_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Grenade Elite",
+          "desc": "Consigue 200 o más eliminaciones con Grenade",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "w_bash_1",
+          "tier": "C",
+          "icon": "🔫",
+          "name": "Bash Experto",
+          "desc": "Consigue 70 o más eliminaciones con Bash",
+          "unlocked": false,
+          "current": 0,
+          "target": 70,
+          "unit": null
+        },
+        {
+          "id": "w_bash_2",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Bash Elite",
+          "desc": "Consigue 200 o más eliminaciones con Bash",
+          "unlocked": false,
+          "current": 0,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "w_rifle_3",
+          "tier": "Σ",
+          "icon": "👑",
+          "name": "Rifle Supremo",
+          "desc": "Consigue 2000 o más eliminaciones con Rifle",
+          "unlocked": false,
+          "current": 0,
+          "target": 2000,
+          "unit": null
+        },
+        {
+          "id": "w_sniper_3",
+          "tier": "Σ",
+          "icon": "👑",
+          "name": "Sniper Supremo",
+          "desc": "Consigue 1600 o más eliminaciones con Sniper",
+          "unlocked": false,
+          "current": 0,
+          "target": 1600,
+          "unit": null
+        },
+        {
+          "id": "w_smg_3",
+          "tier": "Σ",
+          "icon": "👑",
+          "name": "SMG Supremo",
+          "desc": "Consigue 2000 o más eliminaciones con SMG",
+          "unlocked": false,
+          "current": 0,
+          "target": 2000,
+          "unit": null
+        },
+        {
+          "id": "w_mg_3",
+          "tier": "Σ",
+          "icon": "👑",
+          "name": "MG Supremo",
+          "desc": "Consigue 1600 o más eliminaciones con MG",
+          "unlocked": false,
+          "current": 4,
+          "target": 1600,
+          "unit": null
+        },
+        {
+          "id": "bot_hunter_1",
+          "tier": "C",
+          "icon": "🤖",
+          "name": "Cazador de Bots",
+          "desc": "Elimina 50 o más bots",
+          "unlocked": false,
+          "current": 3,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "bot_hunter_2",
+          "tier": "B",
+          "icon": "🤖",
+          "name": "Exterminador de IA",
+          "desc": "Elimina 200 o más bots",
+          "unlocked": false,
+          "current": 3,
+          "target": 800,
+          "unit": null
+        },
+        {
+          "id": "bot_hunter_3",
+          "tier": "A",
+          "icon": "🦾",
+          "name": "Verdugo de Máquinas",
+          "desc": "Elimina 500 o más bots",
+          "unlocked": false,
+          "current": 3,
+          "target": 2000,
+          "unit": null
+        },
+        {
+          "id": "bot_hunter_4",
+          "tier": "S",
+          "icon": "🔴",
+          "name": "El Terminator",
+          "desc": "Elimina 1000 o más bots",
+          "unlocked": false,
+          "current": 3,
+          "target": 4000,
+          "unit": null
+        },
+        {
+          "id": "bot_hunter_5",
+          "tier": "Σ",
+          "icon": "☢️",
+          "name": "Aniquilador de Máquinas",
+          "desc": "Elimina 3000 o más bots",
+          "unlocked": false,
+          "current": 3,
+          "target": 12000,
+          "unit": null
+        },
+        {
+          "id": "carne_de_canon",
+          "tier": "D",
+          "icon": "🪦",
+          "name": "Carne de Cañón",
+          "desc": "Muere 20 o más veces a manos de bots",
+          "unlocked": false,
+          "current": 4,
+          "target": 80,
+          "unit": null
+        },
+        {
+          "id": "presa_facil",
+          "tier": "B",
+          "icon": "🎯",
+          "name": "Presa Fácil",
+          "desc": "Muere 100 o más veces a manos de bots",
+          "unlocked": false,
+          "current": 4,
+          "target": 400,
+          "unit": null
+        },
+        {
+          "id": "duelista_puro",
+          "tier": "B",
+          "icon": "🤺",
+          "name": "Duelista Puro",
+          "desc": "La mitad o más de TODOS tus kills (incluyendo bots) sean contra humanos (mínimo 50 kills humanos)",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "bot_nemesis",
+          "tier": "B",
+          "icon": "🦿",
+          "name": "Némesis Robótico",
+          "desc": "Un mismo bot te elimina 30 o más veces en total",
+          "unlocked": false,
+          "current": 1,
+          "target": 30,
+          "unit": null
+        },
+        {
+          "id": "kills_sigma",
+          "tier": "Σ",
+          "icon": "🌍",
+          "name": "Dios de la Guerra",
+          "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
+          "unlocked": false,
+          "current": 1,
+          "target": 7500,
+          "unit": null
+        },
+        {
+          "id": "headshot_sigma",
+          "tier": "Σ",
+          "icon": "🎯",
+          "name": "Precisión Absoluta",
+          "desc": "Registra 1500 o más headshots contra jugadores humanos",
+          "unlocked": false,
+          "current": 0,
+          "target": 1500,
+          "unit": null
+        },
+        {
+          "id": "combo_sigma",
+          "tier": "Σ",
+          "icon": "💥",
+          "name": "Masacre Perfecta",
+          "desc": "Logra un combo de 15 o más kills seguidos",
+          "unlocked": false,
+          "current": 0,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "streak_sigma",
+          "tier": "Σ",
+          "icon": "🛡️",
+          "name": "Invencible",
+          "desc": "Logra una racha de 60 o más kills sin morir",
+          "unlocked": false,
+          "current": 1,
+          "target": 60,
+          "unit": null
+        },
+        {
+          "id": "playtime_sigma",
+          "tier": "Σ",
+          "icon": "🏠",
+          "name": "Vida en el Servidor",
+          "desc": "Acumula 40 horas o más jugadas",
+          "unlocked": false,
+          "current": 6,
+          "target": 2400,
+          "unit": "min"
+        },
+        {
+          "id": "sessions_sigma",
+          "tier": "Σ",
+          "icon": "🔁",
+          "name": "Residente Permanente",
+          "desc": "Conéctate 100 o más veces",
+          "unlocked": false,
+          "current": 1,
+          "target": 100,
+          "unit": null
+        },
+        {
+          "id": "sessions_200",
+          "tier": "Σ",
+          "icon": "🌐",
+          "name": "Explorador Legendario",
+          "desc": "Conéctate 200 o más veces al servidor",
+          "unlocked": false,
+          "current": 1,
+          "target": 200,
+          "unit": null
+        },
+        {
+          "id": "streak_win_sigma",
+          "tier": "Σ",
+          "icon": "🐉",
+          "name": "Tirano",
+          "desc": "Gana 30 mapas seguidos",
+          "unlocked": false,
+          "current": 1,
+          "target": 30,
+          "unit": null
+        },
+        {
+          "id": "rival_sigma",
+          "tier": "Σ",
+          "icon": "🗡️",
+          "name": "Archienemigo",
+          "desc": "Enfréntate 60 o más veces contra un mismo jugador",
+          "unlocked": false,
+          "current": 2,
+          "target": 60,
+          "unit": null
+        },
+        {
+          "id": "wins_sigma",
+          "tier": "Σ",
+          "icon": "🏆",
+          "name": "Colosal",
+          "desc": "Acumula 50 o más victorias de mapa",
+          "unlocked": false,
+          "current": 1,
+          "target": 50,
+          "unit": null
+        },
+        {
+          "id": "identidad_confirmada",
+          "tier": "C",
+          "icon": "✔️",
+          "name": "Identidad Confirmada",
+          "desc": "Verifica tu nick con el administrador del servidor",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "guardian_del_nick",
+          "tier": "B",
+          "icon": "🛡️",
+          "name": "Guardián de su Nick",
+          "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "saco_de_boxeo",
+          "tier": "D",
+          "icon": "🥊",
+          "name": "Saco de Boxeo",
+          "desc": "Muere 5 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "current": 2,
+          "target": 5,
+          "unit": null
+        },
+        {
+          "id": "gafe_total",
+          "tier": "B",
+          "icon": "🌧️",
+          "name": "Gafe Total",
+          "desc": "Muere 15 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "current": 2,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "racha_maldita",
+          "tier": "A",
+          "icon": "💀",
+          "name": "Racha Maldita",
+          "desc": "Muere 25 o más veces seguidas sin conseguir un kill",
+          "unlocked": false,
+          "current": 2,
+          "target": 25,
+          "unit": null
+        },
+        {
+          "id": "madrugador",
+          "tier": "C",
+          "icon": "🌅",
+          "name": "Madrugador",
+          "desc": "Que tu hora de mayor actividad sea entre las 05:00 y las 08:00",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "ave_vespertina",
+          "tier": "C",
+          "icon": "🌇",
+          "name": "Ave Vespertina",
+          "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
+          "unlocked": true,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "finde_completo",
+          "tier": "B",
+          "icon": "🎊",
+          "name": "Fin de Semana Completo",
+          "desc": "Juega tanto el sábado como el domingo",
+          "unlocked": false,
+          "current": null,
+          "target": null,
+          "unit": null
+        },
+        {
+          "id": "coleccionista_logros",
+          "tier": "A",
+          "icon": "🗂️",
+          "name": "Coleccionista de Logros",
+          "desc": "Desbloquea 44 o más logros distintos",
+          "unlocked": false,
+          "current": 3,
+          "target": 44,
+          "unit": null
+        },
+        {
+          "id": "completista",
+          "tier": "Σ",
+          "icon": "📚",
+          "name": "Completista",
+          "desc": "Desbloquea 88 o más logros distintos",
+          "unlocked": false,
+          "current": 3,
+          "target": 88,
+          "unit": null
+        },
+        {
+          "id": "tier_master_D",
+          "tier": "D",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel D",
+          "desc": "Desbloquea los 15 logros del nivel D",
+          "unlocked": false,
+          "current": 1,
+          "target": 15,
+          "unit": null
+        },
+        {
+          "id": "tier_master_C",
+          "tier": "C",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel C",
+          "desc": "Desbloquea los 33 logros del nivel C",
+          "unlocked": false,
+          "current": 1,
+          "target": 33,
+          "unit": null
+        },
+        {
+          "id": "tier_master_B",
+          "tier": "B",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel B",
+          "desc": "Desbloquea los 42 logros del nivel B",
+          "unlocked": false,
+          "current": 1,
+          "target": 42,
+          "unit": null
+        },
+        {
+          "id": "tier_master_A",
+          "tier": "A",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel A",
+          "desc": "Desbloquea los 21 logros del nivel A",
+          "unlocked": false,
+          "current": 0,
+          "target": 21,
+          "unit": null
+        },
+        {
+          "id": "tier_master_S",
+          "tier": "S",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel S",
+          "desc": "Desbloquea los 20 logros del nivel S",
+          "unlocked": false,
+          "current": 0,
+          "target": 20,
+          "unit": null
+        },
+        {
+          "id": "tier_master_Σ",
+          "tier": "Σ",
+          "icon": "🎖️",
+          "name": "Maestro del Nivel Σ",
+          "desc": "Desbloquea los 18 logros del nivel Σ",
+          "unlocked": false,
+          "current": 0,
+          "target": 18,
+          "unit": null
+        },
+        {
+          "id": "leyenda_absoluta",
+          "tier": "Σ",
+          "icon": "👑",
+          "name": "Leyenda Absoluta",
+          "desc": "Desbloquea absolutamente todos los demás logros del servidor (155)",
+          "unlocked": false,
+          "current": 3,
+          "target": 155,
+          "unit": null
+        }
+      ],
+      "achievementsUnlocked": 3,
+      "weeklyKillHistory": [
+        {
+          "date": "2026-07-12",
+          "kills": 0
+        },
+        {
+          "date": "2026-07-13",
+          "kills": 0
+        },
+        {
+          "date": "2026-07-14",
+          "kills": 0
+        },
+        {
+          "date": "2026-07-15",
+          "kills": 0
+        },
+        {
+          "date": "2026-07-16",
+          "kills": 0
+        },
+        {
+          "date": "2026-07-17",
+          "kills": 0
+        }
+      ]
+    },
+    {
       "name": "DsK.MeCaNiKo",
       "ips": [
         "201.223.163.195",
@@ -53204,7 +55250,7 @@
       "bodypartsList": [],
       "firstSeen": "2026-07-11 22:43:24",
       "lastSeen": "2026-07-15 20:37:46",
-      "rank": 26,
+      "rank": 27,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -55090,7 +57136,7 @@
       "bodypartsList": [],
       "firstSeen": "2026-07-12 13:04:26",
       "lastSeen": "2026-07-14 12:41:01",
-      "rank": 27,
+      "rank": 28,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -57136,7 +59182,7 @@
       ],
       "firstSeen": "2026-07-12 14:18:08",
       "lastSeen": "2026-07-12 14:57:06",
-      "rank": 28,
+      "rank": 29,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -59123,7 +61169,7 @@
       "bodypartsList": [],
       "firstSeen": "2026-07-14 14:03:56",
       "lastSeen": "2026-07-16 11:58:39",
-      "rank": 29,
+      "rank": 30,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -61044,7 +63090,7 @@
       ],
       "firstSeen": "2026-07-15 00:12:53",
       "lastSeen": "2026-07-15 00:17:40",
-      "rank": 30,
+      "rank": 31,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -62911,7 +64957,7 @@
       "bodypartsList": [],
       "firstSeen": "2026-07-16 19:53:17",
       "lastSeen": "2026-07-16 19:54:15",
-      "rank": 31,
+      "rank": 32,
       "topPlayerName": "Francotirador",
       "achievements": [
         {
@@ -65052,7 +67098,7 @@
       },
       {
         "name": "Mr.Sipi",
-        "kills": 23
+        "kills": 24
       },
       {
         "name": "Diego BAD",
@@ -65069,6 +67115,10 @@
       {
         "name": "diet",
         "kills": 6
+      },
+      {
+        "name": "exumador",
+        "kills": 4
       },
       {
         "name": "Osi",
@@ -65118,7 +67168,7 @@
       },
       {
         "name": "Mr.Sipi",
-        "kills": 29
+        "kills": 30
       },
       {
         "name": "Soldado Ryan",
@@ -65175,12 +67225,12 @@
         "kills": 76
       },
       {
-        "name": "GIFO",
-        "kills": 60
+        "name": "Mr.Sipi",
+        "kills": 63
       },
       {
-        "name": "Mr.Sipi",
-        "kills": 52
+        "name": "GIFO",
+        "kills": 60
       },
       {
         "name": "Machete",
@@ -67164,25 +69214,30 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_bahnhof_steinhude_1939",
+      "timesPlayed": 6,
+      "totalKills": 674,
+      "connectedHumans": [
+        {
+          "name": "exumador",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/MP_Unterseite_DM",
       "timesPlayed": 3,
       "totalKills": 664,
       "connectedHumans": [],
       "winners": [
         "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_bahnhof_steinhude_1939",
-      "timesPlayed": 5,
-      "totalKills": 654,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -67364,7 +69419,25 @@
     {
       "map": "dm/le-camp",
       "timesPlayed": 6,
-      "totalKills": 562,
+      "totalKills": 579,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/schule",
+      "timesPlayed": 4,
+      "totalKills": 550,
       "connectedHumans": [
         {
           "name": "Mr.Sipi",
@@ -67372,7 +69445,7 @@
         }
       ],
       "winners": [
-        "=MB= .TenZ"
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -67450,19 +69523,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/schule",
-      "timesPlayed": 3,
-      "totalKills": 527,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/thorn_ak",
       "timesPlayed": 4,
       "totalKills": 519,
@@ -67474,6 +69534,24 @@
       ],
       "winners": [
         "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/weihnachtsmarkt",
+      "timesPlayed": 4,
+      "totalKills": 509,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Lyudmila"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -67553,15 +69631,20 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/weihnachtsmarkt",
-      "timesPlayed": 3,
-      "totalKills": 488,
-      "connectedHumans": [],
+      "map": "dm/mp_castello_dm",
+      "timesPlayed": 4,
+      "totalKills": 487,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
+        }
+      ],
       "winners": [
-        "=MB= .Lyudmila"
+        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -67572,19 +69655,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/mp_castello_dm",
-      "timesPlayed": 3,
-      "totalKills": 465,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -67683,6 +69753,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/arena23",
+      "timesPlayed": 5,
+      "totalKills": 410,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/Dieppe",
       "timesPlayed": 2,
       "totalKills": 396,
@@ -67718,15 +69806,42 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/arena23",
-      "timesPlayed": 4,
-      "totalKills": 393,
-      "connectedHumans": [],
+      "map": "dm/fortwreck",
+      "timesPlayed": 5,
+      "totalKills": 389,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 3
+        },
+        {
+          "name": "exumador",
+          "kills": 1
+        }
+      ],
       "winners": [
         "=MB= .Ogre2"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/Gatehouse_Assault_DM_1",
+      "timesPlayed": 3,
+      "totalKills": 382,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -67744,15 +69859,24 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/fortwreck",
+      "map": "dm/stalingrad_snow2",
       "timesPlayed": 4,
-      "totalKills": 372,
-      "connectedHumans": [],
+      "totalKills": 374,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 2
+        },
+        {
+          "name": "exumador",
+          "kills": 1
+        }
+      ],
       "winners": [
-        "=MB= .Ogre2"
+        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -67810,32 +69934,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/Gatehouse_Assault_DM_1",
-      "timesPlayed": 2,
-      "totalKills": 362,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/stalingrad_snow2",
-      "timesPlayed": 3,
-      "totalKills": 362,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -69642,8 +71740,8 @@
       "since": "2026-07-16 20:42:01"
     },
     {
-      "name": "=[|C.S|]=NOOB-PLAYER#3118",
-      "since": "2026-07-16 20:53:08"
+      "name": "exumador",
+      "since": "2026-07-16 20:58:15"
     }
   ],
   "concurrentPlayers": {
@@ -70998,6 +73096,34 @@
         "action": "connect",
         "count": 9,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 20:55:08",
+        "name": "=[|C.S|]=NOOB-PLAYER#3118",
+        "action": "disconnect",
+        "count": 8,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 20:58:15",
+        "name": "exumador",
+        "action": "connect",
+        "count": 9,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 21:02:49",
+        "name": "C/h/L-MindFlayer->MERCY<",
+        "action": "connect",
+        "count": 10,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-16 21:02:50",
+        "name": "C/h/L-MindFlayer->MERCY<",
+        "action": "disconnect",
+        "count": 9,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -71032,12 +73158,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-16 20:53:58"
+    "last": "2026-07-16 21:03:58"
   },
-  "generatedAt": "2026-07-17T00:54:01.204Z",
-  "currentMap": "dm/le-camp",
+  "generatedAt": "2026-07-17T01:04:01.234Z",
+  "currentMap": "dm/fortwreck",
   "serverName": "MEDALLEROS BOLIVIA REVIVAL JUEVES",
   "achievementFeed": [
+    {
+      "name": "Mr.Sipi",
+      "achId": "primero_en_combate",
+      "achName": "Primero en Combate",
+      "desc": "Consigue el primer kill de la partida 5 o más veces",
+      "tier": "C",
+      "icon": "🚩",
+      "ts": "2026-07-17T01:04:01.243Z"
+    },
+    {
+      "name": "Mr.Sipi",
+      "achId": "streak_win_10",
+      "achName": "Berserker",
+      "desc": "Gana 10 mapas seguidos",
+      "tier": "A",
+      "icon": "💢",
+      "ts": "2026-07-17T01:04:01.243Z"
+    },
     {
       "name": "Mr.Sipi",
       "achId": "warlord",
@@ -71379,24 +73523,6 @@
       "tier": "A",
       "icon": "💢",
       "ts": "2026-07-16T04:24:00.598Z"
-    },
-    {
-      "name": "DsK.MeCaNiKo",
-      "achId": "persistent",
-      "achName": "Persistente",
-      "desc": "Juega en 3 o más días distintos",
-      "tier": "B",
-      "icon": "📆",
-      "ts": "2026-07-16T04:19:32.812Z"
-    },
-    {
-      "name": "Mr.Sipi",
-      "achId": "carne_de_canon",
-      "achName": "Carne de Cañón",
-      "desc": "Muere 20 o más veces a manos de bots",
-      "tier": "D",
-      "icon": "🪦",
-      "ts": "2026-07-16T04:19:32.812Z"
     }
   ]
 }
