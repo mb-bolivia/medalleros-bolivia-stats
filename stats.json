@@ -1977,13 +1977,13 @@
       "ipHistory": {
         "26.233.211.190": {
           "first": "2026-07-17 21:50:59",
-          "last": "2026-07-17 22:02:15"
+          "last": "2026-07-17 22:07:28"
         }
       },
       "kills": 0,
       "deaths": 0,
       "totalKills": 21,
-      "totalDeaths": 28,
+      "totalDeaths": 32,
       "suicides": 3,
       "kd": 0,
       "headshots": 0,
@@ -2006,9 +2006,9 @@
       "multikillEvents": 1,
       "bestMultikillChain": 3,
       "sessions": 1,
-      "disconnects": 0,
-      "playtimeMs": 780000,
-      "playtimeFormatted": "0h 13m",
+      "disconnects": 1,
+      "playtimeMs": 991000,
+      "playtimeFormatted": "0h 17m",
       "favoriteHour": "21:00",
       "hourActivity": [
         0,
@@ -2033,7 +2033,7 @@
         0,
         0,
         40,
-        10,
+        15,
         0
       ],
       "mapBreakdown": [
@@ -2046,8 +2046,14 @@
         {
           "map": "dm/ShotgunLogic",
           "kills": 7,
-          "deaths": 14,
-          "kd": 0.5
+          "deaths": 15,
+          "kd": 0.47
+        },
+        {
+          "map": "dm/the_overpass",
+          "kills": 0,
+          "deaths": 3,
+          "kd": 0
         }
       ],
       "bestWeaponVarietyInMap": 2,
@@ -2064,6 +2070,12 @@
           "weaponsCount": 1,
           "victimsCount": 5,
           "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/the_overpass",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
         }
       ],
       "activeDaysCount": 1,
@@ -2074,18 +2086,18 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 780000,
+      "longestSessionMs": 991000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 7,
+      "maxRivalryEncounters": 8,
       "playedWeekend": false,
       "playedBothWeekendDays": false,
       "chatMessages": 0,
       "botKills": 21,
       "humanKillsOnly": 0,
-      "botDeaths": 25,
+      "botDeaths": 29,
       "humanDeathsOnly": 0,
       "maxBotRivalry": 4,
       "currentTeam": null,
@@ -2095,7 +2107,7 @@
       "alliesJoinCount": 0,
       "teamKills": 0,
       "teamKickCount": 0,
-      "worstDeathStreak": 8,
+      "worstDeathStreak": 12,
       "firstBloodOfMapCount": 1,
       "revengeKills": 2,
       "verified": false,
@@ -2107,7 +2119,7 @@
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 4
+          "deaths": 5
         },
         {
           "name": "=MB= .Ogre2",
@@ -2122,11 +2134,11 @@
           "deaths": 3
         },
         {
-          "name": "=MB= .Vasily",
-          "deaths": 2
+          "name": "=MB= .Kazuya",
+          "deaths": 3
         },
         {
-          "name": "=MB= .Kazuya",
+          "name": "=MB= .Vasily",
           "deaths": 2
         },
         {
@@ -2135,6 +2147,10 @@
         },
         {
           "name": "=MB= .Lyudmila",
+          "deaths": 2
+        },
+        {
+          "name": "=MB= .S1mple",
           "deaths": 1
         }
       ],
@@ -2197,7 +2213,7 @@
         }
       ],
       "firstSeen": "2026-07-17 21:50:59",
-      "lastSeen": "2026-07-17 22:02:15",
+      "lastSeen": "2026-07-17 22:07:30",
       "rank": 2,
       "topPlayerName": "MoH:CL Player",
       "achievements": [
@@ -2285,7 +2301,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 13,
+          "current": 17,
           "target": 120,
           "unit": "min"
         },
@@ -2670,7 +2686,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 13,
+          "current": 17,
           "target": 300,
           "unit": "min"
         },
@@ -2681,7 +2697,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 13,
+          "current": 17,
           "target": 900,
           "unit": "min"
         },
@@ -2846,7 +2862,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 10,
           "unit": null
         },
@@ -2857,7 +2873,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 20,
           "unit": null
         },
@@ -2868,7 +2884,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 40,
           "unit": null
         },
@@ -3715,7 +3731,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": false,
-          "current": 25,
+          "current": 29,
           "target": 80,
           "unit": null
         },
@@ -3726,7 +3742,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 25,
+          "current": 29,
           "target": 400,
           "unit": null
         },
@@ -3803,7 +3819,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 13,
+          "current": 17,
           "target": 2400,
           "unit": "min"
         },
@@ -3847,7 +3863,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 60,
           "unit": null
         },
@@ -3891,7 +3907,7 @@
           "name": "Saco de Boxeo",
           "desc": "Muere 5 o más veces seguidas sin conseguir un kill",
           "unlocked": true,
-          "current": 8,
+          "current": 12,
           "target": 5,
           "unit": null
         },
@@ -3902,7 +3918,7 @@
           "name": "Gafe Total",
           "desc": "Muere 15 o más veces seguidas sin conseguir un kill",
           "unlocked": false,
-          "current": 8,
+          "current": 12,
           "target": 15,
           "unit": null
         },
@@ -3913,7 +3929,7 @@
           "name": "Racha Maldita",
           "desc": "Muere 25 o más veces seguidas sin conseguir un kill",
           "unlocked": false,
-          "current": 8,
+          "current": 12,
           "target": 25,
           "unit": null
         },
@@ -137623,7 +137639,8 @@
     "dm/belgas74",
     "dm/castleddm",
     "dm/Papys_Castle_War",
-    "dm/ShotgunLogic"
+    "dm/ShotgunLogic",
+    "dm/the_overpass"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -137756,6 +137773,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/the_overpass",
+      "timesPlayed": 1,
+      "totalKills": 233,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_stanalie",
       "timesPlayed": 1,
       "totalKills": 232,
@@ -137765,6 +137795,25 @@
       ],
       "winnersAreBots": true,
       "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/ShotgunLogic",
+      "timesPlayed": 1,
+      "totalKills": 226,
+      "connectedHumans": [
+        {
+          "name": "GIFO",
+          "kills": 7
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ",
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -137780,33 +137829,10 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
-    },
-    {
-      "map": "dm/ShotgunLogic",
-      "timesPlayed": 1,
-      "totalKills": 169,
-      "connectedHumans": [
-        {
-          "name": "GIFO",
-          "kills": 7
-        }
-      ],
-      "winners": [
-        "=MB= .Ogre2"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     }
   ],
   "rivalries": [],
-  "onlineNow": [
-    {
-      "name": "GIFO",
-      "since": "2026-07-17 21:50:59"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -137829,6 +137855,13 @@
         "action": "connect",
         "count": 1,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-07-17 22:07:30",
+        "name": "GIFO",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 1,
@@ -137843,10 +137876,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-17 22:03:59"
+    "last": "2026-07-17 22:14:00"
   },
-  "generatedAt": "2026-07-18T02:04:01.045Z",
-  "currentMap": "dm/ShotgunLogic",
+  "generatedAt": "2026-07-18T02:14:01.067Z",
+  "currentMap": "dm/the_overpass",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
