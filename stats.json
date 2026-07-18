@@ -61758,7 +61758,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 0,
       "verified": false,
-      "verificationDaysLeft": 15,
+      "verificationDaysLeft": 14,
       "killedByList": [
         {
           "name": "=MB= .Hartmann",
@@ -75964,8 +75964,8 @@
       "worstDeathStreak": 5,
       "firstBloodOfMapCount": 1,
       "revengeKills": 20,
-      "verified": false,
-      "verificationDaysLeft": 15,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= .Scump",
@@ -77693,7 +77693,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -77704,7 +77704,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -77782,7 +77782,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 46 o más logros distintos",
           "unlocked": false,
-          "current": 21,
+          "current": 23,
           "target": 46,
           "unit": null
         },
@@ -77793,7 +77793,7 @@
           "name": "Completista",
           "desc": "Desbloquea 93 o más logros distintos",
           "unlocked": false,
-          "current": 21,
+          "current": 23,
           "target": 93,
           "unit": null
         },
@@ -77815,7 +77815,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 34 logros del nivel C",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 34,
           "unit": null
         },
@@ -77826,7 +77826,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 42 logros del nivel B",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 42,
           "unit": null
         },
@@ -77870,12 +77870,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (163)",
           "unlocked": false,
-          "current": 21,
+          "current": 23,
           "target": 163,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 21,
+      "achievementsUnlocked": 23,
       "weeklyKillHistory": [
         {
           "date": "2026-07-12",
@@ -79702,6 +79702,28 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/tunisian_fe",
+      "timesPlayed": 6,
+      "totalKills": 1486,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 50
+        },
+        {
+          "name": "SANDY",
+          "kills": 15
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mp_tunisia_dm",
       "timesPlayed": 25,
       "totalKills": 1479,
@@ -80003,28 +80025,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/tunisian_fe",
-      "timesPlayed": 6,
-      "totalKills": 1227,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 50
-        },
-        {
-          "name": "SANDY",
-          "kills": 15
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/OpCenter",
       "timesPlayed": 9,
       "totalKills": 1203,
@@ -80293,6 +80293,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/warehouse_dm",
+      "timesPlayed": 7,
+      "totalKills": 1079,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mp_bologna_dm",
       "timesPlayed": 9,
       "totalKills": 1037,
@@ -80398,24 +80416,6 @@
       ],
       "winners": [
         "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/warehouse_dm",
-      "timesPlayed": 6,
-      "totalKills": 956,
-      "connectedHumans": [
-        {
-          "name": "Mr.Sipi",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -85538,12 +85538,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-11 00:37:47",
-    "last": "2026-07-17 20:54:00"
+    "last": "2026-07-17 21:03:59"
   },
-  "generatedAt": "2026-07-18T00:54:00.965Z",
-  "currentMap": "dm/tunisian_fe",
+  "generatedAt": "2026-07-18T01:04:01.005Z",
+  "currentMap": "dm/warehouse_dm",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "Homer",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-18T01:04:01.017Z"
+    },
+    {
+      "name": "Homer",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-18T01:04:01.017Z"
+    },
     {
       "name": "Mr.Sipi",
       "achId": "explorador_miercoles",
@@ -85885,24 +85903,6 @@
       "tier": "D",
       "icon": "🎯",
       "ts": "2026-07-17T05:14:00.499Z"
-    },
-    {
-      "name": "Mr.Sipi",
-      "achId": "rival_sigma",
-      "achName": "Archienemigo",
-      "desc": "Enfréntate 60 o más veces contra un mismo jugador",
-      "tier": "Σ",
-      "icon": "🗡️",
-      "ts": "2026-07-17T05:04:00.486Z"
-    },
-    {
-      "name": "SANDY",
-      "achId": "w_sniper_1",
-      "achName": "Sniper Experto",
-      "desc": "Consigue 180 o más eliminaciones con Sniper",
-      "tier": "C",
-      "icon": "🔫",
-      "ts": "2026-07-17T04:24:00.432Z"
     }
   ]
 }
