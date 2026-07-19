@@ -157853,7 +157853,8 @@
     "dm/centraleurope",
     "dm/arab_streets",
     "dm/place_de_ville",
-    "dm/mp_ship_dm"
+    "dm/mp_ship_dm",
+    "dm/stomp"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -159282,6 +159283,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mp_ship_dm",
+      "timesPlayed": 1,
+      "totalKills": 96,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/rush_party",
       "timesPlayed": 1,
       "totalKills": 83,
@@ -159398,19 +159412,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mp_ship_dm",
-      "timesPlayed": 1,
-      "totalKills": 44,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/AxisS_SG_DM",
       "timesPlayed": 1,
       "totalKills": 25,
@@ -159431,6 +159432,19 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 14
+    },
+    {
+      "map": "dm/stomp",
+      "timesPlayed": 1,
+      "totalKills": 23,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/tdm-0815",
@@ -160738,10 +160752,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-19 03:23:59"
+    "last": "2026-07-19 03:33:59"
   },
-  "generatedAt": "2026-07-19T07:24:00.368Z",
-  "currentMap": "dm/mp_ship_dm",
+  "generatedAt": "2026-07-19T07:34:00.368Z",
+  "currentMap": "dm/stomp",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
