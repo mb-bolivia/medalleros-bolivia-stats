@@ -28219,7 +28219,7 @@
       "ipHistory": {
         "26.172.27.103": {
           "first": "2026-07-18 21:56:59",
-          "last": "2026-07-18 22:00:18"
+          "last": "2026-07-18 22:33:59"
         }
       },
       "kills": 0,
@@ -28246,7 +28246,7 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 1,
+      "sessions": 2,
       "disconnects": 1,
       "playtimeMs": 206000,
       "playtimeFormatted": "0h 3m",
@@ -28274,7 +28274,7 @@
         0,
         0,
         4,
-        3,
+        4,
         0
       ],
       "mapBreakdown": [
@@ -28349,7 +28349,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-18 21:56:59",
-      "lastSeen": "2026-07-18 22:00:25",
+      "lastSeen": "2026-07-18 22:33:59",
       "rank": 14,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -28844,7 +28844,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 10,
           "unit": null
         },
@@ -28855,7 +28855,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -28877,7 +28877,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 50,
           "unit": null
         },
@@ -28888,7 +28888,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 75,
           "unit": null
         },
@@ -29966,7 +29966,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 100,
           "unit": null
         },
@@ -29977,7 +29977,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 200,
           "unit": null
         },
@@ -147269,7 +147269,7 @@
     {
       "map": "dm/aa_hometown",
       "timesPlayed": 3,
-      "totalKills": 233,
+      "totalKills": 254,
       "connectedHumans": [
         {
           "name": "Mr.Sipi",
@@ -147405,6 +147405,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/tdm-0815",
+      "timesPlayed": 2,
+      "totalKills": 8,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/deadend",
       "timesPlayed": 1,
       "totalKills": 8,
@@ -147510,19 +147523,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 2
-    },
-    {
-      "map": "dm/tdm-0815",
-      "timesPlayed": 1,
-      "totalKills": 4,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/Under_Siege",
@@ -147716,7 +147716,12 @@
       "totalEncounters": 1
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "DENIX",
+      "since": "2026-07-18 22:33:59"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -148138,6 +148143,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-18 22:33:59",
+        "name": "DENIX",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 6,
@@ -148156,10 +148168,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-18 22:24:00"
+    "last": "2026-07-18 22:33:59"
   },
-  "generatedAt": "2026-07-19T02:24:00.971Z",
-  "currentMap": "dm/aa_hometown",
+  "generatedAt": "2026-07-19T02:34:00.977Z",
+  "currentMap": "dm/tdm-0815",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
