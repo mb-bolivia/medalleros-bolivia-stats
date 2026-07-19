@@ -157852,7 +157852,8 @@
     "dm/broken_silence",
     "dm/centraleurope",
     "dm/arab_streets",
-    "dm/place_de_ville"
+    "dm/place_de_ville",
+    "dm/mp_ship_dm"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -159156,6 +159157,19 @@
       "alliesKills": 2
     },
     {
+      "map": "dm/place_de_ville",
+      "timesPlayed": 1,
+      "totalKills": 145,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/bombedvillage",
       "timesPlayed": 2,
       "totalKills": 140,
@@ -159384,14 +159398,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/place_de_ville",
+      "map": "dm/mp_ship_dm",
       "timesPlayed": 1,
-      "totalKills": 59,
+      "totalKills": 44,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Vasily",
-        "=MB= .Ogre2",
-        "=MB= .Scump"
+        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -160726,10 +160738,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-19 03:13:56"
+    "last": "2026-07-19 03:23:59"
   },
-  "generatedAt": "2026-07-19T07:14:00.351Z",
-  "currentMap": "dm/place_de_ville",
+  "generatedAt": "2026-07-19T07:24:00.368Z",
+  "currentMap": "dm/mp_ship_dm",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
