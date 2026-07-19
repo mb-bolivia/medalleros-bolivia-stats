@@ -159132,6 +159132,19 @@
       "alliesKills": 41
     },
     {
+      "map": "dm/bombedvillage",
+      "timesPlayed": 2,
+      "totalKills": 140,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/gloomcove",
       "timesPlayed": 2,
       "totalKills": 134,
@@ -159205,17 +159218,22 @@
       "alliesKills": 38
     },
     {
-      "map": "dm/bombedvillage",
+      "map": "dm/StreetFinal",
       "timesPlayed": 2,
       "totalKills": 93,
-      "connectedHumans": [],
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 2
+        }
+      ],
       "winners": [
         "=MB= .Scump"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
       "axisKills": 0,
-      "alliesKills": 0
+      "alliesKills": 2
     },
     {
       "map": "dm/africannights",
@@ -159315,24 +159333,6 @@
       "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
-    },
-    {
-      "map": "dm/StreetFinal",
-      "timesPlayed": 1,
-      "totalKills": 7,
-      "connectedHumans": [
-        {
-          "name": "Mr.Sipi",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 2
     },
     {
       "map": "dm/dm_decalattack",
@@ -160641,10 +160641,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-19 01:43:56"
+    "last": "2026-07-19 01:53:52"
   },
-  "generatedAt": "2026-07-19T05:44:00.191Z",
-  "currentMap": "dm/bombedvillage",
+  "generatedAt": "2026-07-19T05:54:00.202Z",
+  "currentMap": "dm/StreetFinal",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
