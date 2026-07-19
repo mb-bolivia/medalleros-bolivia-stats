@@ -158167,8 +158167,8 @@
     },
     {
       "map": "dm/snipervalley",
-      "timesPlayed": 7,
-      "totalKills": 2549,
+      "timesPlayed": 8,
+      "totalKills": 2660,
       "connectedHumans": [
         {
           "name": "ST3",
@@ -159097,6 +159097,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/schlittschuh",
+      "timesPlayed": 2,
+      "totalKills": 170,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/deadend",
       "timesPlayed": 2,
       "totalKills": 158,
@@ -159190,19 +159203,6 @@
       "hasHuman": true,
       "axisKills": 35,
       "alliesKills": 38
-    },
-    {
-      "map": "dm/schlittschuh",
-      "timesPlayed": 2,
-      "totalKills": 123,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/africannights",
@@ -160605,6 +160605,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-19 01:24:07",
+        "name": "pitufo",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-07-19 01:24:25",
+        "name": "pitufo",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 9,
@@ -160627,10 +160641,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-19 01:23:56"
+    "last": "2026-07-19 01:33:58"
   },
-  "generatedAt": "2026-07-19T05:24:01.131Z",
-  "currentMap": "dm/schlittschuh",
+  "generatedAt": "2026-07-19T05:34:01.158Z",
+  "currentMap": "dm/snipervalley",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
