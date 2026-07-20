@@ -165207,7 +165207,8 @@
     "dm/TheChurch_dm",
     "dm/NightRaid",
     "dm/Fourth_Village",
-    "dm/geschutze"
+    "dm/geschutze",
+    "dm/downtown"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -167259,6 +167260,20 @@
       "alliesKills": 41
     },
     {
+      "map": "dm/geschutze",
+      "timesPlayed": 1,
+      "totalKills": 158,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2",
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/romestreets_bots",
       "timesPlayed": 1,
       "totalKills": 151,
@@ -167410,6 +167425,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/downtown",
+      "timesPlayed": 1,
+      "totalKills": 116,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/broken_silence",
       "timesPlayed": 1,
       "totalKills": 108,
@@ -167529,19 +167557,6 @@
       "hasHuman": true,
       "axisKills": 18,
       "alliesKills": 14
-    },
-    {
-      "map": "dm/geschutze",
-      "timesPlayed": 1,
-      "totalKills": 71,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/mohdm2",
@@ -169172,10 +169187,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-20 09:23:57"
+    "last": "2026-07-20 09:33:58"
   },
-  "generatedAt": "2026-07-20T13:24:00.917Z",
-  "currentMap": "dm/geschutze",
+  "generatedAt": "2026-07-20T13:34:00.941Z",
+  "currentMap": "dm/downtown",
   "serverName": "=MB= Revival Lun | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
