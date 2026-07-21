@@ -170478,7 +170478,8 @@
     "dm/Jagdtiger",
     "dm/LaPrison",
     "dm/dm_canal",
-    "dm/dm_island_assault"
+    "dm/dm_island_assault",
+    "dm/bridges"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -173198,6 +173199,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_island_assault",
+      "timesPlayed": 1,
+      "totalKills": 136,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/thesiege_dm",
       "timesPlayed": 1,
       "totalKills": 135,
@@ -173349,19 +173363,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_island_assault",
-      "timesPlayed": 1,
-      "totalKills": 102,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/mp_ship_dm",
       "timesPlayed": 1,
       "totalKills": 96,
@@ -173382,6 +173383,20 @@
       "winners": [
         "=MB= .Ogre2",
         "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/bridges",
+      "timesPlayed": 1,
+      "totalKills": 90,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ",
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -175342,10 +175357,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-21 10:24:00"
+    "last": "2026-07-21 10:34:00"
   },
-  "generatedAt": "2026-07-21T14:24:00.819Z",
-  "currentMap": "dm/dm_island_assault",
+  "generatedAt": "2026-07-21T14:34:00.843Z",
+  "currentMap": "dm/bridges",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
