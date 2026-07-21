@@ -170476,7 +170476,8 @@
     "dm/AC_Battlefield",
     "dm/thesiege_dm",
     "dm/Jagdtiger",
-    "dm/LaPrison"
+    "dm/LaPrison",
+    "dm/dm_canal"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -173282,6 +173283,19 @@
       "alliesKills": 38
     },
     {
+      "map": "dm/LaPrison",
+      "timesPlayed": 1,
+      "totalKills": 127,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/SmallCity",
       "timesPlayed": 1,
       "totalKills": 124,
@@ -173451,6 +173465,19 @@
       "alliesKills": 43
     },
     {
+      "map": "dm/dm_canal",
+      "timesPlayed": 1,
+      "totalKills": 61,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm3",
       "timesPlayed": 1,
       "totalKills": 59,
@@ -173483,20 +173510,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Ogre2"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/LaPrison",
-      "timesPlayed": 1,
-      "totalKills": 33,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Ogre2",
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -175315,10 +175328,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-21 10:04:00"
+    "last": "2026-07-21 10:13:59"
   },
-  "generatedAt": "2026-07-21T14:04:00.784Z",
-  "currentMap": "dm/LaPrison",
+  "generatedAt": "2026-07-21T14:14:00.812Z",
+  "currentMap": "dm/dm_canal",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
