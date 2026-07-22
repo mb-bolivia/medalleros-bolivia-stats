@@ -63571,7 +63571,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 0,
       "verified": false,
-      "verificationDaysLeft": 14,
+      "verificationDaysLeft": 13,
       "killedByList": [],
       "victimsList": [],
       "weaponsList": [],
@@ -71635,13 +71635,13 @@
       "ipHistory": {
         "45.5.54.145": {
           "first": "2026-07-21 23:29:27",
-          "last": "2026-07-21 23:32:48"
+          "last": "2026-07-21 23:34:02"
         }
       },
       "kills": 0,
       "deaths": 0,
       "totalKills": 4,
-      "totalDeaths": 2,
+      "totalDeaths": 3,
       "suicides": 0,
       "kd": 0,
       "headshots": 0,
@@ -71663,8 +71663,8 @@
       "multikillEvents": 0,
       "bestMultikillChain": 0,
       "sessions": 1,
-      "disconnects": 0,
-      "playtimeMs": 273000,
+      "disconnects": 1,
+      "playtimeMs": 297000,
       "playtimeFormatted": "0h 5m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -71691,14 +71691,14 @@
         0,
         0,
         0,
-        7
+        9
       ],
       "mapBreakdown": [
         {
           "map": "dm/mp_monteBattaglia_dm",
           "kills": 4,
-          "deaths": 2,
-          "kd": 2
+          "deaths": 3,
+          "kd": 1.33
         }
       ],
       "bestWeaponVarietyInMap": 1,
@@ -71719,7 +71719,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 273000,
+      "longestSessionMs": 297000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -71730,7 +71730,7 @@
       "chatMessages": 0,
       "botKills": 4,
       "humanKillsOnly": 0,
-      "botDeaths": 2,
+      "botDeaths": 3,
       "humanDeathsOnly": 0,
       "maxBotRivalry": 2,
       "currentTeam": null,
@@ -71748,7 +71748,7 @@
       "killedByList": [
         {
           "name": "=MB= .ZywOo",
-          "deaths": 1
+          "deaths": 2
         },
         {
           "name": "=MB= .Lyudmila",
@@ -71778,7 +71778,7 @@
         }
       ],
       "firstSeen": "2026-07-21 23:29:27",
-      "lastSeen": "2026-07-21 23:33:54",
+      "lastSeen": "2026-07-21 23:34:24",
       "rank": 34,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -73296,7 +73296,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 80,
           "unit": null
         },
@@ -73307,7 +73307,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 400,
           "unit": null
         },
@@ -174791,6 +174791,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mp_monteBattaglia_dm",
+      "timesPlayed": 5,
+      "totalKills": 965,
+      "connectedHumans": [
+        {
+          "name": "Ferran",
+          "kills": 4
+        }
+      ],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_v2dm",
       "timesPlayed": 5,
       "totalKills": 962,
@@ -174909,24 +174927,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mp_monteBattaglia_dm",
-      "timesPlayed": 5,
-      "totalKills": 850,
-      "connectedHumans": [
-        {
-          "name": "Ferran",
-          "kills": 4
-        }
-      ],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/city_nights_mog",
       "timesPlayed": 5,
       "totalKills": 835,
@@ -175037,6 +175037,19 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/compound2",
+      "timesPlayed": 5,
+      "totalKills": 731,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -175242,19 +175255,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/compound2",
-      "timesPlayed": 4,
-      "totalKills": 628,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -176160,12 +176160,7 @@
       "totalEncounters": 18
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Ferran",
-      "since": "2026-07-21 23:29:27"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -177812,6 +177807,27 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-21 23:34:24",
+        "name": "Ferran",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-21 23:34:55",
+        "name": "Retu14",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-21 23:34:56",
+        "name": "Retu14",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Martes"
       }
     ],
     "peakCount": 9,
@@ -177842,10 +177858,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-21 23:34:00"
+    "last": "2026-07-21 23:43:58"
   },
-  "generatedAt": "2026-07-22T03:34:01.034Z",
-  "currentMap": "dm/mp_monteBattaglia_dm",
+  "generatedAt": "2026-07-22T03:44:01.054Z",
+  "currentMap": "dm/compound2",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
