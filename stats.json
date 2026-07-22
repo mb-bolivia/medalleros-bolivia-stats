@@ -69649,7 +69649,7 @@
       "ipHistory": {
         "181.23.234.209": {
           "first": "2026-07-21 21:31:04",
-          "last": "2026-07-21 21:31:04"
+          "last": "2026-07-22 06:26:31"
         }
       },
       "kills": 0,
@@ -69674,11 +69674,11 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 1,
-      "disconnects": 1,
-      "playtimeMs": 5000,
+      "sessions": 2,
+      "disconnects": 2,
+      "playtimeMs": 16000,
       "playtimeFormatted": "0h 0m",
-      "favoriteHour": "21:00",
+      "favoriteHour": "06:00",
       "hourActivity": [
         0,
         0,
@@ -69686,7 +69686,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0,
         0,
@@ -69709,15 +69709,15 @@
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [],
-      "activeDaysCount": 1,
-      "weekdaysCovered": 1,
+      "activeDaysCount": 2,
+      "weekdaysCovered": 2,
       "distinctBotsKilled": 0,
       "bestBotVarietyInMap": 0,
       "totalBotsConfigured": 11,
       "winWeekdaysCovered": 0,
-      "longestConsecutiveDayStreak": 1,
+      "longestConsecutiveDayStreak": 2,
       "wonWeekendPair": false,
-      "longestSessionMs": 5000,
+      "longestSessionMs": 11000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -69748,7 +69748,7 @@
       "weaponsList": [],
       "bodypartsList": [],
       "firstSeen": "2026-07-21 21:31:04",
-      "lastSeen": "2026-07-21 21:31:09",
+      "lastSeen": "2026-07-22 06:26:42",
       "rank": 33,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -69979,7 +69979,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 3,
           "unit": null
         },
@@ -70243,7 +70243,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 10,
           "unit": null
         },
@@ -70254,7 +70254,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -70276,7 +70276,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 50,
           "unit": null
         },
@@ -70287,7 +70287,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 75,
           "unit": null
         },
@@ -70386,7 +70386,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 24,
           "unit": null
         },
@@ -70518,7 +70518,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 7 días de la semana",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 7,
           "unit": null
         },
@@ -70639,7 +70639,7 @@
           "name": "Racha de Constancia",
           "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 5,
           "unit": null
         },
@@ -71365,7 +71365,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 100,
           "unit": null
         },
@@ -71376,7 +71376,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 200,
           "unit": null
         },
@@ -71474,7 +71474,7 @@
           "icon": "🌅",
           "name": "Madrugador",
           "desc": "Que tu hora de mayor actividad sea entre las 05:00 y las 08:00",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -71485,7 +71485,7 @@
           "icon": "🌇",
           "name": "Ave Vespertina",
           "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
-          "unlocked": true,
+          "unlocked": false,
           "current": null,
           "target": null,
           "unit": null
@@ -174004,6 +174004,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/vsuk_st_agnes_dtr",
+      "timesPlayed": 7,
+      "totalKills": 1431,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/despair",
       "timesPlayed": 6,
       "totalKills": 1381,
@@ -174142,6 +174155,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/remote_village",
+      "timesPlayed": 7,
+      "totalKills": 1348,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dmxfire",
       "timesPlayed": 6,
       "totalKills": 1347,
@@ -174240,32 +174266,6 @@
       "map": "dm/Fourth_Village",
       "timesPlayed": 6,
       "totalKills": 1273,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/remote_village",
-      "timesPlayed": 6,
-      "totalKills": 1268,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/vsuk_st_agnes_dtr",
-      "timesPlayed": 7,
-      "totalKills": 1237,
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
@@ -177832,6 +177832,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-22 06:26:31",
+        "name": "MohAmericaPlayer",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Miércoles"
+      },
+      {
+        "ts": "2026-07-22 06:26:42",
+        "name": "MohAmericaPlayer",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Miércoles"
       }
     ],
     "peakCount": 9,
@@ -177866,12 +177880,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-22 06:24:00"
+    "last": "2026-07-22 06:33:59"
   },
-  "generatedAt": "2026-07-22T10:24:00.615Z",
-  "currentMap": "dm/vsuk_st_agnes_dtr",
+  "generatedAt": "2026-07-22T10:34:00.639Z",
+  "currentMap": "dm/remote_village",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "MohAmericaPlayer",
+      "achId": "madrugador",
+      "achName": "Madrugador",
+      "desc": "Que tu hora de mayor actividad sea entre las 05:00 y las 08:00",
+      "tier": "C",
+      "icon": "🌅",
+      "ts": "2026-07-22T10:34:00.653Z"
+    },
     {
       "name": "MohAmericaPlayer",
       "achId": "ave_vespertina",
@@ -178221,15 +178244,6 @@
       "desc": "Consigue 70 o más eliminaciones con Bazooka",
       "tier": "C",
       "icon": "🔫",
-      "ts": "2026-07-21T03:34:01.099Z"
-    },
-    {
-      "name": "Soldado Ryan",
-      "achId": "persistent",
-      "achName": "Persistente",
-      "desc": "Juega en 3 o más días distintos",
-      "tier": "B",
-      "icon": "📆",
       "ts": "2026-07-21T03:34:01.099Z"
     }
   ],
