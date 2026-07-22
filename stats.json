@@ -69642,11 +69642,16 @@
       "rankChange": null
     },
     {
-      "name": "DeVta",
+      "name": "MohAmericaPlayer",
       "ips": [
-        "0.0.0.0"
+        "181.23.234.209"
       ],
-      "ipHistory": {},
+      "ipHistory": {
+        "181.23.234.209": {
+          "first": "2026-07-21 21:31:04",
+          "last": "2026-07-21 21:31:04"
+        }
+      },
       "kills": 0,
       "deaths": 0,
       "totalKills": 0,
@@ -69669,11 +69674,11 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 0,
-      "disconnects": 0,
-      "playtimeMs": 0,
+      "sessions": 1,
+      "disconnects": 1,
+      "playtimeMs": 5000,
       "playtimeFormatted": "0h 0m",
-      "favoriteHour": null,
+      "favoriteHour": "21:00",
       "hourActivity": [
         0,
         0,
@@ -69696,7 +69701,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0
       ],
@@ -69704,15 +69709,15 @@
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [],
-      "activeDaysCount": 0,
-      "weekdaysCovered": 0,
+      "activeDaysCount": 1,
+      "weekdaysCovered": 1,
       "distinctBotsKilled": 0,
       "bestBotVarietyInMap": 0,
       "totalBotsConfigured": 11,
       "winWeekdaysCovered": 0,
-      "longestConsecutiveDayStreak": 0,
+      "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 0,
+      "longestSessionMs": 5000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -69742,8 +69747,8 @@
       "victimsList": [],
       "weaponsList": [],
       "bodypartsList": [],
-      "firstSeen": null,
-      "lastSeen": null,
+      "firstSeen": "2026-07-21 21:31:04",
+      "lastSeen": "2026-07-21 21:31:09",
       "rank": 33,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -69974,7 +69979,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 3,
           "unit": null
         },
@@ -70238,7 +70243,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 10,
           "unit": null
         },
@@ -70249,7 +70254,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 30,
           "unit": null
         },
@@ -70271,7 +70276,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
@@ -70282,7 +70287,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 75,
           "unit": null
         },
@@ -70381,7 +70386,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 24,
           "unit": null
         },
@@ -70513,7 +70518,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 7 días de la semana",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 7,
           "unit": null
         },
@@ -70634,7 +70639,7 @@
           "name": "Racha de Constancia",
           "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -71360,7 +71365,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 100,
           "unit": null
         },
@@ -71371,7 +71376,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 200,
           "unit": null
         },
@@ -71480,7 +71485,7 @@
           "icon": "🌇",
           "name": "Ave Vespertina",
           "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -71503,7 +71508,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 47 o más logros distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 47,
           "unit": null
         },
@@ -71514,7 +71519,7 @@
           "name": "Completista",
           "desc": "Desbloquea 95 o más logros distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 95,
           "unit": null
         },
@@ -71536,7 +71541,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 33,
           "unit": null
         },
@@ -71591,12 +71596,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (167)",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 167,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 0,
+      "achievementsUnlocked": 1,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -71620,10 +71625,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -20
+      "rankChange": 3
     },
     {
-      "name": "hassan",
+      "name": "DeVta",
       "ips": [
         "0.0.0.0"
       ],
@@ -73601,10 +73606,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -20
+      "rankChange": -21
     },
     {
-      "name": "DrMansoOOour",
+      "name": "hassan",
       "ips": [
         "0.0.0.0"
       ],
@@ -75582,10 +75587,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -20
+      "rankChange": -21
     },
     {
-      "name": "BARTON",
+      "name": "DrMansoOOour",
       "ips": [
         "0.0.0.0"
       ],
@@ -77563,10 +77568,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -19
+      "rankChange": -21
     },
     {
-      "name": "DsK.MeCaNiKo",
+      "name": "BARTON",
       "ips": [
         "0.0.0.0"
       ],
@@ -79544,10 +79549,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -19
+      "rankChange": -20
     },
     {
-      "name": "pichi con miel",
+      "name": "DsK.MeCaNiKo",
       "ips": [
         "0.0.0.0"
       ],
@@ -81525,10 +81530,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -19
+      "rankChange": -20
     },
     {
-      "name": "UnnamedSoldier",
+      "name": "pichi con miel",
       "ips": [
         "0.0.0.0"
       ],
@@ -83506,10 +83511,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -18
+      "rankChange": -20
     },
     {
-      "name": "Machete",
+      "name": "UnnamedSoldier",
       "ips": [
         "0.0.0.0"
       ],
@@ -85487,10 +85492,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -18
+      "rankChange": -19
     },
     {
-      "name": "xKuroashi",
+      "name": "Machete",
       "ips": [
         "0.0.0.0"
       ],
@@ -87468,10 +87473,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -18
+      "rankChange": -19
     },
     {
-      "name": "diet",
+      "name": "xKuroashi",
       "ips": [
         "0.0.0.0"
       ],
@@ -89449,10 +89454,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -18
+      "rankChange": -19
     },
     {
-      "name": "Brave Chicken",
+      "name": "diet",
       "ips": [
         "0.0.0.0"
       ],
@@ -91430,10 +91435,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -18
+      "rankChange": -19
     },
     {
-      "name": "[ Victory ] - Reflexito",
+      "name": "Brave Chicken",
       "ips": [
         "0.0.0.0"
       ],
@@ -93411,10 +93416,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -17
+      "rankChange": -19
     },
     {
-      "name": "BIG DADDY (A.K.A. BIG CAMPER)",
+      "name": "[ Victory ] - Reflexito",
       "ips": [
         "0.0.0.0"
       ],
@@ -95392,10 +95397,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -17
+      "rankChange": -18
     },
     {
-      "name": "Roly",
+      "name": "BIG DADDY (A.K.A. BIG CAMPER)",
       "ips": [
         "0.0.0.0"
       ],
@@ -97373,10 +97378,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -16
+      "rankChange": -18
     },
     {
-      "name": "Diego BAD",
+      "name": "Roly",
       "ips": [
         "0.0.0.0"
       ],
@@ -99354,10 +99359,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -16
+      "rankChange": -17
     },
     {
-      "name": "Ahmed",
+      "name": "Diego BAD",
       "ips": [
         "0.0.0.0"
       ],
@@ -101335,10 +101340,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -16
+      "rankChange": -17
     },
     {
-      "name": "2bo Joe Kadelak",
+      "name": "Ahmed",
       "ips": [
         "0.0.0.0"
       ],
@@ -103316,10 +103321,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -15
+      "rankChange": -17
     },
     {
-      "name": "Ledokingz",
+      "name": "2bo Joe Kadelak",
       "ips": [
         "0.0.0.0"
       ],
@@ -105297,10 +105302,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -15
+      "rankChange": -16
     },
     {
-      "name": "MohAmericaPlayer",
+      "name": "Ledokingz",
       "ips": [
         "0.0.0.0"
       ],
@@ -107278,7 +107283,7 @@
           "kills": 0
         }
       ],
-      "rankChange": -15
+      "rankChange": -16
     },
     {
       "name": "TRUTA DE BATALHA",
@@ -173258,6 +173263,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_island_assault",
+      "timesPlayed": 4,
+      "totalKills": 579,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/monastere",
       "timesPlayed": 4,
       "totalKills": 574,
@@ -173312,23 +173330,10 @@
     {
       "map": "dm/dm_canal",
       "timesPlayed": 4,
-      "totalKills": 423,
+      "totalKills": 455,
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_island_assault",
-      "timesPlayed": 3,
-      "totalKills": 422,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -175728,6 +175733,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-21 21:31:04",
+        "name": "MohAmericaPlayer",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-21 21:31:09",
+        "name": "MohAmericaPlayer",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Martes"
       }
     ],
     "peakCount": 9,
@@ -175758,12 +175777,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-21 21:23:52"
+    "last": "2026-07-21 21:33:59"
   },
-  "generatedAt": "2026-07-22T01:24:00.822Z",
-  "currentMap": "dm/dm_canal",
+  "generatedAt": "2026-07-22T01:34:00.838Z",
+  "currentMap": "dm/dm_island_assault",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "MohAmericaPlayer",
+      "achId": "ave_vespertina",
+      "achName": "Ave Vespertina",
+      "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
+      "tier": "C",
+      "icon": "🌇",
+      "ts": "2026-07-22T01:34:00.853Z"
+    },
     {
       "name": "=BoL= Chory",
       "achId": "guardian_del_nick",
@@ -176113,15 +176141,6 @@
       "desc": "Juega en 3 o más días distintos",
       "tier": "B",
       "icon": "📆",
-      "ts": "2026-07-21T03:34:01.099Z"
-    },
-    {
-      "name": "SANDY",
-      "achId": "presa_facil",
-      "achName": "Presa Fácil",
-      "desc": "Muere 100 o más veces a manos de bots",
-      "tier": "B",
-      "icon": "🎯",
       "ts": "2026-07-21T03:34:01.099Z"
     }
   ],
