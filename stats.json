@@ -174431,6 +174431,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/SmallCity",
+      "timesPlayed": 5,
+      "totalKills": 1432,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/vsuk_st_agnes_dtr",
       "timesPlayed": 7,
       "totalKills": 1431,
@@ -174657,19 +174670,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Kazuya"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/SmallCity",
-      "timesPlayed": 5,
-      "totalKills": 1294,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -175278,6 +175278,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/stalingrad_3_dm",
+      "timesPlayed": 5,
+      "totalKills": 1001,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/urbansprawl",
       "timesPlayed": 6,
       "totalKills": 1001,
@@ -175625,19 +175638,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/stalingrad_3_dm",
-      "timesPlayed": 4,
-      "totalKills": 807,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -176783,7 +176783,12 @@
       "totalEncounters": 18
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "kioz",
+      "since": "2026-07-23 19:03:07"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -178479,6 +178484,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-23 19:03:07",
+        "name": "kioz",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 9,
@@ -178517,10 +178529,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-23 18:54:00"
+    "last": "2026-07-23 19:03:56"
   },
-  "generatedAt": "2026-07-23T22:54:00.558Z",
-  "currentMap": "dm/SmallCity",
+  "generatedAt": "2026-07-23T23:04:00.600Z",
+  "currentMap": "dm/stalingrad_3_dm",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
