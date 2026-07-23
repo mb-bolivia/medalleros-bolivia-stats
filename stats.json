@@ -173194,7 +173194,8 @@
     "dm/schule",
     "dm/weihnachtsmarkt",
     "dm/MP_Bahnhof_DM",
-    "dm/mp_castello_dm"
+    "dm/mp_castello_dm",
+    "dm/Gatehouse_Assault_DM_1"
   ],
   "weaponRankings": {
     "Pistol": [
@@ -176218,12 +176219,38 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mp_castello_dm",
+      "timesPlayed": 1,
+      "totalKills": 194,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/le-camp",
       "timesPlayed": 1,
       "totalKills": 192,
       "connectedHumans": [],
       "winners": [
         "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/Gatehouse_Assault_DM_1",
+      "timesPlayed": 1,
+      "totalKills": 166,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -176348,19 +176375,6 @@
       ],
       "winnersAreBots": false,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/mp_castello_dm",
-      "timesPlayed": 1,
-      "totalKills": 86,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -178336,6 +178350,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Miércoles"
+      },
+      {
+        "ts": "2026-07-23 09:30:05",
+        "name": "Edd",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-07-23 09:30:06",
+        "name": "Edd",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 9,
@@ -178374,10 +178402,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-23 09:23:58"
+    "last": "2026-07-23 09:33:58"
   },
-  "generatedAt": "2026-07-23T13:24:00.676Z",
-  "currentMap": "dm/mp_castello_dm",
+  "generatedAt": "2026-07-23T13:34:00.687Z",
+  "currentMap": "dm/Gatehouse_Assault_DM_1",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
