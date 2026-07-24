@@ -37967,7 +37967,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 1,
       "verified": false,
-      "verificationDaysLeft": 12,
+      "verificationDaysLeft": 11,
       "killedByList": [
         {
           "name": "=MB= .Ogre2",
@@ -177726,6 +177726,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/buchholz",
+      "timesPlayed": 9,
+      "totalKills": 1822,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .S1mple"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_dorf",
       "timesPlayed": 7,
       "totalKills": 1820,
@@ -177951,15 +177964,24 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/buchholz",
+      "map": "dm/El_Foso",
       "timesPlayed": 9,
-      "totalKills": 1683,
-      "connectedHumans": [],
+      "totalKills": 1657,
+      "connectedHumans": [
+        {
+          "name": "Bard0k",
+          "kills": 15
+        },
+        {
+          "name": "Homer",
+          "kills": 11
+        }
+      ],
       "winners": [
-        "=MB= .S1mple"
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -178084,28 +178106,6 @@
       "winners": [
         "=MB= .Hartmann",
         "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/El_Foso",
-      "timesPlayed": 8,
-      "totalKills": 1551,
-      "connectedHumans": [
-        {
-          "name": "Bard0k",
-          "kills": 15
-        },
-        {
-          "name": "Homer",
-          "kills": 11
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -182468,10 +182468,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-24 16:23:57"
+    "last": "2026-07-24 16:33:58"
   },
-  "generatedAt": "2026-07-24T20:24:00.707Z",
-  "currentMap": "dm/buchholz",
+  "generatedAt": "2026-07-24T20:34:00.685Z",
+  "currentMap": "dm/El_Foso",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
