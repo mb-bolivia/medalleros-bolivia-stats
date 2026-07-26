@@ -60851,8 +60851,8 @@
       "bestMultikillChain": 2,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 8998000,
-      "playtimeFormatted": "2h 30m",
+      "playtimeMs": 9602000,
+      "playtimeFormatted": "2h 40m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -60918,7 +60918,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 8998000,
+      "longestSessionMs": 9602000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -61113,7 +61113,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 150,
+          "current": 160,
           "target": 120,
           "unit": "min"
         },
@@ -61498,7 +61498,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 150,
+          "current": 160,
           "target": 300,
           "unit": "min"
         },
@@ -61509,7 +61509,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 150,
+          "current": 160,
           "target": 900,
           "unit": "min"
         },
@@ -62675,7 +62675,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 150,
+          "current": 160,
           "target": 2400,
           "unit": "min"
         },
@@ -198990,8 +198990,8 @@
     },
     {
       "map": "dm/progress",
-      "timesPlayed": 6,
-      "totalKills": 1541,
+      "timesPlayed": 7,
+      "totalKills": 1577,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -199448,6 +199448,36 @@
       "alliesKills": 19
     },
     {
+      "map": "dm/renan",
+      "timesPlayed": 7,
+      "totalKills": 1286,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 43
+        },
+        {
+          "name": "=BoL= Chory",
+          "kills": 23
+        },
+        {
+          "name": "SANDY",
+          "kills": 15
+        },
+        {
+          "name": "Maverick",
+          "kills": 11
+        }
+      ],
+      "winners": [
+        "=MB= .Fatal1ty"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/treasure_island",
       "timesPlayed": 11,
       "totalKills": 1273,
@@ -199638,36 +199668,6 @@
       ],
       "winners": [
         "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/renan",
-      "timesPlayed": 7,
-      "totalKills": 1211,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 43
-        },
-        {
-          "name": "=BoL= Chory",
-          "kills": 23
-        },
-        {
-          "name": "SANDY",
-          "kills": 15
-        },
-        {
-          "name": "Maverick",
-          "kills": 11
-        }
-      ],
-      "winners": [
-        "=MB= .Fatal1ty"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -204242,10 +204242,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-26 01:33:56"
+    "last": "2026-07-26 01:44:00"
   },
-  "generatedAt": "2026-07-26T05:34:01.136Z",
-  "currentMap": "dm/renan",
+  "generatedAt": "2026-07-26T05:44:01.172Z",
+  "currentMap": "dm/progress",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
