@@ -60851,8 +60851,8 @@
       "bestMultikillChain": 2,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 8402000,
-      "playtimeFormatted": "2h 20m",
+      "playtimeMs": 8998000,
+      "playtimeFormatted": "2h 30m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -60918,7 +60918,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 8402000,
+      "longestSessionMs": 8998000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -61113,7 +61113,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 140,
+          "current": 150,
           "target": 120,
           "unit": "min"
         },
@@ -61498,7 +61498,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 140,
+          "current": 150,
           "target": 300,
           "unit": "min"
         },
@@ -61509,7 +61509,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 140,
+          "current": 150,
           "target": 900,
           "unit": "min"
         },
@@ -62675,7 +62675,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 140,
+          "current": 150,
           "target": 2400,
           "unit": "min"
         },
@@ -197647,6 +197647,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/castleddm",
+      "timesPlayed": 14,
+      "totalKills": 3042,
+      "connectedHumans": [
+        {
+          "name": "Osi",
+          "kills": 13
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/toysoldiers",
       "timesPlayed": 11,
       "totalKills": 3018,
@@ -197676,24 +197694,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 1
-    },
-    {
-      "map": "dm/castleddm",
-      "timesPlayed": 14,
-      "totalKills": 2916,
-      "connectedHumans": [
-        {
-          "name": "Osi",
-          "kills": 13
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/aquaduct-light",
@@ -199645,22 +199645,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/arnhem",
-      "timesPlayed": 6,
-      "totalKills": 1185,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/renan",
-      "timesPlayed": 6,
-      "totalKills": 1183,
+      "timesPlayed": 7,
+      "totalKills": 1211,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -199684,6 +199671,19 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/arnhem",
+      "timesPlayed": 6,
+      "totalKills": 1185,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -204242,10 +204242,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-26 01:24:00"
+    "last": "2026-07-26 01:33:56"
   },
-  "generatedAt": "2026-07-26T05:24:01.143Z",
-  "currentMap": "dm/castleddm",
+  "generatedAt": "2026-07-26T05:34:01.136Z",
+  "currentMap": "dm/renan",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
