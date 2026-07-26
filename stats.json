@@ -81361,11 +81361,16 @@
       "rankChange": 18
     },
     {
-      "name": "DeVta",
+      "name": "UnnamedSoldier",
       "ips": [
-        "0.0.0.0"
+        "192.223.122.217"
       ],
-      "ipHistory": {},
+      "ipHistory": {
+        "192.223.122.217": {
+          "first": "2026-07-25 20:52:48",
+          "last": "2026-07-25 20:53:03"
+        }
+      },
       "kills": 0,
       "deaths": 0,
       "totalKills": 0,
@@ -81388,11 +81393,11 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 0,
-      "disconnects": 0,
-      "playtimeMs": 0,
+      "sessions": 1,
+      "disconnects": 1,
+      "playtimeMs": 28000,
       "playtimeFormatted": "0h 0m",
-      "favoriteHour": null,
+      "favoriteHour": "20:00",
       "hourActivity": [
         0,
         0,
@@ -81414,7 +81419,7 @@
         0,
         0,
         0,
-        0,
+        3,
         0,
         0,
         0
@@ -81423,21 +81428,21 @@
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [],
-      "activeDaysCount": 0,
-      "weekdaysCovered": 0,
+      "activeDaysCount": 1,
+      "weekdaysCovered": 1,
       "distinctBotsKilled": 0,
       "bestBotVarietyInMap": 0,
       "totalBotsConfigured": 11,
       "winWeekdaysCovered": 0,
-      "longestConsecutiveDayStreak": 0,
+      "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 0,
+      "longestSessionMs": 28000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
       "hasDominatedMap": false,
       "maxRivalryEncounters": 0,
-      "playedWeekend": false,
+      "playedWeekend": true,
       "playedBothWeekendDays": false,
       "chatMessages": 0,
       "botKills": 0,
@@ -81445,10 +81450,10 @@
       "botDeaths": 0,
       "humanDeathsOnly": 0,
       "maxBotRivalry": 0,
-      "currentTeam": null,
-      "playedAxis": false,
+      "currentTeam": "Axis",
+      "playedAxis": true,
       "playedAllies": false,
-      "axisJoinCount": 0,
+      "axisJoinCount": 1,
       "alliesJoinCount": 0,
       "teamKills": 0,
       "teamKickCount": 0,
@@ -81461,8 +81466,8 @@
       "victimsList": [],
       "weaponsList": [],
       "bodypartsList": [],
-      "firstSeen": null,
-      "lastSeen": null,
+      "firstSeen": "2026-07-25 20:52:48",
+      "lastSeen": "2026-07-25 20:53:16",
       "rank": 38,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -81693,7 +81698,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 3,
           "unit": null
         },
@@ -81957,7 +81962,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 10,
           "unit": null
         },
@@ -81968,7 +81973,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 30,
           "unit": null
         },
@@ -81990,7 +81995,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
@@ -82001,7 +82006,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 75,
           "unit": null
         },
@@ -82088,7 +82093,7 @@
           "icon": "🎉",
           "name": "Guerrero de Fin de Semana",
           "desc": "Juega en sábado o domingo",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -82100,7 +82105,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 24,
           "unit": null
         },
@@ -82232,7 +82237,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 7 días de la semana",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 7,
           "unit": null
         },
@@ -82353,7 +82358,7 @@
           "name": "Racha de Constancia",
           "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -82628,7 +82633,7 @@
           "name": "Veterano del Eje",
           "desc": "Juega 40 o más partidas en el equipo del Eje",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 40,
           "unit": null
         },
@@ -82650,7 +82655,7 @@
           "name": "Comandante del Eje",
           "desc": "Juega 150 o más partidas en el equipo del Eje",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 150,
           "unit": null
         },
@@ -82694,7 +82699,7 @@
           "name": "Guerra Total",
           "desc": "Acumula 400 o más partidas jugadas entre ambos equipos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 400,
           "unit": null
         },
@@ -83079,7 +83084,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 100,
           "unit": null
         },
@@ -83090,7 +83095,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 200,
           "unit": null
         },
@@ -83199,7 +83204,7 @@
           "icon": "🌇",
           "name": "Ave Vespertina",
           "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -83222,7 +83227,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 47 o más logros distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 2,
           "target": 47,
           "unit": null
         },
@@ -83233,7 +83238,7 @@
           "name": "Completista",
           "desc": "Desbloquea 95 o más logros distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 2,
           "target": 95,
           "unit": null
         },
@@ -83255,7 +83260,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 0,
+          "current": 2,
           "target": 33,
           "unit": null
         },
@@ -83310,12 +83315,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (167)",
           "unlocked": false,
-          "current": 0,
+          "current": 2,
           "target": 167,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 0,
+      "achievementsUnlocked": 2,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -83347,10 +83352,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": 1
     },
     {
-      "name": "hassan",
+      "name": "DeVta",
       "ips": [
         "0.0.0.0"
       ],
@@ -85336,10 +85341,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
-      "name": "DrMansoOOour",
+      "name": "hassan",
       "ips": [
         "0.0.0.0"
       ],
@@ -87325,10 +87330,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
-      "name": "BARTON",
+      "name": "DrMansoOOour",
       "ips": [
         "0.0.0.0"
       ],
@@ -89314,10 +89319,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
-      "name": "DsK.MeCaNiKo",
+      "name": "BARTON",
       "ips": [
         "0.0.0.0"
       ],
@@ -91303,10 +91308,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
-      "name": "pichi con miel",
+      "name": "DsK.MeCaNiKo",
       "ips": [
         "0.0.0.0"
       ],
@@ -93292,10 +93297,10 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
-      "name": "UnnamedSoldier",
+      "name": "pichi con miel",
       "ips": [
         "0.0.0.0"
       ],
@@ -95281,7 +95286,7 @@
           "kills": 0
         }
       ],
-      "rankChange": -5
+      "rankChange": -6
     },
     {
       "name": "Machete",
@@ -177542,7 +177547,7 @@
     {
       "map": "dm/warehouse_dm",
       "timesPlayed": 16,
-      "totalKills": 3964,
+      "totalKills": 3970,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -180135,6 +180140,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dieppe",
+      "timesPlayed": 5,
+      "totalKills": 803,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Ogre2"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_badeinsel_steinhude_1985",
       "timesPlayed": 6,
       "totalKills": 797,
@@ -180227,19 +180245,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .S1mple"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dieppe",
-      "timesPlayed": 4,
-      "totalKills": 706,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -183138,6 +183143,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-25 20:52:48",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-25 20:53:16",
+        "name": "UnnamedSoldier",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 9,
@@ -183184,12 +183203,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-25 20:43:54"
+    "last": "2026-07-25 20:54:00"
   },
-  "generatedAt": "2026-07-26T00:44:00.854Z",
-  "currentMap": "dm/warehouse_dm",
+  "generatedAt": "2026-07-26T00:54:00.852Z",
+  "currentMap": "dm/dieppe",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "UnnamedSoldier",
+      "achId": "ave_vespertina",
+      "achName": "Ave Vespertina",
+      "desc": "Que tu hora de mayor actividad sea entre las 18:00 y las 21:00",
+      "tier": "C",
+      "icon": "🌇",
+      "ts": "2026-07-26T00:54:00.869Z"
+    },
+    {
+      "name": "UnnamedSoldier",
+      "achId": "finde",
+      "achName": "Guerrero de Fin de Semana",
+      "desc": "Juega en sábado o domingo",
+      "tier": "C",
+      "icon": "🎉",
+      "ts": "2026-07-26T00:54:00.869Z"
+    },
     {
       "name": "Mr.Sipi",
       "achId": "terco",
@@ -183531,24 +183568,6 @@
       "tier": "B",
       "icon": "📆",
       "ts": "2026-07-24T03:24:00.899Z"
-    },
-    {
-      "name": "[c|A||c|D|o]*COLO-COLO*",
-      "achId": "persistent",
-      "achName": "Persistente",
-      "desc": "Juega en 3 o más días distintos",
-      "tier": "B",
-      "icon": "📆",
-      "ts": "2026-07-24T03:04:00.888Z"
-    },
-    {
-      "name": "CaPaRz0",
-      "achId": "carne_de_canon",
-      "achName": "Carne de Cañón",
-      "desc": "Muere 20 o más veces a manos de bots",
-      "tier": "D",
-      "icon": "🪦",
-      "ts": "2026-07-24T03:04:00.888Z"
     }
   ],
   "weeklyRanking": [
