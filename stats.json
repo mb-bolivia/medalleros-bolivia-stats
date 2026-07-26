@@ -33267,7 +33267,7 @@
       "ipHistory": {
         "26.82.169.89": {
           "first": "2026-07-17 23:49:51",
-          "last": "2026-07-25 15:57:21"
+          "last": "2026-07-25 21:38:08"
         },
         "192.223.122.217": {
           "first": "2026-07-25 15:41:53",
@@ -33277,7 +33277,7 @@
       "kills": 29,
       "deaths": 56,
       "totalKills": 43,
-      "totalDeaths": 87,
+      "totalDeaths": 88,
       "suicides": 11,
       "kd": 0.52,
       "headshots": 0,
@@ -33311,7 +33311,7 @@
       "multikillEvents": 1,
       "bestMultikillChain": 3,
       "sessions": 16,
-      "disconnects": 16,
+      "disconnects": 17,
       "playtimeMs": 8545000,
       "playtimeFormatted": "2h 22m",
       "favoriteHour": "23:00",
@@ -33337,7 +33337,7 @@
         0,
         31,
         7,
-        0,
+        3,
         43,
         61
       ],
@@ -33460,6 +33460,12 @@
           "map": "dm/dm_decalattack",
           "kills": 0,
           "deaths": 2,
+          "kd": 0
+        },
+        {
+          "map": "dm/mohdm2",
+          "kills": 0,
+          "deaths": 1,
           "kd": 0
         }
       ],
@@ -33585,6 +33591,12 @@
           "weaponsCount": 3,
           "victimsCount": 5,
           "humanVictimsCount": 3
+        },
+        {
+          "map": "dm/mohdm2",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
         }
       ],
       "activeDaysCount": 5,
@@ -33606,14 +33618,14 @@
       "chatMessages": 1,
       "botKills": 14,
       "humanKillsOnly": 29,
-      "botDeaths": 20,
+      "botDeaths": 21,
       "humanDeathsOnly": 56,
       "maxBotRivalry": 5,
       "currentTeam": "Allies",
       "playedAxis": true,
       "playedAllies": true,
       "axisJoinCount": 6,
-      "alliesJoinCount": 6,
+      "alliesJoinCount": 7,
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 5,
@@ -33655,15 +33667,15 @@
           "deaths": 3
         },
         {
+          "name": "=MB= .S1mple",
+          "deaths": 3
+        },
+        {
           "name": "JHAS",
           "deaths": 3
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 2
-        },
-        {
-          "name": "=MB= .S1mple",
           "deaths": 2
         },
         {
@@ -33786,7 +33798,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-07-25 15:57:41",
+      "lastSeen": "2026-07-25 21:38:34",
       "rank": 15,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -34424,7 +34436,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 24,
           "unit": null
         },
@@ -34963,7 +34975,7 @@
           "name": "Veterano Aliado",
           "desc": "Juega 40 o más partidas en el equipo de los Aliados",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 40,
           "unit": null
         },
@@ -34985,7 +34997,7 @@
           "name": "Comandante Aliado",
           "desc": "Juega 150 o más partidas en el equipo de los Aliados",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 150,
           "unit": null
         },
@@ -35018,7 +35030,7 @@
           "name": "Guerra Total",
           "desc": "Acumula 400 o más partidas jugadas entre ambos equipos",
           "unlocked": false,
-          "current": 12,
+          "current": 13,
           "target": 400,
           "unit": null
         },
@@ -35304,7 +35316,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": false,
-          "current": 20,
+          "current": 21,
           "target": 80,
           "unit": null
         },
@@ -35315,7 +35327,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 20,
+          "current": 21,
           "target": 400,
           "unit": null
         },
@@ -81368,12 +81380,17 @@
     {
       "name": "UnnamedSoldier",
       "ips": [
-        "192.223.122.217"
+        "192.223.122.217",
+        "26.82.169.89"
       ],
       "ipHistory": {
         "192.223.122.217": {
           "first": "2026-07-25 20:52:48",
           "last": "2026-07-25 20:53:03"
+        },
+        "26.82.169.89": {
+          "first": "2026-07-25 21:37:08",
+          "last": "2026-07-25 21:37:08"
         }
       },
       "kills": 0,
@@ -81398,10 +81415,10 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 1,
+      "sessions": 2,
       "disconnects": 1,
-      "playtimeMs": 28000,
-      "playtimeFormatted": "0h 0m",
+      "playtimeMs": 426000,
+      "playtimeFormatted": "0h 7m",
       "favoriteHour": "20:00",
       "hourActivity": [
         0,
@@ -81425,7 +81442,7 @@
         0,
         0,
         3,
-        0,
+        1,
         0,
         0
       ],
@@ -81441,7 +81458,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 28000,
+      "longestSessionMs": 398000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -81472,7 +81489,7 @@
       "weaponsList": [],
       "bodypartsList": [],
       "firstSeen": "2026-07-25 20:52:48",
-      "lastSeen": "2026-07-25 20:53:16",
+      "lastSeen": "2026-07-25 21:37:08",
       "rank": 38,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -81560,7 +81577,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 120,
           "unit": "min"
         },
@@ -81945,7 +81962,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 300,
           "unit": "min"
         },
@@ -81956,7 +81973,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 900,
           "unit": "min"
         },
@@ -81967,7 +81984,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 10,
           "unit": null
         },
@@ -81978,7 +81995,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -82000,7 +82017,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 50,
           "unit": null
         },
@@ -82011,7 +82028,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 75,
           "unit": null
         },
@@ -82110,7 +82127,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 24,
           "unit": null
         },
@@ -83078,7 +83095,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 2400,
           "unit": "min"
         },
@@ -83089,7 +83106,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 100,
           "unit": null
         },
@@ -83100,7 +83117,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 200,
           "unit": null
         },
@@ -178406,8 +178423,8 @@
     },
     {
       "map": "dm/mohdm2",
-      "timesPlayed": 9,
-      "totalKills": 1905,
+      "timesPlayed": 10,
+      "totalKills": 1955,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -180409,7 +180426,7 @@
     {
       "map": "dm/dm_desperatevillage",
       "timesPlayed": 5,
-      "totalKills": 570,
+      "totalKills": 580,
       "connectedHumans": [],
       "winners": [
         "=MB= .Scump"
@@ -180948,7 +180965,12 @@
       "totalEncounters": 19
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "UnnamedSoldier",
+      "since": "2026-07-25 21:37:08"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -183204,6 +183226,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-07-25 21:37:08",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 9,
@@ -183250,10 +183279,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-25 21:33:53"
+    "last": "2026-07-25 21:43:46"
   },
-  "generatedAt": "2026-07-26T01:34:00.875Z",
-  "currentMap": "dm/dm_desperatevillage",
+  "generatedAt": "2026-07-26T01:44:00.908Z",
+  "currentMap": "dm/mohdm2",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
