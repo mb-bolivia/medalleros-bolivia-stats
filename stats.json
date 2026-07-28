@@ -52043,8 +52043,8 @@
       "bestMultikillChain": 2,
       "sessions": 5,
       "disconnects": 4,
-      "playtimeMs": 8848000,
-      "playtimeFormatted": "2h 27m",
+      "playtimeMs": 9449000,
+      "playtimeFormatted": "2h 37m",
       "favoriteHour": "22:00",
       "hourActivity": [
         57,
@@ -52278,7 +52278,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 3,
       "wonWeekendPair": false,
-      "longestSessionMs": 3526000,
+      "longestSessionMs": 3584000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -52585,7 +52585,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 147,
+          "current": 157,
           "target": 120,
           "unit": "min"
         },
@@ -52970,7 +52970,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 147,
+          "current": 157,
           "target": 300,
           "unit": "min"
         },
@@ -52981,7 +52981,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 147,
+          "current": 157,
           "target": 900,
           "unit": "min"
         },
@@ -54147,7 +54147,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 147,
+          "current": 157,
           "target": 2400,
           "unit": "min"
         },
@@ -58880,7 +58880,7 @@
       "firstBloodOfMapCount": 1,
       "revengeKills": 8,
       "verified": false,
-      "verificationDaysLeft": 6,
+      "verificationDaysLeft": 5,
       "killedByList": [
         {
           "name": "CaPaRz0",
@@ -65454,7 +65454,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 3,
       "verified": false,
-      "verificationDaysLeft": 8,
+      "verificationDaysLeft": 7,
       "killedByList": [
         {
           "name": "=MB= .Scump",
@@ -201849,6 +201849,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/arnhem",
+      "timesPlayed": 9,
+      "totalKills": 1665,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/lastcastle",
       "timesPlayed": 11,
       "totalKills": 1631,
@@ -201939,19 +201952,6 @@
       "hasHuman": true,
       "axisKills": 70,
       "alliesKills": 71
-    },
-    {
-      "map": "dm/arnhem",
-      "timesPlayed": 8,
-      "totalKills": 1610,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/oil_rig_assault_AA",
@@ -202143,6 +202143,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/Las_Chotas_V2",
+      "timesPlayed": 9,
+      "totalKills": 1460,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/user_98lombardo",
       "timesPlayed": 7,
       "totalKills": 1459,
@@ -202215,19 +202228,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/Las_Chotas_V2",
-      "timesPlayed": 9,
-      "totalKills": 1319,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -206765,6 +206765,20 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-07-27 21:50:44",
+        "name": ">>IB<C/h/L-MindFlayer-MERCY<",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-07-27 21:50:46",
+        "name": ">>IB<C/h/L-MindFlayer-MERCY<",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 15,
@@ -206819,10 +206833,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-27 21:43:57"
+    "last": "2026-07-27 21:53:58"
   },
-  "generatedAt": "2026-07-28T01:44:00.925Z",
-  "currentMap": "dm/Las_Chotas_V2",
+  "generatedAt": "2026-07-28T01:54:00.929Z",
+  "currentMap": "dm/arnhem",
   "serverName": "=MB= Revival Lun | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
