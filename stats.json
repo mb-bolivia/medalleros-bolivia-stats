@@ -36087,25 +36087,30 @@
     {
       "name": "Hooligan",
       "ips": [
-        "26.138.3.146"
+        "26.138.3.146",
+        "189.28.69.2"
       ],
       "ipHistory": {
         "26.138.3.146": {
           "first": "2026-07-25 22:22:30",
           "last": "2026-07-25 23:37:46"
+        },
+        "189.28.69.2": {
+          "first": "2026-07-28 22:21:55",
+          "last": "2026-07-28 22:23:55"
         }
       },
       "kills": 107,
       "deaths": 93,
-      "totalKills": 107,
-      "totalDeaths": 95,
-      "suicides": 2,
+      "totalKills": 114,
+      "totalDeaths": 99,
+      "suicides": 5,
       "kd": 1.15,
       "headshots": 0,
       "totalHeadshots": 0,
       "hsPercent": 0,
       "weapons": {
-        "Sniper": 49,
+        "Sniper": 56,
         "Shotgun": 43,
         "MG": 15
       },
@@ -36125,12 +36130,12 @@
         "name": "antonex",
         "kills": 16
       },
-      "multikillEvents": 10,
+      "multikillEvents": 11,
       "bestMultikillChain": 3,
-      "sessions": 1,
+      "sessions": 2,
       "disconnects": 1,
-      "playtimeMs": 4575000,
-      "playtimeFormatted": "1h 16m",
+      "playtimeMs": 4695000,
+      "playtimeFormatted": "1h 18m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -36155,7 +36160,7 @@
         0,
         0,
         0,
-        93,
+        105,
         117
       ],
       "mapBreakdown": [
@@ -36200,6 +36205,12 @@
           "kills": 11,
           "deaths": 15,
           "kd": 0.73
+        },
+        {
+          "map": "dm/aquaduct-light",
+          "kills": 7,
+          "deaths": 4,
+          "kd": 1.75
         },
         {
           "map": "dm/mohdm4",
@@ -36258,12 +36269,18 @@
           "weaponsCount": 2,
           "victimsCount": 6,
           "humanVictimsCount": 6
+        },
+        {
+          "map": "dm/aquaduct-light",
+          "weaponsCount": 1,
+          "victimsCount": 5,
+          "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 1,
-      "weekdaysCovered": 1,
-      "distinctBotsKilled": 0,
-      "bestBotVarietyInMap": 0,
+      "activeDaysCount": 2,
+      "weekdaysCovered": 2,
+      "distinctBotsKilled": 5,
+      "bestBotVarietyInMap": 5,
       "totalBotsConfigured": 11,
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
@@ -36277,11 +36294,11 @@
       "playedWeekend": true,
       "playedBothWeekendDays": false,
       "chatMessages": 4,
-      "botKills": 0,
+      "botKills": 7,
       "humanKillsOnly": 107,
-      "botDeaths": 0,
+      "botDeaths": 1,
       "humanDeathsOnly": 93,
-      "maxBotRivalry": 0,
+      "maxBotRivalry": 3,
       "currentTeam": "Axis",
       "playedAxis": true,
       "playedAllies": true,
@@ -36293,7 +36310,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 11,
       "verified": false,
-      "verificationDaysLeft": 13,
+      "verificationDaysLeft": 12,
       "killedByList": [
         {
           "name": "=MB= El_Chacal",
@@ -36342,6 +36359,10 @@
         {
           "name": "Roly",
           "deaths": 2
+        },
+        {
+          "name": "=MB= .Lyudmila",
+          "deaths": 1
         }
       ],
       "victimsList": [
@@ -36386,18 +36407,38 @@
           "kills": 4
         },
         {
+          "name": "=MB= .Lyudmila",
+          "kills": 3
+        },
+        {
           "name": "JHAS",
           "kills": 2
         },
         {
           "name": "Soldado Ryan",
           "kills": 2
+        },
+        {
+          "name": "=MB= .Scump",
+          "kills": 1
+        },
+        {
+          "name": "=MB= .Fatal1ty",
+          "kills": 1
+        },
+        {
+          "name": "=MB= .TenZ",
+          "kills": 1
+        },
+        {
+          "name": "=MB= .ZywOo",
+          "kills": 1
         }
       ],
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 49
+          "kills": 56
         },
         {
           "weapon": "Shotgun",
@@ -36410,7 +36451,7 @@
       ],
       "bodypartsList": [],
       "firstSeen": "2026-07-25 22:22:30",
-      "lastSeen": "2026-07-25 23:38:45",
+      "lastSeen": "2026-07-28 22:23:55",
       "rank": 15,
       "topPlayerName": "SANDY",
       "achievements": [
@@ -36443,7 +36484,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 10,
+          "current": 11,
           "target": 1,
           "unit": null
         },
@@ -36487,7 +36528,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 49,
+          "current": 56,
           "target": 150,
           "unit": null
         },
@@ -36498,7 +36539,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 76,
+          "current": 78,
           "target": 120,
           "unit": "min"
         },
@@ -36509,7 +36550,7 @@
           "name": "Kamikaze",
           "desc": "Suicídate 5 o más veces",
           "unlocked": false,
-          "current": 2,
+          "current": 5,
           "target": 20,
           "unit": null
         },
@@ -36641,7 +36682,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 3,
           "unit": null
         },
@@ -36839,7 +36880,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 10,
+          "current": 11,
           "target": 5,
           "unit": null
         },
@@ -36850,7 +36891,7 @@
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 15,
           "unit": null
         },
@@ -36861,7 +36902,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 40,
           "unit": null
         },
@@ -36883,7 +36924,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 76,
+          "current": 78,
           "target": 300,
           "unit": "min"
         },
@@ -36894,7 +36935,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 76,
+          "current": 78,
           "target": 900,
           "unit": "min"
         },
@@ -36905,7 +36946,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 10,
           "unit": null
         },
@@ -36916,7 +36957,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -36938,7 +36979,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 50,
           "unit": null
         },
@@ -36949,7 +36990,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 75,
           "unit": null
         },
@@ -37180,7 +37221,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 7 días de la semana",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 7,
           "unit": null
         },
@@ -37323,7 +37364,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 30,
           "unit": null
         },
@@ -37532,7 +37573,7 @@
           "name": "Autodestrucción Crónica",
           "desc": "Suicídate 15 o más veces",
           "unlocked": false,
-          "current": 2,
+          "current": 5,
           "target": 45,
           "unit": null
         },
@@ -37785,7 +37826,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 49,
+          "current": 56,
           "target": 180,
           "unit": null
         },
@@ -37796,7 +37837,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 49,
+          "current": 56,
           "target": 500,
           "unit": null
         },
@@ -37884,7 +37925,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 49,
+          "current": 56,
           "target": 1600,
           "unit": null
         },
@@ -37917,7 +37958,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 200,
           "unit": null
         },
@@ -37928,7 +37969,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 800,
           "unit": null
         },
@@ -37939,7 +37980,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 2000,
           "unit": null
         },
@@ -37950,7 +37991,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 4000,
           "unit": null
         },
@@ -37961,7 +38002,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 0,
+          "current": 7,
           "target": 12000,
           "unit": null
         },
@@ -37972,7 +38013,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 80,
           "unit": null
         },
@@ -37983,7 +38024,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 400,
           "unit": null
         },
@@ -38005,7 +38046,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": false,
-          "current": 0,
+          "current": 3,
           "target": 30,
           "unit": null
         },
@@ -38060,7 +38101,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 76,
+          "current": 78,
           "target": 2400,
           "unit": "min"
         },
@@ -38071,7 +38112,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 100,
           "unit": null
         },
@@ -38082,7 +38123,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 1,
+          "current": 2,
           "target": 200,
           "unit": null
         },
@@ -206228,16 +206269,16 @@
         "kills": 68
       },
       {
+        "name": "Hooligan",
+        "kills": 56
+      },
+      {
         "name": "MOH-Rugrats.ar",
         "kills": 55
       },
       {
         "name": "Lunatic1357",
         "kills": 51
-      },
-      {
-        "name": "Hooligan",
-        "kills": 49
       },
       {
         "name": "<MLS>Msg.Lucho",
@@ -207324,6 +207365,37 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aquaduct-light",
+      "timesPlayed": 12,
+      "totalKills": 3399,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 7
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/place_de_ville",
+      "timesPlayed": 12,
+      "totalKills": 3393,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/ShotgunLogic",
       "timesPlayed": 13,
       "totalKills": 3370,
@@ -207440,19 +207512,6 @@
       "hasHuman": true,
       "axisKills": 60,
       "alliesKills": 79
-    },
-    {
-      "map": "dm/place_de_ville",
-      "timesPlayed": 12,
-      "totalKills": 3319,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/dm_stanalie",
@@ -207608,19 +207667,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/aquaduct-light",
-      "timesPlayed": 11,
-      "totalKills": 3071,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -209684,6 +209730,32 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/urbansprawl",
+      "timesPlayed": 7,
+      "totalKills": 1157,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/compound2",
+      "timesPlayed": 7,
+      "totalKills": 1116,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/Jagdtiger",
       "timesPlayed": 7,
       "totalKills": 1108,
@@ -209703,19 +209775,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/compound2",
-      "timesPlayed": 7,
-      "totalKills": 1071,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -209844,19 +209903,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/urbansprawl",
-      "timesPlayed": 6,
-      "totalKills": 1001,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -210805,7 +210851,12 @@
       "totalEncounters": 41
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Hooligan",
+      "since": "2026-07-28 22:21:55"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -214209,6 +214260,27 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-28 22:21:55",
+        "name": "Hooligan",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-28 22:22:16",
+        "name": "Retu14",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-07-28 22:22:17",
+        "name": "Retu14",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Martes"
       }
     ],
     "peakCount": 15,
@@ -214267,10 +214339,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-28 22:14:00"
+    "last": "2026-07-28 22:23:55"
   },
-  "generatedAt": "2026-07-29T02:14:01.129Z",
-  "currentMap": "dm/place_de_ville",
+  "generatedAt": "2026-07-29T02:24:01.125Z",
+  "currentMap": "dm/aquaduct-light",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
