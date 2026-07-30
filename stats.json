@@ -12238,8 +12238,8 @@
       "worstDeathStreak": 5,
       "firstBloodOfMapCount": 8,
       "revengeKills": 78,
-      "verified": false,
-      "verificationDaysLeft": 3,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "SANDY",
@@ -14219,7 +14219,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -14308,7 +14308,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 48 o más logros distintos",
           "unlocked": false,
-          "current": 41,
+          "current": 42,
           "target": 48,
           "unit": null
         },
@@ -14319,7 +14319,7 @@
           "name": "Completista",
           "desc": "Desbloquea 97 o más logros distintos",
           "unlocked": false,
-          "current": 41,
+          "current": 42,
           "target": 97,
           "unit": null
         },
@@ -14341,7 +14341,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 33,
           "unit": null
         },
@@ -14396,12 +14396,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (171)",
           "unlocked": false,
-          "current": 41,
+          "current": 42,
           "target": 171,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 41,
+      "achievementsUnlocked": 42,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -47283,8 +47283,8 @@
       "worstDeathStreak": 8,
       "firstBloodOfMapCount": 0,
       "revengeKills": 7,
-      "verified": false,
-      "verificationDaysLeft": 11,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "Osi",
@@ -49105,7 +49105,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -49116,7 +49116,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -49194,7 +49194,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 48 o más logros distintos",
           "unlocked": false,
-          "current": 16,
+          "current": 18,
           "target": 48,
           "unit": null
         },
@@ -49205,7 +49205,7 @@
           "name": "Completista",
           "desc": "Desbloquea 97 o más logros distintos",
           "unlocked": false,
-          "current": 16,
+          "current": 18,
           "target": 97,
           "unit": null
         },
@@ -49227,7 +49227,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 33,
           "unit": null
         },
@@ -49238,7 +49238,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 44 logros del nivel B",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 44,
           "unit": null
         },
@@ -49282,12 +49282,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (171)",
           "unlocked": false,
-          "current": 16,
+          "current": 18,
           "target": 171,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 16,
+      "achievementsUnlocked": 18,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -211294,6 +211294,44 @@
       "alliesKills": 65
     },
     {
+      "map": "dm/SmallCity",
+      "timesPlayed": 13,
+      "totalKills": 3534,
+      "connectedHumans": [
+        {
+          "name": "CaPaRz0",
+          "kills": 34
+        },
+        {
+          "name": "SANDY",
+          "kills": 22
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 20
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 16
+        },
+        {
+          "name": "Bard0k",
+          "kills": 12
+        },
+        {
+          "name": "Osi",
+          "kills": 6
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 7
+    },
+    {
       "map": "dm/harbor",
       "timesPlayed": 16,
       "totalKills": 3503,
@@ -211370,44 +211408,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
-    },
-    {
-      "map": "dm/SmallCity",
-      "timesPlayed": 13,
-      "totalKills": 3419,
-      "connectedHumans": [
-        {
-          "name": "CaPaRz0",
-          "kills": 34
-        },
-        {
-          "name": "SANDY",
-          "kills": 22
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 20
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 16
-        },
-        {
-          "name": "Bard0k",
-          "kills": 12
-        },
-        {
-          "name": "Osi",
-          "kills": 6
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 7
     },
     {
       "map": "dm/mohdm1",
@@ -211750,6 +211750,76 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/Osiedle",
+      "timesPlayed": 11,
+      "totalKills": 3258,
+      "connectedHumans": [
+        {
+          "name": "CaPaRz0",
+          "kills": 43
+        },
+        {
+          "name": "Osi",
+          "kills": 34
+        },
+        {
+          "name": "SANDY",
+          "kills": 30
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 29
+        },
+        {
+          "name": "Bard0k",
+          "kills": 29
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 20
+        },
+        {
+          "name": "JHAS",
+          "kills": 18
+        },
+        {
+          "name": "^:::The-Fuhrer:::^",
+          "kills": 18
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 15
+        },
+        {
+          "name": "Roly",
+          "kills": 12
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 9
+        },
+        {
+          "name": "antonex",
+          "kills": 8
+        },
+        {
+          "name": "Maverick",
+          "kills": 5
+        },
+        {
+          "name": "=BoL= Chory",
+          "kills": 5
+        }
+      ],
+      "winners": [
+        "=MB= .Kazuya"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 86,
+      "alliesKills": 92
+    },
+    {
       "map": "dm/mohdm3",
       "timesPlayed": 13,
       "totalKills": 3115,
@@ -211860,74 +211930,38 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/Osiedle",
-      "timesPlayed": 10,
-      "totalKills": 2934,
+      "map": "dm/snipersnow",
+      "timesPlayed": 11,
+      "totalKills": 2915,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
-          "kills": 43
-        },
-        {
-          "name": "Osi",
-          "kills": 34
-        },
-        {
-          "name": "SANDY",
-          "kills": 30
+          "kills": 37
         },
         {
           "name": "Soldado Ryan",
-          "kills": 29
+          "kills": 27
         },
         {
           "name": "Bard0k",
-          "kills": 29
+          "kills": 26
         },
         {
-          "name": "=MB= El_Chacal",
-          "kills": 20
-        },
-        {
-          "name": "JHAS",
-          "kills": 18
-        },
-        {
-          "name": "^:::The-Fuhrer:::^",
-          "kills": 18
+          "name": "SANDY",
+          "kills": 16
         },
         {
           "name": "Gral. MacArthur",
-          "kills": 15
-        },
-        {
-          "name": "Roly",
-          "kills": 12
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 9
-        },
-        {
-          "name": "antonex",
-          "kills": 8
-        },
-        {
-          "name": "Maverick",
-          "kills": 5
-        },
-        {
-          "name": "=BoL= Chory",
-          "kills": 5
+          "kills": 1
         }
       ],
       "winners": [
-        "=MB= .Kazuya"
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 86,
-      "alliesKills": 92
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/mohdm4",
@@ -212348,38 +212382,71 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/snipersnow",
-      "timesPlayed": 10,
-      "totalKills": 2634,
+      "map": "dm/stalingrad_3_dm",
+      "timesPlayed": 12,
+      "totalKills": 2571,
       "connectedHumans": [
         {
-          "name": "CaPaRz0",
-          "kills": 37
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 27
-        },
-        {
           "name": "Bard0k",
-          "kills": 26
+          "kills": 44
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 28
         },
         {
           "name": "SANDY",
+          "kills": 25
+        },
+        {
+          "name": "Osi",
+          "kills": 24
+        },
+        {
+          "name": "BARTON",
           "kills": 16
         },
         {
+          "name": "Hooligan",
+          "kills": 13
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 12
+        },
+        {
           "name": "Gral. MacArthur",
-          "kills": 1
+          "kills": 9
+        },
+        {
+          "name": "Roly",
+          "kills": 9
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 9
+        },
+        {
+          "name": "M@chete",
+          "kills": 8
+        },
+        {
+          "name": "antonex",
+          "kills": 8
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 3
         }
       ],
       "winners": [
+        "=MB= .Scump",
         "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
+      "axisKills": 59,
+      "alliesKills": 64
     },
     {
       "map": "dm/mohdm8",
@@ -212647,6 +212714,32 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/saturday_night_fever_3",
+      "timesPlayed": 10,
+      "totalKills": 2371,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 3
+        },
+        {
+          "name": "Bard0k",
+          "kills": 2
+        },
+        {
+          "name": "SANDY",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/remote_village",
       "timesPlayed": 11,
       "totalKills": 2342,
@@ -212726,73 +212819,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/stalingrad_3_dm",
-      "timesPlayed": 11,
-      "totalKills": 2314,
-      "connectedHumans": [
-        {
-          "name": "Bard0k",
-          "kills": 44
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 28
-        },
-        {
-          "name": "SANDY",
-          "kills": 25
-        },
-        {
-          "name": "Osi",
-          "kills": 24
-        },
-        {
-          "name": "BARTON",
-          "kills": 16
-        },
-        {
-          "name": "Hooligan",
-          "kills": 13
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 12
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 9
-        },
-        {
-          "name": "Roly",
-          "kills": 9
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 9
-        },
-        {
-          "name": "M@chete",
-          "kills": 8
-        },
-        {
-          "name": "antonex",
-          "kills": 8
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .Scump",
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 59,
-      "alliesKills": 64
-    },
-    {
       "map": "dm/amw_caskami_03",
       "timesPlayed": 12,
       "totalKills": 2310,
@@ -212826,32 +212852,6 @@
       ],
       "winners": [
         "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/saturday_night_fever_3",
-      "timesPlayed": 9,
-      "totalKills": 2295,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 3
-        },
-        {
-          "name": "Bard0k",
-          "kills": 2
-        },
-        {
-          "name": "SANDY",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -219614,12 +219614,39 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-30 14:30:00"
+    "last": "2026-07-30 14:59:59"
   },
-  "generatedAt": "2026-07-30T18:30:00.665Z",
-  "currentMap": "dm/SmallCity",
+  "generatedAt": "2026-07-30T19:00:00.696Z",
+  "currentMap": "dm/saturday_night_fever_3",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "^:::The-Fuhrer:::^",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-30T19:00:00.716Z"
+    },
+    {
+      "name": "^:::The-Fuhrer:::^",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-30T19:00:00.716Z"
+    },
+    {
+      "name": "Bard0k",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-30T19:00:00.716Z"
+    },
     {
       "name": "Francotirador",
       "achId": "presa_facil",
@@ -219952,33 +219979,6 @@
       "tier": "B",
       "icon": "⏳",
       "ts": "2026-07-30T03:04:00.482Z"
-    },
-    {
-      "name": "MAPACHE",
-      "achId": "saco_de_boxeo",
-      "achName": "Saco de Boxeo",
-      "desc": "Muere 5 o más veces seguidas sin conseguir un kill",
-      "tier": "D",
-      "icon": "🥊",
-      "ts": "2026-07-30T02:54:00.475Z"
-    },
-    {
-      "name": "MAPACHE",
-      "achId": "cazador_de_gigantes",
-      "achName": "Cazador de Gigantes",
-      "desc": "Elimina al menos una vez al jugador #1 del ranking general",
-      "tier": "S",
-      "icon": "🗡️",
-      "ts": "2026-07-30T02:54:00.475Z"
-    },
-    {
-      "name": "MAPACHE",
-      "achId": "rivalidad_pareja",
-      "achName": "Rivalidad Pareja",
-      "desc": "Tu némesis y tu víctima favorita son la misma persona, con 5 o más enfrentamientos de cada lado",
-      "tier": "B",
-      "icon": "🤺",
-      "ts": "2026-07-30T02:54:00.475Z"
     }
   ],
   "torneoActivo": false,
