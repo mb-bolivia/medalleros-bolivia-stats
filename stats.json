@@ -15528,8 +15528,8 @@
       "worstDeathStreak": 4,
       "firstBloodOfMapCount": 1,
       "revengeKills": 43,
-      "verified": false,
-      "verificationDaysLeft": 10,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "CaPaRz0",
@@ -17505,7 +17505,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -17516,7 +17516,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -17594,7 +17594,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 48 o más logros distintos",
           "unlocked": false,
-          "current": 34,
+          "current": 36,
           "target": 48,
           "unit": null
         },
@@ -17605,7 +17605,7 @@
           "name": "Completista",
           "desc": "Desbloquea 97 o más logros distintos",
           "unlocked": false,
-          "current": 34,
+          "current": 36,
           "target": 97,
           "unit": null
         },
@@ -17627,7 +17627,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 11,
+          "current": 12,
           "target": 33,
           "unit": null
         },
@@ -17638,7 +17638,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 44 logros del nivel B",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 44,
           "unit": null
         },
@@ -17682,12 +17682,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (171)",
           "unlocked": false,
-          "current": 34,
+          "current": 36,
           "target": 171,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 34,
+      "achievementsUnlocked": 36,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -215043,6 +215043,40 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/city_nights_mog",
+      "timesPlayed": 12,
+      "totalKills": 2000,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 28
+        },
+        {
+          "name": "ST3",
+          "kills": 24
+        },
+        {
+          "name": "SANDY",
+          "kills": 17
+        },
+        {
+          "name": "Homer",
+          "kills": 15
+        },
+        {
+          "name": "Osi",
+          "kills": 5
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/fortwreck",
       "timesPlayed": 11,
       "totalKills": 1968,
@@ -215174,40 +215208,6 @@
       ],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/city_nights_mog",
-      "timesPlayed": 11,
-      "totalKills": 1852,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 28
-        },
-        {
-          "name": "ST3",
-          "kills": 24
-        },
-        {
-          "name": "SANDY",
-          "kills": 17
-        },
-        {
-          "name": "Homer",
-          "kills": 15
-        },
-        {
-          "name": "Osi",
-          "kills": 5
-        }
-      ],
-      "winners": [
-        "=MB= .Kazuya"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -215488,7 +215488,7 @@
     {
       "map": "dm/Hitlersfarm",
       "timesPlayed": 12,
-      "totalKills": 1606,
+      "totalKills": 1665,
       "connectedHumans": [
         {
           "name": "ST3",
@@ -215807,35 +215807,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_island_assault",
-      "timesPlayed": 9,
-      "totalKills": 1318,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/LaPrison",
-      "timesPlayed": 9,
-      "totalKills": 1285,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/treasure_island",
-      "timesPlayed": 11,
-      "totalKills": 1273,
+      "timesPlayed": 12,
+      "totalKills": 1330,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -215863,6 +215837,32 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/dm_island_assault",
+      "timesPlayed": 9,
+      "totalKills": 1318,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/LaPrison",
+      "timesPlayed": 9,
+      "totalKills": 1285,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -221597,12 +221597,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-31 10:14:56"
+    "last": "2026-07-31 10:29:49"
   },
-  "generatedAt": "2026-07-31T14:15:00.280Z",
-  "currentMap": "dm/Hitlersfarm",
+  "generatedAt": "2026-07-31T14:29:52.662Z",
+  "currentMap": "dm/treasure_island",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "Hooligan",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-07-31T14:29:52.685Z"
+    },
+    {
+      "name": "Hooligan",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-07-31T14:29:52.685Z"
+    },
     {
       "name": "F.E.R.R.A.N",
       "achId": "multi_kill",
@@ -221944,24 +221962,6 @@
       "tier": "B",
       "icon": "🤖",
       "ts": "2026-07-30T20:00:00.769Z"
-    },
-    {
-      "name": "Francotirador",
-      "achId": "playtime_5h",
-      "achName": "Sesión Larga",
-      "desc": "Acumula 5 horas o más jugadas",
-      "tier": "B",
-      "icon": "⏳",
-      "ts": "2026-07-30T20:00:00.769Z"
-    },
-    {
-      "name": "MOH-Rugrats.ar",
-      "achId": "bot_nemesis",
-      "achName": "Némesis Robótico",
-      "desc": "Un mismo bot te elimina 30 o más veces en total",
-      "tier": "B",
-      "icon": "🦿",
-      "ts": "2026-07-30T19:45:00.756Z"
     }
   ],
   "torneoActivo": false,
