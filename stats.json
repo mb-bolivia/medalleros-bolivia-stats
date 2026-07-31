@@ -117520,7 +117520,8 @@
       "ips": [
         "181.23.234.209",
         "192.223.105.113",
-        "26.105.97.142"
+        "26.105.97.142",
+        "181.177.155.69"
       ],
       "ipHistory": {
         "181.23.234.209": {
@@ -117534,6 +117535,10 @@
         "26.105.97.142": {
           "first": "2026-07-29 22:02:40",
           "last": "2026-07-29 22:03:02"
+        },
+        "181.177.155.69": {
+          "first": "2026-07-31 19:33:57",
+          "last": "2026-07-31 19:33:57"
         }
       },
       "kills": 0,
@@ -117558,9 +117563,9 @@
       "favoriteVictim": null,
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 6,
-      "disconnects": 6,
-      "playtimeMs": 39000,
+      "sessions": 7,
+      "disconnects": 7,
+      "playtimeMs": 47000,
       "playtimeFormatted": "0h 1m",
       "favoriteHour": "20:00",
       "hourActivity": [
@@ -117583,7 +117588,7 @@
         0,
         0,
         0,
-        0,
+        2,
         4,
         2,
         4,
@@ -117593,8 +117598,8 @@
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [],
-      "activeDaysCount": 4,
-      "weekdaysCovered": 2,
+      "activeDaysCount": 5,
+      "weekdaysCovered": 3,
       "distinctBotsKilled": 0,
       "bestBotVarietyInMap": 0,
       "totalBotsConfigured": 11,
@@ -117632,7 +117637,7 @@
       "weaponsList": [],
       "bodypartsList": [],
       "firstSeen": "2026-07-21 21:31:04",
-      "lastSeen": "2026-07-29 22:03:08",
+      "lastSeen": "2026-07-31 19:34:05",
       "rank": 51,
       "topPlayerName": "CaPaRz0",
       "achievements": [
@@ -117863,7 +117868,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 4,
+          "current": 5,
           "target": 3,
           "unit": null
         },
@@ -118127,7 +118132,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 10,
           "unit": null
         },
@@ -118138,7 +118143,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 30,
           "unit": null
         },
@@ -118160,7 +118165,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 50,
           "unit": null
         },
@@ -118171,7 +118176,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 75,
           "unit": null
         },
@@ -118270,7 +118275,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 24,
           "unit": null
         },
@@ -118402,7 +118407,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 7 días de la semana",
           "unlocked": false,
-          "current": 2,
+          "current": 3,
           "target": 7,
           "unit": null
         },
@@ -118545,7 +118550,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 30,
           "unit": null
         },
@@ -119293,7 +119298,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 100,
           "unit": null
         },
@@ -119304,7 +119309,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 200,
           "unit": null
         },
@@ -212173,6 +212178,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/avignon_dtr",
+      "timesPlayed": 17,
+      "totalKills": 5149,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 32
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/warehouse_dm",
       "timesPlayed": 20,
       "totalKills": 5059,
@@ -212218,24 +212241,6 @@
       ],
       "winners": [
         "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/avignon_dtr",
-      "timesPlayed": 16,
-      "totalKills": 4932,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 32
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -212621,9 +212626,27 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/the_overpass",
+      "timesPlayed": 17,
+      "totalKills": 4428,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 23
+        }
+      ],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/ShotgunLogic",
       "timesPlayed": 17,
-      "totalKills": 4372,
+      "totalKills": 4410,
       "connectedHumans": [
         {
           "name": "GIFO",
@@ -212788,24 +212811,6 @@
       ],
       "winners": [
         "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/the_overpass",
-      "timesPlayed": 16,
-      "totalKills": 4154,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 23
-        }
-      ],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -221589,6 +221594,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-07-31 19:33:57",
+        "name": "MohAmericaPlayer",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-07-31 19:34:05",
+        "name": "MohAmericaPlayer",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 15,
@@ -221659,10 +221678,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-07-31 19:30:00"
+    "last": "2026-07-31 19:44:59"
   },
-  "generatedAt": "2026-07-31T23:30:00.671Z",
-  "currentMap": "dm/ShotgunLogic",
+  "generatedAt": "2026-07-31T23:45:00.687Z",
+  "currentMap": "dm/avignon_dtr",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
