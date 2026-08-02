@@ -75581,8 +75581,8 @@
       "worstDeathStreak": 3,
       "firstBloodOfMapCount": 1,
       "revengeKills": 18,
-      "verified": false,
-      "verificationDaysLeft": 15,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "=MB= .S1mple",
@@ -77355,7 +77355,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -77366,7 +77366,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -77444,7 +77444,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 48 o más logros distintos",
           "unlocked": false,
-          "current": 10,
+          "current": 12,
           "target": 48,
           "unit": null
         },
@@ -77455,7 +77455,7 @@
           "name": "Completista",
           "desc": "Desbloquea 97 o más logros distintos",
           "unlocked": false,
-          "current": 10,
+          "current": 12,
           "target": 97,
           "unit": null
         },
@@ -77477,7 +77477,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 33 logros del nivel C",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 33,
           "unit": null
         },
@@ -77488,7 +77488,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 44 logros del nivel B",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 44,
           "unit": null
         },
@@ -77532,12 +77532,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (171)",
           "unlocked": false,
-          "current": 10,
+          "current": 12,
           "target": 171,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 10,
+      "achievementsUnlocked": 12,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -215676,7 +215676,7 @@
     {
       "map": "dm/progress",
       "timesPlayed": 18,
-      "totalKills": 4316,
+      "totalKills": 4378,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -225237,12 +225237,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-02 19:45:00"
+    "last": "2026-08-02 19:47:03"
   },
-  "generatedAt": "2026-08-02T23:45:00.761Z",
+  "generatedAt": "2026-08-02T23:47:06.282Z",
   "currentMap": "dm/progress",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "DARIUS",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-08-02T23:47:06.302Z"
+    },
+    {
+      "name": "DARIUS",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-08-02T23:47:06.302Z"
+    },
     {
       "name": "Come Burros",
       "achId": "finde_completo",
@@ -225578,24 +225596,6 @@
     },
     {
       "name": "JOSELU REY DEL MEDALLA",
-      "achId": "double_shift",
-      "achName": "Doble Turno",
-      "desc": "Registra kills tanto de madrugada (00-05h) como en horario pico (18-23h)",
-      "tier": "B",
-      "icon": "🌗",
-      "ts": "2026-08-02T02:45:01.092Z"
-    },
-    {
-      "name": "<MLS>Msg.Lucho",
-      "achId": "finde_completo",
-      "achName": "Fin de Semana Completo",
-      "desc": "Juega tanto el sábado como el domingo",
-      "tier": "B",
-      "icon": "🎊",
-      "ts": "2026-08-02T02:45:01.092Z"
-    },
-    {
-      "name": "<MLS>Msg.Lucho",
       "achId": "double_shift",
       "achName": "Doble Turno",
       "desc": "Registra kills tanto de madrugada (00-05h) como en horario pico (18-23h)",
