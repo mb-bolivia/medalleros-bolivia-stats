@@ -71145,8 +71145,8 @@
       "bestMultikillChain": 2,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 15365000,
-      "playtimeFormatted": "4h 16m",
+      "playtimeMs": 16255000,
+      "playtimeFormatted": "4h 31m",
       "favoriteHour": "22:00",
       "hourActivity": [
         0,
@@ -71200,7 +71200,7 @@
       "winWeekdaysCovered": 1,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 15365000,
+      "longestSessionMs": 16255000,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
       "bestMapWinStreak": 1,
@@ -71366,7 +71366,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 256,
+          "current": 271,
           "target": 120,
           "unit": "min"
         },
@@ -71751,7 +71751,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 256,
+          "current": 271,
           "target": 300,
           "unit": "min"
         },
@@ -71762,7 +71762,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 256,
+          "current": 271,
           "target": 900,
           "unit": "min"
         },
@@ -72928,7 +72928,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 256,
+          "current": 271,
           "target": 2400,
           "unit": "min"
         },
@@ -215017,6 +215017,24 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/moh_csl",
+      "timesPlayed": 18,
+      "totalKills": 5127,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 15
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/ba_stalingrad",
       "timesPlayed": 23,
       "totalKills": 5056,
@@ -215052,24 +215070,6 @@
       ],
       "winners": [
         "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/moh_csl",
-      "timesPlayed": 18,
-      "totalKills": 5036,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 15
-        }
-      ],
-      "winners": [
-        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -215656,8 +215656,8 @@
     },
     {
       "map": "dm/courtyard",
-      "timesPlayed": 17,
-      "totalKills": 3898,
+      "timesPlayed": 18,
+      "totalKills": 3953,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -225109,10 +225109,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-02 02:45:00"
+    "last": "2026-08-02 02:59:50"
   },
-  "generatedAt": "2026-08-02T06:45:01.194Z",
-  "currentMap": "dm/moh_csl",
+  "generatedAt": "2026-08-02T07:00:01.192Z",
+  "currentMap": "dm/courtyard",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
