@@ -41065,7 +41065,7 @@
       "ipHistory": {
         "26.82.169.89": {
           "first": "2026-07-17 23:49:51",
-          "last": "2026-08-01 20:54:20"
+          "last": "2026-08-01 21:04:19"
         },
         "192.223.122.217": {
           "first": "2026-07-25 15:41:53",
@@ -41108,9 +41108,9 @@
       },
       "multikillEvents": 14,
       "bestMultikillChain": 3,
-      "sessions": 26,
-      "disconnects": 27,
-      "playtimeMs": 17809000,
+      "sessions": 27,
+      "disconnects": 28,
+      "playtimeMs": 17819000,
       "playtimeFormatted": "4h 57m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -41135,7 +41135,7 @@
         0,
         31,
         25,
-        3,
+        5,
         62,
         263
       ],
@@ -41876,7 +41876,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-08-01 20:55:02",
+      "lastSeen": "2026-08-01 21:04:29",
       "rank": 16,
       "topPlayerName": "CaPaRz0",
       "achievements": [
@@ -42371,7 +42371,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 26,
+          "current": 27,
           "target": 10,
           "unit": null
         },
@@ -42382,7 +42382,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 30,
           "unit": null
         },
@@ -42404,7 +42404,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 50,
           "unit": null
         },
@@ -42415,7 +42415,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 75,
           "unit": null
         },
@@ -43537,7 +43537,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 100,
           "unit": null
         },
@@ -43548,7 +43548,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 200,
           "unit": null
         },
@@ -218609,6 +218609,28 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aa_hometown",
+      "timesPlayed": 14,
+      "totalKills": 1464,
+      "connectedHumans": [
+        {
+          "name": "Mr.Sipi",
+          "kills": 11
+        },
+        {
+          "name": "MoH:CL Player",
+          "kills": 10
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 21
+    },
+    {
       "map": "dm/dm_badeinsel_steinhude_1985",
       "timesPlayed": 11,
       "totalKills": 1446,
@@ -218693,28 +218715,6 @@
       "hasHuman": true,
       "axisKills": 62,
       "alliesKills": 46
-    },
-    {
-      "map": "dm/aa_hometown",
-      "timesPlayed": 13,
-      "totalKills": 1361,
-      "connectedHumans": [
-        {
-          "name": "Mr.Sipi",
-          "kills": 11
-        },
-        {
-          "name": "MoH:CL Player",
-          "kills": 10
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 21
     },
     {
       "map": "dm/buck_tdm",
@@ -224661,6 +224661,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-08-01 21:04:19",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-08-01 21:04:29",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 15,
@@ -224735,10 +224749,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-01 21:00:00"
+    "last": "2026-08-01 21:14:30"
   },
-  "generatedAt": "2026-08-02T01:00:01.044Z",
-  "currentMap": "dm/autbn_dust3040",
+  "generatedAt": "2026-08-02T01:15:01.030Z",
+  "currentMap": "dm/tdm-0815",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
