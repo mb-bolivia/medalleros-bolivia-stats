@@ -97906,7 +97906,8 @@
         "26.129.199.97",
         "26.206.23.129",
         "192.168.0.142",
-        "26.166.249.103"
+        "26.166.249.103",
+        "26.16.169.138"
       ],
       "ipHistory": {
         "192.223.122.217": {
@@ -97944,6 +97945,10 @@
         "26.166.249.103": {
           "first": "2026-08-02 22:35:53",
           "last": "2026-08-02 22:36:01"
+        },
+        "26.16.169.138": {
+          "first": "2026-08-08 08:55:48",
+          "last": "2026-08-08 08:55:48"
         }
       },
       "kills": 2,
@@ -97977,9 +97982,9 @@
       },
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 10,
-      "disconnects": 8,
-      "playtimeMs": 4605000,
+      "sessions": 11,
+      "disconnects": 9,
+      "playtimeMs": 4608000,
       "playtimeFormatted": "1h 17m",
       "favoriteHour": "22:00",
       "hourActivity": [
@@ -97991,7 +97996,7 @@
         0,
         0,
         0,
-        0,
+        2,
         0,
         0,
         0,
@@ -98038,7 +98043,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 5,
+      "activeDaysCount": 6,
       "weekdaysCovered": 4,
       "distinctBotsKilled": 2,
       "bestBotVarietyInMap": 2,
@@ -98133,7 +98138,7 @@
         }
       ],
       "firstSeen": "2026-07-25 20:52:48",
-      "lastSeen": "2026-08-02 22:36:03",
+      "lastSeen": "2026-08-08 08:55:51",
       "rank": 38,
       "topPlayerName": "CaPaRz0",
       "achievements": [
@@ -98364,7 +98369,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 5,
+          "current": 6,
           "target": 3,
           "unit": null
         },
@@ -98628,7 +98633,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 10,
+          "current": 11,
           "target": 10,
           "unit": null
         },
@@ -98639,7 +98644,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 30,
           "unit": null
         },
@@ -98661,7 +98666,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 50,
           "unit": null
         },
@@ -98672,7 +98677,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 75,
           "unit": null
         },
@@ -98771,7 +98776,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 24,
           "unit": null
         },
@@ -99046,7 +99051,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 30,
           "unit": null
         },
@@ -99794,7 +99799,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 100,
           "unit": null
         },
@@ -99805,7 +99810,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 10,
+          "current": 11,
           "target": 200,
           "unit": null
         },
@@ -201827,7 +201832,7 @@
     {
       "map": "dm/bob_carentan",
       "timesPlayed": 9,
-      "totalKills": 299,
+      "totalKills": 329,
       "connectedHumans": [
         {
           "name": "=BoL= Chory",
@@ -201879,35 +201884,9 @@
       "alliesKills": 78
     },
     {
-      "map": "dm/dm_rustinpeace",
-      "timesPlayed": 1,
-      "totalKills": 123,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 104
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 9
-        },
-        {
-          "name": "teniente diel",
-          "kills": 6
-        }
-      ],
-      "winners": [
-        "Francotirador"
-      ],
-      "winnersAreBots": false,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/AxisS_SG_DM",
-      "timesPlayed": 6,
-      "totalKills": 120,
+      "timesPlayed": 7,
+      "totalKills": 135,
       "connectedHumans": [
         {
           "name": "=BoL= Chory",
@@ -201935,12 +201914,38 @@
         }
       ],
       "winners": [
-        "=MB= .Vasily"
+        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
       "axisKills": 11,
       "alliesKills": 24
+    },
+    {
+      "map": "dm/dm_rustinpeace",
+      "timesPlayed": 1,
+      "totalKills": 123,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 104
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 9
+        },
+        {
+          "name": "teniente diel",
+          "kills": 6
+        }
+      ],
+      "winners": [
+        "Francotirador"
+      ],
+      "winnersAreBots": false,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/tdm-0815",
@@ -208691,6 +208696,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-08-08 08:55:48",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-08-08 08:55:51",
+        "name": "UnnamedSoldier",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 15,
@@ -208793,10 +208812,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-08 08:44:23"
+    "last": "2026-08-08 08:59:27"
   },
-  "generatedAt": "2026-08-08T12:45:00.234Z",
-  "currentMap": "dm/bob_carentan",
+  "generatedAt": "2026-08-08T13:00:00.257Z",
+  "currentMap": "dm/AxisS_SG_DM",
   "serverName": "=MB= Revival Sab | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
