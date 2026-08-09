@@ -178916,8 +178916,8 @@
     },
     {
       "map": "dm/aftermath2",
-      "timesPlayed": 31,
-      "totalKills": 8786,
+      "timesPlayed": 32,
+      "totalKills": 8900,
       "connectedHumans": [
         {
           "name": "DARIUS",
@@ -183732,6 +183732,28 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/railwayassault",
+      "timesPlayed": 17,
+      "totalKills": 2676,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 14
+        },
+        {
+          "name": "teniente diel",
+          "kills": 4
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dm_vemork_approach",
       "timesPlayed": 19,
       "totalKills": 2666,
@@ -183760,28 +183782,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/railwayassault",
-      "timesPlayed": 17,
-      "totalKills": 2605,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 14
-        },
-        {
-          "name": "teniente diel",
-          "kills": 4
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -192759,6 +192759,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:30:06",
+        "name": "Deymar ctm",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:30:11",
+        "name": "Deymar ctm",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 15,
@@ -192865,10 +192879,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-09 14:30:00"
+    "last": "2026-08-09 14:44:59"
   },
-  "generatedAt": "2026-08-09T18:30:01.156Z",
-  "currentMap": "dm/railwayassault",
+  "generatedAt": "2026-08-09T18:45:01.152Z",
+  "currentMap": "dm/aftermath2",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
