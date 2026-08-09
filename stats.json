@@ -89177,7 +89177,8 @@
         "26.206.23.129",
         "192.168.0.142",
         "26.166.249.103",
-        "26.16.169.138"
+        "26.16.169.138",
+        "26.93.125.208"
       ],
       "ipHistory": {
         "192.223.122.217": {
@@ -89219,6 +89220,10 @@
         "26.16.169.138": {
           "first": "2026-08-08 08:55:48",
           "last": "2026-08-08 08:55:48"
+        },
+        "26.93.125.208": {
+          "first": "2026-08-09 14:28:45",
+          "last": "2026-08-09 14:28:56"
         }
       },
       "kills": 2,
@@ -89252,9 +89257,9 @@
       },
       "multikillEvents": 0,
       "bestMultikillChain": 0,
-      "sessions": 11,
-      "disconnects": 9,
-      "playtimeMs": 4608000,
+      "sessions": 13,
+      "disconnects": 11,
+      "playtimeMs": 4618000,
       "playtimeFormatted": "1h 17m",
       "favoriteHour": "22:00",
       "hourActivity": [
@@ -89272,7 +89277,7 @@
         0,
         0,
         0,
-        2,
+        6,
         0,
         0,
         0,
@@ -89313,7 +89318,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 6,
+      "activeDaysCount": 7,
       "weekdaysCovered": 3,
       "distinctBotsKilled": 2,
       "bestBotVarietyInMap": 2,
@@ -89408,7 +89413,7 @@
         }
       ],
       "firstSeen": "2026-07-25 20:52:48",
-      "lastSeen": "2026-08-08 08:55:51",
+      "lastSeen": "2026-08-09 14:29:01",
       "rank": 37,
       "topPlayerName": "CaPaRz0",
       "achievements": [
@@ -89639,7 +89644,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 6,
+          "current": 7,
           "target": 3,
           "unit": null
         },
@@ -89903,7 +89908,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 11,
+          "current": 13,
           "target": 10,
           "unit": null
         },
@@ -89914,7 +89919,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 30,
           "unit": null
         },
@@ -89936,7 +89941,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 50,
           "unit": null
         },
@@ -89947,7 +89952,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 75,
           "unit": null
         },
@@ -90310,7 +90315,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 30,
           "unit": null
         },
@@ -90926,7 +90931,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 100,
           "unit": null
         },
@@ -90937,7 +90942,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 11,
+          "current": 13,
           "target": 200,
           "unit": null
         },
@@ -182882,7 +182887,7 @@
     {
       "map": "dm/blizzard_battle",
       "timesPlayed": 18,
-      "totalKills": 3238,
+      "totalKills": 3288,
       "connectedHumans": [
         {
           "name": "teniente diel",
@@ -182899,6 +182904,28 @@
       ],
       "winners": [
         "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/dm_v2dm",
+      "timesPlayed": 18,
+      "totalKills": 3196,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 12
+        },
+        {
+          "name": "teniente diel",
+          "kills": 9
+        }
+      ],
+      "winners": [
+        "=MB= .Kazuya"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -183102,28 +183129,6 @@
       "hasHuman": true,
       "axisKills": 70,
       "alliesKills": 71
-    },
-    {
-      "map": "dm/dm_v2dm",
-      "timesPlayed": 17,
-      "totalKills": 3058,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 12
-        },
-        {
-          "name": "teniente diel",
-          "kills": 9
-        }
-      ],
-      "winners": [
-        "=MB= .Kazuya"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/dm_desperatevillage",
@@ -183759,6 +183764,28 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/railwayassault",
+      "timesPlayed": 17,
+      "totalKills": 2605,
+      "connectedHumans": [
+        {
+          "name": "Soldado Ryan",
+          "kills": 14
+        },
+        {
+          "name": "teniente diel",
+          "kills": 4
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/user_98ligaobj2006",
       "timesPlayed": 16,
       "totalKills": 2604,
@@ -183794,28 +183821,6 @@
         {
           "name": "Gral. MacArthur",
           "kills": 13
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/railwayassault",
-      "timesPlayed": 16,
-      "totalKills": 2537,
-      "connectedHumans": [
-        {
-          "name": "Soldado Ryan",
-          "kills": 14
-        },
-        {
-          "name": "teniente diel",
-          "kills": 4
         }
       ],
       "winners": [
@@ -192726,6 +192731,34 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:28:45",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:28:50",
+        "name": "UnnamedSoldier",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:28:56",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-09 14:29:01",
+        "name": "UnnamedSoldier",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 15,
@@ -192832,10 +192865,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-09 14:15:00"
+    "last": "2026-08-09 14:30:00"
   },
-  "generatedAt": "2026-08-09T18:15:01.149Z",
-  "currentMap": "dm/blizzard_battle",
+  "generatedAt": "2026-08-09T18:30:01.156Z",
+  "currentMap": "dm/railwayassault",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
