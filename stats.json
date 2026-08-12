@@ -172181,43 +172181,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/avignon_dtr",
-      "timesPlayed": 24,
-      "totalKills": 7361,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 32
-        },
-        {
-          "name": "Hooligan",
-          "kills": 30
-        },
-        {
-          "name": "Bard0k",
-          "kills": 10
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 7
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 6
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/toysoldiers",
       "timesPlayed": 28,
-      "totalKills": 7341,
+      "totalKills": 7577,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -172251,6 +172217,40 @@
       "hasHuman": true,
       "axisKills": 14,
       "alliesKills": 34
+    },
+    {
+      "map": "dm/avignon_dtr",
+      "timesPlayed": 24,
+      "totalKills": 7361,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 32
+        },
+        {
+          "name": "Hooligan",
+          "kills": 30
+        },
+        {
+          "name": "Bard0k",
+          "kills": 10
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 7
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 6
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/warehouse_dm",
@@ -173747,6 +173747,56 @@
       "alliesKills": 79
     },
     {
+      "map": "dm/broken_silence",
+      "timesPlayed": 25,
+      "totalKills": 5629,
+      "connectedHumans": [
+        {
+          "name": "Homer",
+          "kills": 35
+        },
+        {
+          "name": "Francotirador",
+          "kills": 32
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 20
+        },
+        {
+          "name": "Osi",
+          "kills": 17
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 16
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 16
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 8
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 6
+        },
+        {
+          "name": "Hooligan",
+          "kills": 4
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/snipersnow",
       "timesPlayed": 21,
       "totalKills": 5621,
@@ -173910,56 +173960,6 @@
       ],
       "winners": [
         "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/broken_silence",
-      "timesPlayed": 24,
-      "totalKills": 5471,
-      "connectedHumans": [
-        {
-          "name": "Homer",
-          "kills": 35
-        },
-        {
-          "name": "Francotirador",
-          "kills": 32
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 20
-        },
-        {
-          "name": "Osi",
-          "kills": 17
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 16
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 15
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 8
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 6
-        },
-        {
-          "name": "Hooligan",
-          "kills": 4
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -179350,7 +179350,12 @@
       "totalEncounters": 138
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Mr.Sipi",
+      "since": "2026-08-11 20:44:38"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -186716,6 +186721,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-08-11 20:44:38",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Martes"
       }
     ],
     "peakCount": 15,
@@ -186830,10 +186842,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-11 20:33:53"
+    "last": "2026-08-11 20:44:59"
   },
-  "generatedAt": "2026-08-12T00:33:54.721Z",
-  "currentMap": "dm/toysoldiers",
+  "generatedAt": "2026-08-12T00:45:00.821Z",
+  "currentMap": "dm/broken_silence",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
