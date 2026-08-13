@@ -78916,8 +78916,8 @@
       "bestMultikillChain": 0,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 9677000,
-      "playtimeFormatted": "2h 41m",
+      "playtimeMs": 10575000,
+      "playtimeFormatted": "2h 56m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -78971,7 +78971,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 9677000,
+      "longestSessionMs": 10575000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -79138,7 +79138,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 161,
+          "current": 176,
           "target": 120,
           "unit": "min"
         },
@@ -79523,7 +79523,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 161,
+          "current": 176,
           "target": 300,
           "unit": "min"
         },
@@ -79534,7 +79534,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 161,
+          "current": 176,
           "target": 900,
           "unit": "min"
         },
@@ -80722,7 +80722,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 161,
+          "current": 176,
           "target": 2400,
           "unit": "min"
         },
@@ -192153,6 +192153,19 @@
       "alliesKills": 67
     },
     {
+      "map": "dm/dm_thunder-2",
+      "timesPlayed": 9,
+      "totalKills": 1489,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/bridges",
       "timesPlayed": 15,
       "totalKills": 1487,
@@ -192180,40 +192193,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_thunder-2",
-      "timesPlayed": 9,
-      "totalKills": 1359,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/lolclan_v2dm_1",
-      "timesPlayed": 9,
-      "totalKills": 1100,
-      "connectedHumans": [
-        {
-          "name": "Toxic",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/daylight",
-      "timesPlayed": 8,
-      "totalKills": 1083,
+      "timesPlayed": 9,
+      "totalKills": 1227,
       "connectedHumans": [
         {
           "name": "MAPACHE",
@@ -192226,6 +192208,24 @@
         {
           "name": "Bard0k",
           "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/lolclan_v2dm_1",
+      "timesPlayed": 9,
+      "totalKills": 1100,
+      "connectedHumans": [
+        {
+          "name": "Toxic",
+          "kills": 2
         }
       ],
       "winners": [
@@ -192297,8 +192297,8 @@
     },
     {
       "map": "dm/deadendstreet",
-      "timesPlayed": 8,
-      "totalKills": 860,
+      "timesPlayed": 9,
+      "totalKills": 867,
       "connectedHumans": [
         {
           "name": "Bard0k",
@@ -201250,10 +201250,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-13 01:59:59"
+    "last": "2026-08-13 02:14:57"
   },
-  "generatedAt": "2026-08-13T06:00:00.274Z",
-  "currentMap": "dm/dm_thunder-2",
+  "generatedAt": "2026-08-13T06:15:00.305Z",
+  "currentMap": "dm/deadendstreet",
   "serverName": "=MB= Revival Mie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
