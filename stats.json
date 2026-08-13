@@ -78916,8 +78916,8 @@
       "bestMultikillChain": 0,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 6972000,
-      "playtimeFormatted": "1h 56m",
+      "playtimeMs": 7868000,
+      "playtimeFormatted": "2h 11m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -78971,7 +78971,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 6972000,
+      "longestSessionMs": 7868000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -79137,8 +79137,8 @@
           "icon": "⏱️",
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
-          "unlocked": false,
-          "current": 116,
+          "unlocked": true,
+          "current": 131,
           "target": 120,
           "unit": "min"
         },
@@ -79523,7 +79523,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 116,
+          "current": 131,
           "target": 300,
           "unit": "min"
         },
@@ -79534,7 +79534,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 116,
+          "current": 131,
           "target": 900,
           "unit": "min"
         },
@@ -80722,7 +80722,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 116,
+          "current": 131,
           "target": 2400,
           "unit": "min"
         },
@@ -80865,7 +80865,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 49,
           "unit": null
         },
@@ -80876,7 +80876,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 98,
           "unit": null
         },
@@ -80898,7 +80898,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 32 logros del nivel C",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 32,
           "unit": null
         },
@@ -80953,12 +80953,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 3,
+      "achievementsUnlocked": 4,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -191748,8 +191748,8 @@
     },
     {
       "map": "dm/dm_routenord",
-      "timesPlayed": 8,
-      "totalKills": 1878,
+      "timesPlayed": 9,
+      "totalKills": 1939,
       "connectedHumans": [],
       "winners": [
         "=MB= .ZywOo"
@@ -191828,6 +191828,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/armageddon_beta1_1",
+      "timesPlayed": 10,
+      "totalKills": 1786,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/southern_france_2_final",
       "timesPlayed": 11,
       "totalKills": 1775,
@@ -191898,19 +191911,6 @@
       "connectedHumans": [],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/armageddon_beta1_1",
-      "timesPlayed": 10,
-      "totalKills": 1760,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -192114,12 +192114,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/dm_thunder-2",
-      "timesPlayed": 8,
-      "totalKills": 1317,
+      "map": "dm/mp_bologna_dm",
+      "timesPlayed": 10,
+      "totalKills": 1417,
       "connectedHumans": [],
       "winners": [
-        "=MB= .TenZ"
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -192127,12 +192127,12 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mp_bologna_dm",
-      "timesPlayed": 9,
-      "totalKills": 1269,
+      "map": "dm/dm_thunder-2",
+      "timesPlayed": 8,
+      "totalKills": 1317,
       "connectedHumans": [],
       "winners": [
-        "=MB= .Hartmann"
+        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": false,
@@ -201042,6 +201042,20 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-13 01:21:41",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-13 01:27:53",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -201164,12 +201178,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-13 01:14:54"
+    "last": "2026-08-13 01:29:50"
   },
-  "generatedAt": "2026-08-13T05:15:00.237Z",
-  "currentMap": "dm/armageddon_beta1_1",
+  "generatedAt": "2026-08-13T05:30:00.250Z",
+  "currentMap": "dm/dm_routenord",
   "serverName": "=MB= Revival Mie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "ioana Bodea",
+      "achId": "veteran_time",
+      "achName": "Veterano",
+      "desc": "Juega 2 horas o más en el servidor",
+      "tier": "C",
+      "icon": "⏱️",
+      "ts": "2026-08-13T05:30:00.271Z"
+    },
     {
       "name": "MOH-Rugrats.ar",
       "achId": "racha_de_constancia",
@@ -201519,15 +201542,6 @@
       "desc": "Logra 20 o más Headshots anunciados",
       "tier": "C",
       "icon": "🎯",
-      "ts": "2026-08-12T05:00:01.004Z"
-    },
-    {
-      "name": "Maverick",
-      "achId": "anun_doblete",
-      "achName": "Doblete",
-      "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
-      "tier": "D",
-      "icon": "🔵",
       "ts": "2026-08-12T05:00:01.004Z"
     }
   ],
