@@ -78916,8 +78916,8 @@
       "bestMultikillChain": 0,
       "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 10575000,
-      "playtimeFormatted": "2h 56m",
+      "playtimeMs": 11477000,
+      "playtimeFormatted": "3h 11m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -78971,7 +78971,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 10575000,
+      "longestSessionMs": 11477000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -79138,7 +79138,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 176,
+          "current": 191,
           "target": 120,
           "unit": "min"
         },
@@ -79523,7 +79523,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 176,
+          "current": 191,
           "target": 300,
           "unit": "min"
         },
@@ -79534,7 +79534,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 176,
+          "current": 191,
           "target": 900,
           "unit": "min"
         },
@@ -80149,7 +80149,7 @@
           "icon": "⏱️",
           "name": "Maratonista",
           "desc": "Juega una sola sesión de 3 horas seguidas o más, sin desconectarte",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -80722,7 +80722,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 176,
+          "current": 191,
           "target": 2400,
           "unit": "min"
         },
@@ -80865,7 +80865,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 49,
           "unit": null
         },
@@ -80876,7 +80876,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 98,
           "unit": null
         },
@@ -80909,7 +80909,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 43 logros del nivel B",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 43,
           "unit": null
         },
@@ -80953,12 +80953,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 4,
+      "achievementsUnlocked": 5,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -188367,6 +188367,56 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/rush_party",
+      "timesPlayed": 24,
+      "totalKills": 4379,
+      "connectedHumans": [
+        {
+          "name": "Bard0k",
+          "kills": 33
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 27
+        },
+        {
+          "name": "Hooligan",
+          "kills": 27
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 26
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 24
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 19
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 14
+        },
+        {
+          "name": "SANDY",
+          "kills": 13
+        },
+        {
+          "name": "Osi",
+          "kills": 12
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/winterbase2",
       "timesPlayed": 22,
       "totalKills": 4361,
@@ -188508,56 +188558,6 @@
       ],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/rush_party",
-      "timesPlayed": 23,
-      "totalKills": 4185,
-      "connectedHumans": [
-        {
-          "name": "Bard0k",
-          "kills": 33
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 27
-        },
-        {
-          "name": "Hooligan",
-          "kills": 27
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 26
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 24
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 19
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 14
-        },
-        {
-          "name": "SANDY",
-          "kills": 13
-        },
-        {
-          "name": "Osi",
-          "kills": 12
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -192283,22 +192283,9 @@
       "alliesKills": 95
     },
     {
-      "map": "dm/MoonlightRadio_Rain",
-      "timesPlayed": 9,
-      "totalKills": 954,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/deadendstreet",
       "timesPlayed": 9,
-      "totalKills": 867,
+      "totalKills": 969,
       "connectedHumans": [
         {
           "name": "Bard0k",
@@ -192326,6 +192313,19 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/MoonlightRadio_Rain",
+      "timesPlayed": 9,
+      "totalKills": 954,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -201250,12 +201250,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-13 02:14:57"
+    "last": "2026-08-13 02:29:59"
   },
-  "generatedAt": "2026-08-13T06:15:00.305Z",
-  "currentMap": "dm/deadendstreet",
+  "generatedAt": "2026-08-13T06:30:00.317Z",
+  "currentMap": "dm/rush_party",
   "serverName": "=MB= Revival Mie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "ioana Bodea",
+      "achId": "maratonista",
+      "achName": "Maratonista",
+      "desc": "Juega una sola sesión de 3 horas seguidas o más, sin desconectarte",
+      "tier": "B",
+      "icon": "⏱️",
+      "ts": "2026-08-13T06:30:00.338Z"
+    },
     {
       "name": "Toxic",
       "achId": "venganza_servida",
@@ -201600,15 +201609,6 @@
     },
     {
       "name": "Homer",
-      "achId": "anun_doblete",
-      "achName": "Doblete",
-      "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
-      "tier": "D",
-      "icon": "🔵",
-      "ts": "2026-08-12T05:00:01.004Z"
-    },
-    {
-      "name": "Gral. MacArthur",
       "achId": "anun_doblete",
       "achName": "Doblete",
       "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
