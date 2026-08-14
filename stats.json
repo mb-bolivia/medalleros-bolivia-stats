@@ -194474,7 +194474,7 @@
     {
       "map": "dm/saturday_night_fever_3",
       "timesPlayed": 26,
-      "totalKills": 6338,
+      "totalKills": 6343,
       "connectedHumans": [
         {
           "name": "Osi",
@@ -195343,8 +195343,8 @@
     },
     {
       "map": "dm/mohdm5",
-      "timesPlayed": 25,
-      "totalKills": 5656,
+      "timesPlayed": 26,
+      "totalKills": 5873,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -195365,6 +195365,10 @@
         {
           "name": "Francotirador",
           "kills": 32
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 14
         },
         {
           "name": "Soldado Ryan",
@@ -195489,8 +195493,8 @@
     },
     {
       "map": "dm/oil_rig_assault_AA",
-      "timesPlayed": 25,
-      "totalKills": 5381,
+      "timesPlayed": 26,
+      "totalKills": 5384,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -201446,7 +201450,12 @@
       "totalEncounters": 167
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "UnnamedSoldier",
+      "since": "2026-08-14 01:46:12"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -210198,6 +210207,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-08-14 01:46:12",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 15,
@@ -210324,10 +210340,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-14 01:45:00"
+    "last": "2026-08-14 01:53:56"
   },
-  "generatedAt": "2026-08-14T05:45:00.505Z",
-  "currentMap": "dm/saturday_night_fever_3",
+  "generatedAt": "2026-08-14T05:53:57.317Z",
+  "currentMap": "dm/oil_rig_assault_AA",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -210764,7 +210780,8 @@
       }
     ]
   },
-  "torneoFechaInicio": "2026-08-03",
+  "torneoFechaInicio": "",
+  "torneoTerminado": true,
   "torneoGanadores": [
     {
       "ganador": "Francotirador",
