@@ -50591,7 +50591,7 @@
         },
         "190.181.22.26": {
           "first": "2026-07-20 23:31:34",
-          "last": "2026-08-14 23:22:00"
+          "last": "2026-08-16 21:44:52"
         },
         "181.177.143.156": {
           "first": "2026-08-01 23:43:58",
@@ -50604,8 +50604,8 @@
       },
       "kills": 611,
       "deaths": 685,
-      "totalKills": 1209,
-      "totalDeaths": 1153,
+      "totalKills": 1211,
+      "totalDeaths": 1155,
       "suicides": 13,
       "kd": 0.89,
       "headshots": 2,
@@ -50622,7 +50622,7 @@
       },
       "hsPercent": 66.7,
       "weapons": {
-        "Sniper": 636,
+        "Sniper": 638,
         "Shotgun": 309,
         "Pistol": 7,
         "MG": 177,
@@ -50651,10 +50651,10 @@
       "winsByDate": {
         "2026-08-12": 1
       },
-      "sessions": 61,
-      "disconnects": 50,
-      "playtimeMs": 45244000,
-      "playtimeFormatted": "12h 34m",
+      "sessions": 64,
+      "disconnects": 51,
+      "playtimeMs": 45388000,
+      "playtimeFormatted": "12h 36m",
       "favoriteHour": "23:00",
       "hourActivity": [
         493,
@@ -50678,7 +50678,7 @@
         0,
         35,
         101,
-        45,
+        53,
         505,
         1286
       ],
@@ -51213,6 +51213,12 @@
         },
         {
           "map": "dm/teamtemple_mohaa",
+          "kills": 2,
+          "deaths": 2,
+          "kd": 1
+        },
+        {
+          "map": "dm/dm_vemork_approach",
           "kills": 2,
           "deaths": 2,
           "kd": 1
@@ -51802,9 +51808,15 @@
           "weaponsCount": 2,
           "victimsCount": 9,
           "humanVictimsCount": 9
+        },
+        {
+          "map": "dm/dm_vemork_approach",
+          "weaponsCount": 1,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 16,
+      "activeDaysCount": 17,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 9,
@@ -51821,11 +51833,11 @@
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 161,
-      "botKills": 598,
+      "botKills": 600,
       "humanKillsOnly": 611,
-      "botDeaths": 455,
+      "botDeaths": 457,
       "humanDeathsOnly": 685,
-      "maxBotRivalry": 91,
+      "maxBotRivalry": 92,
       "currentTeam": "Axis",
       "playedAxis": true,
       "playedAllies": false,
@@ -51873,7 +51885,7 @@
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 54
+          "deaths": 55
         },
         {
           "name": "<MLS>Msg.Lucho",
@@ -51948,15 +51960,15 @@
           "deaths": 9
         },
         {
+          "name": "=MB= .Kazuya",
+          "deaths": 7
+        },
+        {
           "name": "=BoL= Chory",
           "deaths": 6
         },
         {
           "name": "[c|A||c|D|o] Lito",
-          "deaths": 6
-        },
-        {
-          "name": "=MB= .Kazuya",
           "deaths": 6
         },
         {
@@ -51995,7 +52007,7 @@
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 91
+          "kills": 92
         },
         {
           "name": "Hooligan",
@@ -52027,7 +52039,7 @@
         },
         {
           "name": "=MB= .ZywOo",
-          "kills": 42
+          "kills": 43
         },
         {
           "name": "Soldado Ryan",
@@ -52141,7 +52153,7 @@
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 636
+          "kills": 638
         },
         {
           "weapon": "Shotgun",
@@ -52191,7 +52203,7 @@
         }
       ],
       "firstSeen": "2026-07-18 00:31:22",
-      "lastSeen": "2026-08-14 23:22:04",
+      "lastSeen": "2026-08-16 21:44:52",
       "rank": 17,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -52268,7 +52280,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 636,
+          "current": 638,
           "target": 150,
           "unit": null
         },
@@ -52279,7 +52291,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 754,
+          "current": 756,
           "target": 120,
           "unit": "min"
         },
@@ -52422,7 +52434,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 16,
+          "current": 17,
           "target": 3,
           "unit": null
         },
@@ -52664,7 +52676,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 754,
+          "current": 756,
           "target": 300,
           "unit": "min"
         },
@@ -52675,7 +52687,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 754,
+          "current": 756,
           "target": 900,
           "unit": "min"
         },
@@ -52686,7 +52698,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 61,
+          "current": 64,
           "target": 10,
           "unit": null
         },
@@ -52697,7 +52709,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": true,
-          "current": 61,
+          "current": 64,
           "target": 30,
           "unit": null
         },
@@ -52719,7 +52731,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": true,
-          "current": 61,
+          "current": 64,
           "target": 50,
           "unit": null
         },
@@ -52730,7 +52742,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 61,
+          "current": 64,
           "target": 75,
           "unit": null
         },
@@ -53258,7 +53270,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 16,
+          "current": 17,
           "target": 30,
           "unit": null
         },
@@ -53588,7 +53600,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 636,
+          "current": 638,
           "target": 180,
           "unit": null
         },
@@ -53599,7 +53611,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 636,
+          "current": 638,
           "target": 500,
           "unit": null
         },
@@ -53687,7 +53699,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 636,
+          "current": 638,
           "target": 1600,
           "unit": null
         },
@@ -53720,7 +53732,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 598,
+          "current": 600,
           "target": 200,
           "unit": null
         },
@@ -53731,7 +53743,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 598,
+          "current": 600,
           "target": 800,
           "unit": null
         },
@@ -53742,7 +53754,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 598,
+          "current": 600,
           "target": 2000,
           "unit": null
         },
@@ -53753,7 +53765,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 598,
+          "current": 600,
           "target": 4000,
           "unit": null
         },
@@ -53764,7 +53776,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 598,
+          "current": 600,
           "target": 12000,
           "unit": null
         },
@@ -53775,7 +53787,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 455,
+          "current": 457,
           "target": 80,
           "unit": null
         },
@@ -53786,7 +53798,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": true,
-          "current": 455,
+          "current": 457,
           "target": 400,
           "unit": null
         },
@@ -53808,7 +53820,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 91,
+          "current": 92,
           "target": 30,
           "unit": null
         },
@@ -53863,7 +53875,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 754,
+          "current": 756,
           "target": 2400,
           "unit": "min"
         },
@@ -53874,7 +53886,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 61,
+          "current": 64,
           "target": 100,
           "unit": null
         },
@@ -53885,7 +53897,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 61,
+          "current": 64,
           "target": 200,
           "unit": null
         },
@@ -206833,7 +206845,7 @@
       },
       {
         "name": "MOH-Rugrats.ar",
-        "kills": 636
+        "kills": 638
       },
       {
         "name": "Maverick",
@@ -212238,6 +212250,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/highnoon2",
+      "timesPlayed": 25,
+      "totalKills": 4611,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/mohdm7",
       "timesPlayed": 27,
       "totalKills": 4558,
@@ -212342,19 +212367,6 @@
       ],
       "winnersAreBots": true,
       "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/highnoon2",
-      "timesPlayed": 25,
-      "totalKills": 4530,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -213827,6 +213839,19 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mp_monteCassino_dm",
+      "timesPlayed": 25,
+      "totalKills": 3583,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/geschutze",
       "timesPlayed": 23,
       "totalKills": 3503,
@@ -213898,15 +213923,24 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mp_monteCassino_dm",
-      "timesPlayed": 24,
-      "totalKills": 3440,
-      "connectedHumans": [],
+      "map": "dm/dm_vemork_approach",
+      "timesPlayed": 25,
+      "totalKills": 3398,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 4
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 2
+        }
+      ],
       "winners": [
-        "=MB= .Scump"
+        "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
-      "hasHuman": false,
+      "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 0
     },
@@ -213925,25 +213959,6 @@
         }
       ],
       "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_vemork_approach",
-      "timesPlayed": 24,
-      "totalKills": 3364,
-      "connectedHumans": [
-        {
-          "name": "Hooligan",
-          "kills": 4
-        }
-      ],
-      "winners": [
-        "=MB= .Lyudmila",
         "=MB= .ZywOo"
       ],
       "winnersAreBots": true,
@@ -216586,7 +216601,12 @@
       "totalEncounters": 192
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "MOH-Rugrats.ar",
+      "since": "2026-08-16 21:42:44"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -226402,6 +226422,27 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-16 21:35:37",
+        "name": "MOH-Rugrats.ar",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-16 21:35:53",
+        "name": "MOH-Rugrats.ar",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-08-16 21:42:44",
+        "name": "MOH-Rugrats.ar",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 15,
@@ -226536,10 +226577,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-16 21:30:00"
+    "last": "2026-08-16 21:44:52"
   },
-  "generatedAt": "2026-08-17T01:30:00.948Z",
-  "currentMap": "dm/highnoon2",
+  "generatedAt": "2026-08-17T01:45:00.967Z",
+  "currentMap": "dm/dm_vemork_approach",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -227053,8 +227094,8 @@
     },
     {
       "name": "MOH-Rugrats.ar",
-      "kills": 1209,
-      "deaths": 1153,
+      "kills": 1211,
+      "deaths": 1155,
       "zoneHS": 66.7,
       "annHS": 59,
       "annHSpct": 4.9,
