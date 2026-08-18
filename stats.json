@@ -217451,7 +217451,7 @@
     {
       "map": "dm/schlittschuh",
       "timesPlayed": 42,
-      "totalKills": 13239,
+      "totalKills": 13439,
       "connectedHumans": [
         {
           "name": "JOSELU REY DEL MEDALLA",
@@ -217982,8 +217982,8 @@
     },
     {
       "map": "dm/avignon_dtr",
-      "timesPlayed": 35,
-      "totalKills": 10553,
+      "timesPlayed": 36,
+      "totalKills": 10677,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -218039,6 +218039,10 @@
         },
         {
           "name": "Maverick",
+          "kills": 4
+        },
+        {
+          "name": "MoH:CL Player",
           "kills": 4
         }
       ],
@@ -226877,12 +226881,7 @@
       "totalEncounters": 192
     }
   ],
-  "onlineNow": [
-    {
-      "name": "MoH:CL Player",
-      "since": "2026-08-18 09:54:00"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -237638,10 +237637,31 @@
         "weekday": "Martes"
       },
       {
-        "ts": "2026-08-18 09:54:00",
+        "ts": "2026-08-18 10:02:06",
         "name": "MoH:CL Player",
         "action": "connect",
         "count": 1,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-08-18 10:03:02",
+        "name": "MoH:CL Player",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-08-18 10:11:04",
+        "name": "MoH:CL Player",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Martes"
+      },
+      {
+        "ts": "2026-08-18 10:13:18",
+        "name": "MoH:CL Player",
+        "action": "disconnect",
+        "count": 0,
         "weekday": "Martes"
       }
     ],
@@ -237785,10 +237805,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-18 09:57:56"
+    "last": "2026-08-18 10:14:42"
   },
-  "generatedAt": "2026-08-18T14:00:00.686Z",
-  "currentMap": "dm/schlittschuh",
+  "generatedAt": "2026-08-18T14:15:00.688Z",
+  "currentMap": "dm/avignon_dtr",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
