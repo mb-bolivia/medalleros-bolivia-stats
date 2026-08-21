@@ -140973,7 +140973,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 0,
       "verified": false,
-      "verificationDaysLeft": 13,
+      "verificationDaysLeft": 12,
       "killedByList": [
         {
           "name": "=MB= .Hartmann",
@@ -238533,7 +238533,7 @@
     {
       "map": "dm/le-camp",
       "timesPlayed": 33,
-      "totalKills": 6364,
+      "totalKills": 6425,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -240948,6 +240948,19 @@
       "alliesKills": 45
     },
     {
+      "map": "dm/amsterdam",
+      "timesPlayed": 22,
+      "totalKills": 3927,
+      "connectedHumans": [],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": false,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/geschutze",
       "timesPlayed": 26,
       "totalKills": 3915,
@@ -241322,19 +241335,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/amsterdam",
-      "timesPlayed": 21,
-      "totalKills": 3724,
-      "connectedHumans": [],
-      "winners": [
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": false,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/the_dam",
       "timesPlayed": 27,
       "totalKills": 3672,
@@ -241509,6 +241509,72 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/teamtemple_mohaa",
+      "timesPlayed": 19,
+      "totalKills": 3600,
+      "connectedHumans": [
+        {
+          "name": "CaPaRz0",
+          "kills": 27
+        },
+        {
+          "name": "Francotirador",
+          "kills": 25
+        },
+        {
+          "name": "Osi",
+          "kills": 22
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 17
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 15
+        },
+        {
+          "name": "SANDY",
+          "kills": 15
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 13
+        },
+        {
+          "name": "Maverick",
+          "kills": 11
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 9
+        },
+        {
+          "name": "Hooligan",
+          "kills": 7
+        },
+        {
+          "name": "UnnamedSoldier",
+          "kills": 7
+        },
+        {
+          "name": "POOPY NUMBER 2",
+          "kills": 4
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/doomed",
       "timesPlayed": 25,
       "totalKills": 3571,
@@ -241574,68 +241640,6 @@
       ],
       "winners": [
         "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/teamtemple_mohaa",
-      "timesPlayed": 18,
-      "totalKills": 3490,
-      "connectedHumans": [
-        {
-          "name": "CaPaRz0",
-          "kills": 27
-        },
-        {
-          "name": "Francotirador",
-          "kills": 25
-        },
-        {
-          "name": "Osi",
-          "kills": 22
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 17
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 15
-        },
-        {
-          "name": "SANDY",
-          "kills": 15
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 13
-        },
-        {
-          "name": "Maverick",
-          "kills": 11
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 9
-        },
-        {
-          "name": "Hooligan",
-          "kills": 7
-        },
-        {
-          "name": "POOPY NUMBER 2",
-          "kills": 4
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -244080,7 +244084,12 @@
       "totalEncounters": 192
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "UnnamedSoldier",
+      "since": "2026-08-21 00:10:58"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -255562,6 +255571,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-21 00:10:58",
+        "name": "UnnamedSoldier",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 15,
@@ -255707,15 +255723,19 @@
       {
         "date": "2026-08-20",
         "weekday": "Jueves"
+      },
+      {
+        "date": "2026-08-21",
+        "weekday": "Viernes"
       }
     ]
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-20 23:59:57"
+    "last": "2026-08-21 00:14:57"
   },
-  "generatedAt": "2026-08-21T04:00:01.050Z",
-  "currentMap": "dm/le-camp",
+  "generatedAt": "2026-08-21T04:15:01.080Z",
+  "currentMap": "dm/teamtemple_mohaa",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
