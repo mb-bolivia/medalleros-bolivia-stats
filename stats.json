@@ -6670,7 +6670,7 @@
       "ipHistory": {
         "26.118.165.85": {
           "first": "2026-07-18 22:38:11",
-          "last": "2026-08-19 22:58:26"
+          "last": "2026-08-20 22:14:52"
         }
       },
       "kills": 2090,
@@ -6739,9 +6739,9 @@
       "winsByGameDay": {
         "2026-08-19": 2
       },
-      "sessions": 26,
+      "sessions": 27,
       "disconnects": 24,
-      "playtimeMs": 66432000,
+      "playtimeMs": 66440000,
       "playtimeFormatted": "18h 27m",
       "favoriteHour": "22:00",
       "hourActivity": [
@@ -6767,7 +6767,7 @@
         0,
         0,
         41,
-        3066,
+        3067,
         2112
       ],
       "mapBreakdown": [
@@ -7808,7 +7808,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 18,
+      "activeDaysCount": 19,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 10,
@@ -8375,7 +8375,7 @@
         }
       ],
       "firstSeen": "2026-07-18 22:38:11",
-      "lastSeen": "2026-08-19 22:58:31",
+      "lastSeen": "2026-08-20 22:14:52",
       "rank": 3,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -8606,7 +8606,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 18,
+          "current": 19,
           "target": 3,
           "unit": null
         },
@@ -8870,7 +8870,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 26,
+          "current": 27,
           "target": 10,
           "unit": null
         },
@@ -8881,7 +8881,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 30,
           "unit": null
         },
@@ -8903,7 +8903,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 50,
           "unit": null
         },
@@ -8914,7 +8914,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 75,
           "unit": null
         },
@@ -9442,7 +9442,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 18,
+          "current": 19,
           "target": 30,
           "unit": null
         },
@@ -10058,7 +10058,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 100,
           "unit": null
         },
@@ -10069,7 +10069,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 26,
+          "current": 27,
           "target": 200,
           "unit": null
         },
@@ -232605,11 +232605,15 @@
     {
       "map": "dm/moh_csl",
       "timesPlayed": 46,
-      "totalKills": 13421,
+      "totalKills": 13705,
       "connectedHumans": [
         {
           "name": "SANDY",
           "kills": 57
+        },
+        {
+          "name": "Osi",
+          "kills": 36
         },
         {
           "name": "<MLS>Msg.Lucho",
@@ -232658,10 +232662,6 @@
         {
           "name": "Nicodemus",
           "kills": 6
-        },
-        {
-          "name": "Osi",
-          "kills": 3
         }
       ],
       "winners": [
@@ -233673,6 +233673,64 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/aquaduct-light",
+      "timesPlayed": 32,
+      "totalKills": 9412,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 37
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 34
+        },
+        {
+          "name": "Francotirador",
+          "kills": 31
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 29
+        },
+        {
+          "name": "Homer",
+          "kills": 28
+        },
+        {
+          "name": "Osi",
+          "kills": 24
+        },
+        {
+          "name": "Hooligan",
+          "kills": 23
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 22
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 19
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 17
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 13
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/progress",
       "timesPlayed": 38,
       "totalKills": 9262,
@@ -233912,64 +233970,6 @@
       ],
       "winners": [
         "=MB= .Vasily"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/aquaduct-light",
-      "timesPlayed": 31,
-      "totalKills": 9049,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 37
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 34
-        },
-        {
-          "name": "Francotirador",
-          "kills": 31
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 29
-        },
-        {
-          "name": "Homer",
-          "kills": 28
-        },
-        {
-          "name": "Hooligan",
-          "kills": 23
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 22
-        },
-        {
-          "name": "Osi",
-          "kills": 20
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 19
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 17
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 13
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -241915,8 +241915,8 @@
   ],
   "onlineNow": [
     {
-      "name": "Osi",
-      "since": "2026-08-20 21:44:55"
+      "name": "CaPaRz0",
+      "since": "2026-08-20 22:14:52"
     }
   ],
   "concurrentPlayers": {
@@ -253323,6 +253323,62 @@
         "action": "connect",
         "count": 1,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:02:24",
+        "name": "Retu14",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:02:25",
+        "name": "Retu14",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:02:51",
+        "name": "Retu14",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:02:53",
+        "name": "Retu14",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:03:30",
+        "name": "Retu14",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:03:31",
+        "name": "Retu14",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:10:08",
+        "name": "Osi",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-08-20 22:14:52",
+        "name": "CaPaRz0",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 15,
@@ -253473,10 +253529,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-20 21:59:56"
+    "last": "2026-08-20 22:15:00"
   },
-  "generatedAt": "2026-08-21T02:00:00.933Z",
-  "currentMap": "dm/moh_csl",
+  "generatedAt": "2026-08-21T02:15:00.940Z",
+  "currentMap": "dm/aquaduct-light",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
