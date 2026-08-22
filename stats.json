@@ -43018,7 +43018,7 @@
       "ipHistory": {
         "181.115.166.41": {
           "first": "2026-08-17 23:20:28",
-          "last": "2026-08-22 01:14:57"
+          "last": "2026-08-22 01:15:09"
         }
       },
       "kills": 183,
@@ -43072,13 +43072,13 @@
         "2026-08-21": 2
       },
       "sessions": 5,
-      "disconnects": 1,
-      "playtimeMs": 10010000,
+      "disconnects": 2,
+      "playtimeMs": 10029000,
       "playtimeFormatted": "2h 47m",
       "favoriteHour": "00:00",
       "hourActivity": [
         342,
-        77,
+        79,
         0,
         0,
         0,
@@ -43376,7 +43376,7 @@
       "maxRivalryEncounters": 83,
       "playedWeekend": true,
       "playedBothWeekendDays": false,
-      "chatMessages": 3,
+      "chatMessages": 4,
       "botKills": 170,
       "humanKillsOnly": 183,
       "botDeaths": 88,
@@ -43647,7 +43647,7 @@
         }
       ],
       "firstSeen": "2026-08-17 23:20:28",
-      "lastSeen": "2026-08-22 01:14:57",
+      "lastSeen": "2026-08-22 01:15:17",
       "rank": 14,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -44329,7 +44329,7 @@
           "name": "Charlatán",
           "desc": "Envía 50 o más mensajes en el chat",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 200,
           "unit": null
         },
@@ -44340,7 +44340,7 @@
           "name": "Big Talker",
           "desc": "Envía 100 o más mensajes en el chat",
           "unlocked": false,
-          "current": 3,
+          "current": 4,
           "target": 400,
           "unit": null
         },
@@ -239375,8 +239375,8 @@
     },
     {
       "map": "dm/ShotgunLogic",
-      "timesPlayed": 38,
-      "totalKills": 9193,
+      "timesPlayed": 39,
+      "totalKills": 9407,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -240745,6 +240745,56 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dmbckstr",
+      "timesPlayed": 36,
+      "totalKills": 7205,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 40
+        },
+        {
+          "name": "Francotirador",
+          "kills": 36
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 28
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 23
+        },
+        {
+          "name": "=BoL= Chory",
+          "kills": 23
+        },
+        {
+          "name": "Bard0k",
+          "kills": 23
+        },
+        {
+          "name": "andres",
+          "kills": 11
+        },
+        {
+          "name": "RULO",
+          "kills": 5
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/MP_Bazaar_DM",
       "timesPlayed": 31,
       "totalKills": 7202,
@@ -240923,56 +240973,6 @@
       "hasHuman": true,
       "axisKills": 29,
       "alliesKills": 17
-    },
-    {
-      "map": "dm/dmbckstr",
-      "timesPlayed": 35,
-      "totalKills": 7054,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 40
-        },
-        {
-          "name": "Francotirador",
-          "kills": 36
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 28
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 23
-        },
-        {
-          "name": "=BoL= Chory",
-          "kills": 23
-        },
-        {
-          "name": "Bard0k",
-          "kills": 23
-        },
-        {
-          "name": "andres",
-          "kills": 11
-        },
-        {
-          "name": "RULO",
-          "kills": 5
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/PRISON1945",
@@ -247169,10 +247169,6 @@
     }
   ],
   "onlineNow": [
-    {
-      "name": "GASPAR",
-      "since": "2026-08-22 00:45:45"
-    },
     {
       "name": "MoH:CL Player",
       "since": "2026-08-21 23:37:42"
@@ -259401,6 +259397,13 @@
         "action": "disconnect",
         "count": 2,
         "weekday": "Sábado"
+      },
+      {
+        "ts": "2026-08-22 01:15:17",
+        "name": "GASPAR",
+        "action": "disconnect",
+        "count": 1,
+        "weekday": "Sábado"
       }
     ],
     "peakCount": 15,
@@ -259559,10 +259562,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-22 01:14:58"
+    "last": "2026-08-22 01:29:59"
   },
-  "generatedAt": "2026-08-22T05:15:01.305Z",
-  "currentMap": "dm/belgas74",
+  "generatedAt": "2026-08-22T05:30:01.338Z",
+  "currentMap": "dm/dmbckstr",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
