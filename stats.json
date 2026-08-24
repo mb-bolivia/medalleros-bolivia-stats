@@ -47267,8 +47267,8 @@
         "2026-08-22": 2
       },
       "sessions": 72,
-      "disconnects": 61,
-      "playtimeMs": 42403000,
+      "disconnects": 62,
+      "playtimeMs": 42441000,
       "playtimeFormatted": "11h 47m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -47280,7 +47280,7 @@
         0,
         0,
         2,
-        12,
+        13,
         0,
         0,
         2,
@@ -48566,7 +48566,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-08-24 08:29:47",
+      "lastSeen": "2026-08-24 08:30:33",
       "rank": 15,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -246381,7 +246381,7 @@
     {
       "map": "dm/small_village",
       "timesPlayed": 46,
-      "totalKills": 16110,
+      "totalKills": 16250,
       "connectedHumans": [
         {
           "name": "Lunatic1357",
@@ -247497,6 +247497,72 @@
       "alliesKills": 11
     },
     {
+      "map": "dm/Under_Siege",
+      "timesPlayed": 44,
+      "totalKills": 11368,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 89
+        },
+        {
+          "name": "Francotirador",
+          "kills": 85
+        },
+        {
+          "name": "Maverick",
+          "kills": 59
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 41
+        },
+        {
+          "name": "Hooligan",
+          "kills": 32
+        },
+        {
+          "name": "ST3",
+          "kills": 31
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 27
+        },
+        {
+          "name": "Osi",
+          "kills": 22
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 22
+        },
+        {
+          "name": "RaYKo",
+          "kills": 19
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 12
+        },
+        {
+          "name": "AleXei",
+          "kills": 2
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 2
+        }
+      ],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/Osiedle",
       "timesPlayed": 41,
       "totalKills": 11194,
@@ -247597,72 +247663,6 @@
       "hasHuman": true,
       "axisKills": 86,
       "alliesKills": 92
-    },
-    {
-      "map": "dm/Under_Siege",
-      "timesPlayed": 43,
-      "totalKills": 11112,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 89
-        },
-        {
-          "name": "Francotirador",
-          "kills": 85
-        },
-        {
-          "name": "Maverick",
-          "kills": 59
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 41
-        },
-        {
-          "name": "Hooligan",
-          "kills": 32
-        },
-        {
-          "name": "ST3",
-          "kills": 31
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 27
-        },
-        {
-          "name": "Osi",
-          "kills": 22
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 22
-        },
-        {
-          "name": "RaYKo",
-          "kills": 19
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 12
-        },
-        {
-          "name": "AleXei",
-          "kills": 2
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .Scump"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/questufou_s_yvette",
@@ -256274,12 +256274,7 @@
       "totalEncounters": 196
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Mr.Sipi",
-      "since": "2026-08-24 08:28:19"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -269434,6 +269429,13 @@
         "action": "connect",
         "count": 1,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-08-24 08:30:33",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 15,
@@ -269600,10 +269602,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-24 08:29:55"
+    "last": "2026-08-24 08:45:00"
   },
-  "generatedAt": "2026-08-24T12:30:00.432Z",
-  "currentMap": "dm/small_village",
+  "generatedAt": "2026-08-24T12:45:00.447Z",
+  "currentMap": "dm/Under_Siege",
   "serverName": "=MB= Revival Lun | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
