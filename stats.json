@@ -164462,11 +164462,16 @@
       "rankChange": 45
     },
     {
-      "name": "DeVta",
+      "name": "Dengue",
       "ips": [
-        "0.0.0.0"
+        "26.134.210.33"
       ],
-      "ipHistory": {},
+      "ipHistory": {
+        "26.134.210.33": {
+          "first": "2026-08-28 17:13:51",
+          "last": "2026-08-28 17:13:51"
+        }
+      },
       "kills": 0,
       "deaths": 0,
       "totalKills": 0,
@@ -164492,11 +164497,11 @@
       "bestMultikillChain": 0,
       "winsByDate": {},
       "winsByGameDay": {},
-      "sessions": 0,
+      "sessions": 1,
       "disconnects": 0,
-      "playtimeMs": 0,
-      "playtimeFormatted": "0h 0m",
-      "favoriteHour": null,
+      "playtimeMs": 66000,
+      "playtimeFormatted": "0h 1m",
+      "favoriteHour": "17:00",
       "hourActivity": [
         0,
         0,
@@ -164515,7 +164520,7 @@
         0,
         0,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -164527,15 +164532,15 @@
       "bestWeaponVarietyInMap": 0,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [],
-      "activeDaysCount": 0,
-      "weekdaysCovered": 0,
+      "activeDaysCount": 1,
+      "weekdaysCovered": 1,
       "distinctBotsKilled": 0,
       "bestBotVarietyInMap": 0,
       "totalBotsConfigured": 11,
       "winWeekdaysCovered": 0,
-      "longestConsecutiveDayStreak": 0,
+      "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 0,
+      "longestSessionMs": 66000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -164565,8 +164570,8 @@
       "victimsList": [],
       "weaponsList": [],
       "bodypartsList": [],
-      "firstSeen": null,
-      "lastSeen": null,
+      "firstSeen": "2026-08-28 17:13:51",
+      "lastSeen": "2026-08-28 17:13:51",
       "rank": 65,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -164654,7 +164659,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 120,
           "unit": "min"
         },
@@ -164797,7 +164802,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 3,
           "unit": null
         },
@@ -165039,7 +165044,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 300,
           "unit": "min"
         },
@@ -165050,7 +165055,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 900,
           "unit": "min"
         },
@@ -165061,7 +165066,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 10,
           "unit": null
         },
@@ -165072,7 +165077,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 30,
           "unit": null
         },
@@ -165094,7 +165099,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 50,
           "unit": null
         },
@@ -165105,7 +165110,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 75,
           "unit": null
         },
@@ -165204,7 +165209,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 24,
           "unit": null
         },
@@ -165336,7 +165341,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 6 días (domingo a viernes)",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 6,
           "unit": null
         },
@@ -165611,7 +165616,7 @@
           "name": "Racha de Constancia",
           "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -165622,7 +165627,7 @@
           "name": "Racha de Hierro Semanal",
           "desc": "Juega 14 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 14,
           "unit": null
         },
@@ -165633,7 +165638,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 30,
           "unit": null
         },
@@ -166238,7 +166243,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 2400,
           "unit": "min"
         },
@@ -166249,7 +166254,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 100,
           "unit": null
         },
@@ -166260,7 +166265,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 200,
           "unit": null
         },
@@ -166506,10 +166511,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 67
     },
     {
-      "name": "hassan",
+      "name": "DeVta",
       "ips": [
         "0.0.0.0"
       ],
@@ -168553,10 +168558,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "DrMansoOOour",
+      "name": "hassan",
       "ips": [
         "0.0.0.0"
       ],
@@ -170600,10 +170605,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "DsK.MeCaNiKo",
+      "name": "DrMansoOOour",
       "ips": [
         "0.0.0.0"
       ],
@@ -172647,10 +172652,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "pichi con miel",
+      "name": "DsK.MeCaNiKo",
       "ips": [
         "0.0.0.0"
       ],
@@ -174694,10 +174699,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Machete",
+      "name": "pichi con miel",
       "ips": [
         "0.0.0.0"
       ],
@@ -176741,10 +176746,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "xKuroashi",
+      "name": "Machete",
       "ips": [
         "0.0.0.0"
       ],
@@ -178788,10 +178793,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "diet",
+      "name": "xKuroashi",
       "ips": [
         "0.0.0.0"
       ],
@@ -180835,10 +180840,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Brave Chicken",
+      "name": "diet",
       "ips": [
         "0.0.0.0"
       ],
@@ -182882,10 +182887,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "BIG DADDY (A.K.A. BIG CAMPER)",
+      "name": "Brave Chicken",
       "ips": [
         "0.0.0.0"
       ],
@@ -184929,10 +184934,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Ahmed",
+      "name": "BIG DADDY (A.K.A. BIG CAMPER)",
       "ips": [
         "0.0.0.0"
       ],
@@ -186976,10 +186981,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "2bo Joe Kadelak",
+      "name": "Ahmed",
       "ips": [
         "0.0.0.0"
       ],
@@ -189023,10 +189028,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Ledokingz",
+      "name": "2bo Joe Kadelak",
       "ips": [
         "0.0.0.0"
       ],
@@ -191070,10 +191075,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "TRUTA DE BATALHA",
+      "name": "Ledokingz",
       "ips": [
         "0.0.0.0"
       ],
@@ -193117,10 +193122,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "PAPI NUMBER",
+      "name": "TRUTA DE BATALHA",
       "ips": [
         "0.0.0.0"
       ],
@@ -195164,10 +195169,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "'Caza-fantasmas'",
+      "name": "PAPI NUMBER",
       "ips": [
         "0.0.0.0"
       ],
@@ -197211,10 +197216,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Infantino",
+      "name": "'Caza-fantasmas'",
       "ips": [
         "0.0.0.0"
       ],
@@ -199258,10 +199263,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Mile PJR",
+      "name": "Infantino",
       "ips": [
         "0.0.0.0"
       ],
@@ -201305,10 +201310,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "nacho",
+      "name": "Mile PJR",
       "ips": [
         "0.0.0.0"
       ],
@@ -203352,10 +203357,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "fichaculia",
+      "name": "nacho",
       "ips": [
         "0.0.0.0"
       ],
@@ -205399,10 +205404,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "[*MOHAA*]Mal.TheKiller",
+      "name": "fichaculia",
       "ips": [
         "0.0.0.0"
       ],
@@ -207446,10 +207451,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Sarak25",
+      "name": "[*MOHAA*]Mal.TheKiller",
       "ips": [
         "0.0.0.0"
       ],
@@ -209493,10 +209498,10 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
-      "name": "Dengue",
+      "name": "Sarak25",
       "ips": [
         "0.0.0.0"
       ],
@@ -211540,7 +211545,7 @@
           "kills": 0
         }
       ],
-      "rankChange": 45
+      "rankChange": 44
     },
     {
       "name": "Chucho",
@@ -247048,6 +247053,96 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/warehouse_dm",
+      "timesPlayed": 54,
+      "totalKills": 12571,
+      "connectedHumans": [
+        {
+          "name": "CaPaRz0",
+          "kills": 133
+        },
+        {
+          "name": "SANDY",
+          "kills": 88
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 49
+        },
+        {
+          "name": "Francotirador",
+          "kills": 38
+        },
+        {
+          "name": "Hooligan",
+          "kills": 37
+        },
+        {
+          "name": "<MLS>Msg.Lucho",
+          "kills": 36
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 33
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 29
+        },
+        {
+          "name": "Osi",
+          "kills": 27
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 25
+        },
+        {
+          "name": "GASPAR",
+          "kills": 21
+        },
+        {
+          "name": "RaYKo",
+          "kills": 20
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 19
+        },
+        {
+          "name": "Bard0k",
+          "kills": 16
+        },
+        {
+          "name": "POOPY NUMBER 2",
+          "kills": 14
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 13
+        },
+        {
+          "name": "Maverick",
+          "kills": 13
+        },
+        {
+          "name": "micky",
+          "kills": 11
+        },
+        {
+          "name": "DARIUS",
+          "kills": 8
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 11
+    },
+    {
       "map": "dm/nato_dust_tdm",
       "timesPlayed": 53,
       "totalKills": 12459,
@@ -247330,96 +247425,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/warehouse_dm",
-      "timesPlayed": 53,
-      "totalKills": 12346,
-      "connectedHumans": [
-        {
-          "name": "CaPaRz0",
-          "kills": 133
-        },
-        {
-          "name": "SANDY",
-          "kills": 88
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 49
-        },
-        {
-          "name": "Francotirador",
-          "kills": 38
-        },
-        {
-          "name": "Hooligan",
-          "kills": 37
-        },
-        {
-          "name": "<MLS>Msg.Lucho",
-          "kills": 36
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 33
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 29
-        },
-        {
-          "name": "Osi",
-          "kills": 27
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 25
-        },
-        {
-          "name": "GASPAR",
-          "kills": 21
-        },
-        {
-          "name": "RaYKo",
-          "kills": 20
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 19
-        },
-        {
-          "name": "Bard0k",
-          "kills": 16
-        },
-        {
-          "name": "POOPY NUMBER 2",
-          "kills": 14
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 13
-        },
-        {
-          "name": "Maverick",
-          "kills": 13
-        },
-        {
-          "name": "micky",
-          "kills": 11
-        },
-        {
-          "name": "DARIUS",
-          "kills": 8
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 11
-    },
-    {
       "map": "dm/thefacilityDM",
       "timesPlayed": 43,
       "totalKills": 12279,
@@ -247656,7 +247661,7 @@
     {
       "map": "dm/Papys_Castle_War",
       "timesPlayed": 48,
-      "totalKills": 11608,
+      "totalKills": 11658,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -247819,8 +247824,8 @@
     },
     {
       "map": "dm/belgas74",
-      "timesPlayed": 48,
-      "totalKills": 11133,
+      "timesPlayed": 49,
+      "totalKills": 11255,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -255905,7 +255910,12 @@
       "totalEncounters": 200
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Dengue",
+      "since": "2026-08-28 17:13:51"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -270285,6 +270295,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-08-28 17:13:51",
+        "name": "Dengue",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 15,
@@ -270467,10 +270484,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-28 17:00:00"
+    "last": "2026-08-28 17:14:57"
   },
-  "generatedAt": "2026-08-28T21:00:00.619Z",
-  "currentMap": "dm/Papys_Castle_War",
+  "generatedAt": "2026-08-28T21:15:00.666Z",
+  "currentMap": "dm/belgas74",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
