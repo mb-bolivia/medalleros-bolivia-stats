@@ -51020,7 +51020,7 @@
         },
         "26.19.86.113": {
           "first": "2026-08-21 23:38:22",
-          "last": "2026-08-29 23:31:11"
+          "last": "2026-08-31 16:17:59"
         }
       },
       "kills": 374,
@@ -51079,9 +51079,9 @@
       "winsByGameDay": {
         "2026-08-22": 2
       },
-      "sessions": 77,
-      "disconnects": 65,
-      "playtimeMs": 43198000,
+      "sessions": 79,
+      "disconnects": 66,
+      "playtimeMs": 43214000,
       "playtimeFormatted": "12h 0m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -51101,7 +51101,7 @@
         0,
         0,
         51,
-        6,
+        9,
         20,
         56,
         74,
@@ -51884,7 +51884,7 @@
           "humanVictimsCount": 4
         }
       ],
-      "activeDaysCount": 28,
+      "activeDaysCount": 29,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 10,
@@ -52407,7 +52407,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-08-29 23:36:52",
+      "lastSeen": "2026-08-31 16:18:15",
       "rank": 16,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -52638,7 +52638,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 28,
+          "current": 29,
           "target": 3,
           "unit": null
         },
@@ -52902,7 +52902,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 77,
+          "current": 79,
           "target": 10,
           "unit": null
         },
@@ -52913,7 +52913,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": true,
-          "current": 77,
+          "current": 79,
           "target": 30,
           "unit": null
         },
@@ -52935,7 +52935,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": true,
-          "current": 77,
+          "current": 79,
           "target": 50,
           "unit": null
         },
@@ -52946,7 +52946,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": true,
-          "current": 77,
+          "current": 79,
           "target": 75,
           "unit": null
         },
@@ -53474,7 +53474,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 28,
+          "current": 29,
           "target": 30,
           "unit": null
         },
@@ -54090,7 +54090,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 77,
+          "current": 79,
           "target": 100,
           "unit": null
         },
@@ -54101,7 +54101,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 77,
+          "current": 79,
           "target": 200,
           "unit": null
         },
@@ -237101,8 +237101,8 @@
     },
     {
       "map": "dm/small_village",
-      "timesPlayed": 63,
-      "totalKills": 21832,
+      "timesPlayed": 64,
+      "totalKills": 21845,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -263663,6 +263663,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-08-31 16:17:59",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-08-31 16:18:15",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 15,
@@ -263857,10 +263871,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-08-31 16:11:31"
+    "last": "2026-08-31 16:18:17"
   },
-  "generatedAt": "2026-08-31T20:15:00.955Z",
-  "currentMap": "dm/NightRaid",
+  "generatedAt": "2026-08-31T20:30:00.903Z",
+  "currentMap": "dm/small_village",
   "serverName": "=MB= Revival Lun | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
