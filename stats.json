@@ -38348,8 +38348,8 @@
       "worstDeathStreak": 4,
       "firstBloodOfMapCount": 2,
       "revengeKills": 64,
-      "verified": false,
-      "verificationDaysLeft": 6,
+      "verified": true,
+      "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "Nico",
@@ -40436,7 +40436,7 @@
           "icon": "✔️",
           "name": "Identidad Confirmada",
           "desc": "Verifica tu nick con el administrador del servidor",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -40447,7 +40447,7 @@
           "icon": "🛡️",
           "name": "Guardián de su Nick",
           "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
-          "unlocked": false,
+          "unlocked": true,
           "current": null,
           "target": null,
           "unit": null
@@ -40514,7 +40514,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 41,
+          "current": 43,
           "target": 49,
           "unit": null
         },
@@ -40525,7 +40525,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 41,
+          "current": 43,
           "target": 98,
           "unit": null
         },
@@ -40547,7 +40547,7 @@
           "name": "Maestro del Nivel C",
           "desc": "Desbloquea los 32 logros del nivel C",
           "unlocked": false,
-          "current": 12,
+          "current": 13,
           "target": 32,
           "unit": null
         },
@@ -40558,7 +40558,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 43 logros del nivel B",
           "unlocked": false,
-          "current": 14,
+          "current": 15,
           "target": 43,
           "unit": null
         },
@@ -40602,12 +40602,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 41,
+          "current": 43,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 41,
+      "achievementsUnlocked": 43,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -205861,8 +205861,8 @@
     },
     {
       "map": "dm/schlittschuh",
-      "timesPlayed": 76,
-      "totalKills": 25662,
+      "timesPlayed": 77,
+      "totalKills": 25777,
       "connectedHumans": [
         {
           "name": "JOSELU REY DEL MEDALLA",
@@ -212113,6 +212113,64 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/mohdm7",
+      "timesPlayed": 72,
+      "totalKills": 10150,
+      "connectedHumans": [
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 71
+        },
+        {
+          "name": "SANDY",
+          "kills": 40
+        },
+        {
+          "name": "Maverick",
+          "kills": 19
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 16
+        },
+        {
+          "name": "Hooligan",
+          "kills": 16
+        },
+        {
+          "name": "Bard0k",
+          "kills": 6
+        },
+        {
+          "name": "B_o_d_o",
+          "kills": 2
+        },
+        {
+          "name": "POOPI NUMBER 1",
+          "kills": 2
+        },
+        {
+          "name": "<MLS>Rct.Ravir",
+          "kills": 1
+        },
+        {
+          "name": "SZZ",
+          "kills": 1
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/user_98lombardo",
       "timesPlayed": 46,
       "totalKills": 10090,
@@ -212415,67 +212473,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/mohdm7",
-      "timesPlayed": 71,
-      "totalKills": 10007,
-      "connectedHumans": [
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 71
-        },
-        {
-          "name": "SANDY",
-          "kills": 40
-        },
-        {
-          "name": "Maverick",
-          "kills": 19
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 16
-        },
-        {
-          "name": "Hooligan",
-          "kills": 16
-        },
-        {
-          "name": "Bard0k",
-          "kills": 6
-        },
-        {
-          "name": "B_o_d_o",
-          "kills": 2
-        },
-        {
-          "name": "POOPI NUMBER 1",
-          "kills": 2
-        },
-        {
-          "name": "<MLS>Rct.Ravir",
-          "kills": 1
-        },
-        {
-          "name": "SZZ",
-          "kills": 1
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/MP_Verschneit_DM",
       "timesPlayed": 51,
-      "totalKills": 9908,
+      "totalKills": 9991,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -234934,12 +234934,30 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-08 11:44:58"
+    "last": "2026-09-08 11:59:42"
   },
-  "generatedAt": "2026-09-08T15:45:01.055Z",
-  "currentMap": "dm/MP_Verschneit_DM",
+  "generatedAt": "2026-09-08T15:59:46.444Z",
+  "currentMap": "dm/schlittschuh",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "OMIXLITO",
+      "achId": "guardian_del_nick",
+      "achName": "Guardián de su Nick",
+      "desc": "Está verificado y juega siempre desde 1 o 2 IPs conocidas",
+      "tier": "B",
+      "icon": "🛡️",
+      "ts": "2026-09-08T15:59:46.473Z"
+    },
+    {
+      "name": "OMIXLITO",
+      "achId": "identidad_confirmada",
+      "achName": "Identidad Confirmada",
+      "desc": "Verifica tu nick con el administrador del servidor",
+      "tier": "C",
+      "icon": "✔️",
+      "ts": "2026-09-08T15:59:46.473Z"
+    },
     {
       "name": "MOH-Rugrats.ar",
       "achId": "ghost",
@@ -235280,24 +235298,6 @@
       "desc": "80% o más de tus kills son con una sola arma (mínimo 30 kills)",
       "tier": "B",
       "icon": "🎯",
-      "ts": "2026-09-08T02:30:01.371Z"
-    },
-    {
-      "name": "Nico",
-      "achId": "anun_spree",
-      "achName": "En Racha",
-      "desc": "Consigue 10 o más Killing-Spree (5 bajas sin morir)",
-      "tier": "B",
-      "icon": "🔪",
-      "ts": "2026-09-08T02:30:01.371Z"
-    },
-    {
-      "name": "OMIXLITO",
-      "achId": "bot_nemesis",
-      "achName": "Némesis Robótico",
-      "desc": "Un mismo bot te elimina 30 o más veces en total",
-      "tier": "B",
-      "icon": "🦿",
       "ts": "2026-09-08T02:30:01.371Z"
     }
   ],
