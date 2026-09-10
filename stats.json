@@ -113887,8 +113887,8 @@
       "winsByGameDay": {},
       "sessions": 2,
       "disconnects": 0,
-      "playtimeMs": 16134000,
-      "playtimeFormatted": "4h 29m",
+      "playtimeMs": 17031000,
+      "playtimeFormatted": "4h 44m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -113942,7 +113942,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 16134000,
+      "longestSessionMs": 17031000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -114104,7 +114104,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 269,
+          "current": 284,
           "target": 120,
           "unit": "min"
         },
@@ -114489,7 +114489,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 269,
+          "current": 284,
           "target": 300,
           "unit": "min"
         },
@@ -114500,7 +114500,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 269,
+          "current": 284,
           "target": 900,
           "unit": "min"
         },
@@ -115688,7 +115688,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 269,
+          "current": 284,
           "target": 2400,
           "unit": "min"
         },
@@ -221357,91 +221357,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/saturday_night_fever_3",
-      "timesPlayed": 64,
-      "totalKills": 13405,
-      "connectedHumans": [
-        {
-          "name": "Hooligan",
-          "kills": 56
-        },
-        {
-          "name": "Francotirador",
-          "kills": 54
-        },
-        {
-          "name": "Osi",
-          "kills": 41
-        },
-        {
-          "name": "Kurco",
-          "kills": 37
-        },
-        {
-          "name": "SANDY",
-          "kills": 31
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 28
-        },
-        {
-          "name": "lara_de_mrd",
-          "kills": 24
-        },
-        {
-          "name": "micky",
-          "kills": 19
-        },
-        {
-          "name": "Nico",
-          "kills": 15
-        },
-        {
-          "name": "OMIXLITO",
-          "kills": 15
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 13
-        },
-        {
-          "name": "-MB-cuervo",
-          "kills": 11
-        },
-        {
-          "name": "REV2099",
-          "kills": 10
-        },
-        {
-          "name": "Papi NUMBER",
-          "kills": 9
-        },
-        {
-          "name": "Bard0k",
-          "kills": 6
-        },
-        {
-          "name": "Alfredo",
-          "kills": 6
-        },
-        {
-          "name": "Maverick",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/dm_stanalie",
-      "timesPlayed": 68,
-      "totalKills": 13387,
+      "timesPlayed": 69,
+      "totalKills": 13578,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -221583,6 +221501,88 @@
       "hasHuman": true,
       "axisKills": 70,
       "alliesKills": 86
+    },
+    {
+      "map": "dm/saturday_night_fever_3",
+      "timesPlayed": 64,
+      "totalKills": 13405,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 56
+        },
+        {
+          "name": "Francotirador",
+          "kills": 54
+        },
+        {
+          "name": "Osi",
+          "kills": 41
+        },
+        {
+          "name": "Kurco",
+          "kills": 37
+        },
+        {
+          "name": "SANDY",
+          "kills": 31
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 28
+        },
+        {
+          "name": "lara_de_mrd",
+          "kills": 24
+        },
+        {
+          "name": "micky",
+          "kills": 19
+        },
+        {
+          "name": "Nico",
+          "kills": 15
+        },
+        {
+          "name": "OMIXLITO",
+          "kills": 15
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 13
+        },
+        {
+          "name": "-MB-cuervo",
+          "kills": 11
+        },
+        {
+          "name": "REV2099",
+          "kills": 10
+        },
+        {
+          "name": "Papi NUMBER",
+          "kills": 9
+        },
+        {
+          "name": "Bard0k",
+          "kills": 6
+        },
+        {
+          "name": "Alfredo",
+          "kills": 6
+        },
+        {
+          "name": "Maverick",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/belgas74",
@@ -223339,7 +223339,7 @@
     {
       "map": "dm/Tirtagen-Kechtat",
       "timesPlayed": 63,
-      "totalKills": 11439,
+      "totalKills": 11501,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -224335,67 +224335,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/arnhem",
-      "timesPlayed": 52,
-      "totalKills": 10508,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 30
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 24
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 20
-        },
-        {
-          "name": "Bard0k",
-          "kills": 20
-        },
-        {
-          "name": "ST3",
-          "kills": 19
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 16
-        },
-        {
-          "name": "Roly",
-          "kills": 15
-        },
-        {
-          "name": "capiiiiii",
-          "kills": 8
-        },
-        {
-          "name": "Sarawak",
-          "kills": 6
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 6
-        },
-        {
-          "name": "Maverick",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/winterbase2",
-      "timesPlayed": 62,
-      "totalKills": 10505,
+      "timesPlayed": 63,
+      "totalKills": 10567,
       "connectedHumans": [
         {
           "name": "Homer",
@@ -224476,6 +224418,64 @@
       ],
       "winners": [
         "=MB= .Lyudmila"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/arnhem",
+      "timesPlayed": 52,
+      "totalKills": 10508,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 30
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 24
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 20
+        },
+        {
+          "name": "Bard0k",
+          "kills": 20
+        },
+        {
+          "name": "ST3",
+          "kills": 19
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 16
+        },
+        {
+          "name": "Roly",
+          "kills": 15
+        },
+        {
+          "name": "capiiiiii",
+          "kills": 8
+        },
+        {
+          "name": "Sarawak",
+          "kills": 6
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 6
+        },
+        {
+          "name": "Maverick",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -248210,10 +248210,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-10 03:29:58"
+    "last": "2026-09-10 03:44:55"
   },
-  "generatedAt": "2026-09-10T07:30:00.695Z",
-  "currentMap": "dm/Tirtagen-Kechtat",
+  "generatedAt": "2026-09-10T07:45:00.707Z",
+  "currentMap": "dm/winterbase2",
   "serverName": "=MB= Revival Mie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
