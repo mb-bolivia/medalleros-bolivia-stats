@@ -113887,8 +113887,8 @@
       "winsByGameDay": {},
       "sessions": 2,
       "disconnects": 0,
-      "playtimeMs": 6232000,
-      "playtimeFormatted": "1h 44m",
+      "playtimeMs": 7133000,
+      "playtimeFormatted": "1h 59m",
       "favoriteHour": "23:00",
       "hourActivity": [
         0,
@@ -113942,7 +113942,7 @@
       "winWeekdaysCovered": 0,
       "longestConsecutiveDayStreak": 1,
       "wonWeekendPair": false,
-      "longestSessionMs": 6232000,
+      "longestSessionMs": 7133000,
       "maxMapWins": 0,
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
@@ -114104,7 +114104,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 104,
+          "current": 119,
           "target": 120,
           "unit": "min"
         },
@@ -114489,7 +114489,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 104,
+          "current": 119,
           "target": 300,
           "unit": "min"
         },
@@ -114500,7 +114500,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 104,
+          "current": 119,
           "target": 900,
           "unit": "min"
         },
@@ -115688,7 +115688,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 104,
+          "current": 119,
           "target": 2400,
           "unit": "min"
         },
@@ -222653,6 +222653,92 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dmxfire",
+      "timesPlayed": 63,
+      "totalKills": 12157,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 43
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 43
+        },
+        {
+          "name": "Maverick",
+          "kills": 34
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 33
+        },
+        {
+          "name": "OMIXLITO",
+          "kills": 29
+        },
+        {
+          "name": "Bard0k",
+          "kills": 28
+        },
+        {
+          "name": "SANDY",
+          "kills": 26
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 24
+        },
+        {
+          "name": "Slipknot+",
+          "kills": 18
+        },
+        {
+          "name": "S@nto_Bol",
+          "kills": 18
+        },
+        {
+          "name": "Nico",
+          "kills": 17
+        },
+        {
+          "name": "REV2099",
+          "kills": 17
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 13
+        },
+        {
+          "name": "Homer",
+          "kills": 12
+        },
+        {
+          "name": "Kurco",
+          "kills": 12
+        },
+        {
+          "name": "Alfredo",
+          "kills": 10
+        },
+        {
+          "name": "GASPAR",
+          "kills": 3
+        },
+        {
+          "name": "exumador",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .ZywOo"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/rush_party",
       "timesPlayed": 55,
       "totalKills": 12115,
@@ -222833,95 +222919,9 @@
       "alliesKills": 19
     },
     {
-      "map": "dm/dmxfire",
-      "timesPlayed": 62,
-      "totalKills": 11971,
-      "connectedHumans": [
-        {
-          "name": "Hooligan",
-          "kills": 43
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 43
-        },
-        {
-          "name": "Maverick",
-          "kills": 34
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 33
-        },
-        {
-          "name": "OMIXLITO",
-          "kills": 29
-        },
-        {
-          "name": "Bard0k",
-          "kills": 28
-        },
-        {
-          "name": "SANDY",
-          "kills": 26
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 24
-        },
-        {
-          "name": "Slipknot+",
-          "kills": 18
-        },
-        {
-          "name": "S@nto_Bol",
-          "kills": 18
-        },
-        {
-          "name": "Nico",
-          "kills": 17
-        },
-        {
-          "name": "REV2099",
-          "kills": 17
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 13
-        },
-        {
-          "name": "Homer",
-          "kills": 12
-        },
-        {
-          "name": "Kurco",
-          "kills": 12
-        },
-        {
-          "name": "Alfredo",
-          "kills": 10
-        },
-        {
-          "name": "GASPAR",
-          "kills": 3
-        },
-        {
-          "name": "exumador",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .ZywOo"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/dieppe",
       "timesPlayed": 58,
-      "totalKills": 11962,
+      "totalKills": 12034,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -223684,8 +223684,8 @@
     },
     {
       "map": "dm/Tirtagen-Kechtat",
-      "timesPlayed": 61,
-      "totalKills": 11173,
+      "timesPlayed": 62,
+      "totalKills": 11242,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -248210,10 +248210,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-10 00:44:56"
+    "last": "2026-09-10 00:59:57"
   },
-  "generatedAt": "2026-09-10T04:45:00.592Z",
-  "currentMap": "dm/dieppe",
+  "generatedAt": "2026-09-10T05:00:00.591Z",
+  "currentMap": "dm/Tirtagen-Kechtat",
   "serverName": "=MB= Revival Mie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
