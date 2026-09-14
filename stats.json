@@ -11274,13 +11274,13 @@
       "ipHistory": {
         "26.10.87.246": {
           "first": "2026-07-26 00:25:06",
-          "last": "2026-09-12 23:52:15"
+          "last": "2026-09-14 01:09:39"
         }
       },
       "kills": 1270,
       "deaths": 870,
       "totalKills": 1762,
-      "totalDeaths": 1130,
+      "totalDeaths": 1131,
       "suicides": 4,
       "kd": 1.46,
       "headshots": 58,
@@ -11350,14 +11350,14 @@
         "2026-09-09": 2,
         "2026-09-11": 5
       },
-      "sessions": 21,
-      "disconnects": 17,
-      "playtimeMs": 33510000,
+      "sessions": 22,
+      "disconnects": 18,
+      "playtimeMs": 33549000,
       "playtimeFormatted": "9h 19m",
       "favoriteHour": "23:00",
       "hourActivity": [
         620,
-        0,
+        3,
         0,
         0,
         0,
@@ -11753,6 +11753,12 @@
           "kills": 0,
           "deaths": 1,
           "kd": 0
+        },
+        {
+          "map": "dm/despair",
+          "kills": 0,
+          "deaths": 1,
+          "kd": 0
         }
       ],
       "bestWeaponVarietyInMap": 5,
@@ -12129,9 +12135,15 @@
           "weaponsCount": 3,
           "victimsCount": 9,
           "humanVictimsCount": 6
+        },
+        {
+          "map": "dm/despair",
+          "weaponsCount": 0,
+          "victimsCount": 0,
+          "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 17,
+      "activeDaysCount": 18,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 8,
@@ -12150,7 +12162,7 @@
       "chatMessages": 16,
       "botKills": 492,
       "humanKillsOnly": 1270,
-      "botDeaths": 256,
+      "botDeaths": 257,
       "humanDeathsOnly": 870,
       "maxBotRivalry": 88,
       "currentTeam": "Axis",
@@ -12248,7 +12260,7 @@
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 20
+          "deaths": 21
         },
         {
           "name": "=MB= .Lyudmila",
@@ -12730,7 +12742,7 @@
         }
       ],
       "firstSeen": "2026-07-26 00:25:06",
-      "lastSeen": "2026-09-12 23:52:55",
+      "lastSeen": "2026-09-14 01:09:48",
       "rank": 4,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -12961,7 +12973,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 17,
+          "current": 18,
           "target": 3,
           "unit": null
         },
@@ -13225,7 +13237,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 21,
+          "current": 22,
           "target": 10,
           "unit": null
         },
@@ -13236,7 +13248,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 21,
+          "current": 22,
           "target": 30,
           "unit": null
         },
@@ -13258,7 +13270,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 21,
+          "current": 22,
           "target": 50,
           "unit": null
         },
@@ -13269,7 +13281,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 21,
+          "current": 22,
           "target": 75,
           "unit": null
         },
@@ -13368,7 +13380,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 24,
           "unit": null
         },
@@ -13797,7 +13809,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 17,
+          "current": 18,
           "target": 30,
           "unit": null
         },
@@ -14314,7 +14326,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 256,
+          "current": 257,
           "target": 80,
           "unit": null
         },
@@ -14325,7 +14337,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 256,
+          "current": 257,
           "target": 400,
           "unit": null
         },
@@ -14413,7 +14425,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 21,
+          "current": 22,
           "target": 100,
           "unit": null
         },
@@ -14424,7 +14436,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 21,
+          "current": 22,
           "target": 200,
           "unit": null
         },
@@ -209328,6 +209340,68 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/despair",
+      "timesPlayed": 66,
+      "totalKills": 16157,
+      "connectedHumans": [
+        {
+          "name": "Bard0k",
+          "kills": 59
+        },
+        {
+          "name": "Francotirador",
+          "kills": 58
+        },
+        {
+          "name": "SANDY",
+          "kills": 57
+        },
+        {
+          "name": "Hooligan",
+          "kills": 54
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 40
+        },
+        {
+          "name": "=BoL= Chory",
+          "kills": 38
+        },
+        {
+          "name": "ST3",
+          "kills": 35
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 18
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 18
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 16
+        },
+        {
+          "name": "Maverick",
+          "kills": 15
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/belgas74",
       "timesPlayed": 68,
       "totalKills": 15931,
@@ -209528,69 +209602,6 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/despair",
-      "timesPlayed": 65,
-      "totalKills": 15913,
-      "connectedHumans": [
-        {
-          "name": "Bard0k",
-          "kills": 59
-        },
-        {
-          "name": "Francotirador",
-          "kills": 58
-        },
-        {
-          "name": "SANDY",
-          "kills": 57
-        },
-        {
-          "name": "Hooligan",
-          "kills": 54
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 40
-        },
-        {
-          "name": "=BoL= Chory",
-          "kills": 38
-        },
-        {
-          "name": "ST3",
-          "kills": 35
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 18
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 18
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 16
-        },
-        {
-          "name": "Maverick",
-          "kills": 15
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ",
-        "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/ShotgunLogic",
       "timesPlayed": 67,
       "totalKills": 15670,
@@ -209685,6 +209696,80 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/dm_dorf",
+      "timesPlayed": 57,
+      "totalKills": 15015,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 75
+        },
+        {
+          "name": "Bard0k",
+          "kills": 66
+        },
+        {
+          "name": "Francotirador",
+          "kills": 66
+        },
+        {
+          "name": "Hooligan",
+          "kills": 56
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 56
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 54
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 41
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 34
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 25
+        },
+        {
+          "name": "Homer",
+          "kills": 20
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 8
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 8
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 7
+        },
+        {
+          "name": "MB_Axis_Aliado",
+          "kills": 4
+        },
+        {
+          "name": "POOPI NUMBER 1",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Scump"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/Gatehouse_Assault_DM_1",
       "timesPlayed": 67,
       "totalKills": 14982,
@@ -209768,80 +209853,6 @@
       ],
       "winners": [
         "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/dm_dorf",
-      "timesPlayed": 57,
-      "totalKills": 14741,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 75
-        },
-        {
-          "name": "Bard0k",
-          "kills": 66
-        },
-        {
-          "name": "Francotirador",
-          "kills": 66
-        },
-        {
-          "name": "Hooligan",
-          "kills": 56
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 56
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 54
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 41
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 34
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 25
-        },
-        {
-          "name": "Homer",
-          "kills": 20
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 8
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 8
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 7
-        },
-        {
-          "name": "MB_Axis_Aliado",
-          "kills": 4
-        },
-        {
-          "name": "POOPI NUMBER 1",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Scump"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -237904,6 +237915,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-09-14 01:09:09",
+        "name": "<MLS>Msg.Lucho",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-09-14 01:09:48",
+        "name": "<MLS>Msg.Lucho",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 15,
@@ -238154,10 +238179,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-14 00:59:57"
+    "last": "2026-09-14 01:15:00"
   },
-  "generatedAt": "2026-09-14T05:00:00.508Z",
-  "currentMap": "dm/dm_dorf",
+  "generatedAt": "2026-09-14T05:15:00.517Z",
+  "currentMap": "dm/despair",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -238853,7 +238878,7 @@
     {
       "name": "<MLS>Msg.Lucho",
       "kills": 1762,
-      "deaths": 1130,
+      "deaths": 1131,
       "zoneHS": 38.7,
       "annHS": 76,
       "annHSpct": 4.3,
