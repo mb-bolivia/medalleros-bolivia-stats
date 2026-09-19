@@ -97847,8 +97847,8 @@
       },
       "sessions": 6,
       "disconnects": 5,
-      "playtimeMs": 15450000,
-      "playtimeFormatted": "4h 18m",
+      "playtimeMs": 16351000,
+      "playtimeFormatted": "4h 33m",
       "favoriteHour": "23:00",
       "hourActivity": [
         337,
@@ -98130,7 +98130,7 @@
       "winWeekdaysCovered": 1,
       "longestConsecutiveDayStreak": 3,
       "wonWeekendPair": false,
-      "longestSessionMs": 7429000,
+      "longestSessionMs": 8330000,
       "maxMapWins": 1,
       "maxWinsInDay": 2,
       "bestMapWinStreak": 1,
@@ -98846,7 +98846,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 258,
+          "current": 273,
           "target": 120,
           "unit": "min"
         },
@@ -99231,7 +99231,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 258,
+          "current": 273,
           "target": 300,
           "unit": "min"
         },
@@ -99242,7 +99242,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 258,
+          "current": 273,
           "target": 900,
           "unit": "min"
         },
@@ -100430,7 +100430,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 258,
+          "current": 273,
           "target": 2400,
           "unit": "min"
         },
@@ -269919,95 +269919,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/place_de_ville",
-      "timesPlayed": 70,
-      "totalKills": 19577,
-      "connectedHumans": [
-        {
-          "name": "Gral. MacArthur",
-          "kills": 122
-        },
-        {
-          "name": "Hooligan",
-          "kills": 86
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 71
-        },
-        {
-          "name": "SANDY",
-          "kills": 58
-        },
-        {
-          "name": "ST3",
-          "kills": 54
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 52
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 42
-        },
-        {
-          "name": "JOSELU REY DEL MEDALLA",
-          "kills": 40
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 34
-        },
-        {
-          "name": "Osi",
-          "kills": 33
-        },
-        {
-          "name": "Homer",
-          "kills": 30
-        },
-        {
-          "name": "Francotirador",
-          "kills": 29
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 29
-        },
-        {
-          "name": "Maverick",
-          "kills": 22
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 21
-        },
-        {
-          "name": "GASPAR",
-          "kills": 21
-        },
-        {
-          "name": "POOPI NUMBER 1",
-          "kills": 3
-        },
-        {
-          "name": "Bard0k",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/warehouse_dm",
       "timesPlayed": 83,
-      "totalKills": 19530,
+      "totalKills": 19766,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -270157,6 +270071,92 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 11
+    },
+    {
+      "map": "dm/place_de_ville",
+      "timesPlayed": 70,
+      "totalKills": 19577,
+      "connectedHumans": [
+        {
+          "name": "Gral. MacArthur",
+          "kills": 122
+        },
+        {
+          "name": "Hooligan",
+          "kills": 86
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 71
+        },
+        {
+          "name": "SANDY",
+          "kills": 58
+        },
+        {
+          "name": "ST3",
+          "kills": 54
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 52
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 42
+        },
+        {
+          "name": "JOSELU REY DEL MEDALLA",
+          "kills": 40
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 34
+        },
+        {
+          "name": "Osi",
+          "kills": 33
+        },
+        {
+          "name": "Homer",
+          "kills": 30
+        },
+        {
+          "name": "Francotirador",
+          "kills": 29
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 29
+        },
+        {
+          "name": "Maverick",
+          "kills": 22
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 21
+        },
+        {
+          "name": "GASPAR",
+          "kills": 21
+        },
+        {
+          "name": "POOPI NUMBER 1",
+          "kills": 3
+        },
+        {
+          "name": "Bard0k",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .TenZ"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/Papys_Castle_War",
@@ -270588,8 +270588,8 @@
     },
     {
       "map": "dm/belgas74",
-      "timesPlayed": 76,
-      "totalKills": 18310,
+      "timesPlayed": 77,
+      "totalKills": 18571,
       "connectedHumans": [
         {
           "name": "CaPaRz0",
@@ -303339,10 +303339,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-19 02:29:56"
+    "last": "2026-09-19 02:44:57"
   },
-  "generatedAt": "2026-09-19T06:30:00.781Z",
-  "currentMap": "dm/warehouse_dm",
+  "generatedAt": "2026-09-19T06:45:00.767Z",
+  "currentMap": "dm/belgas74",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -304291,7 +304291,7 @@
       "annHS": 22,
       "annHSpct": 6.2,
       "kd": 0.89,
-      "kpm": 1.4,
+      "kpm": 1.3,
       "streak": 6,
       "combo": 4,
       "nivel": "ok"
