@@ -124011,13 +124011,13 @@
       "ipHistory": {
         "26.30.53.5": {
           "first": "2026-07-19 00:54:10",
-          "last": "2026-09-22 23:39:22"
+          "last": "2026-09-27 21:29:38"
         }
       },
       "kills": 376,
       "deaths": 506,
-      "totalKills": 498,
-      "totalDeaths": 596,
+      "totalKills": 502,
+      "totalDeaths": 597,
       "suicides": 8,
       "kd": 0.74,
       "headshots": 16,
@@ -124033,7 +124033,7 @@
       },
       "hsPercent": 66.7,
       "weapons": {
-        "Sniper": 328,
+        "Sniper": 332,
         "Pistol": 11,
         "Bash": 3,
         "MG": 94,
@@ -124066,10 +124066,10 @@
       "winsByGameDay": {
         "2026-09-08": 1
       },
-      "sessions": 24,
+      "sessions": 25,
       "disconnects": 20,
-      "playtimeMs": 22845000,
-      "playtimeFormatted": "6h 21m",
+      "playtimeMs": 22927000,
+      "playtimeFormatted": "6h 22m",
       "favoriteHour": "23:00",
       "hourActivity": [
         54,
@@ -124093,7 +124093,7 @@
         0,
         0,
         0,
-        0,
+        6,
         376,
         665
       ],
@@ -124280,6 +124280,12 @@
         },
         {
           "map": "dm/winterbase2",
+          "kills": 4,
+          "deaths": 1,
+          "kd": 4
+        },
+        {
+          "map": "dm/amw_caskami_03",
           "kills": 4,
           "deaths": 1,
           "kd": 4
@@ -124545,9 +124551,15 @@
           "weaponsCount": 0,
           "victimsCount": 0,
           "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/amw_caskami_03",
+          "weaponsCount": 1,
+          "victimsCount": 3,
+          "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 17,
+      "activeDaysCount": 18,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 7,
@@ -124564,9 +124576,9 @@
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 5,
-      "botKills": 122,
+      "botKills": 126,
       "humanKillsOnly": 376,
-      "botDeaths": 82,
+      "botDeaths": 83,
       "humanDeathsOnly": 506,
       "maxBotRivalry": 26,
       "currentTeam": null,
@@ -124639,11 +124651,11 @@
           "deaths": 12
         },
         {
-          "name": "Francotirador",
-          "deaths": 11
+          "name": "=MB= .TenZ",
+          "deaths": 12
         },
         {
-          "name": "=MB= .TenZ",
+          "name": "Francotirador",
           "deaths": 11
         },
         {
@@ -124789,12 +124801,12 @@
           "kills": 17
         },
         {
-          "name": "<MLS>Msg.Lucho",
+          "name": "=MB= .Vasily",
           "kills": 14
         },
         {
-          "name": "=MB= .Vasily",
-          "kills": 13
+          "name": "<MLS>Msg.Lucho",
+          "kills": 14
         },
         {
           "name": "=MB= .TenZ",
@@ -124825,6 +124837,10 @@
           "kills": 6
         },
         {
+          "name": "=MB= .ZywOo",
+          "kills": 6
+        },
+        {
           "name": "=MB= El_Chacal",
           "kills": 6
         },
@@ -124845,16 +124861,16 @@
           "kills": 4
         },
         {
-          "name": "=MB= .ZywOo",
-          "kills": 4
-        },
-        {
           "name": "GASPAR",
           "kills": 4
         },
         {
           "name": "Soldado Ryan",
           "kills": 4
+        },
+        {
+          "name": "=MB= .Kazuya",
+          "kills": 3
         },
         {
           "name": "Maverick",
@@ -124871,10 +124887,6 @@
         {
           "name": "KURCO",
           "kills": 3
-        },
-        {
-          "name": "=MB= .Kazuya",
-          "kills": 2
         },
         {
           "name": "vivaldy's",
@@ -125207,6 +125219,11 @@
           "Hooligan": 1,
           "=MB= .Fatal1ty": 1,
           "Slipknot+": 2
+        },
+        "dm/amw_caskami_03": {
+          "=MB= .Vasily": 1,
+          "=MB= .Kazuya": 1,
+          "=MB= .ZywOo": 2
         }
       },
       "victimsByDate": {
@@ -125334,12 +125351,17 @@
           "Francotirador": 3,
           "Gral. MacArthur": 3,
           "SANDY": 1
+        },
+        "2026-09-27": {
+          "=MB= .Vasily": 1,
+          "=MB= .Kazuya": 1,
+          "=MB= .ZywOo": 2
         }
       },
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 328
+          "kills": 332
         },
         {
           "weapon": "MG",
@@ -125409,7 +125431,7 @@
         }
       ],
       "firstSeen": "2026-07-19 00:54:10",
-      "lastSeen": "2026-09-22 23:39:26",
+      "lastSeen": "2026-09-27 21:29:57",
       "rank": 27,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -125486,7 +125508,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 328,
+          "current": 332,
           "target": 150,
           "unit": null
         },
@@ -125497,7 +125519,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 381,
+          "current": 382,
           "target": 120,
           "unit": "min"
         },
@@ -125640,7 +125662,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 17,
+          "current": 18,
           "target": 3,
           "unit": null
         },
@@ -125882,7 +125904,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 381,
+          "current": 382,
           "target": 300,
           "unit": "min"
         },
@@ -125893,7 +125915,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 381,
+          "current": 382,
           "target": 900,
           "unit": "min"
         },
@@ -125904,7 +125926,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 24,
+          "current": 25,
           "target": 10,
           "unit": null
         },
@@ -125915,7 +125937,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 24,
+          "current": 25,
           "target": 30,
           "unit": null
         },
@@ -125937,7 +125959,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 24,
+          "current": 25,
           "target": 50,
           "unit": null
         },
@@ -125948,7 +125970,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 24,
+          "current": 25,
           "target": 75,
           "unit": null
         },
@@ -126047,7 +126069,7 @@
           "name": "Ave de Todas las Horas",
           "desc": "Registra actividad en las 24 horas del día",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 24,
           "unit": null
         },
@@ -126476,7 +126498,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 17,
+          "current": 18,
           "target": 30,
           "unit": null
         },
@@ -126806,7 +126828,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 328,
+          "current": 332,
           "target": 180,
           "unit": null
         },
@@ -126817,7 +126839,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 328,
+          "current": 332,
           "target": 500,
           "unit": null
         },
@@ -126905,7 +126927,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 328,
+          "current": 332,
           "target": 1600,
           "unit": null
         },
@@ -126938,7 +126960,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": false,
-          "current": 122,
+          "current": 126,
           "target": 200,
           "unit": null
         },
@@ -126949,7 +126971,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 122,
+          "current": 126,
           "target": 800,
           "unit": null
         },
@@ -126960,7 +126982,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 122,
+          "current": 126,
           "target": 2000,
           "unit": null
         },
@@ -126971,7 +126993,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 122,
+          "current": 126,
           "target": 4000,
           "unit": null
         },
@@ -126982,7 +127004,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 122,
+          "current": 126,
           "target": 12000,
           "unit": null
         },
@@ -126993,7 +127015,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 82,
+          "current": 83,
           "target": 80,
           "unit": null
         },
@@ -127004,7 +127026,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 82,
+          "current": 83,
           "target": 400,
           "unit": null
         },
@@ -127081,7 +127103,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 381,
+          "current": 382,
           "target": 2400,
           "unit": "min"
         },
@@ -127092,7 +127114,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 24,
+          "current": 25,
           "target": 100,
           "unit": null
         },
@@ -127103,7 +127125,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 24,
+          "current": 25,
           "target": 200,
           "unit": null
         },
@@ -249234,7 +249256,7 @@
       },
       {
         "name": "MB_Axis_Aliado",
-        "kills": 328
+        "kills": 332
       },
       {
         "name": "Soldado Ryan",
@@ -258443,7 +258465,7 @@
     {
       "map": "dm/MP_Brest_DM",
       "timesPlayed": 57,
-      "totalKills": 13682,
+      "totalKills": 13757,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -259304,8 +259326,8 @@
     },
     {
       "map": "dm/amw_caskami_03",
-      "timesPlayed": 73,
-      "totalKills": 12719,
+      "timesPlayed": 74,
+      "totalKills": 12807,
       "connectedHumans": [
         {
           "name": "Lucass",
@@ -259338,6 +259360,10 @@
         {
           "name": "Maverick",
           "kills": 15
+        },
+        {
+          "name": "MB_Axis_Aliado",
+          "kills": 4
         }
       ],
       "winners": [
@@ -259546,6 +259572,44 @@
         {
           "name": "ST3",
           "kills": 5
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/1944_dm",
+      "timesPlayed": 74,
+      "totalKills": 12292,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 23
+        },
+        {
+          "name": "Francotirador",
+          "kills": 22
+        },
+        {
+          "name": "SANDY",
+          "kills": 20
+        },
+        {
+          "name": "Maverick",
+          "kills": 16
+        },
+        {
+          "name": "PAPI NUMBER 1",
+          "kills": 8
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
         }
       ],
       "winners": [
@@ -259774,44 +259838,6 @@
         {
           "name": "Alfredo",
           "kills": 2
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/1944_dm",
-      "timesPlayed": 73,
-      "totalKills": 12127,
-      "connectedHumans": [
-        {
-          "name": "Hooligan",
-          "kills": 23
-        },
-        {
-          "name": "Francotirador",
-          "kills": 22
-        },
-        {
-          "name": "SANDY",
-          "kills": 20
-        },
-        {
-          "name": "Maverick",
-          "kills": 16
-        },
-        {
-          "name": "PAPI NUMBER 1",
-          "kills": 8
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 1
         }
       ],
       "winners": [
@@ -263824,6 +263850,10 @@
     {
       "name": "Kartoffel/team/3",
       "since": "2026-09-27 17:04:11"
+    },
+    {
+      "name": "MB_Axis_Aliado",
+      "since": "2026-09-27 21:28:35"
     }
   ],
   "concurrentPlayers": {
@@ -288586,6 +288616,13 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-09-27 21:28:35",
+        "name": "MB_Axis_Aliado",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 21,
@@ -288888,10 +288925,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-09-27 21:14:59"
+    "last": "2026-09-27 21:29:57"
   },
-  "generatedAt": "2026-09-28T01:15:01.411Z",
-  "currentMap": "dm/MP_Brest_DM",
+  "generatedAt": "2026-09-28T01:30:01.413Z",
+  "currentMap": "dm/amw_caskami_03",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -289600,8 +289637,8 @@
   "sospechosos": [
     {
       "name": "MB_Axis_Aliado",
-      "kills": 498,
-      "deaths": 596,
+      "kills": 502,
+      "deaths": 597,
       "zoneHS": 66.7,
       "annHS": 30,
       "annHSpct": 6,
