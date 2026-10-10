@@ -296224,7 +296224,7 @@
     "first": "2026-07-17 20:35:33",
     "last": "2026-10-10 11:43:31"
   },
-  "generatedAt": "2026-10-10T16:57:16.838Z",
+  "generatedAt": "2026-10-10T17:41:54.713Z",
   "currentMap": "dm/MP_Holland_DM",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
@@ -296867,6 +296867,7 @@
   "torneoFechaFin": "2026-10-16",
   "torneoFechaFinal": "2026-10-17",
   "torneoTerminado": false,
+  "torneoPausado": false,
   "torneoEsBiweekly": true,
   "torneoFinalGanador": null,
   "torneoFinalConteo": null,
@@ -296971,6 +296972,25 @@
       "name": "SANDY",
       "weeklyKills": 434,
       "weeklyWins": 0
+    }
+  ],
+  "torneosEspeciales": [
+    {
+      "nombre": "Torneo 5 vs 5 — Escolta al Tanque",
+      "modo": "Escolta al Tanque",
+      "formato": "5 vs 5 por equipos",
+      "inscripcionHasta": "2026-10-15",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "horario": "La fecha de inicio se define según la cantidad de equipos inscritos",
+      "premio": "Premio en efectivo para el equipo ganador (lo paga el servidor)",
+      "requisitos": "Los 5 jugadores del equipo tienen que estar verificados en la página",
+      "reglas": [
+        "Inscribí a tu equipo con los nicks EXACTOS de los 5 jugadores",
+        "Máximo 1 bazooka y 1 sniper por equipo",
+        "Un solo premio: para el equipo ganador"
+      ],
+      "visible": true
     }
   ]
 }
