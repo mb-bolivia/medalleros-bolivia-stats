@@ -2,54 +2,54 @@
   "players": [
     {
       "name": "Francotirador",
-      "kills": 3252,
-      "deaths": 1792,
-      "totalKills": 5827,
-      "totalDeaths": 2987,
+      "kills": 3278,
+      "deaths": 1804,
+      "totalKills": 5895,
+      "totalDeaths": 3021,
       "suicides": 12,
-      "kd": 1.81,
+      "kd": 1.82,
       "headshots": 1452,
       "totalHeadshots": 2713,
       "announcer": {
-        "doubleKill": 237,
-        "killingSpree": 88,
-        "headshot": 54,
-        "rampage": 7,
+        "doubleKill": 248,
+        "killingSpree": 91,
+        "headshot": 58,
+        "rampage": 8,
         "firstBlood": 7,
-        "multiKill": 33,
-        "humillacion": 3,
-        "finRacha": 20,
+        "multiKill": 34,
+        "humillacion": 4,
+        "finRacha": 22,
         "ultraKill": 7,
         "monsterKill": 2,
         "dominating": 1
       },
       "hsPercent": 60.8,
       "weapons": {
-        "SMG": 4257,
-        "Sniper": 715,
-        "MG": 325,
-        "Bash": 13,
-        "Bazooka": 166,
+        "SMG": 4261,
+        "Sniper": 716,
+        "MG": 361,
+        "Bash": 14,
+        "Bazooka": 168,
         "Pistol": 11,
-        "Rifle": 340
+        "Rifle": 364
       },
       "favoriteWeapon": "SMG",
       "favoriteBodypart": "head",
-      "mapsPlayed": 197,
-      "matchesPlayed": 197,
-      "wins": 104,
-      "winRate": 52.8,
-      "fragsPerMap": 16.51,
+      "mapsPlayed": 199,
+      "matchesPlayed": 199,
+      "wins": 106,
+      "winRate": 53.3,
+      "fragsPerMap": 16.47,
       "bestStreak": 62,
       "nemesis": {
         "name": "SANDY",
-        "deaths": 182
+        "deaths": 183
       },
       "favoriteVictim": {
         "name": "SANDY",
-        "kills": 511
+        "kills": 523
       },
-      "multikillEvents": 1053,
+      "multikillEvents": 1066,
       "bestMultikillChain": 17,
       "winsByDate": {
         "2026-07-18": 6,
@@ -74,7 +74,7 @@
         "2026-10-06": 1,
         "2026-10-07": 11,
         "2026-10-08": 1,
-        "2026-10-12": 7
+        "2026-10-12": 9
       },
       "winsByGameDay": {
         "2026-08-17": 1,
@@ -86,12 +86,12 @@
         "2026-09-29": 5,
         "2026-10-06": 6,
         "2026-10-07": 7,
-        "2026-10-12": 7
+        "2026-10-12": 9
       },
       "sessions": 34,
       "disconnects": 29,
-      "playtimeMs": 92163000,
-      "playtimeFormatted": "25h 36m",
+      "playtimeMs": 93063000,
+      "playtimeFormatted": "25h 51m",
       "favoriteHour": "23:00",
       "hourActivity": [
         1677,
@@ -117,7 +117,7 @@
         2,
         57,
         2420,
-        4446
+        4548
       ],
       "mapBreakdown": [
         {
@@ -137,6 +137,12 @@
           "kills": 133,
           "deaths": 55,
           "kd": 2.42
+        },
+        {
+          "map": "dm/dm_rockbound",
+          "kills": 126,
+          "deaths": 59,
+          "kd": 2.14
         },
         {
           "map": "dm/MP_Bazaar_DM",
@@ -161,6 +167,12 @@
           "kills": 104,
           "deaths": 5,
           "kd": 20.8
+        },
+        {
+          "map": "dm/renan",
+          "kills": 101,
+          "deaths": 39,
+          "kd": 2.59
         },
         {
           "map": "dm/courtyard",
@@ -191,12 +203,6 @@
           "kills": 89,
           "deaths": 32,
           "kd": 2.78
-        },
-        {
-          "map": "dm/dm_rockbound",
-          "kills": 87,
-          "deaths": 40,
-          "kd": 2.17
         },
         {
           "map": "dm/Under_Siege",
@@ -259,22 +265,16 @@
           "kd": 1.6
         },
         {
-          "map": "dm/renan",
-          "kills": 74,
-          "deaths": 25,
-          "kd": 2.96
+          "map": "dm/AR_Berlin_V1",
+          "kills": 76,
+          "deaths": 43,
+          "kd": 1.77
         },
         {
           "map": "dm/Osiedle",
           "kills": 74,
           "deaths": 37,
           "kd": 2
-        },
-        {
-          "map": "dm/AR_Berlin_V1",
-          "kills": 74,
-          "deaths": 42,
-          "kd": 1.76
         },
         {
           "map": "dm/warehouse_dm",
@@ -942,9 +942,9 @@
         },
         {
           "map": "dm/renan",
-          "weaponsCount": 2,
-          "victimsCount": 14,
-          "humanVictimsCount": 9
+          "weaponsCount": 3,
+          "victimsCount": 17,
+          "humanVictimsCount": 11
         },
         {
           "map": "dm/despair",
@@ -1200,9 +1200,9 @@
         },
         {
           "map": "dm/dm_rockbound",
-          "weaponsCount": 2,
-          "victimsCount": 23,
-          "humanVictimsCount": 22
+          "weaponsCount": 4,
+          "victimsCount": 28,
+          "humanVictimsCount": 23
         },
         {
           "map": "dm/dm_dorf",
@@ -1506,15 +1506,15 @@
       "maxWinsInDay": 11,
       "bestMapWinStreak": 11,
       "hasDominatedMap": true,
-      "maxRivalryEncounters": 693,
+      "maxRivalryEncounters": 706,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 39,
-      "botKills": 2575,
-      "humanKillsOnly": 3252,
-      "botDeaths": 1183,
-      "humanDeathsOnly": 1792,
-      "maxBotRivalry": 376,
+      "botKills": 2617,
+      "humanKillsOnly": 3278,
+      "botDeaths": 1205,
+      "humanDeathsOnly": 1804,
+      "maxBotRivalry": 389,
       "currentTeam": null,
       "playedAxis": false,
       "playedAllies": false,
@@ -1524,21 +1524,21 @@
       "teamKickCount": 0,
       "worstDeathStreak": 3,
       "firstBloodOfMapCount": 33,
-      "revengeKills": 442,
+      "revengeKills": 449,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "SANDY",
-          "deaths": 182
+          "deaths": 183
         },
         {
           "name": "=MB= .S1mple",
-          "deaths": 162
+          "deaths": 164
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 161
+          "deaths": 162
         },
         {
           "name": "=MB= .TenZ",
@@ -1546,27 +1546,27 @@
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 153
+          "deaths": 159
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 150
+          "deaths": 154
+        },
+        {
+          "name": "CaPaRz0",
+          "deaths": 145
         },
         {
           "name": "Hooligan",
           "deaths": 145
         },
         {
-          "name": "CaPaRz0",
-          "deaths": 143
-        },
-        {
           "name": "ST3",
-          "deaths": 119
+          "deaths": 126
         },
         {
           "name": "=MB= .Fatal1ty",
-          "deaths": 116
+          "deaths": 118
         },
         {
           "name": "<MLS>Msg.Lucho",
@@ -1574,7 +1574,7 @@
         },
         {
           "name": "=MB= .Lyudmila",
-          "deaths": 101
+          "deaths": 104
         },
         {
           "name": "Bard0k",
@@ -1586,7 +1586,7 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "deaths": 83
+          "deaths": 87
         },
         {
           "name": "=MB= .ZywOo",
@@ -1721,6 +1721,10 @@
           "deaths": 5
         },
         {
+          "name": "UnnamedSoldier",
+          "deaths": 5
+        },
+        {
           "name": "RaYKo",
           "deaths": 4
         },
@@ -1734,10 +1738,6 @@
         },
         {
           "name": "xaccJamz_Sol",
-          "deaths": 3
-        },
-        {
-          "name": "UnnamedSoldier",
           "deaths": 3
         },
         {
@@ -1788,39 +1788,39 @@
       "victimsList": [
         {
           "name": "SANDY",
-          "kills": 511
+          "kills": 523
         },
         {
           "name": "=MB= .Ogre2",
-          "kills": 376
-        },
-        {
-          "name": "=MB= .Scump",
-          "kills": 341
+          "kills": 389
         },
         {
           "name": "=MB= .S1mple",
-          "kills": 339
+          "kills": 349
+        },
+        {
+          "name": "=MB= .Scump",
+          "kills": 344
         },
         {
           "name": "=MB= .TenZ",
-          "kills": 338
+          "kills": 340
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 308
+          "kills": 315
         },
         {
           "name": "=MB= .Fatal1ty",
-          "kills": 237
+          "kills": 240
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 234
         },
         {
           "name": "=MB= .Lyudmila",
           "kills": 232
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 231
         },
         {
           "name": "Hooligan",
@@ -1828,11 +1828,11 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "kills": 189
+          "kills": 193
         },
         {
           "name": "ST3",
-          "kills": 170
+          "kills": 175
         },
         {
           "name": "Bard0k",
@@ -1904,11 +1904,15 @@
         },
         {
           "name": "MAPACHE",
-          "kills": 49
+          "kills": 50
         },
         {
           "name": "Mote con Queso",
           "kills": 40
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 39
         },
         {
           "name": "papuelwall",
@@ -1917,10 +1921,6 @@
         {
           "name": "=BoL= Chory",
           "kills": 37
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 36
         },
         {
           "name": "Kurco",
@@ -1991,6 +1991,10 @@
           "kills": 8
         },
         {
+          "name": "UnnamedSoldier",
+          "kills": 8
+        },
+        {
           "name": "-MB-cuervo",
           "kills": 7
         },
@@ -2000,10 +2004,6 @@
         },
         {
           "name": "K.MI.K.C",
-          "kills": 6
-        },
-        {
-          "name": "UnnamedSoldier",
           "kills": 6
         },
         {
@@ -2235,20 +2235,23 @@
           "REV2099": 2
         },
         "dm/renan": {
-          "=MB= .Fatal1ty": 10,
-          "=MB= .Scump": 5,
-          "SANDY": 9,
-          "=MB= .S1mple": 9,
-          "=MB= .TenZ": 9,
+          "=MB= .Fatal1ty": 13,
+          "=MB= .Scump": 8,
+          "SANDY": 12,
+          "=MB= .S1mple": 13,
+          "=MB= .TenZ": 11,
           "=BoL= Chory": 5,
           "Maverick": 3,
-          "=MB= .Ogre2": 3,
+          "=MB= .Ogre2": 10,
           "Gral. MacArthur": 1,
           "GASPAR": 1,
           "ST3": 4,
           "Soldado Ryan": 6,
           "MOH-Rugrats.ar": 5,
-          "exumador": 4
+          "exumador": 4,
+          "UnnamedSoldier": 2,
+          "=MB= .Vasily": 2,
+          "MAPACHE": 1
         },
         "dm/despair": {
           "=BoL= Chory": 5,
@@ -2894,15 +2897,15 @@
         },
         "dm/dm_rockbound": {
           "Osi": 4,
-          "SANDY": 10,
-          "CaPaRz0": 4,
+          "SANDY": 19,
+          "CaPaRz0": 7,
           "=MB= El_Chacal": 7,
           "=BoL= Chory": 3,
           "Bard0k": 4,
           "Gral. MacArthur": 4,
           "Homer": 4,
           "Lunatic1357": 4,
-          "ST3": 6,
+          "ST3": 10,
           "MOH-Rugrats.ar": 3,
           "Soldado Ryan": 3,
           "exumador": 2,
@@ -2915,7 +2918,12 @@
           "Chuchusmote": 3,
           "S@nto_Bol": 3,
           "Nico": 1,
-          "<QS> JOSEBECKS7": 1
+          "<QS> JOSEBECKS7": 1,
+          "=MB= .Vasily": 5,
+          "Mr.Sipi": 3,
+          "=MB= .Ogre2": 6,
+          "=MB= .Hartmann": 4,
+          "=MB= .S1mple": 5
         },
         "dm/dm_dorf": {
           "=MB= El_Chacal": 5,
@@ -3105,7 +3113,7 @@
           "REV2099": 1
         },
         "dm/AR_Berlin_V1": {
-          "ST3": 12,
+          "ST3": 13,
           "Soldado Ryan": 2,
           "SANDY": 11,
           "Gral. MacArthur": 1,
@@ -3118,7 +3126,7 @@
           "Chuchusmote": 2,
           "Nico": 2,
           "Bard0k": 4,
-          "=MB= .S1mple": 4,
+          "=MB= .S1mple": 5,
           "=MB= .TenZ": 2,
           "CaPaRz0": 1,
           "=MB= .Vasily": 1,
@@ -4101,21 +4109,23 @@
           "<MLS>Msg.Lucho": 2
         },
         "2026-10-12": {
-          "=MB= .S1mple": 23,
-          "=MB= .TenZ": 29,
+          "=MB= .S1mple": 33,
+          "=MB= .TenZ": 31,
           "=MB= .ZywOo": 18,
-          "=MB= .Hartmann": 23,
-          "=MB= .Vasily": 37,
-          "=MB= .Ogre2": 37,
+          "=MB= .Hartmann": 27,
+          "=MB= .Vasily": 44,
+          "=MB= .Ogre2": 50,
           "=MB= .Lyudmila": 31,
-          "=MB= .Scump": 25,
+          "=MB= .Scump": 28,
           "Bard0k": 26,
-          "=MB= .Fatal1ty": 9,
+          "=MB= .Fatal1ty": 12,
           "=MB= .Kazuya": 4,
-          "CaPaRz0": 11,
-          "SANDY": 12,
-          "ST3": 11,
-          "UnnamedSoldier": 2
+          "CaPaRz0": 14,
+          "SANDY": 24,
+          "ST3": 16,
+          "UnnamedSoldier": 4,
+          "Mr.Sipi": 3,
+          "MAPACHE": 1
         }
       },
       "victimsByDateMap": {
@@ -4462,42 +4472,63 @@
           },
           "dm/AR_Berlin_V1": {
             "Bard0k": 4,
-            "=MB= .S1mple": 4,
+            "=MB= .S1mple": 5,
             "=MB= .TenZ": 2,
             "CaPaRz0": 1,
             "=MB= .Vasily": 1,
-            "ST3": 5,
+            "ST3": 6,
             "=MB= .Scump": 5,
             "SANDY": 2,
             "UnnamedSoldier": 2,
             "=MB= .Fatal1ty": 2
+          },
+          "dm/dm_rockbound": {
+            "=MB= .Vasily": 5,
+            "Mr.Sipi": 3,
+            "SANDY": 9,
+            "=MB= .Ogre2": 6,
+            "=MB= .Hartmann": 4,
+            "=MB= .S1mple": 5,
+            "CaPaRz0": 3,
+            "ST3": 4
+          },
+          "dm/renan": {
+            "=MB= .S1mple": 4,
+            "=MB= .Ogre2": 7,
+            "=MB= .Scump": 3,
+            "SANDY": 3,
+            "=MB= .TenZ": 2,
+            "UnnamedSoldier": 2,
+            "=MB= .Fatal1ty": 3,
+            "=MB= .Vasily": 2,
+            "MAPACHE": 1
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "SMG",
-          "kills": 4257
+          "kills": 4261
         },
         {
           "weapon": "Sniper",
-          "kills": 715
+          "kills": 716
         },
         {
           "weapon": "Rifle",
-          "kills": 340
+          "kills": 364
         },
         {
           "weapon": "MG",
-          "kills": 325
+          "kills": 361
         },
         {
           "weapon": "Bazooka",
-          "kills": 166
+          "kills": 168
         },
         {
           "weapon": "Bash",
-          "kills": 13
+          "kills": 14
         },
         {
           "weapon": "Pistol",
@@ -4587,7 +4618,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:45:49",
-      "lastSeen": "2026-10-12 23:14:58",
+      "lastSeen": "2026-10-12 23:30:00",
       "rank": 1,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -4598,7 +4629,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 1,
           "unit": null
         },
@@ -4620,7 +4651,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 1053,
+          "current": 1066,
           "target": 1,
           "unit": null
         },
@@ -4653,7 +4684,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 200,
           "unit": null
         },
@@ -4664,7 +4695,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 715,
+          "current": 716,
           "target": 150,
           "unit": null
         },
@@ -4675,7 +4706,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 1536,
+          "current": 1551,
           "target": 120,
           "unit": "min"
         },
@@ -4719,7 +4750,7 @@
           "name": "Artillero Pesado",
           "desc": "Consigue 50 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 325,
+          "current": 361,
           "target": 250,
           "unit": null
         },
@@ -4763,7 +4794,7 @@
           "name": "Dominador",
           "desc": "Gana 3 o más mapas",
           "unlocked": true,
-          "current": 104,
+          "current": 106,
           "target": 3,
           "unit": null
         },
@@ -4796,7 +4827,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 197,
+          "current": 199,
           "target": 12,
           "unit": null
         },
@@ -4862,7 +4893,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 900,
           "unit": null
         },
@@ -4939,7 +4970,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 40,
           "unit": null
         },
@@ -4950,7 +4981,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 450,
           "unit": null
         },
@@ -4961,7 +4992,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 3252,
+          "current": 3278,
           "target": 2200,
           "unit": null
         },
@@ -4972,7 +5003,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 1792,
+          "current": 1804,
           "target": 200,
           "unit": null
         },
@@ -5016,7 +5047,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 1053,
+          "current": 1066,
           "target": 5,
           "unit": null
         },
@@ -5027,7 +5058,7 @@
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
           "unlocked": true,
-          "current": 1053,
+          "current": 1066,
           "target": 15,
           "unit": null
         },
@@ -5038,7 +5069,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": true,
-          "current": 1053,
+          "current": 1066,
           "target": 40,
           "unit": null
         },
@@ -5060,7 +5091,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 1536,
+          "current": 1551,
           "target": 300,
           "unit": "min"
         },
@@ -5071,7 +5102,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 1536,
+          "current": 1551,
           "target": 900,
           "unit": "min"
         },
@@ -5104,7 +5135,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 197,
+          "current": 199,
           "target": 25,
           "unit": null
         },
@@ -5236,7 +5267,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 693,
+          "current": 706,
           "target": 10,
           "unit": null
         },
@@ -5247,7 +5278,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 693,
+          "current": 706,
           "target": 20,
           "unit": null
         },
@@ -5258,7 +5289,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 693,
+          "current": 706,
           "target": 40,
           "unit": null
         },
@@ -5434,7 +5465,7 @@
           "name": "Doblete",
           "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
           "unlocked": true,
-          "current": 237,
+          "current": 248,
           "target": 1,
           "unit": null
         },
@@ -5445,7 +5476,7 @@
           "name": "Humillador",
           "desc": "Mata a alguien de culatazo (Humillación) al menos 1 vez",
           "unlocked": true,
-          "current": 3,
+          "current": 4,
           "target": 1,
           "unit": null
         },
@@ -5456,7 +5487,7 @@
           "name": "Multi-Kill",
           "desc": "Logra 5 o más Multi-Kill (3 bajas seguidas rápido)",
           "unlocked": true,
-          "current": 33,
+          "current": 34,
           "target": 5,
           "unit": null
         },
@@ -5478,7 +5509,7 @@
           "name": "Tirador de Cabeza",
           "desc": "Logra 20 o más Headshots anunciados",
           "unlocked": true,
-          "current": 54,
+          "current": 58,
           "target": 20,
           "unit": null
         },
@@ -5500,7 +5531,7 @@
           "name": "En Racha",
           "desc": "Consigue 10 o más Killing-Spree (5 bajas sin morir)",
           "unlocked": true,
-          "current": 88,
+          "current": 91,
           "target": 10,
           "unit": null
         },
@@ -5511,7 +5542,7 @@
           "name": "Cortarrachas",
           "desc": "Corta la racha de un rival (Fin de racha) 10 o más veces",
           "unlocked": true,
-          "current": 20,
+          "current": 22,
           "target": 10,
           "unit": null
         },
@@ -5533,7 +5564,7 @@
           "name": "Rampage",
           "desc": "Consigue 5 o más Rampage (10 bajas sin morir)",
           "unlocked": true,
-          "current": 7,
+          "current": 8,
           "target": 5,
           "unit": null
         },
@@ -5786,7 +5817,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 442,
+          "current": 449,
           "target": 5,
           "unit": null
         },
@@ -5797,7 +5828,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 442,
+          "current": 449,
           "target": 25,
           "unit": null
         },
@@ -5863,7 +5894,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 16.51,
+          "current": 16.47,
           "target": 4,
           "unit": null
         },
@@ -5874,7 +5905,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": true,
-          "current": 16.51,
+          "current": 16.47,
           "target": 8,
           "unit": null
         },
@@ -5918,7 +5949,7 @@
           "name": "SMG Experto",
           "desc": "Consigue 250 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 4257,
+          "current": 4261,
           "target": 250,
           "unit": null
         },
@@ -5929,7 +5960,7 @@
           "name": "SMG Elite",
           "desc": "Consigue 700 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 4257,
+          "current": 4261,
           "target": 700,
           "unit": null
         },
@@ -5940,7 +5971,7 @@
           "name": "Rifle Experto",
           "desc": "Consigue 250 o más eliminaciones con Rifle",
           "unlocked": true,
-          "current": 340,
+          "current": 364,
           "target": 250,
           "unit": null
         },
@@ -5951,7 +5982,7 @@
           "name": "Rifle Elite",
           "desc": "Consigue 700 o más eliminaciones con Rifle",
           "unlocked": false,
-          "current": 340,
+          "current": 364,
           "target": 700,
           "unit": null
         },
@@ -5962,7 +5993,7 @@
           "name": "MG Experto",
           "desc": "Consigue 180 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 325,
+          "current": 361,
           "target": 180,
           "unit": null
         },
@@ -5973,7 +6004,7 @@
           "name": "MG Elite",
           "desc": "Consigue 500 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 325,
+          "current": 361,
           "target": 500,
           "unit": null
         },
@@ -5984,7 +6015,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 715,
+          "current": 716,
           "target": 180,
           "unit": null
         },
@@ -5995,7 +6026,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 715,
+          "current": 716,
           "target": 500,
           "unit": null
         },
@@ -6006,7 +6037,7 @@
           "name": "Bazooka Experto",
           "desc": "Consigue 70 o más eliminaciones con Bazooka",
           "unlocked": true,
-          "current": 166,
+          "current": 168,
           "target": 70,
           "unit": null
         },
@@ -6017,7 +6048,7 @@
           "name": "Bazooka Elite",
           "desc": "Consigue 200 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 166,
+          "current": 168,
           "target": 200,
           "unit": null
         },
@@ -6050,7 +6081,7 @@
           "name": "Bash Experto",
           "desc": "Consigue 70 o más eliminaciones con Bash",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 70,
           "unit": null
         },
@@ -6061,7 +6092,7 @@
           "name": "Bash Elite",
           "desc": "Consigue 200 o más eliminaciones con Bash",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 200,
           "unit": null
         },
@@ -6072,7 +6103,7 @@
           "name": "Rifle Supremo",
           "desc": "Consigue 2000 o más eliminaciones con Rifle",
           "unlocked": false,
-          "current": 340,
+          "current": 364,
           "target": 2000,
           "unit": null
         },
@@ -6083,7 +6114,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 715,
+          "current": 716,
           "target": 1600,
           "unit": null
         },
@@ -6094,7 +6125,7 @@
           "name": "SMG Supremo",
           "desc": "Consigue 2000 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 4257,
+          "current": 4261,
           "target": 2000,
           "unit": null
         },
@@ -6105,7 +6136,7 @@
           "name": "MG Supremo",
           "desc": "Consigue 1600 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 325,
+          "current": 361,
           "target": 1600,
           "unit": null
         },
@@ -6116,7 +6147,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 2575,
+          "current": 2617,
           "target": 200,
           "unit": null
         },
@@ -6127,7 +6158,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": true,
-          "current": 2575,
+          "current": 2617,
           "target": 800,
           "unit": null
         },
@@ -6138,7 +6169,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": true,
-          "current": 2575,
+          "current": 2617,
           "target": 2000,
           "unit": null
         },
@@ -6149,7 +6180,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 2575,
+          "current": 2617,
           "target": 4000,
           "unit": null
         },
@@ -6160,7 +6191,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 2575,
+          "current": 2617,
           "target": 12000,
           "unit": null
         },
@@ -6171,7 +6202,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 1183,
+          "current": 1205,
           "target": 80,
           "unit": null
         },
@@ -6182,7 +6213,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": true,
-          "current": 1183,
+          "current": 1205,
           "target": 400,
           "unit": null
         },
@@ -6204,7 +6235,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 376,
+          "current": 389,
           "target": 30,
           "unit": null
         },
@@ -6215,7 +6246,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 3252,
+          "current": 3278,
           "target": 7500,
           "unit": null
         },
@@ -6259,7 +6290,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 1536,
+          "current": 1551,
           "target": 2400,
           "unit": "min"
         },
@@ -6303,7 +6334,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 693,
+          "current": 706,
           "target": 60,
           "unit": null
         },
@@ -6314,7 +6345,7 @@
           "name": "Colosal",
           "desc": "Acumula 50 o más victorias de mapa",
           "unlocked": true,
-          "current": 104,
+          "current": 106,
           "target": 50,
           "unit": null
         },
@@ -6524,27 +6555,27 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 62
+          "kills": 88
         }
       ],
       "rankChange": 13
     },
     {
       "name": "CaPaRz0",
-      "kills": 4584,
-      "deaths": 3990,
-      "totalKills": 8049,
-      "totalDeaths": 6136,
+      "kills": 4597,
+      "deaths": 4000,
+      "totalKills": 8083,
+      "totalDeaths": 6156,
       "suicides": 42,
       "kd": 1.15,
-      "headshots": 1046,
-      "totalHeadshots": 1962,
+      "headshots": 1052,
+      "totalHeadshots": 1974,
       "announcer": {
-        "headshot": 274,
-        "doubleKill": 556,
+        "headshot": 277,
+        "doubleKill": 559,
         "multiKill": 68,
-        "finRacha": 86,
-        "killingSpree": 143,
+        "finRacha": 88,
+        "killingSpree": 145,
         "humillacion": 13,
         "firstBlood": 21,
         "ultraKill": 14,
@@ -6552,24 +6583,24 @@
         "monsterKill": 2,
         "dominating": 1
       },
-      "hsPercent": 45.5,
+      "hsPercent": 45.6,
       "weapons": {
-        "Sniper": 2666,
+        "Sniper": 2667,
         "Shotgun": 796,
-        "SMG": 3804,
+        "SMG": 3835,
         "Rifle": 63,
-        "Pistol": 43,
+        "Pistol": 45,
         "Bash": 22,
         "Bazooka": 398,
         "MG": 257
       },
       "favoriteWeapon": "SMG",
       "favoriteBodypart": "head",
-      "mapsPlayed": 304,
-      "matchesPlayed": 304,
+      "mapsPlayed": 305,
+      "matchesPlayed": 305,
       "wins": 89,
-      "winRate": 29.3,
-      "fragsPerMap": 15.08,
+      "winRate": 29.2,
+      "fragsPerMap": 15.07,
       "bestStreak": 17,
       "nemesis": {
         "name": "Hooligan",
@@ -6577,9 +6608,9 @@
       },
       "favoriteVictim": {
         "name": "SANDY",
-        "kills": 771
+        "kills": 775
       },
-      "multikillEvents": 1343,
+      "multikillEvents": 1346,
       "bestMultikillChain": 7,
       "winsByDate": {
         "2026-07-18": 4,
@@ -6635,9 +6666,9 @@
         "2026-10-12": 1
       },
       "sessions": 59,
-      "disconnects": 54,
-      "playtimeMs": 155862000,
-      "playtimeFormatted": "43h 18m",
+      "disconnects": 55,
+      "playtimeMs": 156415000,
+      "playtimeFormatted": "43h 27m",
       "favoriteHour": "22:00",
       "hourActivity": [
         1467,
@@ -6663,7 +6694,7 @@
         0,
         63,
         6804,
-        6052
+        6107
       ],
       "mapBreakdown": [
         {
@@ -6749,6 +6780,12 @@
           "kills": 144,
           "deaths": 151,
           "kd": 0.95
+        },
+        {
+          "map": "dm/dm_rockbound",
+          "kills": 126,
+          "deaths": 93,
+          "kd": 1.35
         },
         {
           "map": "dm/Papys_Castle_War",
@@ -6839,12 +6876,6 @@
           "kills": 95,
           "deaths": 69,
           "kd": 1.38
-        },
-        {
-          "map": "dm/dm_rockbound",
-          "kills": 93,
-          "deaths": 75,
-          "kd": 1.24
         },
         {
           "map": "dm/Gatehouse_Assault_DM_1",
@@ -7189,6 +7220,12 @@
           "kd": 1.07
         },
         {
+          "map": "dm/AR_Berlin_V1",
+          "kills": 28,
+          "deaths": 31,
+          "kd": 0.9
+        },
+        {
           "map": "dm/progress",
           "kills": 28,
           "deaths": 44,
@@ -7199,12 +7236,6 @@
           "kills": 27,
           "deaths": 10,
           "kd": 2.7
-        },
-        {
-          "map": "dm/AR_Berlin_V1",
-          "kills": 27,
-          "deaths": 29,
-          "kd": 0.93
         },
         {
           "map": "dm/highnoon2",
@@ -7489,8 +7520,8 @@
         {
           "map": "dm/dm_rockbound",
           "weaponsCount": 2,
-          "victimsCount": 24,
-          "humanVictimsCount": 15
+          "victimsCount": 26,
+          "humanVictimsCount": 17
         },
         {
           "map": "dm/amw_caskami_02",
@@ -8100,15 +8131,15 @@
       "maxWinsInDay": 9,
       "bestMapWinStreak": 8,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 1206,
+      "maxRivalryEncounters": 1211,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 97,
-      "botKills": 3465,
-      "humanKillsOnly": 4584,
-      "botDeaths": 2104,
-      "humanDeathsOnly": 3990,
-      "maxBotRivalry": 488,
+      "botKills": 3486,
+      "humanKillsOnly": 4597,
+      "botDeaths": 2114,
+      "humanDeathsOnly": 4000,
+      "maxBotRivalry": 494,
       "currentTeam": "Axis",
       "playedAxis": true,
       "playedAllies": true,
@@ -8118,7 +8149,7 @@
       "teamKickCount": 1,
       "worstDeathStreak": 12,
       "firstBloodOfMapCount": 38,
-      "revengeKills": 736,
+      "revengeKills": 739,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
@@ -8128,7 +8159,7 @@
         },
         {
           "name": "SANDY",
-          "deaths": 435
+          "deaths": 436
         },
         {
           "name": "Bard0k",
@@ -8136,11 +8167,11 @@
         },
         {
           "name": "=MB= .S1mple",
-          "deaths": 319
+          "deaths": 320
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 312
+          "deaths": 314
         },
         {
           "name": "=MB= .TenZ",
@@ -8148,15 +8179,15 @@
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 287
+          "deaths": 288
         },
         {
           "name": "Francotirador",
-          "deaths": 231
+          "deaths": 234
         },
         {
           "name": "ST3",
-          "deaths": 227
+          "deaths": 230
         },
         {
           "name": "=MB= .Fatal1ty",
@@ -8164,11 +8195,11 @@
         },
         {
           "name": "=MB= .Lyudmila",
-          "deaths": 197
+          "deaths": 199
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 196
+          "deaths": 198
         },
         {
           "name": "<MLS>Msg.Lucho",
@@ -8180,7 +8211,7 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "deaths": 150
+          "deaths": 152
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -8232,7 +8263,7 @@
         },
         {
           "name": "Mr.Sipi",
-          "deaths": 55
+          "deaths": 57
         },
         {
           "name": "Roly",
@@ -8375,15 +8406,15 @@
           "deaths": 5
         },
         {
+          "name": "UnnamedSoldier",
+          "deaths": 5
+        },
+        {
           "name": "fibe",
           "deaths": 5
         },
         {
           "name": "BASokazO",
-          "deaths": 4
-        },
-        {
-          "name": "UnnamedSoldier",
           "deaths": 4
         },
         {
@@ -8446,15 +8477,15 @@
       "victimsList": [
         {
           "name": "SANDY",
-          "kills": 771
+          "kills": 775
         },
         {
           "name": "=MB= .Ogre2",
-          "kills": 488
+          "kills": 494
         },
         {
           "name": "=MB= .S1mple",
-          "kills": 468
+          "kills": 474
         },
         {
           "name": "=MB= .TenZ",
@@ -8470,23 +8501,23 @@
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 401
+          "kills": 405
         },
         {
           "name": "Bard0k",
-          "kills": 375
+          "kills": 376
         },
         {
           "name": "=MB= .Fatal1ty",
-          "kills": 350
+          "kills": 351
         },
         {
           "name": "=MB= .Lyudmila",
-          "kills": 325
+          "kills": 326
         },
         {
           "name": "=MB= .Hartmann",
-          "kills": 249
+          "kills": 252
         },
         {
           "name": "Gral. MacArthur",
@@ -8494,7 +8525,7 @@
         },
         {
           "name": "ST3",
-          "kills": 205
+          "kills": 210
         },
         {
           "name": "=MB= El_Chacal",
@@ -8518,7 +8549,7 @@
         },
         {
           "name": "Francotirador",
-          "kills": 143
+          "kills": 145
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -8554,7 +8585,7 @@
         },
         {
           "name": "Mr.Sipi",
-          "kills": 76
+          "kills": 77
         },
         {
           "name": "MB_Axis_Aliado",
@@ -9070,27 +9101,29 @@
           "Maverick": 4,
           "Soldado Ryan": 2,
           "Osi": 11,
-          "SANDY": 7,
+          "SANDY": 11,
           "Roly": 3,
           "JHAS": 3,
           "Gral. MacArthur": 6,
-          "=MB= .S1mple": 6,
-          "=MB= .Fatal1ty": 8,
+          "=MB= .S1mple": 12,
+          "=MB= .Fatal1ty": 9,
           "=MB= .Scump": 5,
-          "=MB= .Ogre2": 4,
+          "=MB= .Ogre2": 10,
           "=MB= .TenZ": 4,
           "Hooligan": 4,
-          "=MB= .Lyudmila": 3,
-          "=MB= .Vasily": 4,
-          "Francotirador": 3,
+          "=MB= .Lyudmila": 4,
+          "=MB= .Vasily": 8,
+          "Francotirador": 5,
           "Homer": 2,
           "=MB= El_Chacal": 4,
           "Bard0k": 2,
           "Lunatic1357": 3,
           "=BoL= Chory": 1,
           "MAPACHE": 1,
-          "=MB= .Hartmann": 2,
-          "=MB= .ZywOo": 1
+          "=MB= .Hartmann": 5,
+          "=MB= .ZywOo": 1,
+          "ST3": 5,
+          "Mr.Sipi": 1
         },
         "dm/amw_caskami_02": {
           "Maverick": 3,
@@ -10144,7 +10177,7 @@
           "=MB= .S1mple": 4,
           "=MB= .Ogre2": 1,
           "Mr.Sipi": 2,
-          "Bard0k": 3,
+          "Bard0k": 4,
           "SANDY": 1,
           "=MB= .Scump": 1,
           "=MB= .TenZ": 2,
@@ -11548,21 +11581,21 @@
           "=MB= .Vasily": 1
         },
         "2026-10-12": {
-          "=MB= .Hartmann": 4,
-          "=MB= .Lyudmila": 11,
+          "=MB= .Hartmann": 7,
+          "=MB= .Lyudmila": 12,
           "=MB= .ZywOo": 3,
-          "=MB= .Ogre2": 11,
+          "=MB= .Ogre2": 17,
           "=MB= .Kazuya": 2,
           "=MB= .TenZ": 11,
-          "Francotirador": 11,
-          "=MB= .Vasily": 11,
-          "Bard0k": 15,
-          "=MB= .S1mple": 10,
-          "=MB= .Fatal1ty": 4,
+          "Francotirador": 13,
+          "=MB= .Vasily": 15,
+          "Bard0k": 16,
+          "=MB= .S1mple": 16,
+          "=MB= .Fatal1ty": 5,
           "=MB= .Scump": 8,
-          "SANDY": 6,
-          "ST3": 5,
-          "Mr.Sipi": 2
+          "SANDY": 10,
+          "ST3": 10,
+          "Mr.Sipi": 3
         }
       },
       "victimsByDateMap": {
@@ -11964,11 +11997,23 @@
           "dm/AR_Berlin_V1": {
             "=MB= .S1mple": 3,
             "Mr.Sipi": 2,
-            "Bard0k": 3,
+            "Bard0k": 4,
             "SANDY": 1,
             "=MB= .Scump": 1,
             "=MB= .TenZ": 2,
             "Francotirador": 1,
+            "=MB= .Fatal1ty": 1
+          },
+          "dm/dm_rockbound": {
+            "ST3": 5,
+            "=MB= .Hartmann": 3,
+            "SANDY": 4,
+            "Mr.Sipi": 1,
+            "=MB= .S1mple": 6,
+            "=MB= .Lyudmila": 1,
+            "Francotirador": 2,
+            "=MB= .Ogre2": 6,
+            "=MB= .Vasily": 4,
             "=MB= .Fatal1ty": 1
           }
         }
@@ -11976,11 +12021,11 @@
       "weaponsList": [
         {
           "weapon": "SMG",
-          "kills": 3804
+          "kills": 3835
         },
         {
           "weapon": "Sniper",
-          "kills": 2666
+          "kills": 2667
         },
         {
           "weapon": "Shotgun",
@@ -12000,7 +12045,7 @@
         },
         {
           "weapon": "Pistol",
-          "kills": 43
+          "kills": 45
         },
         {
           "weapon": "Bash",
@@ -12010,35 +12055,35 @@
       "bodypartsList": [
         {
           "bodypart": "head",
-          "kills": 1747
+          "kills": 1759
         },
         {
           "bodypart": "upper torso",
-          "kills": 582
+          "kills": 585
         },
         {
           "bodypart": "lower torso",
-          "kills": 253
+          "kills": 256
         },
         {
           "bodypart": "neck",
-          "kills": 240
+          "kills": 242
         },
         {
           "bodypart": "middle torso",
-          "kills": 232
+          "kills": 234
         },
         {
           "bodypart": "upper right arm",
-          "kills": 172
+          "kills": 174
         },
         {
           "bodypart": "pelvis",
-          "kills": 158
+          "kills": 161
         },
         {
           "bodypart": "upper right leg",
-          "kills": 131
+          "kills": 132
         },
         {
           "bodypart": "face",
@@ -12054,7 +12099,7 @@
         },
         {
           "bodypart": "upper left arm",
-          "kills": 53
+          "kills": 56
         },
         {
           "bodypart": "lower right leg",
@@ -12090,7 +12135,7 @@
         }
       ],
       "firstSeen": "2026-07-18 22:38:11",
-      "lastSeen": "2026-10-12 23:14:45",
+      "lastSeen": "2026-10-12 23:24:13",
       "rank": 2,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -12101,7 +12146,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 1,
           "unit": null
         },
@@ -12112,7 +12157,7 @@
           "name": "Puntería de Hierro",
           "desc": "Consigue una eliminación con Pistol",
           "unlocked": true,
-          "current": 43,
+          "current": 45,
           "target": 1,
           "unit": null
         },
@@ -12123,7 +12168,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 1343,
+          "current": 1346,
           "target": 1,
           "unit": null
         },
@@ -12145,7 +12190,7 @@
           "name": "Experto en Headshots",
           "desc": "Consigue 60 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1046,
+          "current": 1052,
           "target": 60,
           "unit": null
         },
@@ -12156,7 +12201,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 200,
           "unit": null
         },
@@ -12167,7 +12212,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 2666,
+          "current": 2667,
           "target": 150,
           "unit": null
         },
@@ -12178,7 +12223,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 2598,
+          "current": 2607,
           "target": 120,
           "unit": "min"
         },
@@ -12299,7 +12344,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 304,
+          "current": 305,
           "target": 12,
           "unit": null
         },
@@ -12365,7 +12410,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 900,
           "unit": null
         },
@@ -12409,7 +12454,7 @@
           "name": "Cazador de Cabezas",
           "desc": "Registra 150 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1046,
+          "current": 1052,
           "target": 150,
           "unit": null
         },
@@ -12420,7 +12465,7 @@
           "name": "Verdugo Craneal",
           "desc": "Registra 400 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1046,
+          "current": 1052,
           "target": 400,
           "unit": null
         },
@@ -12431,7 +12476,7 @@
           "name": "Ejecutor Craneal",
           "desc": "Registra 800 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1046,
+          "current": 1052,
           "target": 800,
           "unit": null
         },
@@ -12442,7 +12487,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 40,
           "unit": null
         },
@@ -12453,7 +12498,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 450,
           "unit": null
         },
@@ -12464,7 +12509,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4584,
+          "current": 4597,
           "target": 2200,
           "unit": null
         },
@@ -12475,7 +12520,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 3990,
+          "current": 4000,
           "target": 200,
           "unit": null
         },
@@ -12519,7 +12564,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 1343,
+          "current": 1346,
           "target": 5,
           "unit": null
         },
@@ -12530,7 +12575,7 @@
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
           "unlocked": true,
-          "current": 1343,
+          "current": 1346,
           "target": 15,
           "unit": null
         },
@@ -12541,7 +12586,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": true,
-          "current": 1343,
+          "current": 1346,
           "target": 40,
           "unit": null
         },
@@ -12563,7 +12608,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 2598,
+          "current": 2607,
           "target": 300,
           "unit": "min"
         },
@@ -12574,7 +12619,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 2598,
+          "current": 2607,
           "target": 900,
           "unit": "min"
         },
@@ -12607,7 +12652,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 304,
+          "current": 305,
           "target": 25,
           "unit": null
         },
@@ -12739,7 +12784,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1206,
+          "current": 1211,
           "target": 10,
           "unit": null
         },
@@ -12750,7 +12795,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1206,
+          "current": 1211,
           "target": 20,
           "unit": null
         },
@@ -12761,7 +12806,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1206,
+          "current": 1211,
           "target": 40,
           "unit": null
         },
@@ -12937,7 +12982,7 @@
           "name": "Doblete",
           "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
           "unlocked": true,
-          "current": 556,
+          "current": 559,
           "target": 1,
           "unit": null
         },
@@ -12981,7 +13026,7 @@
           "name": "Tirador de Cabeza",
           "desc": "Logra 20 o más Headshots anunciados",
           "unlocked": true,
-          "current": 274,
+          "current": 277,
           "target": 20,
           "unit": null
         },
@@ -13003,7 +13048,7 @@
           "name": "En Racha",
           "desc": "Consigue 10 o más Killing-Spree (5 bajas sin morir)",
           "unlocked": true,
-          "current": 143,
+          "current": 145,
           "target": 10,
           "unit": null
         },
@@ -13014,7 +13059,7 @@
           "name": "Cortarrachas",
           "desc": "Corta la racha de un rival (Fin de racha) 10 o más veces",
           "unlocked": true,
-          "current": 86,
+          "current": 88,
           "target": 10,
           "unit": null
         },
@@ -13289,7 +13334,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 736,
+          "current": 739,
           "target": 5,
           "unit": null
         },
@@ -13300,7 +13345,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 736,
+          "current": 739,
           "target": 25,
           "unit": null
         },
@@ -13366,7 +13411,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 15.08,
+          "current": 15.07,
           "target": 4,
           "unit": null
         },
@@ -13377,7 +13422,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": true,
-          "current": 15.08,
+          "current": 15.07,
           "target": 8,
           "unit": null
         },
@@ -13399,7 +13444,7 @@
           "name": "Pistol Experto",
           "desc": "Consigue 80 o más eliminaciones con Pistol",
           "unlocked": false,
-          "current": 43,
+          "current": 45,
           "target": 80,
           "unit": null
         },
@@ -13410,7 +13455,7 @@
           "name": "Pistol Elite",
           "desc": "Consigue 250 o más eliminaciones con Pistol",
           "unlocked": false,
-          "current": 43,
+          "current": 45,
           "target": 250,
           "unit": null
         },
@@ -13421,7 +13466,7 @@
           "name": "SMG Experto",
           "desc": "Consigue 250 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 3804,
+          "current": 3835,
           "target": 250,
           "unit": null
         },
@@ -13432,7 +13477,7 @@
           "name": "SMG Elite",
           "desc": "Consigue 700 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 3804,
+          "current": 3835,
           "target": 700,
           "unit": null
         },
@@ -13487,7 +13532,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 2666,
+          "current": 2667,
           "target": 180,
           "unit": null
         },
@@ -13498,7 +13543,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 2666,
+          "current": 2667,
           "target": 500,
           "unit": null
         },
@@ -13586,7 +13631,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 2666,
+          "current": 2667,
           "target": 1600,
           "unit": null
         },
@@ -13597,7 +13642,7 @@
           "name": "SMG Supremo",
           "desc": "Consigue 2000 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 3804,
+          "current": 3835,
           "target": 2000,
           "unit": null
         },
@@ -13619,7 +13664,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 3465,
+          "current": 3486,
           "target": 200,
           "unit": null
         },
@@ -13630,7 +13675,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": true,
-          "current": 3465,
+          "current": 3486,
           "target": 800,
           "unit": null
         },
@@ -13641,7 +13686,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": true,
-          "current": 3465,
+          "current": 3486,
           "target": 2000,
           "unit": null
         },
@@ -13652,7 +13697,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 3465,
+          "current": 3486,
           "target": 4000,
           "unit": null
         },
@@ -13663,7 +13708,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 3465,
+          "current": 3486,
           "target": 12000,
           "unit": null
         },
@@ -13674,7 +13719,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 2104,
+          "current": 2114,
           "target": 80,
           "unit": null
         },
@@ -13685,7 +13730,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": true,
-          "current": 2104,
+          "current": 2114,
           "target": 400,
           "unit": null
         },
@@ -13707,7 +13752,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 488,
+          "current": 494,
           "target": 30,
           "unit": null
         },
@@ -13718,7 +13763,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 4584,
+          "current": 4597,
           "target": 7500,
           "unit": null
         },
@@ -13729,7 +13774,7 @@
           "name": "Precisión Absoluta",
           "desc": "Registra 1500 o más headshots contra jugadores humanos",
           "unlocked": false,
-          "current": 1046,
+          "current": 1052,
           "target": 1500,
           "unit": null
         },
@@ -13762,7 +13807,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": true,
-          "current": 2598,
+          "current": 2607,
           "target": 2400,
           "unit": "min"
         },
@@ -13806,7 +13851,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1206,
+          "current": 1211,
           "target": 60,
           "unit": null
         },
@@ -14027,48 +14072,48 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 39
+          "kills": 52
         }
       ],
       "rankChange": 11
     },
     {
       "name": "ST3",
-      "kills": 2851,
-      "deaths": 2079,
-      "totalKills": 4230,
-      "totalDeaths": 2916,
+      "kills": 2876,
+      "deaths": 2094,
+      "totalKills": 4296,
+      "totalDeaths": 2953,
       "suicides": 21,
       "kd": 1.37,
-      "headshots": 423,
-      "totalHeadshots": 562,
+      "headshots": 424,
+      "totalHeadshots": 564,
       "announcer": {
         "finRacha": 42,
-        "doubleKill": 317,
-        "headshot": 131,
+        "doubleKill": 325,
+        "headshot": 138,
         "firstBlood": 20,
         "multiKill": 44,
-        "killingSpree": 86,
+        "killingSpree": 90,
         "rampage": 5,
         "ultraKill": 6,
         "monsterKill": 1
       },
       "hsPercent": 51.9,
       "weapons": {
-        "Sniper": 1984,
-        "SMG": 977,
+        "Sniper": 1986,
+        "SMG": 984,
         "Shotgun": 300,
-        "MG": 574,
+        "MG": 631,
         "Bazooka": 276,
         "Rifle": 119
       },
       "favoriteWeapon": "Sniper",
       "favoriteBodypart": "head",
-      "mapsPlayed": 155,
-      "matchesPlayed": 155,
-      "wins": 76,
+      "mapsPlayed": 157,
+      "matchesPlayed": 157,
+      "wins": 77,
       "winRate": 49,
-      "fragsPerMap": 18.39,
+      "fragsPerMap": 18.32,
       "bestStreak": 14,
       "nemesis": {
         "name": "Hooligan",
@@ -14076,9 +14121,9 @@
       },
       "favoriteVictim": {
         "name": "SANDY",
-        "kills": 459
+        "kills": 465
       },
-      "multikillEvents": 723,
+      "multikillEvents": 737,
       "bestMultikillChain": 7,
       "winsByDate": {
         "2026-07-17": 3,
@@ -14101,7 +14146,8 @@
         "2026-09-16": 7,
         "2026-10-07": 1,
         "2026-10-09": 6,
-        "2026-10-10": 4
+        "2026-10-10": 4,
+        "2026-10-12": 1
       },
       "winsByGameDay": {
         "2026-08-17": 4,
@@ -14112,12 +14158,13 @@
         "2026-09-15": 5,
         "2026-09-16": 5,
         "2026-10-06": 1,
-        "2026-10-09": 10
+        "2026-10-09": 10,
+        "2026-10-12": 1
       },
       "sessions": 21,
       "disconnects": 18,
-      "playtimeMs": 67398000,
-      "playtimeFormatted": "18h 43m",
+      "playtimeMs": 68298000,
+      "playtimeFormatted": "18h 58m",
       "favoriteHour": "23:00",
       "hourActivity": [
         1921,
@@ -14143,7 +14190,7 @@
         0,
         0,
         1008,
-        4274
+        4377
       ],
       "mapBreakdown": [
         {
@@ -14207,16 +14254,16 @@
           "kd": 1.77
         },
         {
+          "map": "dm/renan",
+          "kills": 97,
+          "deaths": 48,
+          "kd": 2.02
+        },
+        {
           "map": "dm/MP_Holland_DM",
           "kills": 81,
           "deaths": 46,
           "kd": 1.76
-        },
-        {
-          "map": "dm/renan",
-          "kills": 72,
-          "deaths": 35,
-          "kd": 2.06
         },
         {
           "map": "dm/warehouse_dm",
@@ -14243,6 +14290,12 @@
           "kd": 1.49
         },
         {
+          "map": "dm/dm_rockbound",
+          "kills": 64,
+          "deaths": 40,
+          "kd": 1.6
+        },
+        {
           "map": "dm/amw_caskami_01",
           "kills": 63,
           "deaths": 52,
@@ -14255,6 +14308,12 @@
           "kd": 1.97
         },
         {
+          "map": "dm/AR_Berlin_V1",
+          "kills": 59,
+          "deaths": 33,
+          "kd": 1.79
+        },
+        {
           "map": "dm/thorn_ak",
           "kills": 58,
           "deaths": 42,
@@ -14265,12 +14324,6 @@
           "kills": 58,
           "deaths": 40,
           "kd": 1.45
-        },
-        {
-          "map": "dm/AR_Berlin_V1",
-          "kills": 57,
-          "deaths": 31,
-          "kd": 1.84
         },
         {
           "map": "dm/arnhem",
@@ -14565,12 +14618,6 @@
           "kills": 26,
           "deaths": 27,
           "kd": 0.96
-        },
-        {
-          "map": "dm/dm_rockbound",
-          "kills": 25,
-          "deaths": 18,
-          "kd": 1.39
         },
         {
           "map": "dm/mp_ship_dm",
@@ -14939,8 +14986,8 @@
         {
           "map": "dm/renan",
           "weaponsCount": 3,
-          "victimsCount": 16,
-          "humanVictimsCount": 9
+          "victimsCount": 17,
+          "humanVictimsCount": 10
         },
         {
           "map": "dm/despair",
@@ -15106,9 +15153,9 @@
         },
         {
           "map": "dm/dm_rockbound",
-          "weaponsCount": 1,
-          "victimsCount": 8,
-          "humanVictimsCount": 8
+          "weaponsCount": 3,
+          "victimsCount": 16,
+          "humanVictimsCount": 11
         },
         {
           "map": "dm/dawninvasion",
@@ -15376,15 +15423,15 @@
       "maxWinsInDay": 9,
       "bestMapWinStreak": 10,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 675,
+      "maxRivalryEncounters": 683,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 18,
-      "botKills": 1379,
-      "humanKillsOnly": 2851,
-      "botDeaths": 816,
-      "humanDeathsOnly": 2079,
-      "maxBotRivalry": 193,
+      "botKills": 1420,
+      "humanKillsOnly": 2876,
+      "botDeaths": 838,
+      "humanDeathsOnly": 2094,
+      "maxBotRivalry": 199,
       "currentTeam": null,
       "playedAxis": false,
       "playedAllies": false,
@@ -15394,7 +15441,7 @@
       "teamKickCount": 0,
       "worstDeathStreak": 6,
       "firstBloodOfMapCount": 28,
-      "revengeKills": 412,
+      "revengeKills": 419,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
@@ -15404,15 +15451,15 @@
         },
         {
           "name": "SANDY",
-          "deaths": 216
+          "deaths": 218
         },
         {
           "name": "CaPaRz0",
-          "deaths": 205
+          "deaths": 210
         },
         {
           "name": "Francotirador",
-          "deaths": 170
+          "deaths": 175
         },
         {
           "name": "Homer",
@@ -15420,27 +15467,27 @@
         },
         {
           "name": "=MB= .S1mple",
-          "deaths": 126
+          "deaths": 131
+        },
+        {
+          "name": "=MB= .TenZ",
+          "deaths": 123
         },
         {
           "name": "<MLS>Msg.Lucho",
           "deaths": 123
         },
         {
-          "name": "=MB= .TenZ",
-          "deaths": 122
+          "name": "=MB= .Ogre2",
+          "deaths": 111
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 109
+          "deaths": 110
         },
         {
           "name": "Gral. MacArthur",
           "deaths": 109
-        },
-        {
-          "name": "=MB= .Ogre2",
-          "deaths": 108
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -15448,11 +15495,11 @@
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 84
+          "deaths": 90
         },
         {
           "name": "=MB= .Fatal1ty",
-          "deaths": 80
+          "deaths": 83
         },
         {
           "name": "Bard0k",
@@ -15471,16 +15518,16 @@
           "deaths": 60
         },
         {
+          "name": "=MB= .Hartmann",
+          "deaths": 52
+        },
+        {
           "name": "=MB= .ZywOo",
           "deaths": 52
         },
         {
           "name": "S@nto_Bol",
           "deaths": 50
-        },
-        {
-          "name": "=MB= .Hartmann",
-          "deaths": 49
         },
         {
           "name": "Maverick",
@@ -15520,7 +15567,7 @@
         },
         {
           "name": "MAPACHE",
-          "deaths": 22
+          "deaths": 24
         },
         {
           "name": "Lunatic1357",
@@ -15587,12 +15634,12 @@
           "deaths": 4
         },
         {
-          "name": "jordi mantenido FC",
+          "name": "UnnamedSoldier",
           "deaths": 3
         },
         {
-          "name": "UnnamedSoldier",
-          "deaths": 2
+          "name": "jordi mantenido FC",
+          "deaths": 3
         },
         {
           "name": "exumador",
@@ -15622,7 +15669,7 @@
       "victimsList": [
         {
           "name": "SANDY",
-          "kills": 459
+          "kills": 465
         },
         {
           "name": "Hooligan",
@@ -15630,39 +15677,39 @@
         },
         {
           "name": "CaPaRz0",
-          "kills": 227
-        },
-        {
-          "name": "=MB= .Scump",
-          "kills": 193
+          "kills": 230
         },
         {
           "name": "=MB= .S1mple",
-          "kills": 192
+          "kills": 199
+        },
+        {
+          "name": "=MB= .Scump",
+          "kills": 197
+        },
+        {
+          "name": "=MB= .Ogre2",
+          "kills": 194
         },
         {
           "name": "Gral. MacArthur",
           "kills": 186
         },
         {
-          "name": "=MB= .Ogre2",
-          "kills": 185
-        },
-        {
           "name": "<MLS>Msg.Lucho",
           "kills": 182
         },
         {
-          "name": "MOH-Rugrats.ar",
-          "kills": 166
+          "name": "=MB= .Fatal1ty",
+          "kills": 170
         },
         {
           "name": "=MB= .TenZ",
-          "kills": 164
+          "kills": 167
         },
         {
-          "name": "=MB= .Fatal1ty",
-          "kills": 162
+          "name": "MOH-Rugrats.ar",
+          "kills": 166
         },
         {
           "name": "=MB= .Lyudmila",
@@ -15670,11 +15717,11 @@
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 141
+          "kills": 149
         },
         {
           "name": "Francotirador",
-          "kills": 119
+          "kills": 126
         },
         {
           "name": "Homer",
@@ -15698,7 +15745,7 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "kills": 76
+          "kills": 78
         },
         {
           "name": "=MB= .ZywOo",
@@ -15710,7 +15757,7 @@
         },
         {
           "name": "MAPACHE",
-          "kills": 61
+          "kills": 62
         },
         {
           "name": "MB_Axis_Aliado",
@@ -15726,7 +15773,7 @@
         },
         {
           "name": "Mr.Sipi",
-          "kills": 39
+          "kills": 43
         },
         {
           "name": "JOSELU REY DEL MEDALLA",
@@ -15813,6 +15860,10 @@
           "kills": 7
         },
         {
+          "name": "UnnamedSoldier",
+          "kills": 6
+        },
+        {
           "name": "Alfredo",
           "kills": 6
         },
@@ -15822,10 +15873,6 @@
         },
         {
           "name": "<MLS>Rct.Ravir",
-          "kills": 2
-        },
-        {
-          "name": "UnnamedSoldier",
           "kills": 2
         },
         {
@@ -16086,22 +16133,23 @@
           "S@nto_Bol": 1
         },
         "dm/renan": {
-          "Francotirador": 4,
-          "=MB= .TenZ": 4,
-          "=MB= .Scump": 4,
+          "Francotirador": 8,
+          "=MB= .TenZ": 7,
+          "=MB= .Scump": 8,
           "=MB= El_Chacal": 1,
-          "MAPACHE": 7,
-          "=MB= .Vasily": 2,
-          "=MB= .Fatal1ty": 8,
-          "=MB= .S1mple": 10,
+          "MAPACHE": 8,
+          "=MB= .Vasily": 3,
+          "=MB= .Fatal1ty": 13,
+          "=MB= .S1mple": 11,
           "=MB= .Lyudmila": 3,
-          "=MB= .Ogre2": 2,
+          "=MB= .Ogre2": 5,
           "Hooligan": 3,
           "GASPAR": 4,
           "MOH-Rugrats.ar": 7,
-          "SANDY": 5,
+          "SANDY": 7,
           "Soldado Ryan": 4,
-          "exumador": 4
+          "exumador": 4,
+          "UnnamedSoldier": 1
         },
         "dm/despair": {
           "=MB= .Hartmann": 3,
@@ -16486,24 +16534,32 @@
           "Soldado Ryan": 6,
           "MOH-Rugrats.ar": 4,
           "SANDY": 8,
-          "Francotirador": 6,
+          "Francotirador": 7,
           "Gral. MacArthur": 2,
           "=MB= .Scump": 5,
           "=MB= .Vasily": 1,
           "Bard0k": 2,
-          "CaPaRz0": 4,
+          "CaPaRz0": 5,
           "=MB= .TenZ": 2,
           "=MB= .S1mple": 4
         },
         "dm/dm_rockbound": {
           "Gral. MacArthur": 3,
           "Soldado Ryan": 7,
-          "Francotirador": 4,
+          "Francotirador": 6,
           "exumador": 3,
           "=MB= El_Chacal": 2,
           "GASPAR": 4,
-          "SANDY": 1,
-          "MOH-Rugrats.ar": 1
+          "SANDY": 5,
+          "MOH-Rugrats.ar": 1,
+          "CaPaRz0": 2,
+          "=MB= .Ogre2": 6,
+          "=MB= .S1mple": 6,
+          "=MB= .Vasily": 7,
+          "Mr.Sipi": 4,
+          "=MB= .Hartmann": 2,
+          "UnnamedSoldier": 3,
+          "=MB= .Fatal1ty": 3
         },
         "dm/dawninvasion": {
           "=MB= .ZywOo": 1,
@@ -17451,17 +17507,21 @@
           "Maverick": 4
         },
         "2026-10-12": {
-          "=MB= .Vasily": 4,
-          "=MB= .TenZ": 9,
-          "Francotirador": 9,
-          "=MB= .Scump": 11,
-          "SANDY": 11,
-          "=MB= .Ogre2": 2,
+          "=MB= .Vasily": 12,
+          "=MB= .TenZ": 12,
+          "Francotirador": 16,
+          "=MB= .Scump": 15,
+          "SANDY": 17,
+          "=MB= .Ogre2": 11,
           "Bard0k": 7,
-          "=MB= .Fatal1ty": 1,
+          "=MB= .Fatal1ty": 9,
           "=MB= .Lyudmila": 5,
-          "CaPaRz0": 7,
-          "=MB= .S1mple": 9
+          "CaPaRz0": 10,
+          "=MB= .S1mple": 16,
+          "Mr.Sipi": 4,
+          "=MB= .Hartmann": 2,
+          "UnnamedSoldier": 4,
+          "MAPACHE": 1
         }
       },
       "victimsByDateMap": {
@@ -17780,25 +17840,49 @@
             "=MB= .Vasily": 1,
             "SANDY": 5,
             "Bard0k": 2,
-            "CaPaRz0": 4,
-            "Francotirador": 4,
+            "CaPaRz0": 5,
+            "Francotirador": 5,
             "=MB= .TenZ": 2,
             "=MB= .S1mple": 4
+          },
+          "dm/dm_rockbound": {
+            "CaPaRz0": 2,
+            "=MB= .Ogre2": 6,
+            "=MB= .S1mple": 6,
+            "=MB= .Vasily": 7,
+            "Mr.Sipi": 4,
+            "Francotirador": 2,
+            "=MB= .Hartmann": 2,
+            "UnnamedSoldier": 3,
+            "SANDY": 4,
+            "=MB= .Fatal1ty": 3
+          },
+          "dm/renan": {
+            "=MB= .Scump": 4,
+            "=MB= .Ogre2": 3,
+            "=MB= .Fatal1ty": 5,
+            "=MB= .S1mple": 1,
+            "SANDY": 2,
+            "Francotirador": 4,
+            "=MB= .TenZ": 3,
+            "UnnamedSoldier": 1,
+            "=MB= .Vasily": 1,
+            "MAPACHE": 1
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 1984
+          "kills": 1986
         },
         {
           "weapon": "SMG",
-          "kills": 977
+          "kills": 984
         },
         {
           "weapon": "MG",
-          "kills": 574
+          "kills": 631
         },
         {
           "weapon": "Shotgun",
@@ -17816,11 +17900,11 @@
       "bodypartsList": [
         {
           "bodypart": "head",
-          "kills": 412
+          "kills": 414
         },
         {
           "bodypart": "upper torso",
-          "kills": 149
+          "kills": 150
         },
         {
           "bodypart": "face",
@@ -17828,7 +17912,7 @@
         },
         {
           "bodypart": "neck",
-          "kills": 71
+          "kills": 72
         },
         {
           "bodypart": "middle torso",
@@ -17852,7 +17936,7 @@
         },
         {
           "bodypart": "upper right leg",
-          "kills": 30
+          "kills": 31
         },
         {
           "bodypart": "upper left arm",
@@ -17863,11 +17947,11 @@
           "kills": 19
         },
         {
-          "bodypart": "lower left leg",
-          "kills": 7
+          "bodypart": "lower left arm",
+          "kills": 8
         },
         {
-          "bodypart": "lower left arm",
+          "bodypart": "lower left leg",
           "kills": 7
         },
         {
@@ -17875,12 +17959,12 @@
           "kills": 6
         },
         {
-          "bodypart": "right hand",
+          "bodypart": "lower right leg",
           "kills": 5
         },
         {
-          "bodypart": "lower right leg",
-          "kills": 4
+          "bodypart": "right hand",
+          "kills": 5
         },
         {
           "bodypart": "left hand",
@@ -17896,7 +17980,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:05:42",
-      "lastSeen": "2026-10-12 23:15:00",
+      "lastSeen": "2026-10-12 23:29:52",
       "rank": 3,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -17907,7 +17991,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 1,
           "unit": null
         },
@@ -17929,7 +18013,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 723,
+          "current": 737,
           "target": 1,
           "unit": null
         },
@@ -17951,7 +18035,7 @@
           "name": "Experto en Headshots",
           "desc": "Consigue 60 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 423,
+          "current": 424,
           "target": 60,
           "unit": null
         },
@@ -17962,7 +18046,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 200,
           "unit": null
         },
@@ -17973,7 +18057,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 1984,
+          "current": 1986,
           "target": 150,
           "unit": null
         },
@@ -17984,7 +18068,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 1123,
+          "current": 1138,
           "target": 120,
           "unit": "min"
         },
@@ -18028,7 +18112,7 @@
           "name": "Artillero Pesado",
           "desc": "Consigue 50 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 574,
+          "current": 631,
           "target": 250,
           "unit": null
         },
@@ -18072,7 +18156,7 @@
           "name": "Dominador",
           "desc": "Gana 3 o más mapas",
           "unlocked": true,
-          "current": 76,
+          "current": 77,
           "target": 3,
           "unit": null
         },
@@ -18105,7 +18189,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 155,
+          "current": 157,
           "target": 12,
           "unit": null
         },
@@ -18171,7 +18255,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 900,
           "unit": null
         },
@@ -18215,7 +18299,7 @@
           "name": "Cazador de Cabezas",
           "desc": "Registra 150 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 423,
+          "current": 424,
           "target": 150,
           "unit": null
         },
@@ -18226,7 +18310,7 @@
           "name": "Verdugo Craneal",
           "desc": "Registra 400 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 423,
+          "current": 424,
           "target": 400,
           "unit": null
         },
@@ -18237,7 +18321,7 @@
           "name": "Ejecutor Craneal",
           "desc": "Registra 800 o más headshots contra jugadores humanos",
           "unlocked": false,
-          "current": 423,
+          "current": 424,
           "target": 800,
           "unit": null
         },
@@ -18248,7 +18332,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 40,
           "unit": null
         },
@@ -18259,7 +18343,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 450,
           "unit": null
         },
@@ -18270,7 +18354,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 2851,
+          "current": 2876,
           "target": 2200,
           "unit": null
         },
@@ -18281,7 +18365,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 2079,
+          "current": 2094,
           "target": 200,
           "unit": null
         },
@@ -18325,7 +18409,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 723,
+          "current": 737,
           "target": 5,
           "unit": null
         },
@@ -18336,7 +18420,7 @@
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
           "unlocked": true,
-          "current": 723,
+          "current": 737,
           "target": 15,
           "unit": null
         },
@@ -18347,7 +18431,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": true,
-          "current": 723,
+          "current": 737,
           "target": 40,
           "unit": null
         },
@@ -18369,7 +18453,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 1123,
+          "current": 1138,
           "target": 300,
           "unit": "min"
         },
@@ -18380,7 +18464,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 1123,
+          "current": 1138,
           "target": 900,
           "unit": "min"
         },
@@ -18413,7 +18497,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 155,
+          "current": 157,
           "target": 25,
           "unit": null
         },
@@ -18545,7 +18629,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 675,
+          "current": 683,
           "target": 10,
           "unit": null
         },
@@ -18556,7 +18640,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 675,
+          "current": 683,
           "target": 20,
           "unit": null
         },
@@ -18567,7 +18651,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 675,
+          "current": 683,
           "target": 40,
           "unit": null
         },
@@ -18743,7 +18827,7 @@
           "name": "Doblete",
           "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
           "unlocked": true,
-          "current": 317,
+          "current": 325,
           "target": 1,
           "unit": null
         },
@@ -18787,7 +18871,7 @@
           "name": "Tirador de Cabeza",
           "desc": "Logra 20 o más Headshots anunciados",
           "unlocked": true,
-          "current": 131,
+          "current": 138,
           "target": 20,
           "unit": null
         },
@@ -18809,7 +18893,7 @@
           "name": "En Racha",
           "desc": "Consigue 10 o más Killing-Spree (5 bajas sin morir)",
           "unlocked": true,
-          "current": 86,
+          "current": 90,
           "target": 10,
           "unit": null
         },
@@ -19095,7 +19179,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 412,
+          "current": 419,
           "target": 5,
           "unit": null
         },
@@ -19106,7 +19190,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 412,
+          "current": 419,
           "target": 25,
           "unit": null
         },
@@ -19172,7 +19256,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 18.39,
+          "current": 18.32,
           "target": 4,
           "unit": null
         },
@@ -19183,7 +19267,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": true,
-          "current": 18.39,
+          "current": 18.32,
           "target": 8,
           "unit": null
         },
@@ -19227,7 +19311,7 @@
           "name": "SMG Experto",
           "desc": "Consigue 250 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 977,
+          "current": 984,
           "target": 250,
           "unit": null
         },
@@ -19238,7 +19322,7 @@
           "name": "SMG Elite",
           "desc": "Consigue 700 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 977,
+          "current": 984,
           "target": 700,
           "unit": null
         },
@@ -19271,7 +19355,7 @@
           "name": "MG Experto",
           "desc": "Consigue 180 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 574,
+          "current": 631,
           "target": 180,
           "unit": null
         },
@@ -19282,7 +19366,7 @@
           "name": "MG Elite",
           "desc": "Consigue 500 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 574,
+          "current": 631,
           "target": 500,
           "unit": null
         },
@@ -19293,7 +19377,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 1984,
+          "current": 1986,
           "target": 180,
           "unit": null
         },
@@ -19304,7 +19388,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 1984,
+          "current": 1986,
           "target": 500,
           "unit": null
         },
@@ -19392,7 +19476,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 1984,
+          "current": 1986,
           "target": 1600,
           "unit": null
         },
@@ -19403,7 +19487,7 @@
           "name": "SMG Supremo",
           "desc": "Consigue 2000 o más eliminaciones con SMG",
           "unlocked": false,
-          "current": 977,
+          "current": 984,
           "target": 2000,
           "unit": null
         },
@@ -19414,7 +19498,7 @@
           "name": "MG Supremo",
           "desc": "Consigue 1600 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 574,
+          "current": 631,
           "target": 1600,
           "unit": null
         },
@@ -19425,7 +19509,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 1379,
+          "current": 1420,
           "target": 200,
           "unit": null
         },
@@ -19436,7 +19520,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": true,
-          "current": 1379,
+          "current": 1420,
           "target": 800,
           "unit": null
         },
@@ -19447,7 +19531,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 1379,
+          "current": 1420,
           "target": 2000,
           "unit": null
         },
@@ -19458,7 +19542,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 1379,
+          "current": 1420,
           "target": 4000,
           "unit": null
         },
@@ -19469,7 +19553,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 1379,
+          "current": 1420,
           "target": 12000,
           "unit": null
         },
@@ -19480,7 +19564,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 816,
+          "current": 838,
           "target": 80,
           "unit": null
         },
@@ -19491,7 +19575,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": true,
-          "current": 816,
+          "current": 838,
           "target": 400,
           "unit": null
         },
@@ -19513,7 +19597,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 193,
+          "current": 199,
           "target": 30,
           "unit": null
         },
@@ -19524,7 +19608,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 2851,
+          "current": 2876,
           "target": 7500,
           "unit": null
         },
@@ -19535,7 +19619,7 @@
           "name": "Precisión Absoluta",
           "desc": "Registra 1500 o más headshots contra jugadores humanos",
           "unlocked": false,
-          "current": 423,
+          "current": 424,
           "target": 1500,
           "unit": null
         },
@@ -19568,7 +19652,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 1123,
+          "current": 1138,
           "target": 2400,
           "unit": "min"
         },
@@ -19612,7 +19696,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 675,
+          "current": 683,
           "target": 60,
           "unit": null
         },
@@ -19623,7 +19707,7 @@
           "name": "Colosal",
           "desc": "Acumula 50 o más victorias de mapa",
           "unlocked": true,
-          "current": 76,
+          "current": 77,
           "target": 50,
           "unit": null
         },
@@ -19833,7 +19917,7 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 34
+          "kills": 59
         }
       ],
       "rankChange": 14
@@ -25606,9 +25690,9 @@
     {
       "name": "Bard0k",
       "kills": 2743,
-      "deaths": 2667,
+      "deaths": 2668,
       "totalKills": 5584,
-      "totalDeaths": 4502,
+      "totalDeaths": 4503,
       "suicides": 36,
       "kd": 1.03,
       "headshots": 40,
@@ -25644,7 +25728,7 @@
       "bestStreak": 17,
       "nemesis": {
         "name": "CaPaRz0",
-        "deaths": 375
+        "deaths": 376
       },
       "favoriteVictim": {
         "name": "SANDY",
@@ -25701,8 +25785,8 @@
         "2026-10-02": 4
       },
       "sessions": 69,
-      "disconnects": 60,
-      "playtimeMs": 128977000,
+      "disconnects": 61,
+      "playtimeMs": 129005000,
       "playtimeFormatted": "35h 50m",
       "favoriteHour": "22:00",
       "hourActivity": [
@@ -25729,7 +25813,7 @@
         0,
         6,
         5328,
-        4491
+        4493
       ],
       "mapBreakdown": [
         {
@@ -25915,8 +25999,8 @@
         {
           "map": "dm/AR_Berlin_V1",
           "kills": 65,
-          "deaths": 36,
-          "kd": 1.81
+          "deaths": 37,
+          "kd": 1.76
         },
         {
           "map": "dm/mohdm3",
@@ -27113,7 +27197,7 @@
       "botKills": 2841,
       "humanKillsOnly": 2743,
       "botDeaths": 1799,
-      "humanDeathsOnly": 2667,
+      "humanDeathsOnly": 2668,
       "maxBotRivalry": 392,
       "currentTeam": "Axis",
       "playedAxis": true,
@@ -27130,7 +27214,7 @@
       "killedByList": [
         {
           "name": "CaPaRz0",
-          "deaths": 375
+          "deaths": 376
         },
         {
           "name": "SANDY",
@@ -30513,7 +30597,7 @@
         }
       ],
       "firstSeen": "2026-07-17 22:51:56",
-      "lastSeen": "2026-10-12 23:14:50",
+      "lastSeen": "2026-10-12 23:15:28",
       "rank": 5,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -30898,7 +30982,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 2667,
+          "current": 2668,
           "target": 200,
           "unit": null
         },
@@ -40579,21 +40663,21 @@
     },
     {
       "name": "SANDY",
-      "kills": 4756,
-      "deaths": 7759,
-      "totalKills": 10731,
-      "totalDeaths": 13592,
-      "suicides": 508,
+      "kills": 4763,
+      "deaths": 7783,
+      "totalKills": 10762,
+      "totalDeaths": 13633,
+      "suicides": 512,
       "kd": 0.61,
-      "headshots": 1309,
-      "totalHeadshots": 2978,
+      "headshots": 1313,
+      "totalHeadshots": 2993,
       "announcer": {
         "headshot": 167,
         "finRacha": 140,
-        "doubleKill": 408,
-        "killingSpree": 102,
+        "doubleKill": 410,
+        "killingSpree": 103,
         "humillacion": 40,
-        "multiKill": 38,
+        "multiKill": 39,
         "firstBlood": 28,
         "rampage": 4,
         "dominating": 1,
@@ -40603,8 +40687,8 @@
       "hsPercent": 98.8,
       "weapons": {
         "Sniper": 2241,
-        "Bazooka": 6939,
-        "SMG": 716,
+        "Bazooka": 6968,
+        "SMG": 718,
         "Bash": 49,
         "Pistol": 14,
         "Rifle": 321,
@@ -40613,21 +40697,21 @@
       },
       "favoriteWeapon": "Bazooka",
       "favoriteBodypart": "face",
-      "mapsPlayed": 722,
-      "matchesPlayed": 722,
+      "mapsPlayed": 724,
+      "matchesPlayed": 724,
       "wins": 33,
       "winRate": 4.6,
-      "fragsPerMap": 6.59,
+      "fragsPerMap": 6.58,
       "bestStreak": 17,
       "nemesis": {
         "name": "CaPaRz0",
-        "deaths": 771
+        "deaths": 775
       },
       "favoriteVictim": {
         "name": "CaPaRz0",
-        "kills": 435
+        "kills": 436
       },
-      "multikillEvents": 862,
+      "multikillEvents": 864,
       "bestMultikillChain": 9,
       "winsByDate": {
         "2026-07-18": 1,
@@ -40658,8 +40742,8 @@
       },
       "sessions": 107,
       "disconnects": 86,
-      "playtimeMs": 351848000,
-      "playtimeFormatted": "97h 44m",
+      "playtimeMs": 352748000,
+      "playtimeFormatted": "97h 59m",
       "favoriteHour": "23:00",
       "hourActivity": [
         4925,
@@ -40685,7 +40769,7 @@
         0,
         298,
         5536,
-        13159
+        13231
       ],
       "mapBreakdown": [
         {
@@ -40773,6 +40857,12 @@
           "kd": 0.92
         },
         {
+          "map": "dm/renan",
+          "kills": 154,
+          "deaths": 144,
+          "kd": 1.07
+        },
+        {
           "map": "dm/mohdm1",
           "kills": 150,
           "deaths": 177,
@@ -40795,12 +40885,6 @@
           "kills": 137,
           "deaths": 165,
           "kd": 0.83
-        },
-        {
-          "map": "dm/renan",
-          "kills": 137,
-          "deaths": 130,
-          "kd": 1.05
         },
         {
           "map": "dm/StorageFacility111",
@@ -40869,6 +40953,12 @@
           "kd": 0.81
         },
         {
+          "map": "dm/dm_rockbound",
+          "kills": 111,
+          "deaths": 156,
+          "kd": 0.71
+        },
+        {
           "map": "dm/belgas74",
           "kills": 111,
           "deaths": 187,
@@ -40921,12 +41011,6 @@
           "kills": 97,
           "deaths": 133,
           "kd": 0.73
-        },
-        {
-          "map": "dm/dm_rockbound",
-          "kills": 97,
-          "deaths": 129,
-          "kd": 0.75
         },
         {
           "map": "dm/MP_Bazaar_DM",
@@ -42027,8 +42111,8 @@
         {
           "map": "dm/dm_rockbound",
           "weaponsCount": 3,
-          "victimsCount": 28,
-          "humanVictimsCount": 19
+          "victimsCount": 29,
+          "humanVictimsCount": 20
         },
         {
           "map": "dm/amw_caskami_02",
@@ -42590,15 +42674,15 @@
       "maxWinsInDay": 8,
       "bestMapWinStreak": 5,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 1652,
+      "maxRivalryEncounters": 1658,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 180,
-      "botKills": 5975,
-      "humanKillsOnly": 4756,
-      "botDeaths": 5325,
-      "humanDeathsOnly": 7759,
-      "maxBotRivalry": 912,
+      "botKills": 5999,
+      "humanKillsOnly": 4763,
+      "botDeaths": 5338,
+      "humanDeathsOnly": 7783,
+      "maxBotRivalry": 916,
       "currentTeam": "Allies",
       "playedAxis": false,
       "playedAllies": true,
@@ -42608,17 +42692,17 @@
       "teamKickCount": 7,
       "worstDeathStreak": 9,
       "firstBloodOfMapCount": 49,
-      "revengeKills": 1142,
+      "revengeKills": 1144,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "CaPaRz0",
-          "deaths": 771
+          "deaths": 775
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 740
+          "deaths": 742
         },
         {
           "name": "=MB= .TenZ",
@@ -42630,15 +42714,15 @@
         },
         {
           "name": "=MB= .Scump",
-          "deaths": 727
+          "deaths": 728
         },
         {
           "name": "=MB= .S1mple",
-          "deaths": 711
+          "deaths": 713
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 657
+          "deaths": 660
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -42646,15 +42730,19 @@
         },
         {
           "name": "=MB= .Lyudmila",
-          "deaths": 559
+          "deaths": 560
         },
         {
           "name": "=MB= .Fatal1ty",
-          "deaths": 542
+          "deaths": 545
         },
         {
           "name": "Francotirador",
-          "deaths": 511
+          "deaths": 523
+        },
+        {
+          "name": "ST3",
+          "deaths": 465
         },
         {
           "name": "Bard0k",
@@ -42665,12 +42753,8 @@
           "deaths": 461
         },
         {
-          "name": "ST3",
-          "deaths": 459
-        },
-        {
           "name": "=MB= .Hartmann",
-          "deaths": 326
+          "deaths": 327
         },
         {
           "name": "Gral. MacArthur",
@@ -42742,7 +42826,7 @@
         },
         {
           "name": "Mr.Sipi",
-          "deaths": 78
+          "deaths": 79
         },
         {
           "name": "Kurco",
@@ -42857,15 +42941,15 @@
           "deaths": 13
         },
         {
+          "name": "UnnamedSoldier",
+          "deaths": 11
+        },
+        {
           "name": "^:::The-Fuhrer:::^",
           "deaths": 10
         },
         {
           "name": "capiiiiii",
-          "deaths": 10
-        },
-        {
-          "name": "UnnamedSoldier",
           "deaths": 10
         },
         {
@@ -43028,15 +43112,15 @@
       "victimsList": [
         {
           "name": "=MB= .Ogre2",
-          "kills": 912
+          "kills": 916
         },
         {
           "name": "=MB= .S1mple",
-          "kills": 869
+          "kills": 875
         },
         {
           "name": "=MB= .Scump",
-          "kills": 816
+          "kills": 822
         },
         {
           "name": "=MB= .TenZ",
@@ -43044,11 +43128,11 @@
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 690
+          "kills": 693
         },
         {
           "name": "=MB= .Fatal1ty",
-          "kills": 680
+          "kills": 682
         },
         {
           "name": "=MB= .Lyudmila",
@@ -43056,7 +43140,7 @@
         },
         {
           "name": "CaPaRz0",
-          "kills": 435
+          "kills": 436
         },
         {
           "name": "Hooligan",
@@ -43064,7 +43148,7 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "kills": 353
+          "kills": 356
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -43088,7 +43172,7 @@
         },
         {
           "name": "ST3",
-          "kills": 216
+          "kills": 218
         },
         {
           "name": "Soldado Ryan",
@@ -43100,7 +43184,7 @@
         },
         {
           "name": "Francotirador",
-          "kills": 182
+          "kills": 183
         },
         {
           "name": "=MB= El_Chacal",
@@ -43131,12 +43215,12 @@
           "kills": 86
         },
         {
-          "name": "KURCO",
+          "name": "Mr.Sipi",
           "kills": 83
         },
         {
-          "name": "Mr.Sipi",
-          "kills": 82
+          "name": "KURCO",
+          "kills": 83
         },
         {
           "name": "=MB= .Kazuya",
@@ -43215,6 +43299,10 @@
           "kills": 16
         },
         {
+          "name": "UnnamedSoldier",
+          "kills": 15
+        },
+        {
           "name": "^:::The-Fuhrer:::^",
           "kills": 14
         },
@@ -43228,10 +43316,6 @@
         },
         {
           "name": "exumador",
-          "kills": 13
-        },
-        {
-          "name": "UnnamedSoldier",
           "kills": 13
         },
         {
@@ -43886,20 +43970,20 @@
           "Mote con Queso": 1
         },
         "dm/renan": {
-          "Francotirador": 1,
-          "=MB= .Scump": 17,
-          "=MB= .S1mple": 26,
+          "Francotirador": 2,
+          "=MB= .Scump": 23,
+          "=MB= .S1mple": 28,
           "=MB= .TenZ": 10,
-          "=MB= .Ogre2": 18,
+          "=MB= .Ogre2": 21,
           "Maverick": 1,
-          "=MB= .Fatal1ty": 15,
+          "=MB= .Fatal1ty": 17,
           "=MB= .Hartmann": 3,
           "=MB= .Lyudmila": 9,
           "Soldado Ryan": 9,
-          "=MB= .Vasily": 14,
+          "=MB= .Vasily": 15,
           "MOH-Rugrats.ar": 3,
           "GASPAR": 3,
-          "ST3": 1,
+          "ST3": 3,
           "exumador": 1,
           "Kurco": 1,
           "rODRY20277": 1,
@@ -44477,9 +44561,9 @@
           "fibe": 1
         },
         "dm/dm_rockbound": {
-          "CaPaRz0": 4,
+          "CaPaRz0": 5,
           "JHAS": 1,
-          "Mr.Sipi": 1,
+          "Mr.Sipi": 2,
           "antonex": 2,
           "=MB= El_Chacal": 5,
           "Francotirador": 4,
@@ -44489,22 +44573,23 @@
           "Osi": 3,
           "Homer": 1,
           "Gral. MacArthur": 3,
-          "=MB= .Hartmann": 3,
+          "=MB= .Hartmann": 6,
           "=MB= .Fatal1ty": 7,
-          "=MB= .Ogre2": 10,
+          "=MB= .Ogre2": 11,
           "=MB= .Scump": 1,
           "=MB= .Lyudmila": 5,
           "=MB= .TenZ": 10,
           "=MB= .ZywOo": 3,
-          "=MB= .Vasily": 10,
-          "=MB= .S1mple": 4,
+          "=MB= .Vasily": 12,
+          "=MB= .S1mple": 8,
           "GASPAR": 1,
           "MOH-Rugrats.ar": 5,
           "Maverick": 5,
           "OMIXLITO": 1,
           "rODRY20277": 2,
           "Nico": 1,
-          "micky": 1
+          "micky": 1,
+          "UnnamedSoldier": 2
         },
         "dm/amw_caskami_02": {
           "^:::The-Fuhrer:::^": 2,
@@ -47759,18 +47844,20 @@
           "=MB= .Ogre2": 2
         },
         "2026-10-12": {
-          "=MB= .Ogre2": 3,
-          "CaPaRz0": 6,
-          "=MB= .S1mple": 5,
+          "=MB= .Ogre2": 7,
+          "CaPaRz0": 7,
+          "=MB= .S1mple": 11,
           "=MB= .Lyudmila": 3,
-          "Francotirador": 5,
+          "Francotirador": 6,
           "Bard0k": 2,
-          "=MB= .Scump": 1,
-          "=MB= .Vasily": 5,
-          "=MB= .Fatal1ty": 1,
+          "=MB= .Scump": 7,
+          "=MB= .Vasily": 8,
+          "=MB= .Fatal1ty": 3,
           "=MB= .TenZ": 2,
-          "Mr.Sipi": 1,
-          "ST3": 2
+          "Mr.Sipi": 2,
+          "ST3": 4,
+          "=MB= .Hartmann": 3,
+          "UnnamedSoldier": 2
         }
       },
       "victimsByDateMap": {
@@ -48299,13 +48386,31 @@
             "=MB= .S1mple": 2,
             "ST3": 2,
             "Francotirador": 3
+          },
+          "dm/dm_rockbound": {
+            "=MB= .Vasily": 2,
+            "=MB= .Hartmann": 3,
+            "=MB= .S1mple": 4,
+            "=MB= .Ogre2": 1,
+            "UnnamedSoldier": 2,
+            "CaPaRz0": 1,
+            "Mr.Sipi": 1
+          },
+          "dm/renan": {
+            "=MB= .Scump": 6,
+            "ST3": 2,
+            "=MB= .Fatal1ty": 2,
+            "=MB= .S1mple": 2,
+            "=MB= .Ogre2": 3,
+            "Francotirador": 1,
+            "=MB= .Vasily": 1
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "Bazooka",
-          "kills": 6939
+          "kills": 6968
         },
         {
           "weapon": "Sniper",
@@ -48313,7 +48418,7 @@
         },
         {
           "weapon": "SMG",
-          "kills": 716
+          "kills": 718
         },
         {
           "weapon": "Rifle",
@@ -48339,11 +48444,11 @@
       "bodypartsList": [
         {
           "bodypart": "face",
-          "kills": 1459
+          "kills": 1470
         },
         {
           "bodypart": "kisser",
-          "kills": 1451
+          "kills": 1455
         },
         {
           "bodypart": "head",
@@ -48403,7 +48508,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:18:15",
-      "lastSeen": "2026-10-12 23:14:58",
+      "lastSeen": "2026-10-12 23:29:47",
       "rank": 7,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -48414,7 +48519,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 1,
           "unit": null
         },
@@ -48436,7 +48541,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 862,
+          "current": 864,
           "target": 1,
           "unit": null
         },
@@ -48458,7 +48563,7 @@
           "name": "Experto en Headshots",
           "desc": "Consigue 60 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1309,
+          "current": 1313,
           "target": 60,
           "unit": null
         },
@@ -48469,7 +48574,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 200,
           "unit": null
         },
@@ -48491,7 +48596,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 5864,
+          "current": 5879,
           "target": 120,
           "unit": "min"
         },
@@ -48502,7 +48607,7 @@
           "name": "Kamikaze",
           "desc": "Suicídate 5 o más veces",
           "unlocked": true,
-          "current": 508,
+          "current": 512,
           "target": 20,
           "unit": null
         },
@@ -48612,7 +48717,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 722,
+          "current": 724,
           "target": 12,
           "unit": null
         },
@@ -48678,7 +48783,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 900,
           "unit": null
         },
@@ -48722,7 +48827,7 @@
           "name": "Cazador de Cabezas",
           "desc": "Registra 150 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1309,
+          "current": 1313,
           "target": 150,
           "unit": null
         },
@@ -48733,7 +48838,7 @@
           "name": "Verdugo Craneal",
           "desc": "Registra 400 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1309,
+          "current": 1313,
           "target": 400,
           "unit": null
         },
@@ -48744,7 +48849,7 @@
           "name": "Ejecutor Craneal",
           "desc": "Registra 800 o más headshots contra jugadores humanos",
           "unlocked": true,
-          "current": 1309,
+          "current": 1313,
           "target": 800,
           "unit": null
         },
@@ -48755,7 +48860,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 40,
           "unit": null
         },
@@ -48766,7 +48871,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 450,
           "unit": null
         },
@@ -48777,7 +48882,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 4756,
+          "current": 4763,
           "target": 2200,
           "unit": null
         },
@@ -48788,7 +48893,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 7759,
+          "current": 7783,
           "target": 200,
           "unit": null
         },
@@ -48832,7 +48937,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 862,
+          "current": 864,
           "target": 5,
           "unit": null
         },
@@ -48843,7 +48948,7 @@
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
           "unlocked": true,
-          "current": 862,
+          "current": 864,
           "target": 15,
           "unit": null
         },
@@ -48854,7 +48959,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": true,
-          "current": 862,
+          "current": 864,
           "target": 40,
           "unit": null
         },
@@ -48876,7 +48981,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 5864,
+          "current": 5879,
           "target": 300,
           "unit": "min"
         },
@@ -48887,7 +48992,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 5864,
+          "current": 5879,
           "target": 900,
           "unit": "min"
         },
@@ -48920,7 +49025,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 722,
+          "current": 724,
           "target": 25,
           "unit": null
         },
@@ -49052,7 +49157,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1652,
+          "current": 1658,
           "target": 10,
           "unit": null
         },
@@ -49063,7 +49168,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1652,
+          "current": 1658,
           "target": 20,
           "unit": null
         },
@@ -49074,7 +49179,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1652,
+          "current": 1658,
           "target": 40,
           "unit": null
         },
@@ -49250,7 +49355,7 @@
           "name": "Doblete",
           "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
           "unlocked": true,
-          "current": 408,
+          "current": 410,
           "target": 1,
           "unit": null
         },
@@ -49272,7 +49377,7 @@
           "name": "Multi-Kill",
           "desc": "Logra 5 o más Multi-Kill (3 bajas seguidas rápido)",
           "unlocked": true,
-          "current": 38,
+          "current": 39,
           "target": 5,
           "unit": null
         },
@@ -49316,7 +49421,7 @@
           "name": "En Racha",
           "desc": "Consigue 10 o más Killing-Spree (5 bajas sin morir)",
           "unlocked": true,
-          "current": 102,
+          "current": 103,
           "target": 10,
           "unit": null
         },
@@ -49602,7 +49707,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 1142,
+          "current": 1144,
           "target": 5,
           "unit": null
         },
@@ -49613,7 +49718,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 1142,
+          "current": 1144,
           "target": 25,
           "unit": null
         },
@@ -49668,7 +49773,7 @@
           "name": "Autodestrucción Crónica",
           "desc": "Suicídate 15 o más veces",
           "unlocked": true,
-          "current": 508,
+          "current": 512,
           "target": 45,
           "unit": null
         },
@@ -49679,7 +49784,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 6.59,
+          "current": 6.58,
           "target": 4,
           "unit": null
         },
@@ -49690,7 +49795,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": false,
-          "current": 6.59,
+          "current": 6.58,
           "target": 8,
           "unit": null
         },
@@ -49734,7 +49839,7 @@
           "name": "SMG Experto",
           "desc": "Consigue 250 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 716,
+          "current": 718,
           "target": 250,
           "unit": null
         },
@@ -49745,7 +49850,7 @@
           "name": "SMG Elite",
           "desc": "Consigue 700 o más eliminaciones con SMG",
           "unlocked": true,
-          "current": 716,
+          "current": 718,
           "target": 700,
           "unit": null
         },
@@ -49822,7 +49927,7 @@
           "name": "Bazooka Experto",
           "desc": "Consigue 70 o más eliminaciones con Bazooka",
           "unlocked": true,
-          "current": 6939,
+          "current": 6968,
           "target": 70,
           "unit": null
         },
@@ -49833,7 +49938,7 @@
           "name": "Bazooka Elite",
           "desc": "Consigue 200 o más eliminaciones con Bazooka",
           "unlocked": true,
-          "current": 6939,
+          "current": 6968,
           "target": 200,
           "unit": null
         },
@@ -49910,7 +50015,7 @@
           "name": "SMG Supremo",
           "desc": "Consigue 2000 o más eliminaciones con SMG",
           "unlocked": false,
-          "current": 716,
+          "current": 718,
           "target": 2000,
           "unit": null
         },
@@ -49932,7 +50037,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 5975,
+          "current": 5999,
           "target": 200,
           "unit": null
         },
@@ -49943,7 +50048,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": true,
-          "current": 5975,
+          "current": 5999,
           "target": 800,
           "unit": null
         },
@@ -49954,7 +50059,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": true,
-          "current": 5975,
+          "current": 5999,
           "target": 2000,
           "unit": null
         },
@@ -49965,7 +50070,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": true,
-          "current": 5975,
+          "current": 5999,
           "target": 4000,
           "unit": null
         },
@@ -49976,7 +50081,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 5975,
+          "current": 5999,
           "target": 12000,
           "unit": null
         },
@@ -49987,7 +50092,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 5325,
+          "current": 5338,
           "target": 80,
           "unit": null
         },
@@ -49998,7 +50103,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": true,
-          "current": 5325,
+          "current": 5338,
           "target": 400,
           "unit": null
         },
@@ -50020,7 +50125,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 912,
+          "current": 916,
           "target": 30,
           "unit": null
         },
@@ -50031,7 +50136,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 4756,
+          "current": 4763,
           "target": 7500,
           "unit": null
         },
@@ -50042,7 +50147,7 @@
           "name": "Precisión Absoluta",
           "desc": "Registra 1500 o más headshots contra jugadores humanos",
           "unlocked": false,
-          "current": 1309,
+          "current": 1313,
           "target": 1500,
           "unit": null
         },
@@ -50075,7 +50180,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": true,
-          "current": 5864,
+          "current": 5879,
           "target": 2400,
           "unit": "min"
         },
@@ -50119,7 +50224,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 1652,
+          "current": 1658,
           "target": 60,
           "unit": null
         },
@@ -50340,7 +50445,7 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 16
+          "kills": 23
         }
       ],
       "rankChange": 5
@@ -111946,17 +112051,17 @@
     },
     {
       "name": "Mr.Sipi",
-      "kills": 567,
-      "deaths": 800,
-      "totalKills": 845,
-      "totalDeaths": 1037,
+      "kills": 570,
+      "deaths": 810,
+      "totalKills": 851,
+      "totalDeaths": 1050,
       "suicides": 30,
-      "kd": 0.71,
+      "kd": 0.7,
       "headshots": 64,
       "totalHeadshots": 97,
       "announcer": {
-        "headshot": 33,
-        "firstBlood": 5,
+        "headshot": 34,
+        "firstBlood": 6,
         "doubleKill": 50,
         "finRacha": 11,
         "killingSpree": 9,
@@ -111969,29 +112074,29 @@
       "hsPercent": 69.6,
       "weapons": {
         "Bazooka": 153,
-        "Sniper": 297,
-        "Shotgun": 207,
+        "Sniper": 299,
+        "Shotgun": 210,
         "SMG": 74,
         "Bash": 10,
         "MG": 86,
-        "Pistol": 5,
+        "Pistol": 6,
         "Rifle": 13
       },
       "favoriteWeapon": "Sniper",
       "favoriteBodypart": "face",
-      "mapsPlayed": 81,
-      "matchesPlayed": 81,
+      "mapsPlayed": 82,
+      "matchesPlayed": 82,
       "wins": 4,
       "winRate": 4.9,
-      "fragsPerMap": 7,
+      "fragsPerMap": 6.95,
       "bestStreak": 11,
       "nemesis": {
         "name": "SANDY",
-        "deaths": 82
+        "deaths": 83
       },
       "favoriteVictim": {
         "name": "SANDY",
-        "kills": 78
+        "kills": 79
       },
       "multikillEvents": 106,
       "bestMultikillChain": 5,
@@ -112006,8 +112111,8 @@
       },
       "sessions": 94,
       "disconnects": 78,
-      "playtimeMs": 56925000,
-      "playtimeFormatted": "15h 49m",
+      "playtimeMs": 57825000,
+      "playtimeFormatted": "16h 4m",
       "favoriteHour": "23:00",
       "hourActivity": [
         269,
@@ -112033,7 +112138,7 @@
         89,
         16,
         526,
-        901
+        920
       ],
       "mapBreakdown": [
         {
@@ -112139,6 +112244,12 @@
           "kd": 0.65
         },
         {
+          "map": "dm/dm_rockbound",
+          "kills": 16,
+          "deaths": 29,
+          "kd": 0.55
+        },
+        {
           "map": "dm/aquaduct-dark",
           "kills": 14,
           "deaths": 17,
@@ -112227,12 +112338,6 @@
           "kills": 10,
           "deaths": 22,
           "kd": 0.45
-        },
-        {
-          "map": "dm/dm_rockbound",
-          "kills": 10,
-          "deaths": 16,
-          "kd": 0.63
         },
         {
           "map": "dm/verlassene",
@@ -112672,9 +112777,9 @@
         },
         {
           "map": "dm/dm_rockbound",
-          "weaponsCount": 2,
-          "victimsCount": 7,
-          "humanVictimsCount": 7
+          "weaponsCount": 4,
+          "victimsCount": 9,
+          "humanVictimsCount": 8
         },
         {
           "map": "dm/amw_caskami_02",
@@ -112990,14 +113095,14 @@
       "maxWinsInDay": 2,
       "bestMapWinStreak": 1,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 160,
+      "maxRivalryEncounters": 162,
       "playedWeekend": true,
       "playedBothWeekendDays": true,
       "chatMessages": 8,
-      "botKills": 278,
-      "humanKillsOnly": 567,
-      "botDeaths": 207,
-      "humanDeathsOnly": 800,
+      "botKills": 281,
+      "humanKillsOnly": 570,
+      "botDeaths": 210,
+      "humanDeathsOnly": 810,
       "maxBotRivalry": 38,
       "currentTeam": "Axis",
       "playedAxis": true,
@@ -113007,18 +113112,18 @@
       "teamKills": 1,
       "teamKickCount": 0,
       "worstDeathStreak": 5,
-      "firstBloodOfMapCount": 7,
+      "firstBloodOfMapCount": 8,
       "revengeKills": 78,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "SANDY",
-          "deaths": 82
+          "deaths": 83
         },
         {
           "name": "CaPaRz0",
-          "deaths": 76
+          "deaths": 77
         },
         {
           "name": "Hooligan",
@@ -113029,20 +113134,20 @@
           "deaths": 46
         },
         {
+          "name": "ST3",
+          "deaths": 43
+        },
+        {
           "name": "Bard0k",
           "deaths": 43
         },
         {
-          "name": "ST3",
+          "name": "Francotirador",
           "deaths": 39
         },
         {
           "name": "Gral. MacArthur",
           "deaths": 38
-        },
-        {
-          "name": "Francotirador",
-          "deaths": 36
         },
         {
           "name": "<MLS>Msg.Lucho",
@@ -113090,19 +113195,19 @@
         },
         {
           "name": "=MB= .S1mple",
-          "deaths": 19
+          "deaths": 20
         },
         {
           "name": "Soldado Ryan",
           "deaths": 18
         },
         {
-          "name": "Lunatic1357",
+          "name": "=MB= .Ogre2",
           "deaths": 17
         },
         {
-          "name": "=MB= .Ogre2",
-          "deaths": 16
+          "name": "Lunatic1357",
+          "deaths": 17
         },
         {
           "name": "Nico",
@@ -113122,7 +113227,7 @@
         },
         {
           "name": "=MB= .Hartmann",
-          "deaths": 12
+          "deaths": 13
         },
         {
           "name": "=MB= .Kazuya",
@@ -113225,6 +113330,10 @@
           "deaths": 2
         },
         {
+          "name": "UnnamedSoldier",
+          "deaths": 2
+        },
+        {
           "name": "BASokazO",
           "deaths": 2
         },
@@ -113238,10 +113347,6 @@
         },
         {
           "name": "Frenchiuss",
-          "deaths": 1
-        },
-        {
-          "name": "UnnamedSoldier",
           "deaths": 1
         },
         {
@@ -113264,11 +113369,11 @@
       "victimsList": [
         {
           "name": "SANDY",
-          "kills": 78
+          "kills": 79
         },
         {
           "name": "CaPaRz0",
-          "kills": 55
+          "kills": 57
         },
         {
           "name": "=MB= .TenZ",
@@ -113303,15 +113408,15 @@
           "kills": 28
         },
         {
+          "name": "=MB= .S1mple",
+          "kills": 28
+        },
+        {
           "name": "=MB= .Hartmann",
           "kills": 27
         },
         {
           "name": "=MB= .Ogre2",
-          "kills": 25
-        },
-        {
-          "name": "=MB= .S1mple",
           "kills": 25
         },
         {
@@ -113591,9 +113696,11 @@
           "Roly": 1,
           "Maverick": 2,
           "Gral. MacArthur": 1,
-          "SANDY": 1,
+          "SANDY": 2,
           "JHAS": 1,
-          "Bard0k": 1
+          "Bard0k": 1,
+          "=MB= .S1mple": 3,
+          "CaPaRz0": 2
         },
         "dm/amw_caskami_02": {
           "Maverick": 1,
@@ -114403,8 +114510,9 @@
         },
         "2026-10-12": {
           "=MB= .TenZ": 1,
-          "SANDY": 1,
-          "=MB= .S1mple": 1
+          "SANDY": 2,
+          "=MB= .S1mple": 4,
+          "CaPaRz0": 2
         }
       },
       "victimsByDateMap": {
@@ -114452,17 +114560,22 @@
             "=MB= .TenZ": 1,
             "SANDY": 1,
             "=MB= .S1mple": 1
+          },
+          "dm/dm_rockbound": {
+            "=MB= .S1mple": 3,
+            "SANDY": 1,
+            "CaPaRz0": 2
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 297
+          "kills": 299
         },
         {
           "weapon": "Shotgun",
-          "kills": 207
+          "kills": 210
         },
         {
           "weapon": "Bazooka",
@@ -114486,7 +114599,7 @@
         },
         {
           "weapon": "Pistol",
-          "kills": 5
+          "kills": 6
         }
       ],
       "bodypartsList": [
@@ -114552,7 +114665,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-10-12 23:11:56",
+      "lastSeen": "2026-10-12 23:22:11",
       "rank": 21,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -114563,7 +114676,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 567,
+          "current": 570,
           "target": 1,
           "unit": null
         },
@@ -114574,7 +114687,7 @@
           "name": "Puntería de Hierro",
           "desc": "Consigue una eliminación con Pistol",
           "unlocked": true,
-          "current": 5,
+          "current": 6,
           "target": 1,
           "unit": null
         },
@@ -114618,7 +114731,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 567,
+          "current": 570,
           "target": 200,
           "unit": null
         },
@@ -114629,7 +114742,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 297,
+          "current": 299,
           "target": 150,
           "unit": null
         },
@@ -114640,7 +114753,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 949,
+          "current": 964,
           "target": 120,
           "unit": "min"
         },
@@ -114761,7 +114874,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 81,
+          "current": 82,
           "target": 12,
           "unit": null
         },
@@ -114827,7 +114940,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 567,
+          "current": 570,
           "target": 900,
           "unit": null
         },
@@ -114904,7 +115017,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 567,
+          "current": 570,
           "target": 40,
           "unit": null
         },
@@ -114915,7 +115028,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 567,
+          "current": 570,
           "target": 450,
           "unit": null
         },
@@ -114926,7 +115039,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 567,
+          "current": 570,
           "target": 2200,
           "unit": null
         },
@@ -114937,7 +115050,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 800,
+          "current": 810,
           "target": 200,
           "unit": null
         },
@@ -115025,7 +115138,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 949,
+          "current": 964,
           "target": 300,
           "unit": "min"
         },
@@ -115036,7 +115149,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 949,
+          "current": 964,
           "target": 900,
           "unit": "min"
         },
@@ -115069,7 +115182,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 81,
+          "current": 82,
           "target": 25,
           "unit": null
         },
@@ -115201,7 +115314,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 160,
+          "current": 162,
           "target": 10,
           "unit": null
         },
@@ -115212,7 +115325,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 160,
+          "current": 162,
           "target": 20,
           "unit": null
         },
@@ -115223,7 +115336,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 160,
+          "current": 162,
           "target": 40,
           "unit": null
         },
@@ -115432,7 +115545,7 @@
           "name": "Primera Sangre en Serie",
           "desc": "Consigue el First Blood anunciado 5 o más veces",
           "unlocked": true,
-          "current": 5,
+          "current": 6,
           "target": 5,
           "unit": null
         },
@@ -115443,7 +115556,7 @@
           "name": "Tirador de Cabeza",
           "desc": "Logra 20 o más Headshots anunciados",
           "unlocked": true,
-          "current": 33,
+          "current": 34,
           "target": 20,
           "unit": null
         },
@@ -115729,7 +115842,7 @@
           "name": "Primero en Combate",
           "desc": "Consigue el primer kill de la partida 5 o más veces",
           "unlocked": true,
-          "current": 7,
+          "current": 8,
           "target": 5,
           "unit": null
         },
@@ -115740,7 +115853,7 @@
           "name": "Rey del Primer Golpe",
           "desc": "Consigue el primer kill de la partida 20 o más veces",
           "unlocked": false,
-          "current": 7,
+          "current": 8,
           "target": 20,
           "unit": null
         },
@@ -115828,7 +115941,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 7,
+          "current": 6.95,
           "target": 4,
           "unit": null
         },
@@ -115839,7 +115952,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": false,
-          "current": 7,
+          "current": 6.95,
           "target": 8,
           "unit": null
         },
@@ -115861,7 +115974,7 @@
           "name": "Pistol Experto",
           "desc": "Consigue 80 o más eliminaciones con Pistol",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 80,
           "unit": null
         },
@@ -115872,7 +115985,7 @@
           "name": "Pistol Elite",
           "desc": "Consigue 250 o más eliminaciones con Pistol",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 250,
           "unit": null
         },
@@ -115949,7 +116062,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": true,
-          "current": 297,
+          "current": 299,
           "target": 180,
           "unit": null
         },
@@ -115960,7 +116073,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 297,
+          "current": 299,
           "target": 500,
           "unit": null
         },
@@ -115993,7 +116106,7 @@
           "name": "Shotgun Experto",
           "desc": "Consigue 70 o más eliminaciones con Shotgun",
           "unlocked": true,
-          "current": 207,
+          "current": 210,
           "target": 70,
           "unit": null
         },
@@ -116004,7 +116117,7 @@
           "name": "Shotgun Elite",
           "desc": "Consigue 200 o más eliminaciones con Shotgun",
           "unlocked": true,
-          "current": 207,
+          "current": 210,
           "target": 200,
           "unit": null
         },
@@ -116048,7 +116161,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 297,
+          "current": 299,
           "target": 1600,
           "unit": null
         },
@@ -116081,7 +116194,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 278,
+          "current": 281,
           "target": 200,
           "unit": null
         },
@@ -116092,7 +116205,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 278,
+          "current": 281,
           "target": 800,
           "unit": null
         },
@@ -116103,7 +116216,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 278,
+          "current": 281,
           "target": 2000,
           "unit": null
         },
@@ -116114,7 +116227,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 278,
+          "current": 281,
           "target": 4000,
           "unit": null
         },
@@ -116125,7 +116238,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 278,
+          "current": 281,
           "target": 12000,
           "unit": null
         },
@@ -116136,7 +116249,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": true,
-          "current": 207,
+          "current": 210,
           "target": 80,
           "unit": null
         },
@@ -116147,7 +116260,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 207,
+          "current": 210,
           "target": 400,
           "unit": null
         },
@@ -116180,7 +116293,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 567,
+          "current": 570,
           "target": 7500,
           "unit": null
         },
@@ -116224,7 +116337,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 949,
+          "current": 964,
           "target": 2400,
           "unit": "min"
         },
@@ -116268,7 +116381,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 160,
+          "current": 162,
           "target": 60,
           "unit": null
         },
@@ -116489,7 +116602,7 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 1
+          "kills": 4
         }
       ],
       "rankChange": 14
@@ -130803,10 +130916,10 @@
     },
     {
       "name": "MAPACHE",
-      "kills": 770,
-      "deaths": 1167,
-      "totalKills": 1408,
-      "totalDeaths": 1907,
+      "kills": 772,
+      "deaths": 1169,
+      "totalKills": 1410,
+      "totalDeaths": 1909,
       "suicides": 10,
       "kd": 0.66,
       "headshots": 190,
@@ -130821,7 +130934,7 @@
       "hsPercent": 49,
       "weapons": {
         "SMG": 640,
-        "MG": 601,
+        "MG": 603,
         "Sniper": 56,
         "Shotgun": 49,
         "Bazooka": 60,
@@ -130829,11 +130942,11 @@
       },
       "favoriteWeapon": "SMG",
       "favoriteBodypart": "head",
-      "mapsPlayed": 109,
-      "matchesPlayed": 109,
+      "mapsPlayed": 110,
+      "matchesPlayed": 110,
       "wins": 0,
       "winRate": 0,
-      "fragsPerMap": 7.06,
+      "fragsPerMap": 7.02,
       "bestStreak": 9,
       "nemesis": {
         "name": "CaPaRz0",
@@ -130847,10 +130960,10 @@
       "bestMultikillChain": 3,
       "winsByDate": {},
       "winsByGameDay": {},
-      "sessions": 43,
+      "sessions": 44,
       "disconnects": 40,
-      "playtimeMs": 56771000,
-      "playtimeFormatted": "15h 46m",
+      "playtimeMs": 56855000,
+      "playtimeFormatted": "15h 48m",
       "favoriteHour": "22:00",
       "hourActivity": [
         215,
@@ -130876,7 +130989,7 @@
         5,
         77,
         1494,
-        1338
+        1343
       ],
       "mapBreakdown": [
         {
@@ -131018,6 +131131,12 @@
           "kd": 0.59
         },
         {
+          "map": "dm/renan",
+          "kills": 20,
+          "deaths": 20,
+          "kd": 1
+        },
+        {
           "map": "dm/MP_Verschneit_DM",
           "kills": 20,
           "deaths": 41,
@@ -131052,12 +131171,6 @@
           "kills": 19,
           "deaths": 35,
           "kd": 0.54
-        },
-        {
-          "map": "dm/renan",
-          "kills": 18,
-          "deaths": 18,
-          "kd": 1
         },
         {
           "map": "dm/small_village",
@@ -131539,7 +131652,7 @@
         },
         {
           "map": "dm/renan",
-          "weaponsCount": 1,
+          "weaponsCount": 2,
           "victimsCount": 8,
           "humanVictimsCount": 2
         },
@@ -131868,7 +131981,7 @@
           "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 28,
+      "activeDaysCount": 29,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 10,
@@ -131886,9 +131999,9 @@
       "playedBothWeekendDays": true,
       "chatMessages": 0,
       "botKills": 638,
-      "humanKillsOnly": 770,
+      "humanKillsOnly": 772,
       "botDeaths": 730,
-      "humanDeathsOnly": 1167,
+      "humanDeathsOnly": 1169,
       "maxBotRivalry": 89,
       "currentTeam": "Allies",
       "playedAxis": false,
@@ -131957,7 +132070,7 @@
         },
         {
           "name": "ST3",
-          "deaths": 61
+          "deaths": 62
         },
         {
           "name": "=MB= .ZywOo",
@@ -131969,7 +132082,7 @@
         },
         {
           "name": "Francotirador",
-          "deaths": 49
+          "deaths": 50
         },
         {
           "name": "Gral. MacArthur",
@@ -132195,7 +132308,7 @@
         },
         {
           "name": "ST3",
-          "kills": 22
+          "kills": 24
         },
         {
           "name": "MOH-Rugrats.ar",
@@ -132612,7 +132725,7 @@
           "=MB= .Scump": 3,
           "=MB= El_Chacal": 1,
           "=MB= .Ogre2": 3,
-          "ST3": 3,
+          "ST3": 5,
           "=MB= .Vasily": 5,
           "=MB= .S1mple": 1,
           "=MB= .TenZ": 1
@@ -133530,6 +133643,9 @@
           "=MB= .Kazuya": 4,
           "=MB= .Lyudmila": 1,
           "=MB= .Ogre2": 1
+        },
+        "2026-10-12": {
+          "ST3": 2
         }
       },
       "victimsByDateMap": {
@@ -133562,6 +133678,11 @@
             "=MB= .Lyudmila": 1,
             "=MB= .Ogre2": 1
           }
+        },
+        "2026-10-12": {
+          "dm/renan": {
+            "ST3": 2
+          }
         }
       },
       "weaponsList": [
@@ -133571,7 +133692,7 @@
         },
         {
           "weapon": "MG",
-          "kills": 601
+          "kills": 603
         },
         {
           "weapon": "Bazooka",
@@ -133669,7 +133790,7 @@
         }
       ],
       "firstSeen": "2026-07-29 22:21:17",
-      "lastSeen": "2026-10-11 22:39:13",
+      "lastSeen": "2026-10-12 23:29:52",
       "rank": 26,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -133680,7 +133801,7 @@
           "name": "Primera Sangre",
           "desc": "Consigue tu primera eliminación",
           "unlocked": true,
-          "current": 770,
+          "current": 772,
           "target": 1,
           "unit": null
         },
@@ -133735,7 +133856,7 @@
           "name": "Centuria",
           "desc": "Alcanza 200 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 770,
+          "current": 772,
           "target": 200,
           "unit": null
         },
@@ -133757,7 +133878,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 946,
+          "current": 948,
           "target": 120,
           "unit": "min"
         },
@@ -133801,7 +133922,7 @@
           "name": "Artillero Pesado",
           "desc": "Consigue 50 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 601,
+          "current": 603,
           "target": 250,
           "unit": null
         },
@@ -133878,7 +133999,7 @@
           "name": "Explorador de Combate",
           "desc": "Juega en 12 o más mapas distintos",
           "unlocked": true,
-          "current": 109,
+          "current": 110,
           "target": 12,
           "unit": null
         },
@@ -133900,7 +134021,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 28,
+          "current": 29,
           "target": 3,
           "unit": null
         },
@@ -133944,7 +134065,7 @@
           "name": "Verdugo",
           "desc": "Alcanza 900 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 770,
+          "current": 772,
           "target": 900,
           "unit": null
         },
@@ -134021,7 +134142,7 @@
           "name": "Curtido en Batalla",
           "desc": "Alcanza 40 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 770,
+          "current": 772,
           "target": 40,
           "unit": null
         },
@@ -134032,7 +134153,7 @@
           "name": "Dominante",
           "desc": "Alcanza 450 eliminaciones contra jugadores humanos",
           "unlocked": true,
-          "current": 770,
+          "current": 772,
           "target": 450,
           "unit": null
         },
@@ -134043,7 +134164,7 @@
           "name": "Leyenda Viva",
           "desc": "Alcanza 2200 eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 770,
+          "current": 772,
           "target": 2200,
           "unit": null
         },
@@ -134054,7 +134175,7 @@
           "name": "Cara Dura",
           "desc": "Muere 50 o más veces sin abandonar el servidor",
           "unlocked": true,
-          "current": 1167,
+          "current": 1169,
           "target": 200,
           "unit": null
         },
@@ -134142,7 +134263,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 946,
+          "current": 948,
           "target": 300,
           "unit": "min"
         },
@@ -134153,7 +134274,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 946,
+          "current": 948,
           "target": 900,
           "unit": "min"
         },
@@ -134164,7 +134285,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 43,
+          "current": 44,
           "target": 10,
           "unit": null
         },
@@ -134175,7 +134296,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": true,
-          "current": 43,
+          "current": 44,
           "target": 30,
           "unit": null
         },
@@ -134186,7 +134307,7 @@
           "name": "Trotamundos",
           "desc": "Juega en 25 o más mapas distintos",
           "unlocked": true,
-          "current": 109,
+          "current": 110,
           "target": 25,
           "unit": null
         },
@@ -134197,7 +134318,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 43,
+          "current": 44,
           "target": 50,
           "unit": null
         },
@@ -134208,7 +134329,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 43,
+          "current": 44,
           "target": 75,
           "unit": null
         },
@@ -134736,7 +134857,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 28,
+          "current": 29,
           "target": 30,
           "unit": null
         },
@@ -134945,7 +135066,7 @@
           "name": "Eficiente",
           "desc": "Promedia 10 o más frags por mapa",
           "unlocked": true,
-          "current": 7.06,
+          "current": 7.02,
           "target": 4,
           "unit": null
         },
@@ -134956,7 +135077,7 @@
           "name": "Devastador",
           "desc": "Promedia 20 o más frags por mapa",
           "unlocked": false,
-          "current": 7.06,
+          "current": 7.02,
           "target": 8,
           "unit": null
         },
@@ -135044,7 +135165,7 @@
           "name": "MG Experto",
           "desc": "Consigue 180 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 601,
+          "current": 603,
           "target": 180,
           "unit": null
         },
@@ -135055,7 +135176,7 @@
           "name": "MG Elite",
           "desc": "Consigue 500 o más eliminaciones con MG",
           "unlocked": true,
-          "current": 601,
+          "current": 603,
           "target": 500,
           "unit": null
         },
@@ -135187,7 +135308,7 @@
           "name": "MG Supremo",
           "desc": "Consigue 1600 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 601,
+          "current": 603,
           "target": 1600,
           "unit": null
         },
@@ -135297,7 +135418,7 @@
           "name": "Dios de la Guerra",
           "desc": "Alcanza 7500 o más eliminaciones contra jugadores humanos",
           "unlocked": false,
-          "current": 770,
+          "current": 772,
           "target": 7500,
           "unit": null
         },
@@ -135341,7 +135462,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 946,
+          "current": 948,
           "target": 2400,
           "unit": "min"
         },
@@ -135352,7 +135473,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 43,
+          "current": 44,
           "target": 100,
           "unit": null
         },
@@ -135363,7 +135484,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 43,
+          "current": 44,
           "target": 200,
           "unit": null
         },
@@ -135606,7 +135727,7 @@
         },
         {
           "date": "2026-10-12",
-          "kills": 0
+          "kills": 2
         }
       ],
       "rankChange": 6
@@ -162273,7 +162394,7 @@
       "firstBloodOfMapCount": 0,
       "revengeKills": 0,
       "verified": false,
-      "verificationDaysLeft": 6,
+      "verificationDaysLeft": 5,
       "killedByList": [
         {
           "name": "CaPaRz0",
@@ -248633,7 +248754,7 @@
       },
       {
         "name": "CaPaRz0",
-        "kills": 43
+        "kills": 45
       },
       {
         "name": "Nico",
@@ -248676,11 +248797,11 @@
         "kills": 7
       },
       {
-        "name": "Homer",
-        "kills": 5
+        "name": "Mr.Sipi",
+        "kills": 6
       },
       {
-        "name": "Mr.Sipi",
+        "name": "Homer",
         "kills": 5
       },
       {
@@ -248723,11 +248844,11 @@
     "SMG": [
       {
         "name": "Francotirador",
-        "kills": 4257
+        "kills": 4261
       },
       {
         "name": "CaPaRz0",
-        "kills": 3804
+        "kills": 3835
       },
       {
         "name": "<MLS>Msg.Lucho",
@@ -248735,7 +248856,7 @@
       },
       {
         "name": "ST3",
-        "kills": 977
+        "kills": 984
       },
       {
         "name": "Homer",
@@ -248751,7 +248872,7 @@
       },
       {
         "name": "SANDY",
-        "kills": 716
+        "kills": 718
       },
       {
         "name": "MAPACHE",
@@ -248861,7 +248982,7 @@
     "Rifle": [
       {
         "name": "Francotirador",
-        "kills": 340
+        "kills": 364
       },
       {
         "name": "SANDY",
@@ -248958,16 +249079,16 @@
         "kills": 768
       },
       {
+        "name": "ST3",
+        "kills": 631
+      },
+      {
         "name": "Soldado Ryan",
         "kills": 603
       },
       {
         "name": "MAPACHE",
-        "kills": 601
-      },
-      {
-        "name": "ST3",
-        "kills": 574
+        "kills": 603
       },
       {
         "name": "REV2099",
@@ -248982,12 +249103,12 @@
         "kills": 395
       },
       {
-        "name": "Homer",
+        "name": "Francotirador",
         "kills": 361
       },
       {
-        "name": "Francotirador",
-        "kills": 325
+        "name": "Homer",
+        "kills": 361
       },
       {
         "name": "CaPaRz0",
@@ -249061,7 +249182,7 @@
       },
       {
         "name": "CaPaRz0",
-        "kills": 2666
+        "kills": 2667
       },
       {
         "name": "SANDY",
@@ -249073,7 +249194,7 @@
       },
       {
         "name": "ST3",
-        "kills": 1984
+        "kills": 1986
       },
       {
         "name": "Homer",
@@ -249105,7 +249226,7 @@
       },
       {
         "name": "Francotirador",
-        "kills": 715
+        "kills": 716
       },
       {
         "name": "Bard0k",
@@ -249125,7 +249246,7 @@
       },
       {
         "name": "Mr.Sipi",
-        "kills": 297
+        "kills": 299
       },
       {
         "name": "=MB= El_Chacal",
@@ -249203,7 +249324,7 @@
     "Bazooka": [
       {
         "name": "SANDY",
-        "kills": 6939
+        "kills": 6968
       },
       {
         "name": "Soldado Ryan",
@@ -249243,7 +249364,7 @@
       },
       {
         "name": "Francotirador",
-        "kills": 166
+        "kills": 168
       },
       {
         "name": "Mr.Sipi",
@@ -249341,7 +249462,7 @@
       },
       {
         "name": "Mr.Sipi",
-        "kills": 207
+        "kills": 210
       },
       {
         "name": "SANDY",
@@ -249451,7 +249572,7 @@
       },
       {
         "name": "Francotirador",
-        "kills": 13
+        "kills": 14
       },
       {
         "name": "Mr.Sipi",
@@ -258549,6 +258670,132 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/renan",
+      "timesPlayed": 86,
+      "totalKills": 16940,
+      "connectedHumans": [
+        {
+          "name": "SANDY",
+          "kills": 154
+        },
+        {
+          "name": "Francotirador",
+          "kills": 101
+        },
+        {
+          "name": "ST3",
+          "kills": 97
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 47
+        },
+        {
+          "name": "Nico",
+          "kills": 37
+        },
+        {
+          "name": "Hooligan",
+          "kills": 36
+        },
+        {
+          "name": "litogay",
+          "kills": 35
+        },
+        {
+          "name": "Chuchusmote",
+          "kills": 34
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 30
+        },
+        {
+          "name": "Kurco",
+          "kills": 29
+        },
+        {
+          "name": "=BoL= Chory",
+          "kills": 23
+        },
+        {
+          "name": "rODRY20277",
+          "kills": 23
+        },
+        {
+          "name": "andres",
+          "kills": 22
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 20
+        },
+        {
+          "name": "PAPI NUMBER 1",
+          "kills": 18
+        },
+        {
+          "name": "OMIXLITO",
+          "kills": 17
+        },
+        {
+          "name": "REV2099",
+          "kills": 17
+        },
+        {
+          "name": "GASPAR",
+          "kills": 14
+        },
+        {
+          "name": "<MLS>Msg.Lucho",
+          "kills": 13
+        },
+        {
+          "name": "Maverick",
+          "kills": 11
+        },
+        {
+          "name": "RULO",
+          "kills": 11
+        },
+        {
+          "name": "UnnamedSoldier",
+          "kills": 8
+        },
+        {
+          "name": "exumador",
+          "kills": 4
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 3
+        },
+        {
+          "name": "DANTE",
+          "kills": 3
+        },
+        {
+          "name": "micky",
+          "kills": 2
+        },
+        {
+          "name": "<QS> JOSEBECKS7",
+          "kills": 2
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Vasily"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/buchholz",
       "timesPlayed": 89,
       "totalKills": 16868,
@@ -258696,128 +258943,6 @@
       ],
       "winners": [
         "=MB= .Lyudmila"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/renan",
-      "timesPlayed": 85,
-      "totalKills": 16777,
-      "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 137
-        },
-        {
-          "name": "Francotirador",
-          "kills": 74
-        },
-        {
-          "name": "ST3",
-          "kills": 72
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 47
-        },
-        {
-          "name": "Nico",
-          "kills": 37
-        },
-        {
-          "name": "Hooligan",
-          "kills": 36
-        },
-        {
-          "name": "litogay",
-          "kills": 35
-        },
-        {
-          "name": "Chuchusmote",
-          "kills": 34
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 30
-        },
-        {
-          "name": "Kurco",
-          "kills": 29
-        },
-        {
-          "name": "=BoL= Chory",
-          "kills": 23
-        },
-        {
-          "name": "rODRY20277",
-          "kills": 23
-        },
-        {
-          "name": "andres",
-          "kills": 22
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 18
-        },
-        {
-          "name": "PAPI NUMBER 1",
-          "kills": 18
-        },
-        {
-          "name": "OMIXLITO",
-          "kills": 17
-        },
-        {
-          "name": "REV2099",
-          "kills": 17
-        },
-        {
-          "name": "GASPAR",
-          "kills": 14
-        },
-        {
-          "name": "<MLS>Msg.Lucho",
-          "kills": 13
-        },
-        {
-          "name": "Maverick",
-          "kills": 11
-        },
-        {
-          "name": "RULO",
-          "kills": 11
-        },
-        {
-          "name": "exumador",
-          "kills": 4
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 3
-        },
-        {
-          "name": "DANTE",
-          "kills": 3
-        },
-        {
-          "name": "micky",
-          "kills": 2
-        },
-        {
-          "name": "<QS> JOSEBECKS7",
-          "kills": 2
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Vasily"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -259769,11 +259894,11 @@
     {
       "map": "dm/AR_Berlin_V1",
       "timesPlayed": 87,
-      "totalKills": 15146,
+      "totalKills": 15159,
       "connectedHumans": [
         {
           "name": "Francotirador",
-          "kills": 74
+          "kills": 76
         },
         {
           "name": "SANDY",
@@ -259789,19 +259914,19 @@
         },
         {
           "name": "ST3",
-          "kills": 57
+          "kills": 59
         },
         {
           "name": "<QS> JOSEBECKS7",
           "kills": 31
         },
         {
-          "name": "litogay",
+          "name": "CaPaRz0",
           "kills": 28
         },
         {
-          "name": "CaPaRz0",
-          "kills": 27
+          "name": "litogay",
+          "kills": 28
         },
         {
           "name": "Soldado Ryan",
@@ -260511,63 +260636,29 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/1944_dm",
-      "timesPlayed": 88,
-      "totalKills": 14717,
-      "connectedHumans": [
-        {
-          "name": "Hooligan",
-          "kills": 23
-        },
-        {
-          "name": "Francotirador",
-          "kills": 22
-        },
-        {
-          "name": "SANDY",
-          "kills": 20
-        },
-        {
-          "name": "Maverick",
-          "kills": 16
-        },
-        {
-          "name": "PAPI NUMBER 1",
-          "kills": 8
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/dm_rockbound",
-      "timesPlayed": 78,
-      "totalKills": 14606,
+      "timesPlayed": 79,
+      "totalKills": 14827,
       "connectedHumans": [
-        {
-          "name": "SANDY",
-          "kills": 97
-        },
         {
           "name": "CaPaRz0",
-          "kills": 93
+          "kills": 126
         },
         {
           "name": "Francotirador",
-          "kills": 87
+          "kills": 126
+        },
+        {
+          "name": "SANDY",
+          "kills": 111
         },
         {
           "name": "Nico",
           "kills": 71
+        },
+        {
+          "name": "ST3",
+          "kills": 64
         },
         {
           "name": "Hooligan",
@@ -260618,10 +260709,6 @@
           "kills": 26
         },
         {
-          "name": "ST3",
-          "kills": 25
-        },
-        {
           "name": "KURCO",
           "kills": 24
         },
@@ -260650,6 +260737,10 @@
           "kills": 18
         },
         {
+          "name": "Mr.Sipi",
+          "kills": 16
+        },
+        {
           "name": "Chuchusmote",
           "kills": 16
         },
@@ -260670,11 +260761,11 @@
           "kills": 12
         },
         {
-          "name": "antonex",
-          "kills": 10
+          "name": "UnnamedSoldier",
+          "kills": 11
         },
         {
-          "name": "Mr.Sipi",
+          "name": "antonex",
           "kills": 10
         },
         {
@@ -260713,6 +260804,44 @@
       "hasHuman": true,
       "axisKills": 70,
       "alliesKills": 71
+    },
+    {
+      "map": "dm/1944_dm",
+      "timesPlayed": 88,
+      "totalKills": 14717,
+      "connectedHumans": [
+        {
+          "name": "Hooligan",
+          "kills": 23
+        },
+        {
+          "name": "Francotirador",
+          "kills": 22
+        },
+        {
+          "name": "SANDY",
+          "kills": 20
+        },
+        {
+          "name": "Maverick",
+          "kills": 16
+        },
+        {
+          "name": "PAPI NUMBER 1",
+          "kills": 8
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
     },
     {
       "map": "dm/dmworldcup",
@@ -264401,9 +264530,9 @@
     {
       "a": "SANDY",
       "b": "CaPaRz0",
-      "aKillsB": 435,
-      "bKillsA": 771,
-      "totalEncounters": 1206
+      "aKillsB": 436,
+      "bKillsA": 775,
+      "totalEncounters": 1211
     },
     {
       "a": "SANDY",
@@ -264437,22 +264566,22 @@
       "a": "Bard0k",
       "b": "CaPaRz0",
       "aKillsB": 347,
-      "bKillsA": 375,
-      "totalEncounters": 722
+      "bKillsA": 376,
+      "totalEncounters": 723
     },
     {
       "a": "SANDY",
       "b": "Francotirador",
-      "aKillsB": 182,
-      "bKillsA": 511,
-      "totalEncounters": 693
+      "aKillsB": 183,
+      "bKillsA": 523,
+      "totalEncounters": 706
     },
     {
       "a": "ST3",
       "b": "SANDY",
-      "aKillsB": 459,
-      "bKillsA": 216,
-      "totalEncounters": 675
+      "aKillsB": 465,
+      "bKillsA": 218,
+      "totalEncounters": 683
     },
     {
       "a": "SANDY",
@@ -264520,9 +264649,9 @@
     {
       "a": "ST3",
       "b": "CaPaRz0",
-      "aKillsB": 227,
-      "bKillsA": 205,
-      "totalEncounters": 432
+      "aKillsB": 230,
+      "bKillsA": 210,
+      "totalEncounters": 440
     },
     {
       "a": "Homer",
@@ -264555,9 +264684,9 @@
     {
       "a": "Francotirador",
       "b": "CaPaRz0",
-      "aKillsB": 231,
-      "bKillsA": 143,
-      "totalEncounters": 374
+      "aKillsB": 234,
+      "bKillsA": 145,
+      "totalEncounters": 379
     },
     {
       "a": "CaPaRz0",
@@ -264576,16 +264705,8 @@
   ],
   "onlineNow": [
     {
-      "name": "Bard0k",
-      "since": "2026-10-12 22:08:15"
-    },
-    {
       "name": "Francotirador",
       "since": "2026-10-12 22:10:45"
-    },
-    {
-      "name": "CaPaRz0",
-      "since": "2026-10-12 22:36:15"
     },
     {
       "name": "SANDY",
@@ -264602,6 +264723,10 @@
     {
       "name": "UnnamedSoldier",
       "since": "2026-10-12 23:09:37"
+    },
+    {
+      "name": "MAPACHE",
+      "since": "2026-10-12 23:28:36"
     }
   ],
   "concurrentPlayers": {
@@ -292724,6 +292849,27 @@
         "action": "disconnect",
         "count": 7,
         "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-10-12 23:15:28",
+        "name": "Bard0k",
+        "action": "disconnect",
+        "count": 6,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-10-12 23:24:13",
+        "name": "CaPaRz0",
+        "action": "disconnect",
+        "count": 5,
+        "weekday": "Lunes"
+      },
+      {
+        "ts": "2026-10-12 23:28:36",
+        "name": "MAPACHE",
+        "action": "connect",
+        "count": 6,
+        "weekday": "Lunes"
       }
     ],
     "peakCount": 21,
@@ -293086,10 +293232,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-12 23:15:00"
+    "last": "2026-10-12 23:30:00"
   },
-  "generatedAt": "2026-10-13T03:15:01.838Z",
-  "currentMap": "dm/AR_Berlin_V1",
+  "generatedAt": "2026-10-13T03:30:01.979Z",
+  "currentMap": "dm/renan",
   "serverName": "=MB= Revival Lun | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
@@ -293730,10 +293876,14 @@
     "2026-10-12": [
       {
         "name": "Francotirador",
-        "wins": 7
+        "wins": 9
       },
       {
         "name": "CaPaRz0",
+        "wins": 1
+      },
+      {
+        "name": "ST3",
         "wins": 1
       }
     ]
@@ -293800,17 +293950,17 @@
   "weeklyRanking": [
     {
       "name": "Francotirador",
-      "weeklyKills": 198,
-      "weeklyWins": 20
+      "weeklyKills": 224,
+      "weeklyWins": 22
     },
     {
       "name": "ST3",
-      "weeklyKills": 348,
-      "weeklyWins": 11
+      "weeklyKills": 373,
+      "weeklyWins": 12
     },
     {
       "name": "CaPaRz0",
-      "weeklyKills": 437,
+      "weeklyKills": 450,
       "weeklyWins": 8
     },
     {
@@ -293845,7 +293995,7 @@
     },
     {
       "name": "SANDY",
-      "weeklyKills": 320,
+      "weeklyKills": 327,
       "weeklyWins": 0
     }
   ],
