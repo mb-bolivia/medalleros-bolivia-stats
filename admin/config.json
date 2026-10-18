@@ -1,5 +1,5 @@
 {
-  "ts": 1791523428024,
+  "ts": 1792283479430,
   "por": "web",
   "verified": [
     "Francotirador",
@@ -42,8 +42,7 @@
     "horaInicioFinal": "21:00:00",
     "ganarFinalCon": 7,
     "invitadosFinal": [
-      "Mr.Sipi",
-      "SANDY"
+      "Mr.Sipi"
     ],
     "finalesManuales": {
       "2026-10-03": {
@@ -80,6 +79,25 @@
   ],
   "whitelist": [
     "Mr.Sipi"
+  ],
+  "torneosEspeciales": [
+    {
+      "nombre": "Torneo 5 vs 5 — Escolta al Tanque",
+      "modo": "Escolta al Tanque",
+      "formato": "5 vs 5 por equipos",
+      "inscripcionHasta": "2026-10-15",
+      "fechaInicio": "",
+      "fechaFin": "",
+      "horario": "La fecha de inicio se define según la cantidad de equipos inscritos",
+      "premio": "Premio en efectivo para el equipo ganador (lo paga el servidor)",
+      "requisitos": "Los 5 jugadores del equipo tienen que estar verificados en la página",
+      "reglas": [
+        "Inscribí a tu equipo con los nicks EXACTOS de los 5 jugadores",
+        "Máximo 1 bazooka y 1 sniper por equipo",
+        "Un solo premio: para el equipo ganador"
+      ],
+      "visible": true
+    }
   ],
   "ipsAutorizadas": {},
   "ipsCompartidas": []
