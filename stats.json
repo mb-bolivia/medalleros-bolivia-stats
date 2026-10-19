@@ -136896,8 +136896,8 @@
       "winsByDate": {},
       "winsByGameDay": {},
       "sessions": 46,
-      "disconnects": 42,
-      "playtimeMs": 60967000,
+      "disconnects": 43,
+      "playtimeMs": 60978000,
       "playtimeFormatted": "16h 56m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -136924,7 +136924,7 @@
         5,
         77,
         1494,
-        1499
+        1500
       ],
       "mapBreakdown": [
         {
@@ -139966,7 +139966,7 @@
         }
       ],
       "firstSeen": "2026-07-29 22:21:17",
-      "lastSeen": "2026-10-18 23:49:22",
+      "lastSeen": "2026-10-18 23:50:11",
       "rank": 27,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -275241,6 +275241,60 @@
       "alliesKills": 0
     },
     {
+      "map": "dm/armageddon_beta1_1",
+      "timesPlayed": 75,
+      "totalKills": 14603,
+      "connectedHumans": [
+        {
+          "name": "Francotirador",
+          "kills": 30
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 26
+        },
+        {
+          "name": "Hooligan",
+          "kills": 18
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 17
+        },
+        {
+          "name": "SANDY",
+          "kills": 10
+        },
+        {
+          "name": "Tylerlantern09",
+          "kills": 5
+        },
+        {
+          "name": "micky",
+          "kills": 3
+        },
+        {
+          "name": "MAPACHE",
+          "kills": 2
+        },
+        {
+          "name": "Mancarzo",
+          "kills": 2
+        },
+        {
+          "name": "Capado",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/dmworldcup",
       "timesPlayed": 91,
       "totalKills": 14515,
@@ -275372,60 +275426,6 @@
       ],
       "winners": [
         "=MB= .TenZ"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
-      "map": "dm/armageddon_beta1_1",
-      "timesPlayed": 75,
-      "totalKills": 14460,
-      "connectedHumans": [
-        {
-          "name": "Francotirador",
-          "kills": 30
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 26
-        },
-        {
-          "name": "Hooligan",
-          "kills": 18
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 17
-        },
-        {
-          "name": "SANDY",
-          "kills": 10
-        },
-        {
-          "name": "Tylerlantern09",
-          "kills": 5
-        },
-        {
-          "name": "micky",
-          "kills": 3
-        },
-        {
-          "name": "MAPACHE",
-          "kills": 2
-        },
-        {
-          "name": "Mancarzo",
-          "kills": 2
-        },
-        {
-          "name": "Capado",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
       ],
       "winnersAreBots": true,
       "hasHuman": true,
@@ -278612,12 +278612,7 @@
       "totalEncounters": 382
     }
   ],
-  "onlineNow": [
-    {
-      "name": "MAPACHE",
-      "since": "2026-10-18 23:33:07"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -308040,6 +308035,13 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-10-18 23:50:11",
+        "name": "MAPACHE",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 21,
@@ -308426,9 +308428,9 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-18 23:50:00"
+    "last": "2026-10-18 23:54:59"
   },
-  "generatedAt": "2026-10-19T03:50:02.669Z",
+  "generatedAt": "2026-10-19T03:55:01.627Z",
   "currentMap": "dm/armageddon_beta1_1",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
