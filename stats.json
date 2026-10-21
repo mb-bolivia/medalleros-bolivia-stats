@@ -157522,33 +157522,34 @@
       "name": "PAPI NUMBER",
       "kills": 53,
       "deaths": 45,
-      "totalKills": 145,
-      "totalDeaths": 87,
-      "suicides": 8,
+      "totalKills": 170,
+      "totalDeaths": 99,
+      "suicides": 10,
       "kd": 1.18,
       "headshots": 7,
-      "totalHeadshots": 9,
+      "totalHeadshots": 15,
       "announcer": {
         "killingSpree": 8,
         "rampage": 2,
         "doubleKill": 8,
         "finRacha": 2,
-        "humillacion": 11,
+        "humillacion": 12,
         "dominating": 1,
         "unstoppable": 1,
         "godlike": 1,
-        "headshot": 1
+        "headshot": 1,
+        "firstBlood": 1
       },
       "hsPercent": 100,
       "weapons": {
-        "Sniper": 110,
-        "Bazooka": 19,
-        "Bash": 12,
+        "Sniper": 125,
+        "Bazooka": 27,
+        "Bash": 14,
         "MG": 1,
         "SMG": 3
       },
       "favoriteWeapon": "Sniper",
-      "favoriteBodypart": "face",
+      "favoriteBodypart": "kisser",
       "mapsPlayed": 8,
       "matchesPlayed": 8,
       "wins": 0,
@@ -157563,14 +157564,14 @@
         "name": "Maverick",
         "kills": 10
       },
-      "multikillEvents": 13,
+      "multikillEvents": 15,
       "bestMultikillChain": 2,
       "winsByDate": {},
       "winsByGameDay": {},
       "sessions": 3,
       "disconnects": 2,
-      "playtimeMs": 5551000,
-      "playtimeFormatted": "1h 33m",
+      "playtimeMs": 6339000,
+      "playtimeFormatted": "1h 46m",
       "favoriteHour": "23:00",
       "hourActivity": [
         13,
@@ -157594,7 +157595,7 @@
         0,
         0,
         44,
-        50,
+        87,
         0,
         130
       ],
@@ -157630,6 +157631,18 @@
           "kd": 0.87
         },
         {
+          "map": "dm/dm_routenord",
+          "kills": 13,
+          "deaths": 7,
+          "kd": 1.86
+        },
+        {
+          "map": "dm/Gatehouse_Assault_DM_1",
+          "kills": 13,
+          "deaths": 5,
+          "kd": 2.6
+        },
+        {
           "map": "dm/centraleurope",
           "kills": 11,
           "deaths": 4,
@@ -157648,10 +157661,10 @@
           "kd": 1.67
         },
         {
-          "map": "dm/dm_routenord",
-          "kills": 10,
+          "map": "dm/mohdm1",
+          "kills": 9,
           "deaths": 7,
-          "kd": 1.43
+          "kd": 1.29
         },
         {
           "map": "dm/renan",
@@ -157756,7 +157769,19 @@
         {
           "map": "dm/dm_routenord",
           "weaponsCount": 1,
-          "victimsCount": 6,
+          "victimsCount": 7,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/Gatehouse_Assault_DM_1",
+          "weaponsCount": 2,
+          "victimsCount": 8,
+          "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/mohdm1",
+          "weaponsCount": 2,
+          "victimsCount": 7,
           "humanVictimsCount": 0
         }
       ],
@@ -157773,15 +157798,15 @@
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 22,
+      "maxRivalryEncounters": 24,
       "playedWeekend": false,
       "playedBothWeekendDays": false,
       "chatMessages": 0,
-      "botKills": 92,
+      "botKills": 117,
       "humanKillsOnly": 53,
-      "botDeaths": 34,
+      "botDeaths": 44,
       "humanDeathsOnly": 45,
-      "maxBotRivalry": 15,
+      "maxBotRivalry": 17,
       "currentTeam": null,
       "playedAxis": false,
       "playedAllies": false,
@@ -157790,13 +157815,17 @@
       "teamKills": 0,
       "teamKickCount": 0,
       "worstDeathStreak": 9,
-      "firstBloodOfMapCount": 0,
-      "revengeKills": 6,
+      "firstBloodOfMapCount": 1,
+      "revengeKills": 8,
       "verified": true,
       "verificationDaysLeft": null,
       "killedByList": [
         {
           "name": "ST3",
+          "deaths": 8
+        },
+        {
+          "name": "=MB= .ZywOo",
           "deaths": 8
         },
         {
@@ -157812,15 +157841,15 @@
           "deaths": 7
         },
         {
-          "name": "=MB= .ZywOo",
-          "deaths": 7
+          "name": "=MB= .TenZ",
+          "deaths": 6
         },
         {
           "name": "Homer",
           "deaths": 5
         },
         {
-          "name": "=MB= .TenZ",
+          "name": "=MB= .Hartmann",
           "deaths": 5
         },
         {
@@ -157836,7 +157865,15 @@
           "deaths": 4
         },
         {
+          "name": "=MB= .Ogre2",
+          "deaths": 3
+        },
+        {
           "name": "Francotirador",
+          "deaths": 3
+        },
+        {
+          "name": "=MB= .Lyudmila",
           "deaths": 3
         },
         {
@@ -157844,19 +157881,11 @@
           "deaths": 3
         },
         {
-          "name": "=MB= .Hartmann",
+          "name": "=MB= .Vasily",
           "deaths": 3
         },
         {
           "name": "Bard0k",
-          "deaths": 2
-        },
-        {
-          "name": "=MB= .Ogre2",
-          "deaths": 2
-        },
-        {
-          "name": "=MB= .Lyudmila",
           "deaths": 2
         },
         {
@@ -157868,25 +157897,33 @@
           "deaths": 2
         },
         {
-          "name": "UnnamedSoldier",
-          "deaths": 1
+          "name": "=MB= .S1mple",
+          "deaths": 2
         },
         {
-          "name": "=MB= .Vasily",
+          "name": "UnnamedSoldier",
           "deaths": 1
         }
       ],
       "victimsList": [
         {
+          "name": "=MB= .Lyudmila",
+          "kills": 17
+        },
+        {
           "name": "=MB= .Scump",
-          "kills": 15
+          "kills": 17
         },
         {
           "name": "=MB= .Ogre2",
-          "kills": 14
+          "kills": 16
         },
         {
-          "name": "=MB= .Lyudmila",
+          "name": "=MB= .Fatal1ty",
+          "kills": 13
+        },
+        {
+          "name": "=MB= .ZywOo",
           "kills": 12
         },
         {
@@ -157898,7 +157935,7 @@
           "kills": 10
         },
         {
-          "name": "=MB= .ZywOo",
+          "name": "=MB= .Vasily",
           "kills": 10
         },
         {
@@ -157906,11 +157943,11 @@
           "kills": 9
         },
         {
-          "name": "=MB= .Fatal1ty",
+          "name": "=MB= .S1mple",
           "kills": 9
         },
         {
-          "name": "=MB= .Vasily",
+          "name": "=MB= .Hartmann",
           "kills": 8
         },
         {
@@ -157930,19 +157967,11 @@
           "kills": 5
         },
         {
-          "name": "=MB= .Hartmann",
-          "kills": 5
-        },
-        {
           "name": "=MB= .Kazuya",
           "kills": 4
         },
         {
           "name": "S@nto_Bol",
-          "kills": 4
-        },
-        {
-          "name": "=MB= .S1mple",
           "kills": 4
         },
         {
@@ -158056,10 +158085,30 @@
         "dm/dm_routenord": {
           "=MB= .Kazuya": 2,
           "=MB= .TenZ": 2,
-          "=MB= .Ogre2": 2,
+          "=MB= .Ogre2": 3,
           "=MB= .S1mple": 1,
+          "=MB= .Lyudmila": 2,
+          "=MB= .Scump": 2,
+          "=MB= .Hartmann": 1
+        },
+        "dm/Gatehouse_Assault_DM_1": {
+          "=MB= .ZywOo": 1,
+          "=MB= .Lyudmila": 3,
+          "=MB= .Scump": 1,
+          "=MB= .Fatal1ty": 2,
+          "=MB= .Ogre2": 1,
+          "=MB= .S1mple": 3,
+          "=MB= .Vasily": 1,
+          "=MB= .Hartmann": 1
+        },
+        "dm/mohdm1": {
+          "=MB= .Hartmann": 1,
+          "=MB= .S1mple": 2,
+          "=MB= .Fatal1ty": 2,
           "=MB= .Lyudmila": 1,
-          "=MB= .Scump": 2
+          "=MB= .Scump": 1,
+          "=MB= .ZywOo": 1,
+          "=MB= .Vasily": 1
         }
       },
       "victimsByDate": {
@@ -158084,19 +158133,19 @@
           "<QS> JOSEBECKS7": 1
         },
         "2026-10-20": {
-          "=MB= .Scump": 10,
+          "=MB= .Scump": 12,
           "Maverick": 2,
           "S@nto_Bol": 1,
           "SANDY": 1,
           "<QS> JOSEBECKS7": 1,
-          "=MB= .Lyudmila": 10,
-          "=MB= .Fatal1ty": 5,
-          "=MB= .Hartmann": 4,
-          "=MB= .ZywOo": 10,
-          "=MB= .Ogre2": 12,
+          "=MB= .Lyudmila": 15,
+          "=MB= .Fatal1ty": 9,
+          "=MB= .Hartmann": 7,
+          "=MB= .ZywOo": 12,
+          "=MB= .Ogre2": 14,
           "=MB= .TenZ": 8,
-          "=MB= .S1mple": 3,
-          "=MB= .Vasily": 6,
+          "=MB= .S1mple": 8,
+          "=MB= .Vasily": 8,
           "=MB= .Kazuya": 3
         }
       },
@@ -158208,25 +158257,45 @@
           "dm/dm_routenord": {
             "=MB= .Kazuya": 2,
             "=MB= .TenZ": 2,
-            "=MB= .Ogre2": 2,
+            "=MB= .Ogre2": 3,
             "=MB= .S1mple": 1,
+            "=MB= .Lyudmila": 2,
+            "=MB= .Scump": 2,
+            "=MB= .Hartmann": 1
+          },
+          "dm/Gatehouse_Assault_DM_1": {
+            "=MB= .ZywOo": 1,
+            "=MB= .Lyudmila": 3,
+            "=MB= .Scump": 1,
+            "=MB= .Fatal1ty": 2,
+            "=MB= .Ogre2": 1,
+            "=MB= .S1mple": 3,
+            "=MB= .Vasily": 1,
+            "=MB= .Hartmann": 1
+          },
+          "dm/mohdm1": {
+            "=MB= .Hartmann": 1,
+            "=MB= .S1mple": 2,
+            "=MB= .Fatal1ty": 2,
             "=MB= .Lyudmila": 1,
-            "=MB= .Scump": 2
+            "=MB= .Scump": 1,
+            "=MB= .ZywOo": 1,
+            "=MB= .Vasily": 1
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "Sniper",
-          "kills": 110
+          "kills": 125
         },
         {
           "weapon": "Bazooka",
-          "kills": 19
+          "kills": 27
         },
         {
           "weapon": "Bash",
-          "kills": 12
+          "kills": 14
         },
         {
           "weapon": "SMG",
@@ -158239,16 +158308,16 @@
       ],
       "bodypartsList": [
         {
-          "bodypart": "face",
-          "kills": 6
+          "bodypart": "kisser",
+          "kills": 8
         },
         {
-          "bodypart": "kisser",
-          "kills": 3
+          "bodypart": "face",
+          "kills": 7
         }
       ],
       "firstSeen": "2026-10-19 21:11:33",
-      "lastSeen": "2026-10-20 21:15:52",
+      "lastSeen": "2026-10-20 21:28:52",
       "rank": 33,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -158281,7 +158350,7 @@
           "name": "Multikill",
           "desc": "Logra 2 o más eliminaciones en un intervalo de 5 segundos",
           "unlocked": true,
-          "current": 13,
+          "current": 15,
           "target": 1,
           "unit": null
         },
@@ -158325,7 +158394,7 @@
           "name": "Francotirador",
           "desc": "Consigue 30 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 110,
+          "current": 125,
           "target": 150,
           "unit": null
         },
@@ -158336,7 +158405,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 93,
+          "current": 106,
           "target": 120,
           "unit": "min"
         },
@@ -158347,7 +158416,7 @@
           "name": "Kamikaze",
           "desc": "Suicídate 5 o más veces",
           "unlocked": false,
-          "current": 8,
+          "current": 10,
           "target": 20,
           "unit": null
         },
@@ -158677,7 +158746,7 @@
           "name": "Combo x5",
           "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
           "unlocked": true,
-          "current": 13,
+          "current": 15,
           "target": 5,
           "unit": null
         },
@@ -158687,8 +158756,8 @@
           "icon": "⚡",
           "name": "Combo x15",
           "desc": "Logra 15 eventos de multikill",
-          "unlocked": false,
-          "current": 13,
+          "unlocked": true,
+          "current": 15,
           "target": 15,
           "unit": null
         },
@@ -158699,7 +158768,7 @@
           "name": "Máquina de Combos",
           "desc": "Logra 40 eventos de multikill",
           "unlocked": false,
-          "current": 13,
+          "current": 15,
           "target": 40,
           "unit": null
         },
@@ -158721,7 +158790,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 93,
+          "current": 106,
           "target": 300,
           "unit": "min"
         },
@@ -158732,7 +158801,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 93,
+          "current": 106,
           "target": 900,
           "unit": "min"
         },
@@ -158897,7 +158966,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 22,
+          "current": 24,
           "target": 10,
           "unit": null
         },
@@ -158908,7 +158977,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 22,
+          "current": 24,
           "target": 20,
           "unit": null
         },
@@ -158919,7 +158988,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 22,
+          "current": 24,
           "target": 40,
           "unit": null
         },
@@ -159106,7 +159175,7 @@
           "name": "Humillador",
           "desc": "Mata a alguien de culatazo (Humillación) al menos 1 vez",
           "unlocked": true,
-          "current": 11,
+          "current": 12,
           "target": 1,
           "unit": null
         },
@@ -159128,7 +159197,7 @@
           "name": "Primera Sangre en Serie",
           "desc": "Consigue el First Blood anunciado 5 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -159425,7 +159494,7 @@
           "name": "Primero en Combate",
           "desc": "Consigue el primer kill de la partida 5 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -159436,7 +159505,7 @@
           "name": "Rey del Primer Golpe",
           "desc": "Consigue el primer kill de la partida 20 o más veces",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 20,
           "unit": null
         },
@@ -159447,7 +159516,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 6,
+          "current": 8,
           "target": 5,
           "unit": null
         },
@@ -159458,7 +159527,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": false,
-          "current": 6,
+          "current": 8,
           "target": 25,
           "unit": null
         },
@@ -159513,7 +159582,7 @@
           "name": "Autodestrucción Crónica",
           "desc": "Suicídate 15 o más veces",
           "unlocked": false,
-          "current": 8,
+          "current": 10,
           "target": 45,
           "unit": null
         },
@@ -159645,7 +159714,7 @@
           "name": "Sniper Experto",
           "desc": "Consigue 180 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 110,
+          "current": 125,
           "target": 180,
           "unit": null
         },
@@ -159656,7 +159725,7 @@
           "name": "Sniper Elite",
           "desc": "Consigue 500 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 110,
+          "current": 125,
           "target": 500,
           "unit": null
         },
@@ -159667,7 +159736,7 @@
           "name": "Bazooka Experto",
           "desc": "Consigue 70 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 19,
+          "current": 27,
           "target": 70,
           "unit": null
         },
@@ -159678,7 +159747,7 @@
           "name": "Bazooka Elite",
           "desc": "Consigue 200 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 19,
+          "current": 27,
           "target": 200,
           "unit": null
         },
@@ -159711,7 +159780,7 @@
           "name": "Bash Experto",
           "desc": "Consigue 70 o más eliminaciones con Bash",
           "unlocked": false,
-          "current": 12,
+          "current": 14,
           "target": 70,
           "unit": null
         },
@@ -159722,7 +159791,7 @@
           "name": "Bash Elite",
           "desc": "Consigue 200 o más eliminaciones con Bash",
           "unlocked": false,
-          "current": 12,
+          "current": 14,
           "target": 200,
           "unit": null
         },
@@ -159744,7 +159813,7 @@
           "name": "Sniper Supremo",
           "desc": "Consigue 1600 o más eliminaciones con Sniper",
           "unlocked": false,
-          "current": 110,
+          "current": 125,
           "target": 1600,
           "unit": null
         },
@@ -159777,7 +159846,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": false,
-          "current": 92,
+          "current": 117,
           "target": 200,
           "unit": null
         },
@@ -159788,7 +159857,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 92,
+          "current": 117,
           "target": 800,
           "unit": null
         },
@@ -159799,7 +159868,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 92,
+          "current": 117,
           "target": 2000,
           "unit": null
         },
@@ -159810,7 +159879,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 92,
+          "current": 117,
           "target": 4000,
           "unit": null
         },
@@ -159821,7 +159890,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 92,
+          "current": 117,
           "target": 12000,
           "unit": null
         },
@@ -159832,7 +159901,7 @@
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
           "unlocked": false,
-          "current": 34,
+          "current": 44,
           "target": 80,
           "unit": null
         },
@@ -159843,7 +159912,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 34,
+          "current": 44,
           "target": 400,
           "unit": null
         },
@@ -159865,7 +159934,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": false,
-          "current": 15,
+          "current": 17,
           "target": 30,
           "unit": null
         },
@@ -159920,7 +159989,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 93,
+          "current": 106,
           "target": 2400,
           "unit": "min"
         },
@@ -159964,7 +160033,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 22,
+          "current": 24,
           "target": 60,
           "unit": null
         },
@@ -160063,7 +160132,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 20,
+          "current": 21,
           "target": 49,
           "unit": null
         },
@@ -160074,7 +160143,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 20,
+          "current": 21,
           "target": 98,
           "unit": null
         },
@@ -160107,7 +160176,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 43 logros del nivel B",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 43,
           "unit": null
         },
@@ -160151,12 +160220,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 20,
+          "current": 21,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 20,
+      "achievementsUnlocked": 21,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -267537,7 +267606,7 @@
       },
       {
         "name": "PAPI NUMBER",
-        "kills": 110
+        "kills": 125
       },
       {
         "name": "M@chete",
@@ -267678,6 +267747,10 @@
         "kills": 30
       },
       {
+        "name": "PAPI NUMBER",
+        "kills": 27
+      },
+      {
         "name": "MB_Axis_Aliado",
         "kills": 20
       },
@@ -267687,10 +267760,6 @@
       },
       {
         "name": "fibe1403",
-        "kills": 19
-      },
-      {
-        "name": "PAPI NUMBER",
         "kills": 19
       },
       {
@@ -267883,7 +267952,7 @@
       },
       {
         "name": "PAPI NUMBER",
-        "kills": 12
+        "kills": 14
       },
       {
         "name": "Mr.Sipi",
@@ -272450,8 +272519,8 @@
     },
     {
       "map": "dm/mohdm1",
-      "timesPlayed": 134,
-      "totalKills": 24797,
+      "timesPlayed": 135,
+      "totalKills": 24911,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -272556,6 +272625,10 @@
         {
           "name": "DARIUS",
           "kills": 10
+        },
+        {
+          "name": "PAPI NUMBER",
+          "kills": 9
         },
         {
           "name": "antonex",
@@ -273075,6 +273148,140 @@
       "alliesKills": 11
     },
     {
+      "map": "dm/Gatehouse_Assault_DM_1",
+      "timesPlayed": 111,
+      "totalKills": 23810,
+      "connectedHumans": [
+        {
+          "name": "Homer",
+          "kills": 99
+        },
+        {
+          "name": "CaPaRz0",
+          "kills": 92
+        },
+        {
+          "name": "Francotirador",
+          "kills": 89
+        },
+        {
+          "name": "ST3",
+          "kills": 55
+        },
+        {
+          "name": "Lunatic1357",
+          "kills": 54
+        },
+        {
+          "name": "SANDY",
+          "kills": 43
+        },
+        {
+          "name": "Bard0k",
+          "kills": 39
+        },
+        {
+          "name": "Hooligan",
+          "kills": 38
+        },
+        {
+          "name": "REV2099",
+          "kills": 38
+        },
+        {
+          "name": "Nico",
+          "kills": 37
+        },
+        {
+          "name": "Gral. MacArthur",
+          "kills": 36
+        },
+        {
+          "name": "KURCO",
+          "kills": 34
+        },
+        {
+          "name": "Soldado Ryan",
+          "kills": 32
+        },
+        {
+          "name": "Osi",
+          "kills": 29
+        },
+        {
+          "name": "JOSELU REY DEL MEDALLA",
+          "kills": 25
+        },
+        {
+          "name": "S@nto_Bol",
+          "kills": 25
+        },
+        {
+          "name": "OMIXLITO",
+          "kills": 23
+        },
+        {
+          "name": "-MB-cuervo",
+          "kills": 19
+        },
+        {
+          "name": "DARIUS",
+          "kills": 19
+        },
+        {
+          "name": "Slipknot+",
+          "kills": 17
+        },
+        {
+          "name": "Maverick",
+          "kills": 17
+        },
+        {
+          "name": "[c|A||c|D|o] Lito",
+          "kills": 16
+        },
+        {
+          "name": "SANDY PRO",
+          "kills": 14
+        },
+        {
+          "name": "=MB= El_Chacal",
+          "kills": 13
+        },
+        {
+          "name": "MOH-Rugrats.ar",
+          "kills": 13
+        },
+        {
+          "name": "fibe1403",
+          "kills": 13
+        },
+        {
+          "name": "PAPI NUMBER",
+          "kills": 13
+        },
+        {
+          "name": "<MLS>Msg.Lucho",
+          "kills": 11
+        },
+        {
+          "name": "micky",
+          "kills": 10
+        },
+        {
+          "name": "Mr.Sipi",
+          "kills": 3
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
       "map": "dm/MP_Bazaar_DM",
       "timesPlayed": 106,
       "totalKills": 23747,
@@ -273195,136 +273402,6 @@
       "hasHuman": true,
       "axisKills": 0,
       "alliesKills": 8
-    },
-    {
-      "map": "dm/Gatehouse_Assault_DM_1",
-      "timesPlayed": 110,
-      "totalKills": 23613,
-      "connectedHumans": [
-        {
-          "name": "Homer",
-          "kills": 99
-        },
-        {
-          "name": "CaPaRz0",
-          "kills": 92
-        },
-        {
-          "name": "Francotirador",
-          "kills": 89
-        },
-        {
-          "name": "ST3",
-          "kills": 55
-        },
-        {
-          "name": "Lunatic1357",
-          "kills": 54
-        },
-        {
-          "name": "SANDY",
-          "kills": 43
-        },
-        {
-          "name": "Bard0k",
-          "kills": 39
-        },
-        {
-          "name": "Hooligan",
-          "kills": 38
-        },
-        {
-          "name": "REV2099",
-          "kills": 38
-        },
-        {
-          "name": "Nico",
-          "kills": 37
-        },
-        {
-          "name": "Gral. MacArthur",
-          "kills": 36
-        },
-        {
-          "name": "KURCO",
-          "kills": 34
-        },
-        {
-          "name": "Soldado Ryan",
-          "kills": 32
-        },
-        {
-          "name": "Osi",
-          "kills": 29
-        },
-        {
-          "name": "JOSELU REY DEL MEDALLA",
-          "kills": 25
-        },
-        {
-          "name": "S@nto_Bol",
-          "kills": 25
-        },
-        {
-          "name": "OMIXLITO",
-          "kills": 23
-        },
-        {
-          "name": "-MB-cuervo",
-          "kills": 19
-        },
-        {
-          "name": "DARIUS",
-          "kills": 19
-        },
-        {
-          "name": "Slipknot+",
-          "kills": 17
-        },
-        {
-          "name": "Maverick",
-          "kills": 17
-        },
-        {
-          "name": "[c|A||c|D|o] Lito",
-          "kills": 16
-        },
-        {
-          "name": "SANDY PRO",
-          "kills": 14
-        },
-        {
-          "name": "=MB= El_Chacal",
-          "kills": 13
-        },
-        {
-          "name": "MOH-Rugrats.ar",
-          "kills": 13
-        },
-        {
-          "name": "fibe1403",
-          "kills": 13
-        },
-        {
-          "name": "<MLS>Msg.Lucho",
-          "kills": 11
-        },
-        {
-          "name": "micky",
-          "kills": 10
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 3
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
     },
     {
       "map": "dm/Papys_Castle_War",
@@ -273545,7 +273622,7 @@
     {
       "map": "dm/dm_routenord",
       "timesPlayed": 97,
-      "totalKills": 23372,
+      "totalKills": 23392,
       "connectedHumans": [
         {
           "name": "Bard0k",
@@ -273624,12 +273701,12 @@
           "kills": 13
         },
         {
-          "name": "SANDY PRO",
-          "kills": 11
+          "name": "PAPI NUMBER",
+          "kills": 13
         },
         {
-          "name": "PAPI NUMBER",
-          "kills": 10
+          "name": "SANDY PRO",
+          "kills": 11
         },
         {
           "name": "Maverick",
@@ -313893,12 +313970,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-20 21:16:01"
+    "last": "2026-10-20 21:29:09"
   },
-  "generatedAt": "2026-10-21T01:16:03.313Z",
-  "currentMap": "dm/dm_routenord",
+  "generatedAt": "2026-10-21T01:29:10.475Z",
+  "currentMap": "dm/mohdm1",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "PAPI NUMBER",
+      "achId": "multikill_15",
+      "achName": "Combo x15",
+      "desc": "Logra 15 eventos de multikill",
+      "tier": "B",
+      "icon": "⚡",
+      "ts": "2026-10-21T01:29:10.519Z"
+    },
     {
       "name": "PAPI NUMBER",
       "achId": "rival_20",
@@ -314249,15 +314335,6 @@
       "tier": "A",
       "icon": "🗺️",
       "ts": "2026-10-20T03:20:02.111Z"
-    },
-    {
-      "name": "PAPI NUMBER",
-      "achId": "saco_de_boxeo",
-      "achName": "Saco de Boxeo",
-      "desc": "Muere 5 o más veces seguidas sin conseguir un kill",
-      "tier": "D",
-      "icon": "🥊",
-      "ts": "2026-10-20T03:15:22.247Z"
     }
   ],
   "torneoAgenda": [
