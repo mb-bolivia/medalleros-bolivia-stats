@@ -34385,9 +34385,9 @@
         "2026-10-20": 4
       },
       "sessions": 58,
-      "disconnects": 55,
-      "playtimeMs": 219296000,
-      "playtimeFormatted": "60h 55m",
+      "disconnects": 56,
+      "playtimeMs": 219399000,
+      "playtimeFormatted": "60h 57m",
       "favoriteHour": "23:00",
       "hourActivity": [
         2069,
@@ -34413,7 +34413,7 @@
         0,
         49,
         4403,
-        8540
+        8541
       ],
       "mapBreakdown": [
         {
@@ -40886,7 +40886,7 @@
         }
       ],
       "firstSeen": "2026-07-25 22:22:30",
-      "lastSeen": "2026-10-20 23:20:02",
+      "lastSeen": "2026-10-20 23:26:43",
       "rank": 6,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -40974,7 +40974,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": true,
-          "current": 3655,
+          "current": 3657,
           "target": 120,
           "unit": "min"
         },
@@ -41359,7 +41359,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": true,
-          "current": 3655,
+          "current": 3657,
           "target": 300,
           "unit": "min"
         },
@@ -41370,7 +41370,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": true,
-          "current": 3655,
+          "current": 3657,
           "target": 900,
           "unit": "min"
         },
@@ -42558,7 +42558,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": true,
-          "current": 3655,
+          "current": 3657,
           "target": 2400,
           "unit": "min"
         },
@@ -272665,7 +272665,7 @@
     {
       "map": "dm/bombedvillage",
       "timesPlayed": 132,
-      "totalKills": 33380,
+      "totalKills": 33506,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -274646,8 +274646,8 @@
     },
     {
       "map": "dm/the_overpass",
-      "timesPlayed": 120,
-      "totalKills": 25603,
+      "timesPlayed": 121,
+      "totalKills": 25639,
       "connectedHumans": [
         {
           "name": "Bard0k",
@@ -286365,12 +286365,7 @@
       "totalEncounters": 391
     }
   ],
-  "onlineNow": [
-    {
-      "name": "Hooligan",
-      "since": "2026-10-20 22:19:17"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -316605,6 +316600,13 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Martes"
+      },
+      {
+        "ts": "2026-10-20 23:26:43",
+        "name": "Hooligan",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Martes"
       }
     ],
     "peakCount": 21,
@@ -316999,10 +317001,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-20 23:25:00"
+    "last": "2026-10-20 23:29:59"
   },
-  "generatedAt": "2026-10-21T03:25:02.614Z",
-  "currentMap": "dm/bombedvillage",
+  "generatedAt": "2026-10-21T03:30:02.620Z",
+  "currentMap": "dm/the_overpass",
   "serverName": "=MB= Revival Mar | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
