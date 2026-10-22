@@ -9,7 +9,8 @@
   Uso:   overlay.html?jugador=NICK            (marco con las stats de ese jugador)
          overlay.html                         (solo la marca del server)
          overlay.html?armar                   (lista para copiar el link de cada jugador)
-  Extras: &pos=abajo  (pega el marco abajo si la fuente es mas alta que el marco)
+  Extras: &formato=vertical  (marco alto con letras grandes, para lives de celular 9:16; tamano 820x470)
+          &pos=abajo  (pega el marco abajo si la fuente es mas alta que el marco)
   Datos:  overlay.json (lo genera update-stats.js en cada publicacion)
           live.json del repo mb-live (lo sube live-narrador.js cada ~90 s)
 -->
@@ -62,6 +63,35 @@
   @keyframes lat{50%{opacity:.25}}
   .pie .dato{color:var(--txt);} .pie .dato b{color:var(--gold);}
   .pie .gris{color:var(--muted);font-size:15px;margin-left:auto;}
+
+
+  /* Formato VERTICAL (?formato=vertical): mas alto y con letras grandes,
+     para el espacio negro de abajo/arriba en los lives de celular (9:16) */
+  #marco.vert{height:470px;border-width:3px;border-radius:20px;}
+  #marco.vert .cab{height:72px;gap:14px;padding:0 20px;}
+  #marco.vert .logo{font-size:34px;line-height:48px;padding:1px 12px 0;}
+  #marco.vert .marca{font-size:27px;}
+  #marco.vert .ip b{font-size:24px;}
+  #marco.vert .ip span{font-size:16px;}
+  #marco.vert .cuerpo{height:268px;padding:18px 20px 0;}
+  #marco.vert .fila{height:70px;gap:16px;align-items:center;}
+  #marco.vert .pos{font-size:56px;}
+  #marco.vert .nombre{font-size:50px;max-width:560px;}
+  #marco.vert .ver{font-size:34px;}
+  #marco.vert .sube{font-size:26px;}
+  #marco.vert .celdas{gap:10px;margin-top:14px;flex-wrap:wrap;}
+  #marco.vert .celda{flex:1 1 30%;padding:8px 4px 6px;border-radius:12px;}
+  #marco.vert .celda b{font-size:44px;}
+  #marco.vert .celda span{font-size:16px;}
+  #marco.vert .celda small{font-size:24px !important;}
+  #marco.vert .promo{height:268px !important;gap:12px;}
+  #marco.vert .promo .t1{font-size:42px;}
+  #marco.vert .promo .t2{font-size:25px;}
+  #marco.vert .pie{height:124px;flex-wrap:wrap;align-content:center;row-gap:8px;white-space:normal;font-size:25px;padding:0 20px;}
+  #marco.vert .vivo{font-size:22px;padding:3px 14px;}
+  #marco.vert .vivo i{width:12px;height:12px;}
+  #marco.vert .pie .dato{flex-basis:100%;}
+  #marco.vert .pie .gris{display:none;}
 
   /* Pagina para armar links (?armar) */
   #armar{display:none;background:#0a0c10;color:var(--txt);min-height:100vh;padding:20px 16px;box-sizing:border-box;
@@ -150,12 +180,15 @@
 
   // ---------- Escalado: el marco entra entero en la fuente, sin deformarse ----------
   var marco = document.getElementById("marco");
+  var VERT = /^v/.test((param("formato") || "").toLowerCase());
+  var BW = 820, BH = VERT ? 470 : 220;
+  if (VERT) marco.className = "vert";
   function escalar() {
     var W = window.innerWidth, H = window.innerHeight;
     if (!W || !H) return;
-    var s = Math.min(W / 820, H / 220);
-    var x = (W - 820 * s) / 2;
-    var y = pos === "abajo" ? H - 220 * s : pos === "centro" ? (H - 220 * s) / 2 : 0;
+    var s = Math.min(W / BW, H / BH);
+    var x = (W - BW * s) / 2;
+    var y = pos === "abajo" ? H - BH * s : pos === "centro" ? (H - BH * s) / 2 : 0;
     marco.style.transform = "translate(" + x + "px," + y + "px) scale(" + s + ")";
   }
   window.addEventListener("resize", escalar);
