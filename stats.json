@@ -118556,9 +118556,9 @@
         "2026-08-22": 2,
         "2026-09-04": 1
       },
-      "sessions": 100,
-      "disconnects": 85,
-      "playtimeMs": 59230000,
+      "sessions": 101,
+      "disconnects": 86,
+      "playtimeMs": 59243000,
       "playtimeFormatted": "16h 27m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -118575,7 +118575,7 @@
         0,
         2,
         35,
-        7,
+        9,
         0,
         51,
         6,
@@ -119529,7 +119529,7 @@
           "humanVictimsCount": 1
         }
       ],
-      "activeDaysCount": 43,
+      "activeDaysCount": 44,
       "weekdaysCovered": 6,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 10,
@@ -121168,7 +121168,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-10-22 23:15:55",
+      "lastSeen": "2026-10-23 13:29:28",
       "rank": 21,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -121399,7 +121399,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 43,
+          "current": 44,
           "target": 3,
           "unit": null
         },
@@ -121663,7 +121663,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 100,
+          "current": 101,
           "target": 10,
           "unit": null
         },
@@ -121674,7 +121674,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": true,
-          "current": 100,
+          "current": 101,
           "target": 30,
           "unit": null
         },
@@ -121696,7 +121696,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": true,
-          "current": 100,
+          "current": 101,
           "target": 50,
           "unit": null
         },
@@ -121707,7 +121707,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": true,
-          "current": 100,
+          "current": 101,
           "target": 75,
           "unit": null
         },
@@ -122235,7 +122235,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": true,
-          "current": 43,
+          "current": 44,
           "target": 30,
           "unit": null
         },
@@ -122851,7 +122851,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": true,
-          "current": 100,
+          "current": 101,
           "target": 100,
           "unit": null
         },
@@ -122862,7 +122862,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 100,
+          "current": 101,
           "target": 200,
           "unit": null
         },
@@ -263906,8 +263906,8 @@
     },
     {
       "map": "dm/StreetFinal",
-      "timesPlayed": 117,
-      "totalKills": 36805,
+      "timesPlayed": 118,
+      "totalKills": 36890,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -278240,12 +278240,7 @@
       "totalEncounters": 392
     }
   ],
-  "onlineNow": [
-    {
-      "name": "JOSELU",
-      "since": "2026-10-22 23:15:31"
-    }
-  ],
+  "onlineNow": [],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -309124,6 +309119,27 @@
         "action": "disconnect",
         "count": 1,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-10-23 13:25:01",
+        "name": "JOSELU",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-10-23 13:29:15",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-10-23 13:29:28",
+        "name": "Mr.Sipi",
+        "action": "disconnect",
+        "count": 0,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 21,
@@ -309530,11 +309546,11 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-23 13:25:01"
+    "last": "2026-10-23 13:29:59"
   },
-  "generatedAt": "2026-10-23T17:25:02.576Z",
-  "currentMap": "dm/snipervalley",
-  "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
+  "generatedAt": "2026-10-23T17:30:02.063Z",
+  "currentMap": "dm/StreetFinal",
+  "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
       "name": "MOH-Rugrats.ar",
