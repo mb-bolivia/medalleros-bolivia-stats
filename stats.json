@@ -43095,9 +43095,9 @@
         "2026-10-15": 2,
         "2026-10-16": 3
       },
-      "sessions": 23,
+      "sessions": 24,
       "disconnects": 22,
-      "playtimeMs": 65015000,
+      "playtimeMs": 65042000,
       "playtimeFormatted": "18h 4m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -43124,7 +43124,7 @@
         58,
         218,
         1106,
-        3258
+        3259
       ],
       "mapBreakdown": [
         {
@@ -44116,7 +44116,7 @@
           "humanVictimsCount": 6
         }
       ],
-      "activeDaysCount": 23,
+      "activeDaysCount": 24,
       "weekdaysCovered": 5,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 10,
@@ -46622,7 +46622,7 @@
         }
       ],
       "firstSeen": "2026-07-17 22:51:56",
-      "lastSeen": "2026-10-19 23:40:39",
+      "lastSeen": "2026-10-22 23:29:34",
       "rank": 7,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -46853,7 +46853,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 23,
+          "current": 24,
           "target": 3,
           "unit": null
         },
@@ -47117,7 +47117,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 23,
+          "current": 24,
           "target": 10,
           "unit": null
         },
@@ -47128,7 +47128,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 30,
           "unit": null
         },
@@ -47150,7 +47150,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 50,
           "unit": null
         },
@@ -47161,7 +47161,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 75,
           "unit": null
         },
@@ -47689,7 +47689,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 30,
           "unit": null
         },
@@ -48305,7 +48305,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 100,
           "unit": null
         },
@@ -48316,7 +48316,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 23,
+          "current": 24,
           "target": 200,
           "unit": null
         },
@@ -264561,8 +264561,8 @@
     },
     {
       "map": "dm/courtyard",
-      "timesPlayed": 128,
-      "totalKills": 32179,
+      "timesPlayed": 129,
+      "totalKills": 32299,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -265459,7 +265459,7 @@
     {
       "map": "dm/mohdm5",
       "timesPlayed": 130,
-      "totalKills": 27318,
+      "totalKills": 27334,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -277914,6 +277914,10 @@
     {
       "name": "JOSELU",
       "since": "2026-10-22 23:15:31"
+    },
+    {
+      "name": "Homer",
+      "since": "2026-10-22 23:29:34"
     }
   ],
   "concurrentPlayers": {
@@ -308682,6 +308686,13 @@
         "action": "connect",
         "count": 1,
         "weekday": "Jueves"
+      },
+      {
+        "ts": "2026-10-22 23:29:34",
+        "name": "Homer",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Jueves"
       }
     ],
     "peakCount": 21,
@@ -309084,10 +309095,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-22 23:25:01"
+    "last": "2026-10-22 23:30:01"
   },
-  "generatedAt": "2026-10-23T03:25:02.701Z",
-  "currentMap": "dm/mohdm5",
+  "generatedAt": "2026-10-23T03:30:02.409Z",
+  "currentMap": "dm/courtyard",
   "serverName": "=MB= Revival Jue | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
