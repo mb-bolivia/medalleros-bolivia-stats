@@ -139996,12 +139996,12 @@
       "name": "PAPI NUMBER",
       "kills": 60,
       "deaths": 58,
-      "totalKills": 511,
+      "totalKills": 513,
       "totalDeaths": 247,
       "suicides": 26,
       "kd": 1.03,
       "headshots": 7,
-      "totalHeadshots": 28,
+      "totalHeadshots": 29,
       "announcer": {
         "killingSpree": 31,
         "rampage": 8,
@@ -140020,7 +140020,7 @@
       "hsPercent": 100,
       "weapons": {
         "Sniper": 385,
-        "Bazooka": 46,
+        "Bazooka": 48,
         "Bash": 26,
         "MG": 1,
         "SMG": 4,
@@ -140052,9 +140052,9 @@
       "winsByGameDay": {
         "2026-10-20": 1
       },
-      "sessions": 6,
+      "sessions": 7,
       "disconnects": 6,
-      "playtimeMs": 14516000,
+      "playtimeMs": 14545000,
       "playtimeFormatted": "4h 2m",
       "favoriteHour": "21:00",
       "hourActivity": [
@@ -140080,7 +140080,7 @@
         0,
         44,
         312,
-        244,
+        247,
         157
       ],
       "mapBreakdown": [
@@ -140281,6 +140281,12 @@
           "kills": 2,
           "deaths": 3,
           "kd": 0.67
+        },
+        {
+          "map": "dm/toysoldiers",
+          "kills": 2,
+          "deaths": 0,
+          "kd": 2
         }
       ],
       "bestWeaponVarietyInMap": 4,
@@ -140483,30 +140489,36 @@
           "weaponsCount": 1,
           "victimsCount": 2,
           "humanVictimsCount": 0
+        },
+        {
+          "map": "dm/toysoldiers",
+          "weaponsCount": 1,
+          "victimsCount": 2,
+          "humanVictimsCount": 0
         }
       ],
-      "activeDaysCount": 4,
-      "weekdaysCovered": 4,
+      "activeDaysCount": 5,
+      "weekdaysCovered": 5,
       "distinctBotsKilled": 10,
       "bestBotVarietyInMap": 9,
       "totalBotsConfigured": 32,
       "winWeekdaysCovered": 1,
-      "longestConsecutiveDayStreak": 4,
+      "longestConsecutiveDayStreak": 5,
       "wonWeekendPair": false,
       "longestSessionMs": 7658000,
       "maxMapWins": 1,
       "maxWinsInDay": 1,
       "bestMapWinStreak": 1,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 75,
+      "maxRivalryEncounters": 76,
       "playedWeekend": false,
       "playedBothWeekendDays": false,
       "chatMessages": 0,
-      "botKills": 451,
+      "botKills": 453,
       "humanKillsOnly": 60,
       "botDeaths": 163,
       "humanDeathsOnly": 58,
-      "maxBotRivalry": 61,
+      "maxBotRivalry": 62,
       "currentTeam": null,
       "playedAxis": false,
       "playedAllies": false,
@@ -140616,7 +140628,7 @@
       "victimsList": [
         {
           "name": "=MB= .Lyudmila",
-          "kills": 61
+          "kills": 62
         },
         {
           "name": "=MB= .TenZ",
@@ -140640,7 +140652,7 @@
         },
         {
           "name": "=MB= .ZywOo",
-          "kills": 40
+          "kills": 41
         },
         {
           "name": "=MB= .Kazuya",
@@ -140973,6 +140985,10 @@
         "dm/user_98lombardo": {
           "=MB= .ZywOo": 1,
           "=MB= .Lyudmila": 1
+        },
+        "dm/toysoldiers": {
+          "=MB= .Lyudmila": 1,
+          "=MB= .ZywOo": 1
         }
       },
       "victimsByDate": {
@@ -141029,6 +141045,10 @@
         "2026-10-22": {
           "=MB= .ZywOo": 1,
           "=MB= .Lyudmila": 1
+        },
+        "2026-10-23": {
+          "=MB= .Lyudmila": 1,
+          "=MB= .ZywOo": 1
         }
       },
       "victimsByDateMap": {
@@ -141324,6 +141344,12 @@
             "=MB= .ZywOo": 1,
             "=MB= .Lyudmila": 1
           }
+        },
+        "2026-10-23": {
+          "dm/toysoldiers": {
+            "=MB= .Lyudmila": 1,
+            "=MB= .ZywOo": 1
+          }
         }
       },
       "weaponsList": [
@@ -141333,7 +141359,7 @@
         },
         {
           "weapon": "Bazooka",
-          "kills": 46
+          "kills": 48
         },
         {
           "weapon": "Shotgun",
@@ -141367,7 +141393,7 @@
         },
         {
           "bodypart": "face",
-          "kills": 13
+          "kills": 14
         },
         {
           "bodypart": "neck",
@@ -141375,7 +141401,7 @@
         }
       ],
       "firstSeen": "2026-10-19 21:11:33",
-      "lastSeen": "2026-10-22 21:50:28",
+      "lastSeen": "2026-10-23 22:15:00",
       "rank": 27,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -141606,7 +141632,7 @@
           "name": "Persistente",
           "desc": "Juega en 3 o más días distintos",
           "unlocked": true,
-          "current": 4,
+          "current": 5,
           "target": 3,
           "unit": null
         },
@@ -141870,7 +141896,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 10,
           "unit": null
         },
@@ -141881,7 +141907,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 30,
           "unit": null
         },
@@ -141903,7 +141929,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 50,
           "unit": null
         },
@@ -141914,7 +141940,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 75,
           "unit": null
         },
@@ -142024,7 +142050,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 75,
+          "current": 76,
           "target": 10,
           "unit": null
         },
@@ -142035,7 +142061,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 75,
+          "current": 76,
           "target": 20,
           "unit": null
         },
@@ -142046,7 +142072,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 75,
+          "current": 76,
           "target": 40,
           "unit": null
         },
@@ -142145,7 +142171,7 @@
           "name": "Semana Completa",
           "desc": "Juega al menos un día de cada uno de los 6 días (domingo a viernes)",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 6,
           "unit": null
         },
@@ -142419,8 +142445,8 @@
           "icon": "🔥",
           "name": "Racha de Constancia",
           "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
-          "unlocked": false,
-          "current": 4,
+          "unlocked": true,
+          "current": 5,
           "target": 5,
           "unit": null
         },
@@ -142431,7 +142457,7 @@
           "name": "Racha de Hierro Semanal",
           "desc": "Juega 14 días de calendario seguidos, sin faltar ninguno",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 14,
           "unit": null
         },
@@ -142442,7 +142468,7 @@
           "name": "Leyenda Viviente",
           "desc": "Juega en 30 o más días distintos, aunque no sean seguidos",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 30,
           "unit": null
         },
@@ -142794,7 +142820,7 @@
           "name": "Bazooka Experto",
           "desc": "Consigue 70 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 46,
+          "current": 48,
           "target": 70,
           "unit": null
         },
@@ -142805,7 +142831,7 @@
           "name": "Bazooka Elite",
           "desc": "Consigue 200 o más eliminaciones con Bazooka",
           "unlocked": false,
-          "current": 46,
+          "current": 48,
           "target": 200,
           "unit": null
         },
@@ -142904,7 +142930,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": true,
-          "current": 451,
+          "current": 453,
           "target": 200,
           "unit": null
         },
@@ -142915,7 +142941,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 451,
+          "current": 453,
           "target": 800,
           "unit": null
         },
@@ -142926,7 +142952,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 451,
+          "current": 453,
           "target": 2000,
           "unit": null
         },
@@ -142937,7 +142963,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 451,
+          "current": 453,
           "target": 4000,
           "unit": null
         },
@@ -142948,7 +142974,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 451,
+          "current": 453,
           "target": 12000,
           "unit": null
         },
@@ -142992,7 +143018,7 @@
           "name": "Némesis Robótico",
           "desc": "Un mismo bot te elimina 30 o más veces en total",
           "unlocked": true,
-          "current": 61,
+          "current": 62,
           "target": 30,
           "unit": null
         },
@@ -143058,7 +143084,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 100,
           "unit": null
         },
@@ -143069,7 +143095,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 6,
+          "current": 7,
           "target": 200,
           "unit": null
         },
@@ -143091,7 +143117,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 75,
+          "current": 76,
           "target": 60,
           "unit": null
         },
@@ -143190,7 +143216,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 44,
+          "current": 45,
           "target": 49,
           "unit": null
         },
@@ -143201,7 +143227,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 44,
+          "current": 45,
           "target": 98,
           "unit": null
         },
@@ -143234,7 +143260,7 @@
           "name": "Maestro del Nivel B",
           "desc": "Desbloquea los 43 logros del nivel B",
           "unlocked": false,
-          "current": 13,
+          "current": 14,
           "target": 43,
           "unit": null
         },
@@ -143278,12 +143304,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 44,
+          "current": 45,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 44,
+      "achievementsUnlocked": 45,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -266763,12 +266789,12 @@
         "kills": 66
       },
       {
-        "name": "I_LOVE_MLS_7025",
-        "kills": 47
+        "name": "PAPI NUMBER",
+        "kills": 48
       },
       {
-        "name": "PAPI NUMBER",
-        "kills": 46
+        "name": "I_LOVE_MLS_7025",
+        "kills": 47
       },
       {
         "name": "NecrysTuMachete",
@@ -268264,7 +268290,7 @@
     {
       "map": "dm/StreetFinal",
       "timesPlayed": 122,
-      "totalKills": 38269,
+      "totalKills": 38420,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -268765,8 +268791,8 @@
     },
     {
       "map": "dm/toysoldiers",
-      "timesPlayed": 109,
-      "totalKills": 34689,
+      "timesPlayed": 110,
+      "totalKills": 34716,
       "connectedHumans": [
         {
           "name": "SANDY",
@@ -268875,6 +268901,10 @@
         {
           "name": "papuelwall",
           "kills": 5
+        },
+        {
+          "name": "PAPI NUMBER",
+          "kills": 2
         }
       ],
       "winners": [
@@ -282727,7 +282757,12 @@
       "totalEncounters": 392
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "PAPI NUMBER",
+      "since": "2026-10-23 22:14:31"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -313823,6 +313858,13 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Viernes"
+      },
+      {
+        "ts": "2026-10-23 22:14:31",
+        "name": "PAPI NUMBER",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Viernes"
       }
     ],
     "peakCount": 21,
@@ -314229,12 +314271,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-23 22:10:01"
+    "last": "2026-10-23 22:15:00"
   },
-  "generatedAt": "2026-10-24T02:10:02.422Z",
-  "currentMap": "dm/StreetFinal",
+  "generatedAt": "2026-10-24T02:15:02.265Z",
+  "currentMap": "dm/toysoldiers",
   "serverName": "=MB= Revival Vie | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "PAPI NUMBER",
+      "achId": "racha_de_constancia",
+      "achName": "Racha de Constancia",
+      "desc": "Juega 5 días de calendario seguidos, sin faltar ninguno",
+      "tier": "B",
+      "icon": "🔥",
+      "ts": "2026-10-24T02:15:02.334Z"
+    },
     {
       "name": "Hooligan",
       "achId": "anun_monster",
@@ -314585,15 +314636,6 @@
       "tier": "B",
       "icon": "💢",
       "ts": "2026-10-22T01:55:02.601Z"
-    },
-    {
-      "name": "PAPI NUMBER",
-      "achId": "persistent",
-      "achName": "Persistente",
-      "desc": "Juega en 3 o más días distintos",
-      "tier": "B",
-      "icon": "📆",
-      "ts": "2026-10-22T01:45:02.492Z"
     }
   ],
   "torneoAgenda": [
