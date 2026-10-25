@@ -188845,21 +188845,22 @@
       "name": "HAJOX VALODIK",
       "kills": 1,
       "deaths": 4,
-      "totalKills": 59,
-      "totalDeaths": 83,
+      "totalKills": 61,
+      "totalDeaths": 89,
       "suicides": 3,
       "kd": 0.25,
       "headshots": 0,
-      "totalHeadshots": 4,
+      "totalHeadshots": 5,
       "announcer": {
-        "finRacha": 4,
+        "finRacha": 5,
         "headshot": 4,
-        "doubleKill": 5
+        "doubleKill": 8,
+        "multiKill": 1
       },
       "hsPercent": 0,
       "weapons": {
-        "MG": 50,
-        "SMG": 9
+        "MG": 51,
+        "SMG": 10
       },
       "favoriteWeapon": "MG",
       "favoriteBodypart": "head",
@@ -188883,8 +188884,8 @@
       "winsByGameDay": {},
       "sessions": 12,
       "disconnects": 11,
-      "playtimeMs": 3483000,
-      "playtimeFormatted": "0h 58m",
+      "playtimeMs": 3780000,
+      "playtimeFormatted": "1h 3m",
       "favoriteHour": "13:00",
       "hourActivity": [
         0,
@@ -188901,7 +188902,7 @@
         0,
         0,
         110,
-        60,
+        68,
         0,
         0,
         0,
@@ -188938,6 +188939,12 @@
           "kd": 1
         },
         {
+          "map": "dm/aftermath2",
+          "kills": 6,
+          "deaths": 12,
+          "kd": 0.5
+        },
+        {
           "map": "dm/MP_Brest_DM",
           "kills": 5,
           "deaths": 14,
@@ -188950,19 +188957,13 @@
           "kd": 0.4
         },
         {
-          "map": "dm/aftermath2",
-          "kills": 4,
-          "deaths": 6,
-          "kd": 0.67
-        },
-        {
           "map": "dm/castleddm",
           "kills": 2,
           "deaths": 11,
           "kd": 0.18
         }
       ],
-      "bestWeaponVarietyInMap": 1,
+      "bestWeaponVarietyInMap": 2,
       "hasAllWeaponsInOneMap": false,
       "mapVersatility": [
         {
@@ -189009,8 +189010,8 @@
         },
         {
           "map": "dm/aftermath2",
-          "weaponsCount": 1,
-          "victimsCount": 4,
+          "weaponsCount": 2,
+          "victimsCount": 5,
           "humanVictimsCount": 0
         }
       ],
@@ -189027,13 +189028,13 @@
       "maxWinsInDay": 0,
       "bestMapWinStreak": 0,
       "hasDominatedMap": false,
-      "maxRivalryEncounters": 22,
+      "maxRivalryEncounters": 23,
       "playedWeekend": true,
       "playedBothWeekendDays": false,
       "chatMessages": 5,
-      "botKills": 58,
+      "botKills": 60,
       "humanKillsOnly": 1,
-      "botDeaths": 76,
+      "botDeaths": 82,
       "humanDeathsOnly": 4,
       "maxBotRivalry": 9,
       "currentTeam": null,
@@ -189045,7 +189046,7 @@
       "teamKickCount": 0,
       "worstDeathStreak": 7,
       "firstBloodOfMapCount": 0,
-      "revengeKills": 5,
+      "revengeKills": 6,
       "verified": false,
       "verificationDaysLeft": 15,
       "killedByList": [
@@ -189055,15 +189056,15 @@
         },
         {
           "name": "=MB= .Lyudmila",
-          "deaths": 11
-        },
-        {
-          "name": "=MB= .Hartmann",
-          "deaths": 10
+          "deaths": 13
         },
         {
           "name": "=MB= .Ogre2",
-          "deaths": 10
+          "deaths": 12
+        },
+        {
+          "name": "=MB= .Hartmann",
+          "deaths": 11
         },
         {
           "name": "=MB= .TenZ",
@@ -189075,7 +189076,7 @@
         },
         {
           "name": "=MB= .Vasily",
-          "deaths": 5
+          "deaths": 6
         },
         {
           "name": "JAPYTUDIOS",
@@ -189100,6 +189101,10 @@
           "kills": 9
         },
         {
+          "name": "=MB= .Scump",
+          "kills": 8
+        },
+        {
           "name": "=MB= .ZywOo",
           "kills": 8
         },
@@ -189108,7 +189113,7 @@
           "kills": 8
         },
         {
-          "name": "=MB= .Scump",
+          "name": "=MB= .Lyudmila",
           "kills": 7
         },
         {
@@ -189117,10 +189122,6 @@
         },
         {
           "name": "=MB= .Vasily",
-          "kills": 6
-        },
-        {
-          "name": "=MB= .Lyudmila",
           "kills": 6
         },
         {
@@ -189195,9 +189196,10 @@
         },
         "dm/aftermath2": {
           "=MB= .ZywOo": 1,
-          "=MB= .Lyudmila": 1,
+          "=MB= .Lyudmila": 2,
           "=MB= .TenZ": 1,
-          "=MB= .Hartmann": 1
+          "=MB= .Hartmann": 1,
+          "=MB= .Scump": 1
         }
       },
       "victimsByDate": {
@@ -189205,10 +189207,10 @@
           "=MB= .Ogre2": 6,
           "=MB= .Vasily": 6,
           "=MB= .TenZ": 9,
-          "=MB= .Scump": 7,
+          "=MB= .Scump": 8,
           "=MB= .ZywOo": 8,
           "JAPYTUDIOS": 1,
-          "=MB= .Lyudmila": 6,
+          "=MB= .Lyudmila": 7,
           "=MB= .Hartmann": 8,
           "=MB= .S1mple": 2,
           "=MB= .Fatal1ty": 3,
@@ -189271,26 +189273,27 @@
           },
           "dm/aftermath2": {
             "=MB= .ZywOo": 1,
-            "=MB= .Lyudmila": 1,
+            "=MB= .Lyudmila": 2,
             "=MB= .TenZ": 1,
-            "=MB= .Hartmann": 1
+            "=MB= .Hartmann": 1,
+            "=MB= .Scump": 1
           }
         }
       },
       "weaponsList": [
         {
           "weapon": "MG",
-          "kills": 50
+          "kills": 51
         },
         {
           "weapon": "SMG",
-          "kills": 9
+          "kills": 10
         }
       ],
       "bodypartsList": [
         {
           "bodypart": "head",
-          "kills": 4
+          "kills": 5
         },
         {
           "bodypart": "upper torso",
@@ -189310,7 +189313,7 @@
         }
       ],
       "firstSeen": "2026-10-25 13:12:04",
-      "lastSeen": "2026-10-25 14:19:48",
+      "lastSeen": "2026-10-25 14:24:39",
       "rank": 45,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -189398,7 +189401,7 @@
           "name": "Veterano",
           "desc": "Juega 2 horas o más en el servidor",
           "unlocked": false,
-          "current": 58,
+          "current": 63,
           "target": 120,
           "unit": "min"
         },
@@ -189442,7 +189445,7 @@
           "name": "Artillero Pesado",
           "desc": "Consigue 50 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 50,
+          "current": 51,
           "target": 250,
           "unit": null
         },
@@ -189783,7 +189786,7 @@
           "name": "Sesión Larga",
           "desc": "Acumula 5 horas o más jugadas",
           "unlocked": false,
-          "current": 58,
+          "current": 63,
           "target": 300,
           "unit": "min"
         },
@@ -189794,7 +189797,7 @@
           "name": "Adicto al Servidor",
           "desc": "Acumula 15 horas o más jugadas",
           "unlocked": false,
-          "current": 58,
+          "current": 63,
           "target": 900,
           "unit": "min"
         },
@@ -189959,7 +189962,7 @@
           "name": "Rival Frecuente",
           "desc": "Enfréntate 10 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 22,
+          "current": 23,
           "target": 10,
           "unit": null
         },
@@ -189970,7 +189973,7 @@
           "name": "Némesis Eterno",
           "desc": "Enfréntate 20 o más veces contra un mismo jugador",
           "unlocked": true,
-          "current": 22,
+          "current": 23,
           "target": 20,
           "unit": null
         },
@@ -189981,7 +189984,7 @@
           "name": "Guerra Personal",
           "desc": "Enfréntate 40 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 22,
+          "current": 23,
           "target": 40,
           "unit": null
         },
@@ -190157,7 +190160,7 @@
           "name": "Doblete",
           "desc": "Logra tu primer Double-Kill (2 bajas en menos de 4 seg)",
           "unlocked": true,
-          "current": 5,
+          "current": 8,
           "target": 1,
           "unit": null
         },
@@ -190179,7 +190182,7 @@
           "name": "Multi-Kill",
           "desc": "Logra 5 o más Multi-Kill (3 bajas seguidas rápido)",
           "unlocked": false,
-          "current": 0,
+          "current": 1,
           "target": 5,
           "unit": null
         },
@@ -190234,7 +190237,7 @@
           "name": "Cortarrachas",
           "desc": "Corta la racha de un rival (Fin de racha) 10 o más veces",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 10,
           "unit": null
         },
@@ -190509,7 +190512,7 @@
           "name": "Venganza Servida",
           "desc": "Mata 5 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": true,
-          "current": 5,
+          "current": 6,
           "target": 5,
           "unit": null
         },
@@ -190520,7 +190523,7 @@
           "name": "Ángel Vengador",
           "desc": "Mata 25 o más veces a quien te acaba de matar (dentro de 30 segundos)",
           "unlocked": false,
-          "current": 5,
+          "current": 6,
           "target": 25,
           "unit": null
         },
@@ -190641,7 +190644,7 @@
           "name": "SMG Experto",
           "desc": "Consigue 250 o más eliminaciones con SMG",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 250,
           "unit": null
         },
@@ -190652,7 +190655,7 @@
           "name": "SMG Elite",
           "desc": "Consigue 700 o más eliminaciones con SMG",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 700,
           "unit": null
         },
@@ -190685,7 +190688,7 @@
           "name": "MG Experto",
           "desc": "Consigue 180 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 50,
+          "current": 51,
           "target": 180,
           "unit": null
         },
@@ -190696,7 +190699,7 @@
           "name": "MG Elite",
           "desc": "Consigue 500 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 50,
+          "current": 51,
           "target": 500,
           "unit": null
         },
@@ -190817,7 +190820,7 @@
           "name": "SMG Supremo",
           "desc": "Consigue 2000 o más eliminaciones con SMG",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 2000,
           "unit": null
         },
@@ -190828,7 +190831,7 @@
           "name": "MG Supremo",
           "desc": "Consigue 1600 o más eliminaciones con MG",
           "unlocked": false,
-          "current": 50,
+          "current": 51,
           "target": 1600,
           "unit": null
         },
@@ -190839,7 +190842,7 @@
           "name": "Cazador de Bots",
           "desc": "Elimina 50 o más bots",
           "unlocked": false,
-          "current": 58,
+          "current": 60,
           "target": 200,
           "unit": null
         },
@@ -190850,7 +190853,7 @@
           "name": "Exterminador de IA",
           "desc": "Elimina 200 o más bots",
           "unlocked": false,
-          "current": 58,
+          "current": 60,
           "target": 800,
           "unit": null
         },
@@ -190861,7 +190864,7 @@
           "name": "Verdugo de Máquinas",
           "desc": "Elimina 500 o más bots",
           "unlocked": false,
-          "current": 58,
+          "current": 60,
           "target": 2000,
           "unit": null
         },
@@ -190872,7 +190875,7 @@
           "name": "El Terminator",
           "desc": "Elimina 1000 o más bots",
           "unlocked": false,
-          "current": 58,
+          "current": 60,
           "target": 4000,
           "unit": null
         },
@@ -190883,7 +190886,7 @@
           "name": "Aniquilador de Máquinas",
           "desc": "Elimina 3000 o más bots",
           "unlocked": false,
-          "current": 58,
+          "current": 60,
           "target": 12000,
           "unit": null
         },
@@ -190893,8 +190896,8 @@
           "icon": "🪦",
           "name": "Carne de Cañón",
           "desc": "Muere 20 o más veces a manos de bots",
-          "unlocked": false,
-          "current": 76,
+          "unlocked": true,
+          "current": 82,
           "target": 80,
           "unit": null
         },
@@ -190905,7 +190908,7 @@
           "name": "Presa Fácil",
           "desc": "Muere 100 o más veces a manos de bots",
           "unlocked": false,
-          "current": 76,
+          "current": 82,
           "target": 400,
           "unit": null
         },
@@ -190982,7 +190985,7 @@
           "name": "Vida en el Servidor",
           "desc": "Acumula 40 horas o más jugadas",
           "unlocked": false,
-          "current": 58,
+          "current": 63,
           "target": 2400,
           "unit": "min"
         },
@@ -191026,7 +191029,7 @@
           "name": "Archienemigo",
           "desc": "Enfréntate 60 o más veces contra un mismo jugador",
           "unlocked": false,
-          "current": 22,
+          "current": 23,
           "target": 60,
           "unit": null
         },
@@ -191125,7 +191128,7 @@
           "name": "Coleccionista de Logros",
           "desc": "Desbloquea 49 o más logros distintos",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 49,
           "unit": null
         },
@@ -191136,7 +191139,7 @@
           "name": "Completista",
           "desc": "Desbloquea 98 o más logros distintos",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 98,
           "unit": null
         },
@@ -191147,7 +191150,7 @@
           "name": "Maestro del Nivel D",
           "desc": "Desbloquea los 15 logros del nivel D",
           "unlocked": false,
-          "current": 4,
+          "current": 5,
           "target": 15,
           "unit": null
         },
@@ -191213,12 +191216,12 @@
           "name": "Leyenda Absoluta",
           "desc": "Desbloquea absolutamente todos los demás logros del servidor (172)",
           "unlocked": false,
-          "current": 9,
+          "current": 10,
           "target": 172,
           "unit": null
         }
       ],
-      "achievementsUnlocked": 9,
+      "achievementsUnlocked": 10,
       "highestMasteredTier": null,
       "weeklyKillHistory": [
         {
@@ -275872,7 +275875,7 @@
       },
       {
         "name": "HAJOX VALODIK",
-        "kills": 9
+        "kills": 10
       },
       {
         "name": "GUTY KIDMASTER",
@@ -276100,7 +276103,7 @@
       },
       {
         "name": "HAJOX VALODIK",
-        "kills": 50
+        "kills": 51
       },
       {
         "name": "JAPYTUDIOS",
@@ -278018,7 +278021,7 @@
     {
       "map": "dm/aftermath2",
       "timesPlayed": 120,
-      "totalKills": 37722,
+      "totalKills": 37899,
       "connectedHumans": [
         {
           "name": "<MLS>Msg.Lucho",
@@ -278101,11 +278104,11 @@
           "kills": 6
         },
         {
-          "name": "Lunatic1357",
-          "kills": 4
+          "name": "HAJOX VALODIK",
+          "kills": 6
         },
         {
-          "name": "HAJOX VALODIK",
+          "name": "Lunatic1357",
           "kills": 4
         },
         {
@@ -324987,12 +324990,21 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-25 14:20:01"
+    "last": "2026-10-25 14:24:58"
   },
-  "generatedAt": "2026-10-25T18:20:02.113Z",
+  "generatedAt": "2026-10-25T18:25:02.139Z",
   "currentMap": "dm/aftermath2",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
+    {
+      "name": "HAJOX VALODIK",
+      "achId": "carne_de_canon",
+      "achName": "Carne de Cañón",
+      "desc": "Muere 20 o más veces a manos de bots",
+      "tier": "D",
+      "icon": "🪦",
+      "ts": "2026-10-25T18:25:02.177Z"
+    },
     {
       "name": "HAJOX VALODIK",
       "achId": "venganza_servida",
@@ -325342,15 +325354,6 @@
       "desc": "Logra 5 eventos de multikill (2+ kills en 5 segundos)",
       "tier": "C",
       "icon": "⚡",
-      "ts": "2026-10-24T03:55:02.458Z"
-    },
-    {
-      "name": "Slipknot+",
-      "achId": "sessions_10",
-      "achName": "Cliente Frecuente",
-      "desc": "Conéctate 10 o más veces",
-      "tier": "C",
-      "icon": "🔌",
       "ts": "2026-10-24T03:55:02.458Z"
     }
   ],
