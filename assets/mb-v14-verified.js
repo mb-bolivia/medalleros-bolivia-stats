@@ -6,6 +6,7 @@ const portraits={
 'OMIXLITO':'verificado-11.webp','Maverick':'verificado-12.webp','Soldado Ryan':'verificado-13.webp','S@nto_Bol':'verificado-14.webp','REV2099':'verificado-15.webp','DARIUS':'verificado-16.webp','JOSELU EL REY':'verificado-17.webp','=BoL= Chory':'verificado-18.webp','litoelnab':'verificado-19.webp','Gral. MacArthur':'verificado-20.webp','Mr.Sipi':'verificado-21.webp','M@chete':'verificado-22.webp','=MB= El_Chacal':'verificado-23.webp','MB_Axis_Aliado':'verificado-24.webp','-MB-cuervo':'verificado-25.webp','PAPI NUMBER':'verificado-26.webp','MAPACHE':'verificado-27.webp','Slipknot+':'verificado-28.webp','^:::The-Fuhrer:::^':'verificado-29.webp','Kechi':'verificado-30.webp'};
 // MB-INDIVIDUAL-START
 portraits["Mr.Sipi"]="verificados-personalizados/4d722e53697069.png";
+portraits["^:::The-Fuhrer:::^"]="verificados-personalizados/5e3a3a3a5468652d4675687265723a3a3a5e.png";
 // MB-INDIVIDUAL-END
 const portraitMap=new Map(Object.entries(portraits).map(([n,f])=>[norm(n),'assets/'+f]));
 const generic='assets/avatar-m1.svg';
