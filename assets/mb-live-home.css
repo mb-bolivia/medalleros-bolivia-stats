@@ -5,3 +5,6 @@
 .mb-live-empty{border:1px solid #385570;background:linear-gradient(120deg,#0a1e2b,#0c1825);border-radius:10px;padding:13px;color:#a9bac9;font-size:12.5px}
 .mb-live-empty p{margin:8px 0 0}
 .mb-live-pill.stale{display:inline-block;color:#fff;background:#505f6e;border-radius:6px;font-weight:800;padding:5px 9px;letter-spacing:.6px;font-size:12px}
+
+/* Quitar "Explora tu comunidad" + buscador de la portada (se conservan los Accesos rapidos) */
+#mb15-hub .mb15-top,#mb15-hub .mb15-find{display:none!important}
