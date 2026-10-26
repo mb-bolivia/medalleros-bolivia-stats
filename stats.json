@@ -122990,9 +122990,9 @@
         "2026-08-22": 2,
         "2026-09-04": 1
       },
-      "sessions": 105,
+      "sessions": 106,
       "disconnects": 91,
-      "playtimeMs": 60348000,
+      "playtimeMs": 60355000,
       "playtimeFormatted": "16h 46m",
       "favoriteHour": "23:00",
       "hourActivity": [
@@ -123016,7 +123016,7 @@
         20,
         63,
         83,
-        89,
+        90,
         16,
         528,
         1000
@@ -125681,7 +125681,7 @@
         }
       ],
       "firstSeen": "2026-07-17 23:49:51",
-      "lastSeen": "2026-10-25 19:23:33",
+      "lastSeen": "2026-10-25 20:19:48",
       "rank": 22,
       "topPlayerName": "Francotirador",
       "achievements": [
@@ -126176,7 +126176,7 @@
           "name": "Cliente Frecuente",
           "desc": "Conéctate 10 o más veces",
           "unlocked": true,
-          "current": 105,
+          "current": 106,
           "target": 10,
           "unit": null
         },
@@ -126187,7 +126187,7 @@
           "name": "Cliente VIP",
           "desc": "Conéctate 30 o más veces",
           "unlocked": true,
-          "current": 105,
+          "current": 106,
           "target": 30,
           "unit": null
         },
@@ -126209,7 +126209,7 @@
           "name": "Veterano de Mil Batallas",
           "desc": "Conéctate 50 o más veces al servidor",
           "unlocked": true,
-          "current": 105,
+          "current": 106,
           "target": 50,
           "unit": null
         },
@@ -126220,7 +126220,7 @@
           "name": "Maratonista del Servidor",
           "desc": "Conéctate 75 o más veces al servidor",
           "unlocked": true,
-          "current": 105,
+          "current": 106,
           "target": 75,
           "unit": null
         },
@@ -127364,7 +127364,7 @@
           "name": "Residente Permanente",
           "desc": "Conéctate 100 o más veces",
           "unlocked": true,
-          "current": 105,
+          "current": 106,
           "target": 100,
           "unit": null
         },
@@ -127375,7 +127375,7 @@
           "name": "Explorador Legendario",
           "desc": "Conéctate 200 o más veces al servidor",
           "unlocked": false,
-          "current": 105,
+          "current": 106,
           "target": 200,
           "unit": null
         },
@@ -290640,7 +290640,7 @@
     {
       "map": "dm/castleddm",
       "timesPlayed": 102,
-      "totalKills": 20741,
+      "totalKills": 20762,
       "connectedHumans": [
         {
           "name": "Hooligan",
@@ -293990,55 +293990,9 @@
       "alliesKills": 0
     },
     {
-      "map": "dm/1944_dm",
-      "timesPlayed": 91,
-      "totalKills": 15223,
-      "connectedHumans": [
-        {
-          "name": "JAPYTUDIOS",
-          "kills": 31
-        },
-        {
-          "name": "Hooligan",
-          "kills": 23
-        },
-        {
-          "name": "Francotirador",
-          "kills": 22
-        },
-        {
-          "name": "SANDY",
-          "kills": 20
-        },
-        {
-          "name": "Maverick",
-          "kills": 16
-        },
-        {
-          "name": "PAPI NUMBER 1",
-          "kills": 8
-        },
-        {
-          "name": "HAJOX VALODIK",
-          "kills": 7
-        },
-        {
-          "name": "Mr.Sipi",
-          "kills": 1
-        }
-      ],
-      "winners": [
-        "=MB= .Hartmann"
-      ],
-      "winnersAreBots": true,
-      "hasHuman": true,
-      "axisKills": 0,
-      "alliesKills": 0
-    },
-    {
       "map": "dm/armageddon_beta1_1",
-      "timesPlayed": 78,
-      "totalKills": 15190,
+      "timesPlayed": 79,
+      "totalKills": 15283,
       "connectedHumans": [
         {
           "name": "Francotirador",
@@ -294086,6 +294040,52 @@
         },
         {
           "name": "Capado",
+          "kills": 1
+        }
+      ],
+      "winners": [
+        "=MB= .Hartmann"
+      ],
+      "winnersAreBots": true,
+      "hasHuman": true,
+      "axisKills": 0,
+      "alliesKills": 0
+    },
+    {
+      "map": "dm/1944_dm",
+      "timesPlayed": 91,
+      "totalKills": 15223,
+      "connectedHumans": [
+        {
+          "name": "JAPYTUDIOS",
+          "kills": 31
+        },
+        {
+          "name": "Hooligan",
+          "kills": 23
+        },
+        {
+          "name": "Francotirador",
+          "kills": 22
+        },
+        {
+          "name": "SANDY",
+          "kills": 20
+        },
+        {
+          "name": "Maverick",
+          "kills": 16
+        },
+        {
+          "name": "PAPI NUMBER 1",
+          "kills": 8
+        },
+        {
+          "name": "HAJOX VALODIK",
+          "kills": 7
+        },
+        {
+          "name": "Mr.Sipi",
           "kills": 1
         }
       ],
@@ -297286,7 +297286,16 @@
       "totalEncounters": 408
     }
   ],
-  "onlineNow": [],
+  "onlineNow": [
+    {
+      "name": "Mr.Sipi",
+      "since": "2026-10-25 20:19:48"
+    },
+    {
+      "name": "Tinieblas",
+      "since": "2026-10-25 20:19:27"
+    }
+  ],
   "concurrentPlayers": {
     "timeline": [
       {
@@ -329628,6 +329637,20 @@
         "action": "disconnect",
         "count": 0,
         "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-10-25 20:19:27",
+        "name": "Tinieblas",
+        "action": "connect",
+        "count": 1,
+        "weekday": "Domingo"
+      },
+      {
+        "ts": "2026-10-25 20:19:48",
+        "name": "Mr.Sipi",
+        "action": "connect",
+        "count": 2,
+        "weekday": "Domingo"
       }
     ],
     "peakCount": 21,
@@ -330042,10 +330065,10 @@
   },
   "logTimeRange": {
     "first": "2026-07-17 20:35:33",
-    "last": "2026-10-25 20:15:01"
+    "last": "2026-10-25 20:19:55"
   },
-  "generatedAt": "2026-10-26T00:15:03.107Z",
-  "currentMap": "dm/castleddm",
+  "generatedAt": "2026-10-26T00:20:03.309Z",
+  "currentMap": "dm/armageddon_beta1_1",
   "serverName": "=MB= Revival Dom | Web: tinyurl.com/mb-stats",
   "achievementFeed": [
     {
