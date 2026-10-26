@@ -7,6 +7,7 @@ const portraits={
 // MB-INDIVIDUAL-START
 portraits["Mr.Sipi"]="verificados-personalizados/4d722e53697069.png";
 portraits["^:::The-Fuhrer:::^"]="verificados-personalizados/5e3a3a3a5468652d4675687265723a3a3a5e.png";
+portraits["=MB= El_Chacal"]="verificados-personalizados/3d4d423d20456c5f43686163616c.png";
 // MB-INDIVIDUAL-END
 const portraitMap=new Map(Object.entries(portraits).map(([n,f])=>[norm(n),'assets/'+f]));
 const generic='assets/avatar-m1.svg';
