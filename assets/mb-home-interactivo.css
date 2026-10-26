@@ -23,3 +23,7 @@
 
 /* Perfil de jugador: la posicion (#1, #2...) tenia letra oscura sobre fondo oscuro */
 #modalBody .mb8-head-main .rank-badge{color:#ffd978!important;-webkit-text-fill-color:#ffd978!important;text-shadow:0 0 12px rgba(255,200,80,.65),0 2px 3px rgba(0,0,0,.9);background:linear-gradient(160deg,#1c2a3c,#0b1623)!important;border:2px solid #e8b44a!important;box-shadow:0 0 0 3px rgba(232,180,74,.18),0 6px 18px rgba(0,0,0,.5),inset 0 0 14px rgba(232,180,74,.18);font-weight:900;letter-spacing:.5px}
+
+/* Verificacion de tu nick: copia visible en la portada */
+.mbh-verif{margin:0 0 18px}
+.mbh-verif .home-btn{cursor:pointer}

@@ -108,10 +108,28 @@ function tarjetaTorneo(){
   card.innerHTML='<div class="mb8-hd"><b>🎖️ Torneo clasificatorio</b><button type="button" data-mbtab="torneo" class="mb17-clickable">Ver torneo →</button></div><div class="mbh-torneo">'+html+'</div>';
 }
 
+
+/* ---------- Verificacion de tu nick: primero en la Guia y copia en la portada ---------- */
+function esVerif(c){return /Verificaci[oó]n de tu nick/i.test(c.querySelector('.modal-section-title')?.textContent||'');}
+function verificacion(){
+  const panel=document.getElementById('panel-guia');
+  const orig=panel&&[...panel.querySelectorAll(':scope > .guide-card')].find(esVerif);
+  if(!orig) return;
+  if(panel.firstElementChild!==orig) panel.insertBefore(orig,panel.firstElementChild);
+  const home=$('.mb8-home'); if(!home||home.querySelector('#mbh-verif-home')) return;
+  const banner=home.querySelector('.mb8-banner'); if(!banner) return;
+  const copy=orig.cloneNode(true);
+  copy.id='mbh-verif-home';copy.classList.add('mbh-verif');
+  copy.querySelectorAll('[id]').forEach(e=>e.removeAttribute('id'));
+  const fila=copy.querySelector('a.home-btn')?.parentElement;
+  if(fila){const b=document.createElement('button');b.type='button';b.className='home-btn';b.dataset.mbtab='guia';b.textContent='📖 Ver Guía del jugador →';fila.appendChild(b);}
+  banner.after(copy);
+}
+
 /* ---------- datos ---------- */
 async function cargarStats(){try{const r=await fetch(STATS_URL+'?t='+Date.now(),{cache:'no-store'});if(r.ok)stats=await r.json();}catch(e){}tarjetaTorneo();}
 async function cargarLive(){try{const r=await fetch(LIVE_URL+'?t='+Date.now(),{cache:'no-store'});if(r.ok)live=await r.json();}catch(e){}tarjetaTorneo();}
-function ciclo(){banner();vivo();tarjetaTorneo();}
+function ciclo(){banner();vivo();tarjetaTorneo();verificacion();}
 function init(){ciclo();cargarStats();cargarLive();setInterval(ciclo,2000);setInterval(cargarStats,120000);setInterval(cargarLive,20000);}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
