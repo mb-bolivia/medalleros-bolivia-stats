@@ -4,7 +4,7 @@ const $=s=>document.querySelector(s);let players=[];
 const norm=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,m=>m.slice(1,-1)).replace(/[^a-z0-9.]/g,'');
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
 const num=x=>Number(x||0).toLocaleString('es-BO');
-const asset=k=>'assets/weapons/'+k+'.webp?v=19';
+const asset=k=>'assets/weapons/'+k+'.webp?v=20';
 function card(w,value,selected=false){return `<button type="button" class="mb18-card" data-mb18-weapon="${w[0]}" aria-pressed="${selected}"><img src="${asset(w[1])}" alt="${w[2]}" loading="lazy"><strong>${w[2]}</strong>${value!==null?`<small>${num(value)} kills</small>`:''}</button>`}
 function selected(){return $('#weaponSelect')?.value||'Bash'}
 function renderGeneral(){const section=$('#panel-armas');if(!section)return;let box=$('#mb18-weapons');if(!box){box=document.createElement('div');box.id='mb18-weapons';section.insertBefore(box,section.firstChild)}const current=selected();box.innerHTML='<h3>🔫 Arsenal de MOHAA · 8 categorías</h3><div class="mb18-grid">'+weapons.map(w=>card(w,players.length?players.reduce((acc,p)=>acc+Number(p.weapons?.[w[0]]||0),0):null,current===w[0])).join('')+'</div><p class="mb18-note">Selecciona una categoría para actualizar el ranking real de eliminaciones. Las imágenes son ilustrativas y no alteran las cifras.</p>';}
