@@ -1,5 +1,5 @@
 {
-  "ts": 1792467140847,
+  "ts": 1792990307445,
   "por": "web",
   "verified": [
     "Francotirador",
@@ -32,7 +32,8 @@
     "REV2099",
     "JOSELU EL REY",
     "Kechi",
-    "PAPI NUMBER"
+    "PAPI NUMBER",
+    "DEDEADOR3000"
   ],
   "hidden": [],
   "torneo": {
@@ -49,6 +50,10 @@
       "2026-10-03": {
         "ganador": "<MLS>Msg.Lucho",
         "meta": 3
+      },
+      "2026-10-17": {
+        "ganador": "Francotirador",
+        "meta": 7
       }
     },
     "avisosFinales": {
@@ -63,9 +68,15 @@
   },
   "ganadores": [
     {
+      "ganador": "Francotirador",
+      "torneo": "Gun Game - Semana 5",
+      "premio": "Sin definir",
+      "fecha": "2026-10-17"
+    },
+    {
       "ganador": "<MLS>Msg.Lucho",
       "torneo": "Gun Game - Semana 4 (final a 3)",
-      "premio": "Sin definir",
+      "premio": "Teclado",
       "fecha": "2026-10-03"
     },
     {
@@ -90,25 +101,7 @@
   "whitelist": [
     "Mr.Sipi"
   ],
-  "torneosEspeciales": [
-    {
-      "nombre": "Torneo 5 vs 5 — Escolta al Tanque",
-      "modo": "Escolta al Tanque",
-      "formato": "5 vs 5 por equipos",
-      "inscripcionHasta": "2026-10-15",
-      "fechaInicio": "",
-      "fechaFin": "",
-      "horario": "La fecha de inicio se define según la cantidad de equipos inscritos",
-      "premio": "Premio en efectivo para el equipo ganador (lo paga el servidor)",
-      "requisitos": "Los 5 jugadores del equipo tienen que estar verificados en la página",
-      "reglas": [
-        "Inscribí a tu equipo con los nicks EXACTOS de los 5 jugadores",
-        "Máximo 1 bazooka y 1 sniper por equipo",
-        "Un solo premio: para el equipo ganador"
-      ],
-      "visible": true
-    }
-  ],
+  "torneosEspeciales": [],
   "ipsAutorizadas": {},
   "ipsCompartidas": [],
   "duelos": [
