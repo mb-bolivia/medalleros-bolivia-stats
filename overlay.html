@@ -5,112 +5,112 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MB Overlay</title>
 <!--
-  Overlay para streamers (TikTok LIVE Studio "Link" / OBS "Fuente de navegador").
-  Uso:   overlay.html?jugador=NICK            (marco con las stats de ese jugador)
-         overlay.html                         (solo la marca del server)
-         overlay.html?armar                   (lista para copiar el link de cada jugador)
-  Extras: &formato=vertical  (marco alto con letras grandes, para lives de celular 9:16; tamano 820x470)
-          &pos=abajo  (pega el marco abajo si la fuente es mas alta que el marco)
-  Datos:  overlay.json (lo genera update-stats.js en cada publicacion)
-          live.json del repo mb-live (lo sube live-narrador.js cada ~90 s)
+  Marco para streamers V28 (TikTok LIVE Studio "Link" / OBS "Fuente de navegador").
+  Uso:   overlay.html?jugador=NICK                    marco horizontal (960x300)
+         overlay.html?jugador=NICK&formato=vertical   marco para lives de celular 9:16 (800x620)
+         overlay.html                                 solo la marca del server + IP
+         overlay.html?armar                           pagina para copiar el link de cada jugador
+  Extras: &pos=abajo | &pos=centro   (si la fuente es mas alta que el marco)
+  Datos:  overlay.json (update-stats.js) + live.json del repo mb-live (narrador)
+          Ya NO descarga stats.json (9 MB): el verificado viene en overlay.json.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --gold:#e0b23f; --gold2:#f0d98a; --olive:#7c8f52; --red:#e5484d;
-    --panel:rgba(12,14,19,.88); --panel2:rgba(29,34,48,.92); --line:rgba(224,178,63,.45);
-    --txt:#f2f3f5; --muted:#a7aec0;
-  }
-  html,body{margin:0;padding:0;background:transparent !important;overflow:hidden;}
-  body{font-family:"Oswald","Arial Narrow",Arial,sans-serif;color:var(--txt);}
-  #lienzo{position:fixed;left:0;top:0;width:100%;height:100%;}
-  /* El marco se dibuja a 820x220 y se escala para entrar en la fuente */
-  #marco{position:absolute;left:0;top:0;width:820px;height:220px;transform-origin:0 0;
-    border-radius:14px;overflow:hidden;background:var(--panel);border:2px solid var(--line);
-    box-shadow:0 6px 24px rgba(0,0,0,.55);}
-  .cab{height:48px;display:flex;align-items:center;gap:12px;padding:0 16px;
-    background:linear-gradient(90deg,var(--gold),var(--gold2) 60%,var(--olive));color:#1a1305;}
-  .logo{font-family:"Black Ops One","Oswald",sans-serif;font-size:26px;letter-spacing:1px;
-    background:#1a1305;color:var(--gold);padding:1px 9px 0;border-radius:6px;line-height:36px;}
-  .marca{font-family:"Black Ops One","Oswald",sans-serif;font-size:21px;letter-spacing:.5px;white-space:nowrap;}
-  .ip{margin-left:auto;text-align:right;line-height:1.05;font-weight:700;}
-  .ip b{display:block;font-size:19px;letter-spacing:.5px;}
-  .ip span{font-size:13px;font-weight:500;opacity:.85;}
+  :root{--gold:#e7b84a;--gold2:#f6dc8f;--ink:#06111d;--panel:#081827;--line:#d5ac56;--txt:#f7f4ee;--muted:#b3bccb;--red:#e5484d;--green:#3ecf8e}
+  html,body{margin:0;padding:0;background:transparent!important;overflow:hidden}
+  body{font-family:"Oswald","Arial Narrow",Arial,sans-serif;color:var(--txt)}
+  #lienzo{position:fixed;inset:0}
+  #marco{position:absolute;left:0;top:0;transform-origin:0 0;box-sizing:border-box;border-radius:22px;overflow:hidden;
+    border:4px solid var(--line);background:linear-gradient(125deg,rgba(5,15,25,.97),rgba(9,27,44,.95));
+    box-shadow:0 10px 34px rgba(0,0,0,.6);display:flex;flex-direction:column}
 
-  .cuerpo{height:128px;padding:10px 16px 0;box-sizing:border-box;}
-  .fila{display:flex;align-items:baseline;gap:12px;height:44px;}
-  .pos{font-size:34px;font-weight:700;color:var(--gold);text-shadow:0 2px 0 #000;}
-  .nombre{font-size:30px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:520px;
-    text-shadow:0 2px 3px #000;}
-  .ver{font-size:22px;}
-  .sube{margin-left:auto;font-size:18px;font-weight:700;}
-  .sube.up{color:#7fd17f;} .sube.down{color:#ff8a8a;}
-  .celdas{display:flex;gap:8px;margin-top:6px;}
-  .celda{flex:1;background:var(--panel2);border:1px solid rgba(255,255,255,.08);border-radius:9px;
-    text-align:center;padding:6px 4px 5px;}
-  .celda b{display:block;font-size:30px;line-height:1.05;color:#fff;text-shadow:0 2px 2px #000;}
-  .celda span{display:block;font-size:12.5px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;}
-  .promo{height:144px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:6px;}
-  .promo .t1{font-family:"Black Ops One","Oswald",sans-serif;font-size:28px;color:var(--gold);text-shadow:0 2px 0 #000;}
-  .promo .t2{font-size:20px;color:var(--txt);}
-
-  .pie{height:44px;display:flex;align-items:center;gap:10px;padding:0 16px;
-    background:rgba(0,0,0,.55);border-top:1px solid rgba(255,255,255,.08);font-size:18px;white-space:nowrap;overflow:hidden;}
-  .vivo{display:inline-flex;align-items:center;gap:7px;background:var(--red);color:#fff;font-weight:700;
-    padding:2px 10px;border-radius:5px;font-size:16px;letter-spacing:1px;}
-  .vivo i{width:9px;height:9px;border-radius:50%;background:#fff;animation:lat 1.2s infinite;}
+  /* ---------- parte de arriba: foto + puesto + nick ---------- */
+  .top{flex:1;display:flex;align-items:center;gap:26px;padding:0 28px;min-height:0}
+  .foto{flex:none;border-radius:16px;border:4px solid var(--gold);object-fit:cover;object-position:center 25%;
+    background:#132333;box-shadow:0 4px 18px rgba(0,0,0,.7)}
+  .datos{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+  .puesto{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:var(--gold);color:#1a1305;
+    font-family:"Black Ops One","Oswald",sans-serif;border-radius:10px;line-height:1;letter-spacing:.5px}
+  .puesto small{font-family:"Oswald",sans-serif;font-weight:700;letter-spacing:1px}
+  .nick{font-weight:700;white-space:nowrap;line-height:1.08;text-shadow:0 3px 6px #000;overflow:hidden}
+  .nick .ok{color:var(--green);margin-left:.18em;font-size:.8em}
+  .extra{display:flex;gap:12px;align-items:center;flex-wrap:nowrap;white-space:nowrap;color:var(--muted);font-weight:500}
+  .extra b{color:var(--txt);font-weight:700}
+  .vivo{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;font-weight:700;border-radius:8px;letter-spacing:1px}
+  .vivo i{border-radius:50%;background:#fff;animation:lat 1.2s infinite}
   @keyframes lat{50%{opacity:.25}}
-  .pie .dato{color:var(--txt);} .pie .dato b{color:var(--gold);}
-  .pie .gris{color:var(--muted);font-size:15px;margin-left:auto;}
 
+  /* ---------- franja de abajo: IP + web, bien grandes ---------- */
+  .band{flex:none;display:flex;flex-direction:column;justify-content:center;
+    background:linear-gradient(95deg,var(--gold),var(--gold2) 55%,#c9a24a);color:#1a1305;border-top:3px solid #fff3}
+  .band .fila{display:flex;align-items:baseline;white-space:nowrap;line-height:1.05}
+  .band .lab{font-weight:700;letter-spacing:1px;opacity:.75}
+  .band .ip{font-family:"Black Ops One","Oswald",sans-serif;letter-spacing:1px}
+  .band .web{font-weight:700;letter-spacing:.5px}
 
-  /* Formato VERTICAL (?formato=vertical): mas alto y con letras grandes,
-     para el espacio negro de abajo/arriba en los lives de celular (9:16) */
-  #marco.vert{height:470px;border-width:3px;border-radius:20px;}
-  #marco.vert .cab{height:72px;gap:14px;padding:0 20px;}
-  #marco.vert .logo{font-size:34px;line-height:48px;padding:1px 12px 0;}
-  #marco.vert .marca{font-size:27px;}
-  #marco.vert .ip b{font-size:24px;}
-  #marco.vert .ip span{font-size:16px;}
-  #marco.vert .cuerpo{height:268px;padding:18px 20px 0;}
-  #marco.vert .fila{height:70px;gap:16px;align-items:center;}
-  #marco.vert .pos{font-size:56px;}
-  #marco.vert .nombre{font-size:50px;max-width:560px;}
-  #marco.vert .ver{font-size:34px;}
-  #marco.vert .sube{font-size:26px;}
-  #marco.vert .celdas{gap:10px;margin-top:14px;flex-wrap:wrap;}
-  #marco.vert .celda{flex:1 1 30%;padding:8px 4px 6px;border-radius:12px;}
-  #marco.vert .celda b{font-size:44px;}
-  #marco.vert .celda span{font-size:16px;}
-  #marco.vert .celda small{font-size:24px !important;}
-  #marco.vert .promo{height:268px !important;gap:12px;}
-  #marco.vert .promo .t1{font-size:42px;}
-  #marco.vert .promo .t2{font-size:25px;}
-  #marco.vert .pie{height:124px;flex-wrap:wrap;align-content:center;row-gap:8px;white-space:normal;font-size:25px;padding:0 20px;}
-  #marco.vert .vivo{font-size:22px;padding:3px 14px;}
-  #marco.vert .vivo i{width:12px;height:12px;}
-  #marco.vert .pie .dato{flex-basis:100%;}
-  #marco.vert .pie .gris{display:none;}
+  /* --- HORIZONTAL 960x300 --- */
+  #marco.h{width:960px;height:300px}
+  #marco.h .foto{width:168px;height:168px}
+  #marco.h .puesto{font-size:30px;padding:6px 14px}
+  #marco.h .puesto small{font-size:18px}
+  #marco.h .nick{font-size:62px;margin:6px 0 4px}
+  #marco.h .extra{font-size:24px}
+  #marco.h .vivo{font-size:20px;padding:3px 12px}
+  #marco.h .vivo i{width:11px;height:11px}
+  #marco.h .band{height:104px;padding:0 28px;flex-direction:row;align-items:center;justify-content:space-between;gap:20px}
+  #marco.h .band .fila{flex-direction:column;align-items:flex-start;gap:2px}
+  #marco.h .band .lab{font-size:17px}
+  #marco.h .band .ip{font-size:46px}
+  #marco.h .band .web{font-size:36px}
+  #marco.h .band .fila.der{align-items:flex-end}
+
+  /* --- VERTICAL 800x620 (lives de celular) --- */
+  #marco.v{width:800px;height:620px;border-width:5px;border-radius:28px}
+  #marco.v .top{flex-direction:column;justify-content:center;gap:12px;padding:18px 26px 8px;text-align:center}
+  #marco.v .foto{width:190px;height:190px;border-radius:20px}
+  #marco.v .datos{align-items:center;width:100%}
+  #marco.v .puesto{align-self:center;font-size:36px;padding:7px 18px}
+  #marco.v .puesto small{font-size:22px}
+  #marco.v .nick{font-size:66px;margin:4px 0 2px;max-width:100%}
+  #marco.v .extra{font-size:28px;justify-content:center}
+  #marco.v .vivo{font-size:24px;padding:4px 14px}
+  #marco.v .vivo i{width:13px;height:13px}
+  #marco.v .band{height:200px;padding:0 24px;align-items:center;gap:10px}
+  #marco.v .band .fila{flex-direction:column;align-items:center;gap:0}
+  #marco.v .band .lab{font-size:20px}
+  #marco.v .band .ip{font-size:62px}
+  #marco.v .band .web{font-size:46px}
+
+  /* --- promo (sin jugador) --- */
+  .promo{text-align:center}
+  .promo .t1{font-family:"Black Ops One","Oswald",sans-serif;color:var(--gold);text-shadow:0 3px 0 #000}
+  .promo .t2{color:var(--txt);font-weight:500}
+  #marco.h .promo .t1{font-size:54px} #marco.h .promo .t2{font-size:26px}
+  #marco.v .promo .t1{font-size:66px} #marco.v .promo .t2{font-size:32px}
+  .logo{font-family:"Black Ops One",sans-serif;color:var(--gold);background:var(--ink);border:2px solid var(--gold);border-radius:12px;padding:4px 14px 0}
+  #marco.h .promo .logo{font-size:40px} #marco.v .promo .logo{font-size:52px}
 
   /* Pagina para armar links (?armar) */
-  #armar{display:none;background:#0a0c10;color:var(--txt);min-height:100vh;padding:20px 16px;box-sizing:border-box;
-    font-family:Arial,sans-serif;overflow:auto;}
-  #armar h1{font-family:"Black Ops One",sans-serif;color:var(--gold);font-size:22px;margin:0 0 6px;}
-  #armar p{color:var(--muted);font-size:14px;margin:0 0 14px;line-height:1.4;}
-  #armar input{width:100%;max-width:520px;padding:10px;border-radius:8px;border:1px solid #333;background:#141821;color:#fff;font-size:16px;box-sizing:border-box;}
-  #lista{margin-top:12px;display:flex;flex-direction:column;gap:6px;max-width:900px;}
-  .it{display:flex;gap:8px;align-items:center;background:#171b24;border:1px solid #262c3a;border-radius:8px;padding:8px 10px;flex-wrap:wrap;}
-  .it .n{font-weight:bold;min-width:160px;}
-  .it code{flex:1;min-width:200px;font-size:12px;color:#c9d1e0;word-break:break-all;}
-  .it button,.it a{background:var(--gold);color:#1a1305;border:0;border-radius:6px;padding:6px 10px;font-weight:bold;cursor:pointer;text-decoration:none;font-size:13px;}
+  #armar{display:none;background:#0a0c10;color:var(--txt);min-height:100vh;padding:20px 16px;box-sizing:border-box;font-family:Arial,sans-serif;overflow:auto}
+  #armar h1{font-family:"Black Ops One",sans-serif;color:var(--gold);font-size:22px;margin:0 0 6px}
+  #armar p{color:var(--muted);font-size:14px;margin:0 0 14px;line-height:1.45}
+  #armar input{width:100%;max-width:520px;padding:10px;border-radius:8px;border:1px solid #333;background:#141821;color:#fff;font-size:16px;box-sizing:border-box}
+  #lista{margin-top:12px;display:flex;flex-direction:column;gap:6px;max-width:900px}
+  .it{display:flex;gap:8px;align-items:center;background:#171b24;border:1px solid #262c3a;border-radius:8px;padding:8px 10px;flex-wrap:wrap}
+  .it .n{font-weight:bold;min-width:160px;flex:1}
+  .it button,.it a{background:var(--gold);color:#1a1305;border:0;border-radius:6px;padding:6px 10px;font-weight:bold;cursor:pointer;text-decoration:none;font-size:13px}
+  .it button.alt{background:#2b3446;color:#fff}
 </style>
 </head>
 <body>
 <div id="lienzo"><div id="marco"></div></div>
 <div id="armar">
-  <h1>Links del overlay para streamers</h1>
-  <p>Buscá el nick, tocá <b>Copiar</b> y mandale el link al streamer. Lo pega en TikTok LIVE Studio (Agregar fuente → Link) o en OBS (Fuente de navegador). El nick ya va bien escrito dentro del link.</p>
+  <h1>Links del marco para streamers</h1>
+  <p>Buscá el nick y copiá el link que corresponda:<br>
+    <b>Horizontal</b> → lives desde PC en pantalla ancha. Tamaño de la fuente: <b>960 × 300</b>.<br>
+    <b>Vertical</b> → lives para celular (9:16). Tamaño de la fuente: <b>800 × 620</b>.<br>
+    Importante: que el streamer lo <b>estire casi a todo el ancho</b> de su pantalla, si no se ve chico en el celular.</p>
   <input id="buscar" placeholder="Buscar jugador..." autocomplete="off">
   <div id="lista"></div>
 </div>
@@ -119,8 +119,9 @@
   var IP = "190.181.28.38:12203";
   var WEB = "tinyurl.com/mb-stats";
   var LIVE_URL = param("live") || "https://mb-bolivia.github.io/mb-live/live.json"; // ?live= solo para pruebas
-  var CADA_STATS = 120000, CADA_VIVO = 20000;
-  var VIVO_VIEJO_MS = 6 * 60000; // si live.json tiene mas de 6 min, no lo mostramos como "en vivo"
+  var CADA_STATS = 120000, CADA_VIVO = 20000, VIVO_VIEJO_MS = 6 * 60000;
+  var FOTO_GENERICA = "assets/soldier-avatar.webp";
+  var MAPAS_FOTOS = ["assets/top10-por-nick.json", "assets/verificados-por-nick.json", "assets/fotos-personalizadas.json"];
 
   function param(n) {
     var m = new RegExp("[?&]" + n + "(=([^&]*))?").exec(location.search);
@@ -137,11 +138,12 @@
     };
     x.send();
   }
-  function num(v) { return (Math.round(v * 100) / 100).toString(); }
+  function num(v) { return (Math.round((v || 0) * 100) / 100).toString(); }
+  function norm(s) { return String(s || "").toLowerCase().replace(/[^a-z0-9.]/g, ""); }
 
   var jugadorPedido = (param("jugador") || "").trim();
   var pos = (param("pos") || "arriba").toLowerCase();
-  var datos = null, vivo = null, nombreReal = null;
+  var datos = null, vivo = null, nombreReal = null, fotos = {};
 
   // ---------- Modo "armar links" ----------
   if (param("armar") !== null) {
@@ -150,39 +152,42 @@
     a.style.display = "block";
     document.documentElement.style.overflow = document.body.style.overflow = "auto";
     var base = location.href.split("?")[0];
-    var pintar = function () {
+    var pintarLista = function () {
       if (!datos) return;
       var q = document.getElementById("buscar").value.toLowerCase();
       var nombres = Object.keys(datos.jugadores).sort(function (x, y) {
-        var rx = datos.jugadores[x].r || 9999, ry = datos.jugadores[y].r || 9999; return rx - ry;
+        return (datos.jugadores[x].r || 9999) - (datos.jugadores[y].r || 9999);
       });
       var h = "";
       for (var i = 0; i < nombres.length; i++) {
         var n = nombres[i];
         if (q && n.toLowerCase().indexOf(q) < 0) continue;
         var url = base + "?jugador=" + encodeURIComponent(n);
-        h += '<div class="it"><span class="n">' + esc(n) + (datos.jugadores[n].v ? " ✔️" : "") + '</span><code>' + esc(url) +
-          '</code><button data-u="' + esc(url) + '">Copiar</button><a href="' + esc(url) + '" target="_blank">Ver</a></div>';
+        var urlV = url + "&formato=vertical";
+        h += '<div class="it"><span class="n">' + esc(n) + (datos.jugadores[n].v ? " ✔️" : "") + '</span>' +
+          '<button data-u="' + esc(url) + '">Copiar horizontal</button>' +
+          '<button class="alt" data-u="' + esc(urlV) + '">Copiar vertical</button>' +
+          '<a href="' + esc(url) + '" target="_blank">Ver</a></div>';
       }
       document.getElementById("lista").innerHTML = h || "<p>No hay jugadores con ese nombre.</p>";
     };
-    document.getElementById("buscar").oninput = pintar;
+    document.getElementById("buscar").oninput = pintarLista;
     document.getElementById("lista").onclick = function (ev) {
       var b = ev.target; if (!b.getAttribute || !b.getAttribute("data-u")) return;
-      var u = b.getAttribute("data-u");
-      var listo = function () { b.textContent = "¡Copiado!"; setTimeout(function () { b.textContent = "Copiar"; }, 1500); };
+      var u = b.getAttribute("data-u"), txt = b.textContent;
+      var listo = function () { b.textContent = "¡Copiado!"; setTimeout(function () { b.textContent = txt; }, 1500); };
       if (navigator.clipboard) navigator.clipboard.writeText(u).then(listo, function () { prompt("Copiá el link:", u); });
       else prompt("Copiá el link:", u);
     };
-    getJSON("overlay.json", function (d) { datos = d; pintar(); });
+    getJSON("overlay.json", function (d) { datos = d; pintarLista(); });
     return;
   }
 
   // ---------- Escalado: el marco entra entero en la fuente, sin deformarse ----------
   var marco = document.getElementById("marco");
   var VERT = /^v/.test((param("formato") || "").toLowerCase());
-  var BW = 820, BH = VERT ? 470 : 220;
-  if (VERT) marco.className = "vert";
+  var BW = VERT ? 800 : 960, BH = VERT ? 620 : 300;
+  marco.className = VERT ? "v" : "h";
   function escalar() {
     var W = window.innerWidth, H = window.innerHeight;
     if (!W || !H) return;
@@ -193,6 +198,15 @@
   }
   window.addEventListener("resize", escalar);
 
+  // Achica el texto del nick si no entra (nicks largos)
+  function ajustarNick() {
+    var el = marco.querySelector(".nick");
+    if (!el) return;
+    var base = parseFloat(getComputedStyle(el).fontSize), t = base;
+    el.style.fontSize = "";
+    while (el.scrollWidth > el.clientWidth + 1 && t > base * 0.5) { t -= 2; el.style.fontSize = t + "px"; }
+  }
+
   function buscarJugador() {
     if (!datos || !jugadorPedido) return null;
     var J = datos.jugadores;
@@ -202,118 +216,82 @@
     return null;
   }
 
-  // Lo que el jugador esta haciendo AHORA (live.json)
+  // Lo que el jugador esta haciendo AHORA (live.json). Devuelve texto corto o null.
   function lineaVivo() {
     if (!vivo || !nombreReal) return null;
     var edad = Date.now() - new Date(vivo.generatedAt).getTime();
     if (!(edad < VIVO_VIEJO_MS)) return null;
-    var on = vivo.onlineNow || [], esta = false;
+    var on = vivo.onlineNow || [], esta = false, d, k;
     for (var i = 0; i < on.length; i++) if (on[i].name === nombreReal) esta = true;
     if (!esta) return null;
-    var partes = [], d, j, k;
     if (vivo.modo === "ffa" && (d = vivo.ffa)) {
-      if (d.mapaNombre) partes.push("🗺️ <b>" + esc(d.mapaNombre) + "</b>");
-      for (k = 0; k < (d.kills || []).length; k++) if (d.kills[k].n === nombreReal) {
-        partes.push("Este mapa: <b>" + d.kills[k].k + "</b> kills · <b>" + d.kills[k].m + "</b> muertes");
-        partes.push("Va <b>" + (k + 1) + "º</b> de " + d.kills.length);
-      }
-      for (k = 0; k < (d.victoriasHoy || []).length; k++) if (d.victoriasHoy[k].n === nombreReal)
-        partes.push("🏆 <b>" + d.victoriasHoy[k].w + "</b> hoy");
+      for (k = 0; k < (d.kills || []).length; k++) if (d.kills[k].n === nombreReal)
+        return "<b>" + d.kills[k].k + "</b> kills en este mapa · va <b>" + (k + 1) + "º</b>";
     } else if (vivo.modo === "gungame" && (d = vivo.gungame)) {
-      if (d.mapaNombre) partes.push("🗺️ <b>" + esc(d.mapaNombre) + "</b>");
       for (k = 0; k < (d.rangos || []).length; k++) if (d.rangos[k].n === nombreReal)
-        partes.push("Gun Game: arma <b>" + Math.min(d.rangos[k].r + 1, d.maxRango || 17) + "/" + (d.maxRango || 17) + "</b> · " + esc(d.rangos[k].arma));
+        return "Gun Game · arma <b>" + Math.min(d.rangos[k].r + 1, d.maxRango || 17) + "/" + (d.maxRango || 17) + "</b>";
     } else if (vivo.modo === "escort" && (d = vivo.escort)) {
-      if (d.mapaNombre) partes.push("🗺️ <b>" + esc(d.mapaNombre) + "</b>");
       var eqs = d.partida && d.partida.equipos;
       if (eqs) for (var eq in eqs) for (k = 0; k < (eqs[eq].jug || []).length; k++) if (eqs[eq].jug[k].n === nombreReal)
-        partes.push((eq === "ALIADOS" ? "🔵 Aliados" : "🔴 Eje") + " · <b>" + eqs[eq].jug[k].k + "</b> kills");
+        return (eq === "ALIADOS" ? "Aliados" : "Eje") + " · <b>" + eqs[eq].jug[k].k + "</b> kills";
     }
-    if (!partes.length) partes.push("Jugando en " + esc(vivo.titulo || "el server"));
-    return partes.join(" &nbsp;·&nbsp; ");
+    return "Jugando ahora en el server";
   }
 
-  function cabecera() {
-    return '<div class="cab"><span class="logo">=MB=</span><span class="marca">MEDALLEROS BOLIVIA</span>' +
-      '<div class="ip"><b>IP ' + IP + '</b><span>Stats reales: ' + WEB + '</span></div></div>';
+  function franja() {
+    return '<div class="band">' +
+      '<div class="fila"><span class="lab">ENTRÁ A JUGAR · IP</span><span class="ip">' + IP + '</span></div>' +
+      '<div class="fila der"><span class="lab">RANKING Y STATS</span><span class="web">' + WEB + '</span></div></div>';
+  }
+
+  function fotoDe(p) {
+    var f = p && p.v ? fotos[norm(nombreReal)] : null; // fotos solo para verificados
+    return f || FOTO_GENERICA;
   }
 
   function pintar() {
-    var p = buscarJugador(), h = cabecera();
+    var p = buscarJugador(), h;
     if (p) {
-      var sube = "";
-      if (p.rc > 0) sube = '<span class="sube up">▲ ' + p.rc + '</span>';
-      else if (p.rc < 0) sube = '<span class="sube down">▼ ' + (-p.rc) + '</span>';
-      h += '<div class="cuerpo"><div class="fila">' +
-        (p.r ? '<span class="pos">#' + p.r + '</span>' : '') +
-        '<span class="nombre">' + esc(nombreReal) + '</span>' + (p.v ? '<span class="ver">✔️</span>' : '') + sube + '</div>' +
-        '<div class="celdas">' +
-        '<div class="celda"><b>' + p.w + '</b><span>Victorias</span></div>' +
-        '<div class="celda"><b>' + num(p.kd) + '</b><span>K/D</span></div>' +
-        '<div class="celda"><b>' + num(p.fpm) + '</b><span>Frags/mapa</span></div>' +
-        '<div class="celda"><b>' + p.racha + '</b><span>Mejor racha</span></div>' +
-        '<div class="celda"><b>' + p.lg + '<small style="font-size:17px;color:#a7aec0">/' + p.lgT + '</small></b><span>Logros</span></div>' +
-        '</div></div>';
       var lv = lineaVivo();
-      h += '<div class="pie">' + (lv
-        ? '<span class="vivo"><i></i>EN VIVO</span><span class="dato">' + lv + '</span>'
-        : '<span class="dato">🎮 Partidas: <b>' + p.mp + '</b> &nbsp;·&nbsp; Arma favorita: <b>' + esc(p.arma || "-") +
-          '</b> &nbsp;·&nbsp; Tiempo jugado: <b>' + esc(p.t || "-") + '</b></span>') +
-        (lv ? '' : '<span class="gris">Medal of Honor: Allied Assault</span>') + '</div>';
+      var extra = lv
+        ? '<span class="vivo"><i></i>EN VIVO</span><span>' + lv + '</span>'
+        : '<span>🏆 <b>' + (p.w || 0) + '</b> victorias</span><span>·</span><span>K/D <b>' + num(p.kd) + '</b></span>';
+      h = '<div class="top"><img class="foto" alt="" src="' + esc(fotoDe(p)) + '" onerror="this.src=\'' + FOTO_GENERICA + '\'">' +
+        '<div class="datos">' +
+        (p.r ? '<span class="puesto">#' + p.r + ' <small>EN EL RANKING</small></span>' : '<span class="puesto"><small>SIN RANKING AÚN</small></span>') +
+        '<div class="nick">' + esc(nombreReal) + (p.v ? '<span class="ok">✔</span>' : '') + '</div>' +
+        '<div class="extra">' + extra + '</div></div></div>' + franja();
     } else {
-      h += '<div class="promo" style="height:128px"><div class="t1">¡JUGÁ CON NOSOTROS!</div>' +
-        '<div class="t2">Servidor boliviano de Medal of Honor: Allied Assault</div>' +
-        '<div class="t2" style="color:var(--gold)">Torneos con premios · Ranking y logros en ' + WEB + '</div></div>' +
-        '<div class="pie"><span class="dato">Conectate: <b>' + IP + '</b></span><span class="gris">=MB= Medalleros Bolivia</span></div>';
+      h = '<div class="top promo"><div class="datos" style="align-items:center">' +
+        '<span class="logo">=MB= MEDALLEROS BOLIVIA</span>' +
+        '<div class="t1">¡JUGÁ CON NOSOTROS!</div>' +
+        '<div class="t2">Medal of Honor: Allied Assault · Torneos con premios</div></div></div>' + franja();
     }
     marco.innerHTML = h;
     escalar();
+    ajustarNick();
   }
 
+  // Se combinan en orden fijo: las fotos personalizadas (ultimo archivo) siempre ganan
+  var mapasCargados = [];
+  function cargarFotos() {
+    MAPAS_FOTOS.forEach(function (u, i) {
+      getJSON(u, function (m) {
+        mapasCargados[i] = m; fotos = {};
+        for (var j = 0; j < MAPAS_FOTOS.length; j++) { var mm = mapasCargados[j]; if (!mm) continue;
+          for (var k in mm) { var v = String(mm[k]); fotos[norm(k)] = /^assets\//.test(v) ? v : "assets/" + v.replace(/^\/+/, ""); } }
+        pintar();
+      });
+    });
+  }
   function cargarStats() { getJSON("overlay.json", function (d) { datos = d; pintar(); }); }
   function cargarVivo() { getJSON(LIVE_URL, function (d) { vivo = d; pintar(); }); }
   pintar();
-  cargarStats(); cargarVivo();
+  cargarFotos(); cargarStats(); cargarVivo();
   setInterval(cargarStats, CADA_STATS);
   setInterval(cargarVivo, CADA_VIVO);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajustarNick);
 })();
 </script>
-
-<!-- MB-STREAM-V17-START -->
-<style>
-/* Misma línea visual oscura y dorada de Medalleros Bolivia, transparente para OBS */
-#marco{border:2px solid #d5ac56!important;background:linear-gradient(120deg,rgba(5,15,25,.96),rgba(8,24,39,.93))!important;box-shadow:inset 0 0 0 1px #35516a,0 7px 28px #0009!important}
-#marco .cab{background:linear-gradient(100deg,#071927,#102638 66%,#493919)!important;color:#f3d28b!important;border-bottom:1px solid #9a7740}
-#marco .logo{color:#eac16b!important;background:#06111d!important;border:1px solid #c09543}
-#marco .cuerpo{position:relative}
-#marco.mb-portrait-on .cuerpo{padding-left:126px!important}
-#marco .mb-stream-photo{position:absolute;left:14px;top:8px;width:101px;height:105px;object-fit:cover;object-position:center 26%;border:2px solid #dcb864;border-radius:9px;box-shadow:0 3px 14px #0009;background:#132333}
-#marco .nombre{max-width:465px}
-#marco.mb-portrait-on .nombre{max-width:390px}
-#marco .celda{background:#0b1b2c!important;border:1px solid #29475d!important}
-#marco .celda b{color:#f7f4ee!important}
-#marco .pie{background:#05121d!important}
-#marco.vert.mb-portrait-on .cuerpo{padding-left:170px!important}
-#marco.vert .mb-stream-photo{left:18px;top:22px;width:132px;height:194px}
-#marco.vert.mb-portrait-on .nombre{max-width:420px;font-size:40px}
-#marco.vert.mb-portrait-on .fila{gap:12px}
-</style>
-<script>
-/* Complemento no invasivo: lee mapa de fotos, no toca stats ni la lógica del narrador */
-(()=>{'use strict';
-const normalize=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,m=>m.slice(1,-1)).replace(/[^a-z0-9.]/g,'');
-const photoMap=new Map();let loaded=false;
-const src=s=>{if(!s)return null;return /^assets\//.test(s)?s:'assets/'+s.replace(/^\/+/, '');};
-async function load(){const inputs=['assets/top10-por-nick.json','assets/verificados-por-nick.json','assets/fotos-personalizadas.json'];await Promise.all(inputs.map(async url=>{try{const res=await fetch(url+'?r='+Date.now(),{cache:'no-store'});if(!res.ok)return;const m=await res.json();Object.entries(m).forEach(([k,v])=>photoMap.set(normalize(k),src(v)));}catch(e){console.warn('Overlay fotos:',url,e)}}));loaded=true;refresh();}
-function refresh(){const marco=document.getElementById('marco');if(!marco)return;const old=marco.querySelector('.mb-stream-photo');if(old)old.remove();marco.classList.remove('mb-portrait-on');const q=new URLSearchParams(location.search).get('jugador')||'';const name=normalize(q);const stats=window.__mbOverlayVerified;
-if(!loaded||!stats||!stats.has(name)||!photoMap.has(name))return;
-const body=marco.querySelector('.cuerpo');if(!body)return;const im=document.createElement('img');im.className='mb-stream-photo';im.alt='Retrato del jugador';im.src=photoMap.get(name);im.onerror=()=>{im.remove();marco.classList.remove('mb-portrait-on')};body.prepend(im);marco.classList.add('mb-portrait-on');}
-const original=window.XMLHttpRequest.prototype.send; // no se interceptan datos del juego
-new MutationObserver(()=>{if(!document.querySelector('#marco .mb-stream-photo')&&loaded)refresh()}).observe(document.getElementById('marco'),{childList:true});
-async function verify(){try{const r=await fetch('stats.json?overlayv17='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error(r.status);const d=await r.json();window.__mbOverlayVerified=new Set((d.players||[]).filter(p=>p.verified===true).map(p=>normalize(p.name)));refresh()}catch(e){console.warn('Overlay: verificación no disponible',e)}}
-load();verify();setInterval(verify,120000);
-})();
-</script>
-<!-- MB-STREAM-V17-END -->
 </body>
 </html>

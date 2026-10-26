@@ -1,0 +1,50 @@
+/* V28: portada mas limpia (quita lo repetido y compacta en celular) */
+
+/* 1. "Accesos rapidos": repetia el menu de arriba */
+#mb15-hub,.mb15-hub{display:none!important}
+
+/* 2. Tarjetas ocultadas por mb-v28-limpieza.js (Rendimiento competitivo, KPI Logros) */
+.mb28-oculto{display:none!important}
+
+/* 3. KPIs: quedan 4 */
+.mb8-kpis{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+@media(max-width:1000px){.mb8-kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* 4. Fila de abajo: quedan 2 tarjetas (Torneo + Armas) */
+.mb8-bottom{grid-template-columns:1.2fr 1fr!important}
+.mb8-bottom>.mb8-card{grid-column:auto!important}
+@media(max-width:780px){.mb8-bottom{grid-template-columns:1fr!important}}
+
+/* 5. Admin fuera del menu publico: queda como enlace al pie */
+.tab-btn[data-tab="admin"]{display:none!important}
+.mb28-pie{text-align:center;margin:26px 0 10px;font-size:12px;color:#6f7f92}
+.mb28-pie button{background:none;border:0;color:#8ea3ba;cursor:pointer;font-size:12px;text-decoration:underline;padding:4px 8px}
+.mb28-pie button:hover{color:#e7b84a}
+
+/* 6. Verificacion: una franja corta; el detalle se abre con un boton */
+#mbh-verif-home.mb28-verif{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 18px}
+#mbh-verif-home.mb28-verif .modal-section-title{margin:0;flex:1 1 260px}
+#mbh-verif-home.mb28-verif>p:not(.mb28-resumen),#mbh-verif-home.mb28-verif>ol,#mbh-verif-home.mb28-verif>button.home-btn:not(.mb28-toggle){display:none}
+#mbh-verif-home.mb28-verif.mb28-abierto>p:not(.mb28-resumen),#mbh-verif-home.mb28-verif.mb28-abierto>ol{display:block;flex-basis:100%;margin:4px 0}
+#mbh-verif-home.mb28-verif .home-btn{margin:0}
+#mbh-verif-home .mb28-toggle{background:#13283b;border:1px solid #2d4a63;color:#cfd8e3;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+#mbh-verif-home .mb28-resumen{flex-basis:100%;order:5;margin:0;font-size:13px;color:#b9c4d0}
+#mbh-verif-home.mb28-abierto .mb28-resumen{display:none}
+
+/* 7. Top 3 en celular: los 3 lado a lado en vez de uno debajo del otro */
+@media(max-width:700px){
+  .mb8-podium{grid-template-columns:1fr 1.12fr 1fr!important;align-items:end!important;gap:6px!important;padding:10px 6px!important}
+  .mb8-medal,.mb8-medal.first{min-height:0!important;padding:8px 4px!important;gap:3px!important}
+  .mb8-podium .mb8-face{width:100%!important;max-width:96px!important;height:118px!important;border-radius:10px!important}
+  .mb8-podium .first .mb8-face{max-width:108px!important;height:134px!important}
+  .mb8-medal .rank{font-size:22px!important}
+  .mb8-medal strong{font-size:13px!important;line-height:1.15}
+  .mb8-medal span{font-size:10px!important}
+}
+
+/* 8. EN VIVO vacio: mas compacto */
+.mb-live-empty{padding:9px 12px!important}
+@media(max-width:780px){.mb8-card .mb8-note.mb28-nota-vivo{display:none}}
+
+/* 9. Numeros de los KPIs que no entraban en celular */
+@media(max-width:700px){.mb8-kpi .n{font-size:30px!important}.mb8-kpi .ic{font-size:26px!important}}
