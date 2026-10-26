@@ -101,8 +101,6 @@ function contenido(){
 }
 function tarjetaTorneo(){
   const card=$$('.mb8-bottom .mb8-card')[0]; if(!card) return;
-  const hd=(card.querySelector('.mb8-hd b')?.textContent||'');
-  if(!card.dataset.mbh&&!/torneo|clasificaci/i.test(hd)) return;
   const html=contenido();
   if(card.dataset.mbh==='1'&&card._mbhHtml===html) return;
   card.dataset.mbh='1';card._mbhHtml=html;
