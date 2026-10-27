@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const names={Bash:'Culata / Bash',Bazooka:'Lanzacohetes',MG:'Ametralladora',Pistol:'Pistola',Rifle:'Rifle',SMG:'Subfusil',Shotgun:'Escopeta',Sniper:'Francotirador'};
 const files={Bash:'bash',Bazooka:'bazooka',MG:'mg',Pistol:'pistol',Rifle:'rifle',SMG:'smg',Shotgun:'shotgun',Sniper:'sniper'};
-const keys=Object.keys(names);const W=k=>'assets/weapon-'+files[k]+'.webp';let data=null, chosen='SMG';
+const keys=Object.keys(names);const currentImages={Bash:'culata',Bazooka:'lanzacohetes',MG:'ametralladora',Pistol:'pistola',Rifle:'rifle',SMG:'subfusil',Shotgun:'escopeta',Sniper:'francotirador'};const W=k=>'assets/perfiles-armas/'+currentImages[k]+'.webp';let data=null, chosen='SMG';
 const norm=s=>String(s||'').toLowerCase().replace(/<[^>]*>/g,m=>m.slice(1,-1)).replace(/[^a-z0-9.]/g,'');
 function tab(id){const button=$(`.tab-btn[data-tab="${id}"]`);if(button){button.click();return true}return false}
 function player(n){const link=$$('.player-link[data-player], [data-player]').find(e=>norm(e.dataset.player)===norm(n) && !e.closest('.mb17-studio'));if(link){link.click();return true}return false}
