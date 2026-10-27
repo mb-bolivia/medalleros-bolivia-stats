@@ -1,0 +1,38 @@
+/* Arte propio de la vista previa. Ninguna regla altera los retratos. */
+#panel-torneo .pv-tournament-hero,#panel-agenda .pv-tournament-hero{
+ background-image:linear-gradient(90deg,rgba(8,17,26,.45),rgba(8,17,26,.08)),url('arte/torneo-v1.webp');
+ background-position:center;background-size:cover;min-height:205px;padding:32px;
+}
+.pv-champion{
+ background-image:linear-gradient(90deg,rgba(8,17,26,.45),rgba(8,17,26,.05)),url('arte/campeones-v1.webp');
+ background-size:auto 100%;background-position:right center;background-repeat:no-repeat;min-height:300px;background-color:#08111a;
+}
+.pv-champion>div{max-width:54%;text-shadow:0 2px 12px #000}
+#panel-guia>.pv-heading,#panel-logros-premios>.pv-heading,#panel-mapas>.pv-heading{
+ position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;justify-content:center;
+ min-height:205px;padding:28px 32px;border:1px solid #354959;border-radius:9px;
+ background-color:#0d1c2a;background-size:cover;background-position:center;
+}
+#panel-guia>.pv-heading{background-image:linear-gradient(90deg,rgba(8,17,26,.4),rgba(8,17,26,.05)),url('arte/guia-v1.webp')}
+#panel-logros-premios>.pv-heading{background-image:linear-gradient(90deg,rgba(8,17,26,.4),rgba(8,17,26,.02)),url('arte/logros-v1.webp')}
+#panel-mapas>.pv-heading{background-image:linear-gradient(90deg,rgba(8,17,26,.95) 10%,rgba(8,17,26,.65) 60%,rgba(8,17,26,.18)),url('arte/mapa-ciudad-v1.webp');background-position:center 46%}
+#panel-guia>.pv-heading p,#panel-logros-premios>.pv-heading p,#panel-mapas>.pv-heading p{max-width:55%;color:#c3cdd6;text-shadow:0 2px 8px #000}
+.pv-sat-banner{background-image:linear-gradient(90deg,rgba(8,17,26,.35),rgba(8,17,26,.08)),url('arte/escolta-v1.webp');min-height:210px;background-position:center;padding:32px}
+.pv-sat-banner p{max-width:48%;line-height:1.65;color:#c6d0d8}
+.pv-tournament-hero h3,.pv-tournament-hero p,.pv-sat-banner h3{ text-shadow:0 2px 12px #000b }
+.pv-map-card .pv-map-art{position:relative;height:150px;display:block;padding:0;overflow:hidden;background:#0c1b28}
+.pv-map-thumb{display:block;width:100%;height:100%;object-fit:cover;transition:transform .22s ease}
+.pv-map-card:hover .pv-map-thumb{transform:scale(1.035)}
+.pv-map-kind{position:absolute;left:9px;bottom:9px;display:inline-block;border:1px solid #a4b5c433;border-radius:4px;padding:4px 7px;background:#07121de8;color:#d7e1e9;font-size:10px;line-height:1.3}
+.pv-map-disclaimer{font-size:12px;color:#9fb0bf;line-height:1.6;margin:4px 0 20px}
+@media(max-width:700px){
+ #panel-torneo .pv-tournament-hero,#panel-agenda .pv-tournament-hero{padding:24px 20px;min-height:220px;background-position:63% center}
+ .pv-champion{background-position:60% center;min-height:220px;padding:22px 18px}
+ .pv-champion>div{max-width:calc(100% - 110px)}
+ #panel-guia>.pv-heading,#panel-logros-premios>.pv-heading,#panel-mapas>.pv-heading{padding:24px 20px;min-height:200px;background-position:56% center}
+ #panel-guia>.pv-heading p,#panel-logros-premios>.pv-heading p,#panel-mapas>.pv-heading p{max-width:85%;font-size:13px}
+ #panel-guia>.pv-heading::before,#panel-logros-premios>.pv-heading::before,#panel-mapas>.pv-heading::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#08111a6b,#08111a20);z-index:-1}
+ .pv-sat-banner{padding:24px 20px;min-height:200px;background-position:60% center}.pv-sat-banner p{max-width:83%;font-size:13px}
+ .pv-map-card .pv-map-art{height:112px}.pv-map-kind{font-size:9px;left:6px;bottom:6px;padding:3px 5px}
+}
+@media(prefers-reduced-motion:reduce){.pv-map-thumb{transition:none}.pv-map-card:hover .pv-map-thumb{transform:none}}
