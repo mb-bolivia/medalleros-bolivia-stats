@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MB Overlay</title>
 <!--
-  Marco para streamers V34 (TikTok LIVE Studio "Link" / OBS "Fuente de navegador").
+  Marco para streamers V28 (TikTok LIVE Studio "Link" / OBS "Fuente de navegador").
   Uso:   overlay.html?jugador=NICK                    marco horizontal (960x300)
          overlay.html?jugador=NICK&formato=vertical   marco para lives de celular 9:16 (800x620)
          overlay.html                                 solo la marca del server + IP
@@ -101,47 +101,6 @@
   .it .n{font-weight:bold;min-width:160px;flex:1}
   .it button,.it a{background:var(--gold);color:#1a1305;border:0;border-radius:6px;padding:6px 10px;font-weight:bold;cursor:pointer;text-decoration:none;font-size:13px}
   .it button.alt{background:#2b3446;color:#fff}
-
-/* V34 · Competitivo elegante */
-#marco{border:2px solid #bb9952;border-radius:20px;background:radial-gradient(ellipse at 5% 5%,#183348 0%,transparent 60%),linear-gradient(120deg,#0a1928,#050d17);box-shadow:inset 0 0 0 5px #ffffff04,0 10px 32px #0008}
-#marco::before{content:"";position:absolute;top:0;left:25px;right:25px;height:3px;background:linear-gradient(90deg,transparent,#f1d48b,transparent);pointer-events:none}
-.top{position:relative;gap:24px;padding:10px 26px}
-.foto{border:3px solid #e2be6f;border-radius:14px;box-shadow:0 0 0 5px #cba75c12,0 7px 22px #0008}
-.puesto{background:transparent;color:#edcc83;border:0;border-radius:0;padding:0!important;letter-spacing:1px}
-.puesto small{color:#a9b7c5;letter-spacing:1.7px}
-.nick{color:#fff9ed;text-shadow:0 2px 12px #0005}
-.nick .ok{color:#61d4af}
-.extra{gap:10px;align-items:stretch;white-space:normal}
-.stat{display:flex;align-items:center;gap:9px;padding:5px 13px;border:1px solid #879fb530;border-radius:9px;background:#ffffff05}
-.stat small{font-size:.58em;color:#aebccd;letter-spacing:1.3px;font-weight:500}
-.stat b{color:#f6d68f;font-size:1.12em;line-height:1}
-.live-row{display:flex;align-items:center;gap:10px;margin-top:7px;color:#c4d4de;font-size:16px;white-space:nowrap}
-.vivo{background:#173e35;border:1px solid #68d6ad55;color:#8aefc6;letter-spacing:1px}
-.vivo i{background:#8aefc6}
-.band{border-top:1px solid #ba985655;background:linear-gradient(110deg,#152b3c,#0b1a29 60%,#14283a);color:#fff4d9;position:relative}
-.band::before{content:"";height:2px;width:64px;position:absolute;top:-1px;left:28px;background:#efca79}
-.band .lab{color:#aebdca;opacity:1;letter-spacing:1.8px}
-.band .ip{color:#f4d48d;letter-spacing:.2px}
-.band .web{color:#f7f4ec}
-#marco.h .puesto{font-size:27px}#marco.h .puesto small{font-size:15px}
-#marco.h .nick{font-size:54px;margin:3px 0 7px}
-#marco.h .extra{font-size:27px}
-#marco.h .vivo{font-size:13px;padding:3px 8px}#marco.h .vivo i{width:7px;height:7px}
-#marco.h .band .lab{font-size:15px}#marco.h .band .web{font-size:36px}
-#marco.v{border:3px solid #bb9952;border-radius:24px}
-#marco.v .top{flex-direction:row;gap:24px;text-align:left;padding:24px 28px}
-#marco.v .foto{width:220px;height:220px;border-radius:18px}
-#marco.v .datos{align-items:flex-start;width:auto}
-#marco.v .puesto{align-self:flex-start;font-size:37px}#marco.v .puesto small{font-size:18px}
-#marco.v .nick{font-size:54px;white-space:normal;overflow-wrap:anywhere;line-height:1.1;margin:14px 0 18px}
-#marco.v .extra{font-size:33px;justify-content:flex-start;flex-wrap:wrap}
-#marco.v .stat{padding:10px 14px;flex-direction:column;align-items:flex-start;gap:5px;min-width:96px}
-#marco.v .live-row{flex-direction:column;align-items:flex-start;white-space:normal;font-size:21px;margin-top:16px}
-#marco.v .vivo{font-size:17px;padding:5px 10px}#marco.v .vivo i{width:8px;height:8px}
-#marco.v .band{height:200px;gap:13px}
-#marco.v .band .lab{font-size:18px}#marco.v .band .ip{font-size:62px}#marco.v .band .web{font-size:46px}
-@media(prefers-reduced-motion:reduce){.vivo i{animation:none}}
-
 </style>
 </head>
 <body>
@@ -294,14 +253,14 @@
     var p = buscarJugador(), h;
     if (p) {
       var lv = lineaVivo();
-      var extra = '<span class="stat"><b>' + (p.w || 0) + '</b><small>VICTORIAS</small></span>' +
-        '<span class="stat"><b>' + num(p.kd) + '</b><small>K/D</small></span>';
-      var liveLine = lv ? '<div class="live-row"><span class="vivo"><i></i>JUGANDO AHORA</span><span>' + lv + '</span></div>' : '';
+      var extra = lv
+        ? '<span class="vivo"><i></i>EN VIVO</span><span>' + lv + '</span>'
+        : '<span>🏆 <b>' + (p.w || 0) + '</b> victorias</span><span>·</span><span>K/D <b>' + num(p.kd) + '</b></span>';
       h = '<div class="top"><img class="foto" alt="" src="' + esc(fotoDe(p)) + '" onerror="this.src=\'' + FOTO_GENERICA + '\'">' +
         '<div class="datos">' +
         (p.r ? '<span class="puesto">#' + p.r + ' <small>EN EL RANKING</small></span>' : '<span class="puesto"><small>SIN RANKING AÚN</small></span>') +
         '<div class="nick">' + esc(nombreReal) + (p.v ? '<span class="ok">✔</span>' : '') + '</div>' +
-        '<div class="extra">' + extra + '</div>' + liveLine + '</div></div>' + franja();
+        '<div class="extra">' + extra + '</div></div></div>' + franja();
     } else {
       h = '<div class="top promo"><div class="datos" style="align-items:center">' +
         '<span class="logo">=MB= MEDALLEROS BOLIVIA</span>' +
