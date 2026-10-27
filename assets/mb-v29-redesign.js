@@ -14,10 +14,10 @@ function navigation(){
   $('#closeModal')?.setAttribute('aria-label','Cerrar perfil del jugador');
   const container=$('.page-container');const top=element('header','pv-top');top.innerHTML='<div class="pv-brand">MOHAA <i aria-hidden="true"></i><span>BOLIVIA</span></div><span class="pv-preview">Comunidad boliviana</span>';container.prepend(top);
   const nav=$('nav.tabs');nav.setAttribute('aria-label','Secciones de la página');const more=element('details','pv-more');more.innerHTML='<summary>Más ▾</summary><div class="pv-more-menu"></div>';const menu=more.lastElementChild;
-  $$('.tab-btn').forEach(b=>{b.textContent=({ranking:'Ranking',torneo:'Torneos'})[b.dataset.tab]||clean(b.textContent);if(b.dataset.tab==='admin')return;if(!['inicio','ranking','duelos','torneo'].includes(b.dataset.tab))menu.append(b);b.addEventListener('click',()=>{more.open=false;more.querySelector('summary').style.color=menu.querySelector('.active')?'#e7bc64':'';});});nav.append(more);
+  $$('.tab-btn').forEach(b=>{b.textContent=({ranking:'Ranking',torneo:'Torneos',guia:'Guía del jugador'})[b.dataset.tab]||clean(b.textContent);if(b.dataset.tab==='admin')return;if(!['inicio','ranking','duelos','torneo','guia'].includes(b.dataset.tab))menu.append(b);b.addEventListener('click',()=>{more.open=false;more.querySelector('summary').style.color=menu.querySelector('.active')?'#e7bc64':'';});});nav.append(more);const guide=nav.querySelector('[data-tab=guia]');const tournaments=nav.querySelector('[data-tab=torneo]');if(guide&&tournaments)tournaments.after(guide);
   document.addEventListener('click',e=>{if(!more.contains(e.target))more.open=false;});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')more.open=false;});
-  const foot=element('footer','pv-foot','MOHAA Bolivia · Estadísticas, torneos y comunidad.');container.append(foot);
+  const foot=element('footer','pv-foot','MOHAA Bolivia · Estadísticas, torneos y comunidad.');const signature=element('span','pv-signature','Dueño de la página: Mr.Sipi');foot.append(signature);container.append(foot);
 }
 function ranking(){const table=$('#tbl-ranking');toggleColumns(table,$('#panel-ranking .toolbar'));$('#search').setAttribute('aria-label','Buscar jugador');}
 function enhanceDuel(){
