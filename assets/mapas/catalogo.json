@@ -1,8 +1,8 @@
 {
-  "version": 54,
+  "version": 55,
   "total": 256,
-  "captures": 255,
-  "illustrations": 1,
+  "captures": 254,
+  "illustrations": 2,
   "maps": {
     "dm/1944_dm": {
       "id": "dm/1944_dm",
@@ -3217,15 +3217,14 @@
     },
     "obj/obj_la_patrouille_2": {
       "id": "obj/obj_la_patrouille_2",
-      "name": "obj la patrouille 2",
-      "type": "capture",
-      "image": "assets/mapas/obj-obj_la_patrouille_2.webp",
-      "width": 256,
-      "height": 256,
-      "sourceLabel": "Pantalla original del juego",
-      "sourcePackage": "zzz-MB_Bolivia-Oficial.pk3",
-      "sourceEntry": "textures/hiver/caskami.tga",
-      "verificationNote": "Pantalla de carga real vinculada por el script del mapa o por su nombre interno exacto y extraída del paquete instalado. No es una imagen generada."
+      "name": "La Patrouille 2",
+      "type": "illustration",
+      "image": "assets/mapas/obj-obj_la_patrouille_2-ilustracion-v1.webp",
+      "width": 720,
+      "height": 450,
+      "generator": "image_gen.imagegen",
+      "originalLoadingImage": "assets/mapas/obj-obj_la_patrouille_2.webp",
+      "verificationNote": "El paquete solo aporta el logo del autor como pantalla de carga. Ilustración ambiental inspirada en el nombre; no reproduce el mapa real. Prompt guardado en mejoras-visuales-20261102/REVISION.md."
     },
     "obj/obj_stalingrad1943": {
       "id": "obj/obj_stalingrad1943",
