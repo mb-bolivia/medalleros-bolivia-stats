@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const byId=id=>document.getElementById(id),norm=s=>String(s||'').trim().toLocaleLowerCase();
 const escapeHTML=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
-const tabs=[['ranking','🏆','Ranking general'],['mapas','🗺️','Mapas'],['armas','🔫','Armas'],['duelos','⚔️','Duelos'],['sabados','🪖','Sábados por equipos'],['torneo','🎖️','Clasificación'],['agenda','📅','Agenda'],['ganadores','👑','Campeones'],['logros-premios','🏅','Logros'],['guia','📖','Guía'],['admin','🔒','Administración']];
+const tabs=[['ranking','🏆','Ranking general'],['mapas','🗺️','Mapas'],['armas','🔫','Armas'],['duelospriv','🤺','Duelos privados'],['sabados','🪖','Sábados por equipos'],['torneo','🎖️','Clasificación'],['agenda','📅','Agenda'],['ganadores','👑','Campeones'],['logros-premios','🏅','Logros'],['guia','📖','Guía'],['admin','🔒','Administración']];
 let players=[],loaded=false,current='',onlyVerified=false;
 function openTab(id){const tab=document.querySelector('.tab-btn[data-tab="'+id+'"]');if(tab){tab.click();document.querySelector('nav.tabs')?.scrollIntoView({behavior:'smooth',block:'start'});return true;}return false;}
 function openPlayer(name){if(typeof window.openPlayerModal==='function'){window.openPlayerModal(name);return true;}const el=Array.from(document.querySelectorAll('[data-player]')).find(x=>norm(x.dataset.player)===norm(name));if(el){el.click();return true;}openTab('ranking');return false;}
