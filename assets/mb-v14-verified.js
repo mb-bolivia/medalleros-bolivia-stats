@@ -12,7 +12,7 @@ portraits["=MB= El_Chacal"]="verificados-personalizados/3d4d423d20456c5f43686163
 const portraitMap=new Map(Object.entries(portraits).map(([n,f])=>[norm(n),'assets/'+f]));
 const generic='assets/avatar-m1.svg';
 let verified=new Set(),ready=false,pending=false;
-const photo=name=>ready&&verified.has(norm(name))?portraitMap.get(norm(name)):null;
+const photo=name=>{const custom=Object.entries(window.MB_ADMIN_PUBLIC?.imagenes?.jugadores||{}).find(([n])=>norm(n)===norm(name));return custom?.[1]?.src||(ready&&verified.has(norm(name))?portraitMap.get(norm(name)):null);};
 function bg(el,file){if(!el)return;const target=`url("${file||generic}")`;if(el.style.backgroundImage!==target){el.style.setProperty('background-image',target,'important');el.style.setProperty('background-size','cover','important');el.style.setProperty('background-position','center','important');}}
 function img(el,file){if(!el)return;const target=file||generic;if(el.getAttribute('src')!==target)el.setAttribute('src',target);}
 function update(){pending=false;
